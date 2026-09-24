@@ -1,0 +1,13 @@
+country,provider,representation,distance
+Australia,jev,expected,0.007528750933465656
+Australia,jev,argmax,1.499307999698867
+Japan,jev,expected,0.006393146240496094
+Japan,jev,argmax,1.0587778965387076
+South Africa,jev,expected,0.01019950151330447
+South Africa,jev,argmax,2.6605827088549314
+Australia,openai,expected,0.011855490875541976
+Australia,openai,argmax,1.499307999698867
+Japan,openai,expected,0.00951622661390576
+Japan,openai,argmax,1.0587778965387076
+South Africa,openai,expected,0.0149325278623312
+South Africa,openai,argmax,2.6605827088549314

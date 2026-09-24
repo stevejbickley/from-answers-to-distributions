@@ -1,0 +1,541 @@
+provider,country,item,variant,js_to_provider_mean
+jev,Australia,A008,0,6.49143862199077e-17
+jev,Australia,A008,1,6.49143862199077e-17
+jev,Australia,A008,2,6.49143862199077e-17
+jev,Australia,A008,3,6.49143862199077e-17
+jev,Australia,A008,4,6.49143862199077e-17
+jev,Australia,A008,5,6.49143862199077e-17
+jev,Australia,A008,6,6.49143862199077e-17
+jev,Australia,A008,7,6.49143862199077e-17
+jev,Australia,A008,8,6.49143862199077e-17
+jev,Australia,A008,9,6.49143862199077e-17
+jev,Australia,A165,0,0.0
+jev,Australia,A165,1,0.0
+jev,Australia,A165,2,0.0
+jev,Australia,A165,3,0.0
+jev,Australia,A165,4,0.0
+jev,Australia,A165,5,0.0
+jev,Australia,A165,6,0.0
+jev,Australia,A165,7,0.0
+jev,Australia,A165,8,0.0
+jev,Australia,A165,9,0.0
+jev,Australia,E018,0,0.0
+jev,Australia,E018,1,0.0
+jev,Australia,E018,2,0.0
+jev,Australia,E018,3,0.0
+jev,Australia,E018,4,0.0
+jev,Australia,E018,5,0.0
+jev,Australia,E018,6,0.0
+jev,Australia,E018,7,0.0
+jev,Australia,E018,8,0.0
+jev,Australia,E018,9,0.0
+jev,Australia,E025,0,0.0
+jev,Australia,E025,1,0.0
+jev,Australia,E025,2,0.0
+jev,Australia,E025,3,0.0
+jev,Australia,E025,4,0.0
+jev,Australia,E025,5,0.0
+jev,Australia,E025,6,0.0
+jev,Australia,E025,7,0.0
+jev,Australia,E025,8,0.0
+jev,Australia,E025,9,0.0
+jev,Australia,F063,0,1.6855422264288993e-17
+jev,Australia,F063,1,1.6855422264288993e-17
+jev,Australia,F063,2,1.6855422264288993e-17
+jev,Australia,F063,3,1.6855422264288993e-17
+jev,Australia,F063,4,1.6855422264288993e-17
+jev,Australia,F063,5,1.6855422264288993e-17
+jev,Australia,F063,6,1.6855422264288993e-17
+jev,Australia,F063,7,1.6855422264288993e-17
+jev,Australia,F063,8,1.6855422264288993e-17
+jev,Australia,F063,9,1.6855422264288993e-17
+jev,Australia,F118,0,1.9973337167264073e-17
+jev,Australia,F118,1,1.9973337167264073e-17
+jev,Australia,F118,2,1.9973337167264073e-17
+jev,Australia,F118,3,1.9973337167264073e-17
+jev,Australia,F118,4,1.9973337167264073e-17
+jev,Australia,F118,5,1.9973337167264073e-17
+jev,Australia,F118,6,1.9973337167264073e-17
+jev,Australia,F118,7,1.9973337167264073e-17
+jev,Australia,F118,8,1.9973337167264073e-17
+jev,Australia,F118,9,1.9973337167264073e-17
+jev,Australia,F120,0,2.5279612987924272e-17
+jev,Australia,F120,1,2.5279612987924272e-17
+jev,Australia,F120,2,2.5279612987924272e-17
+jev,Australia,F120,3,2.5279612987924272e-17
+jev,Australia,F120,4,2.5279612987924272e-17
+jev,Australia,F120,5,2.5279612987924272e-17
+jev,Australia,F120,6,2.5279612987924272e-17
+jev,Australia,F120,7,2.5279612987924272e-17
+jev,Australia,F120,8,2.5279612987924272e-17
+jev,Australia,F120,9,2.5279612987924272e-17
+jev,Australia,G006,0,0.0
+jev,Australia,G006,1,0.0
+jev,Australia,G006,2,0.0
+jev,Australia,G006,3,0.0
+jev,Australia,G006,4,0.0
+jev,Australia,G006,5,0.0
+jev,Australia,G006,6,0.0
+jev,Australia,G006,7,0.0
+jev,Australia,G006,8,0.0
+jev,Australia,G006,9,0.0
+jev,Australia,Y002,0,0.0
+jev,Australia,Y002,1,0.0
+jev,Australia,Y002,2,0.0
+jev,Australia,Y002,3,0.0
+jev,Australia,Y002,4,0.0
+jev,Australia,Y002,5,0.0
+jev,Australia,Y002,6,0.0
+jev,Australia,Y002,7,0.0
+jev,Australia,Y002,8,0.0
+jev,Australia,Y002,9,0.0
+jev,Japan,A008,0,-1.869088862268993e-17
+jev,Japan,A008,1,-1.869088862268993e-17
+jev,Japan,A008,2,-1.869088862268993e-17
+jev,Japan,A008,3,-1.869088862268993e-17
+jev,Japan,A008,4,-1.869088862268993e-17
+jev,Japan,A008,5,-1.869088862268993e-17
+jev,Japan,A008,6,-1.869088862268993e-17
+jev,Japan,A008,7,-1.869088862268993e-17
+jev,Japan,A008,8,-1.869088862268993e-17
+jev,Japan,A008,9,-1.869088862268993e-17
+jev,Japan,A165,0,0.0
+jev,Japan,A165,1,0.0
+jev,Japan,A165,2,0.0
+jev,Japan,A165,3,0.0
+jev,Japan,A165,4,0.0
+jev,Japan,A165,5,0.0
+jev,Japan,A165,6,0.0
+jev,Japan,A165,7,0.0
+jev,Japan,A165,8,0.0
+jev,Japan,A165,9,0.0
+jev,Japan,E018,0,0.0
+jev,Japan,E018,1,0.0
+jev,Japan,E018,2,0.0
+jev,Japan,E018,3,0.0
+jev,Japan,E018,4,0.0
+jev,Japan,E018,5,0.0
+jev,Japan,E018,6,0.0
+jev,Japan,E018,7,0.0
+jev,Japan,E018,8,0.0
+jev,Japan,E018,9,0.0
+jev,Japan,E025,0,0.0
+jev,Japan,E025,1,0.0
+jev,Japan,E025,2,0.0
+jev,Japan,E025,3,0.0
+jev,Japan,E025,4,0.0
+jev,Japan,E025,5,0.0
+jev,Japan,E025,6,0.0
+jev,Japan,E025,7,0.0
+jev,Japan,E025,8,0.0
+jev,Japan,E025,9,0.0
+jev,Japan,F063,0,-1.0639942553003137e-18
+jev,Japan,F063,1,-1.0639942553003137e-18
+jev,Japan,F063,2,-1.0639942553003137e-18
+jev,Japan,F063,3,-1.0639942553003137e-18
+jev,Japan,F063,4,-1.0639942553003137e-18
+jev,Japan,F063,5,-1.0639942553003137e-18
+jev,Japan,F063,6,-1.0639942553003137e-18
+jev,Japan,F063,7,-1.0639942553003137e-18
+jev,Japan,F063,8,-1.0639942553003137e-18
+jev,Japan,F063,9,-1.0639942553003137e-18
+jev,Japan,F118,0,-9.59219338783529e-18
+jev,Japan,F118,1,-9.59219338783529e-18
+jev,Japan,F118,2,-9.59219338783529e-18
+jev,Japan,F118,3,-9.59219338783529e-18
+jev,Japan,F118,4,-9.59219338783529e-18
+jev,Japan,F118,5,-9.59219338783529e-18
+jev,Japan,F118,6,-9.59219338783529e-18
+jev,Japan,F118,7,-9.59219338783529e-18
+jev,Japan,F118,8,-9.59219338783529e-18
+jev,Japan,F118,9,-9.59219338783529e-18
+jev,Japan,F120,0,0.0
+jev,Japan,F120,1,0.0
+jev,Japan,F120,2,0.0
+jev,Japan,F120,3,0.0
+jev,Japan,F120,4,0.0
+jev,Japan,F120,5,0.0
+jev,Japan,F120,6,0.0
+jev,Japan,F120,7,0.0
+jev,Japan,F120,8,0.0
+jev,Japan,F120,9,0.0
+jev,Japan,G006,0,6.062485513312982e-17
+jev,Japan,G006,1,6.062485513312982e-17
+jev,Japan,G006,2,6.062485513312982e-17
+jev,Japan,G006,3,6.062485513312982e-17
+jev,Japan,G006,4,6.062485513312982e-17
+jev,Japan,G006,5,6.062485513312982e-17
+jev,Japan,G006,6,6.062485513312982e-17
+jev,Japan,G006,7,6.062485513312982e-17
+jev,Japan,G006,8,6.062485513312982e-17
+jev,Japan,G006,9,6.062485513312982e-17
+jev,Japan,Y002,0,0.0
+jev,Japan,Y002,1,0.0
+jev,Japan,Y002,2,0.0
+jev,Japan,Y002,3,0.0
+jev,Japan,Y002,4,0.0
+jev,Japan,Y002,5,0.0
+jev,Japan,Y002,6,0.0
+jev,Japan,Y002,7,0.0
+jev,Japan,Y002,8,0.0
+jev,Japan,Y002,9,0.0
+jev,South Africa,A008,0,3.905177125523259e-17
+jev,South Africa,A008,1,3.905177125523259e-17
+jev,South Africa,A008,2,3.905177125523259e-17
+jev,South Africa,A008,3,3.905177125523259e-17
+jev,South Africa,A008,4,3.905177125523259e-17
+jev,South Africa,A008,5,3.905177125523259e-17
+jev,South Africa,A008,6,3.905177125523259e-17
+jev,South Africa,A008,7,3.905177125523259e-17
+jev,South Africa,A008,8,3.905177125523259e-17
+jev,South Africa,A008,9,3.905177125523259e-17
+jev,South Africa,A165,0,0.0
+jev,South Africa,A165,1,0.0
+jev,South Africa,A165,2,0.0
+jev,South Africa,A165,3,0.0
+jev,South Africa,A165,4,0.0
+jev,South Africa,A165,5,0.0
+jev,South Africa,A165,6,0.0
+jev,South Africa,A165,7,0.0
+jev,South Africa,A165,8,0.0
+jev,South Africa,A165,9,0.0
+jev,South Africa,E018,0,0.0
+jev,South Africa,E018,1,0.0
+jev,South Africa,E018,2,0.0
+jev,South Africa,E018,3,0.0
+jev,South Africa,E018,4,0.0
+jev,South Africa,E018,5,0.0
+jev,South Africa,E018,6,0.0
+jev,South Africa,E018,7,0.0
+jev,South Africa,E018,8,0.0
+jev,South Africa,E018,9,0.0
+jev,South Africa,E025,0,0.0
+jev,South Africa,E025,1,0.0
+jev,South Africa,E025,2,0.0
+jev,South Africa,E025,3,0.0
+jev,South Africa,E025,4,0.0
+jev,South Africa,E025,5,0.0
+jev,South Africa,E025,6,0.0
+jev,South Africa,E025,7,0.0
+jev,South Africa,E025,8,0.0
+jev,South Africa,E025,9,0.0
+jev,South Africa,F063,0,4.9100740748273995e-17
+jev,South Africa,F063,1,4.9100740748273995e-17
+jev,South Africa,F063,2,4.9100740748273995e-17
+jev,South Africa,F063,3,4.9100740748273995e-17
+jev,South Africa,F063,4,4.9100740748273995e-17
+jev,South Africa,F063,5,4.9100740748273995e-17
+jev,South Africa,F063,6,4.9100740748273995e-17
+jev,South Africa,F063,7,4.9100740748273995e-17
+jev,South Africa,F063,8,4.9100740748273995e-17
+jev,South Africa,F063,9,4.9100740748273995e-17
+jev,South Africa,F118,0,1.925622633298182e-17
+jev,South Africa,F118,1,1.925622633298182e-17
+jev,South Africa,F118,2,1.925622633298182e-17
+jev,South Africa,F118,3,1.925622633298182e-17
+jev,South Africa,F118,4,1.925622633298182e-17
+jev,South Africa,F118,5,1.925622633298182e-17
+jev,South Africa,F118,6,1.925622633298182e-17
+jev,South Africa,F118,7,1.925622633298182e-17
+jev,South Africa,F118,8,1.925622633298182e-17
+jev,South Africa,F118,9,1.925622633298182e-17
+jev,South Africa,F120,0,2.656195823709086e-17
+jev,South Africa,F120,1,2.656195823709086e-17
+jev,South Africa,F120,2,2.656195823709086e-17
+jev,South Africa,F120,3,2.656195823709086e-17
+jev,South Africa,F120,4,2.656195823709086e-17
+jev,South Africa,F120,5,2.656195823709086e-17
+jev,South Africa,F120,6,2.656195823709086e-17
+jev,South Africa,F120,7,2.656195823709086e-17
+jev,South Africa,F120,8,2.656195823709086e-17
+jev,South Africa,F120,9,2.656195823709086e-17
+jev,South Africa,G006,0,0.0
+jev,South Africa,G006,1,0.0
+jev,South Africa,G006,2,0.0
+jev,South Africa,G006,3,0.0
+jev,South Africa,G006,4,0.0
+jev,South Africa,G006,5,0.0
+jev,South Africa,G006,6,0.0
+jev,South Africa,G006,7,0.0
+jev,South Africa,G006,8,0.0
+jev,South Africa,G006,9,0.0
+jev,South Africa,Y002,0,0.0
+jev,South Africa,Y002,1,0.0
+jev,South Africa,Y002,2,0.0
+jev,South Africa,Y002,3,0.0
+jev,South Africa,Y002,4,0.0
+jev,South Africa,Y002,5,0.0
+jev,South Africa,Y002,6,0.0
+jev,South Africa,Y002,7,0.0
+jev,South Africa,Y002,8,0.0
+jev,South Africa,Y002,9,0.0
+openai,Australia,A008,0,-1.977884063954577e-17
+openai,Australia,A008,1,-1.977884063954577e-17
+openai,Australia,A008,2,-1.977884063954577e-17
+openai,Australia,A008,3,-1.977884063954577e-17
+openai,Australia,A008,4,-1.977884063954577e-17
+openai,Australia,A008,5,-1.977884063954577e-17
+openai,Australia,A008,6,-1.977884063954577e-17
+openai,Australia,A008,7,-1.977884063954577e-17
+openai,Australia,A008,8,-1.977884063954577e-17
+openai,Australia,A008,9,-1.977884063954577e-17
+openai,Australia,A165,0,8.346007522241161e-17
+openai,Australia,A165,1,8.346007522241161e-17
+openai,Australia,A165,2,8.346007522241161e-17
+openai,Australia,A165,3,8.346007522241161e-17
+openai,Australia,A165,4,8.346007522241161e-17
+openai,Australia,A165,5,8.346007522241161e-17
+openai,Australia,A165,6,8.346007522241161e-17
+openai,Australia,A165,7,8.346007522241161e-17
+openai,Australia,A165,8,8.346007522241161e-17
+openai,Australia,A165,9,8.346007522241161e-17
+openai,Australia,E018,0,0.0
+openai,Australia,E018,1,0.0
+openai,Australia,E018,2,0.0
+openai,Australia,E018,3,0.0
+openai,Australia,E018,4,0.0
+openai,Australia,E018,5,0.0
+openai,Australia,E018,6,0.0
+openai,Australia,E018,7,0.0
+openai,Australia,E018,8,0.0
+openai,Australia,E018,9,0.0
+openai,Australia,E025,0,0.0
+openai,Australia,E025,1,0.0
+openai,Australia,E025,2,0.0
+openai,Australia,E025,3,0.0
+openai,Australia,E025,4,0.0
+openai,Australia,E025,5,0.0
+openai,Australia,E025,6,0.0
+openai,Australia,E025,7,0.0
+openai,Australia,E025,8,0.0
+openai,Australia,E025,9,0.0
+openai,Australia,F063,0,8.308396372405342e-18
+openai,Australia,F063,1,8.308396372405342e-18
+openai,Australia,F063,2,8.308396372405342e-18
+openai,Australia,F063,3,8.308396372405342e-18
+openai,Australia,F063,4,8.308396372405342e-18
+openai,Australia,F063,5,8.308396372405342e-18
+openai,Australia,F063,6,8.308396372405342e-18
+openai,Australia,F063,7,8.308396372405342e-18
+openai,Australia,F063,8,8.308396372405342e-18
+openai,Australia,F063,9,8.308396372405342e-18
+openai,Australia,F118,0,2.8128581203412824e-17
+openai,Australia,F118,1,2.8128581203412824e-17
+openai,Australia,F118,2,2.8128581203412824e-17
+openai,Australia,F118,3,2.8128581203412824e-17
+openai,Australia,F118,4,2.8128581203412824e-17
+openai,Australia,F118,5,2.8128581203412824e-17
+openai,Australia,F118,6,2.8128581203412824e-17
+openai,Australia,F118,7,2.8128581203412824e-17
+openai,Australia,F118,8,2.8128581203412824e-17
+openai,Australia,F118,9,2.8128581203412824e-17
+openai,Australia,F120,0,4.507378245999117e-19
+openai,Australia,F120,1,4.507378245999117e-19
+openai,Australia,F120,2,4.507378245999117e-19
+openai,Australia,F120,3,4.507378245999117e-19
+openai,Australia,F120,4,4.507378245999117e-19
+openai,Australia,F120,5,4.507378245999117e-19
+openai,Australia,F120,6,4.507378245999117e-19
+openai,Australia,F120,7,4.507378245999117e-19
+openai,Australia,F120,8,4.507378245999117e-19
+openai,Australia,F120,9,4.507378245999117e-19
+openai,Australia,G006,0,1.9005869999990488e-17
+openai,Australia,G006,1,1.9005869999990488e-17
+openai,Australia,G006,2,1.9005869999990488e-17
+openai,Australia,G006,3,1.9005869999990488e-17
+openai,Australia,G006,4,1.9005869999990488e-17
+openai,Australia,G006,5,1.9005869999990488e-17
+openai,Australia,G006,6,1.9005869999990488e-17
+openai,Australia,G006,7,1.9005869999990488e-17
+openai,Australia,G006,8,1.9005869999990488e-17
+openai,Australia,G006,9,1.9005869999990488e-17
+openai,Australia,Y002,0,0.0
+openai,Australia,Y002,1,0.0
+openai,Australia,Y002,2,0.0
+openai,Australia,Y002,3,0.0
+openai,Australia,Y002,4,0.0
+openai,Australia,Y002,5,0.0
+openai,Australia,Y002,6,0.0
+openai,Australia,Y002,7,0.0
+openai,Australia,Y002,8,0.0
+openai,Australia,Y002,9,0.0
+openai,Japan,A008,0,0.0
+openai,Japan,A008,1,0.0
+openai,Japan,A008,2,0.0
+openai,Japan,A008,3,0.0
+openai,Japan,A008,4,0.0
+openai,Japan,A008,5,0.0
+openai,Japan,A008,6,0.0
+openai,Japan,A008,7,0.0
+openai,Japan,A008,8,0.0
+openai,Japan,A008,9,0.0
+openai,Japan,A165,0,7.675888938648646e-17
+openai,Japan,A165,1,7.675888938648646e-17
+openai,Japan,A165,2,7.675888938648646e-17
+openai,Japan,A165,3,7.675888938648646e-17
+openai,Japan,A165,4,7.675888938648646e-17
+openai,Japan,A165,5,7.675888938648646e-17
+openai,Japan,A165,6,7.675888938648646e-17
+openai,Japan,A165,7,7.675888938648646e-17
+openai,Japan,A165,8,7.675888938648646e-17
+openai,Japan,A165,9,7.675888938648646e-17
+openai,Japan,E018,0,0.0
+openai,Japan,E018,1,0.0
+openai,Japan,E018,2,0.0
+openai,Japan,E018,3,0.0
+openai,Japan,E018,4,0.0
+openai,Japan,E018,5,0.0
+openai,Japan,E018,6,0.0
+openai,Japan,E018,7,0.0
+openai,Japan,E018,8,0.0
+openai,Japan,E018,9,0.0
+openai,Japan,E025,0,0.0
+openai,Japan,E025,1,0.0
+openai,Japan,E025,2,0.0
+openai,Japan,E025,3,0.0
+openai,Japan,E025,4,0.0
+openai,Japan,E025,5,0.0
+openai,Japan,E025,6,0.0
+openai,Japan,E025,7,0.0
+openai,Japan,E025,8,0.0
+openai,Japan,E025,9,0.0
+openai,Japan,F063,0,-9.019201357123489e-18
+openai,Japan,F063,1,-9.019201357123489e-18
+openai,Japan,F063,2,-9.019201357123489e-18
+openai,Japan,F063,3,-9.019201357123489e-18
+openai,Japan,F063,4,-9.019201357123489e-18
+openai,Japan,F063,5,-9.019201357123489e-18
+openai,Japan,F063,6,-9.019201357123489e-18
+openai,Japan,F063,7,-9.019201357123489e-18
+openai,Japan,F063,8,-9.019201357123489e-18
+openai,Japan,F063,9,-9.019201357123489e-18
+openai,Japan,F118,0,-1.6722260509038378e-17
+openai,Japan,F118,1,-1.6722260509038378e-17
+openai,Japan,F118,2,-1.6722260509038378e-17
+openai,Japan,F118,3,-1.6722260509038378e-17
+openai,Japan,F118,4,-1.6722260509038378e-17
+openai,Japan,F118,5,-1.6722260509038378e-17
+openai,Japan,F118,6,-1.6722260509038378e-17
+openai,Japan,F118,7,-1.6722260509038378e-17
+openai,Japan,F118,8,-1.6722260509038378e-17
+openai,Japan,F118,9,-1.6722260509038378e-17
+openai,Japan,F120,0,1.8821749506385905e-17
+openai,Japan,F120,1,1.8821749506385905e-17
+openai,Japan,F120,2,1.8821749506385905e-17
+openai,Japan,F120,3,1.8821749506385905e-17
+openai,Japan,F120,4,1.8821749506385905e-17
+openai,Japan,F120,5,1.8821749506385905e-17
+openai,Japan,F120,6,1.8821749506385905e-17
+openai,Japan,F120,7,1.8821749506385905e-17
+openai,Japan,F120,8,1.8821749506385905e-17
+openai,Japan,F120,9,1.8821749506385905e-17
+openai,Japan,G006,0,-2.0012699727481808e-17
+openai,Japan,G006,1,-2.0012699727481808e-17
+openai,Japan,G006,2,-2.0012699727481808e-17
+openai,Japan,G006,3,-2.0012699727481808e-17
+openai,Japan,G006,4,-2.0012699727481808e-17
+openai,Japan,G006,5,-2.0012699727481808e-17
+openai,Japan,G006,6,-2.0012699727481808e-17
+openai,Japan,G006,7,-2.0012699727481808e-17
+openai,Japan,G006,8,-2.0012699727481808e-17
+openai,Japan,G006,9,-2.0012699727481808e-17
+openai,Japan,Y002,0,0.0
+openai,Japan,Y002,1,0.0
+openai,Japan,Y002,2,0.0
+openai,Japan,Y002,3,0.0
+openai,Japan,Y002,4,0.0
+openai,Japan,Y002,5,0.0
+openai,Japan,Y002,6,0.0
+openai,Japan,Y002,7,0.0
+openai,Japan,Y002,8,0.0
+openai,Japan,Y002,9,0.0
+openai,South Africa,A008,0,3.476317459251111e-17
+openai,South Africa,A008,1,3.476317459251111e-17
+openai,South Africa,A008,2,3.476317459251111e-17
+openai,South Africa,A008,3,3.476317459251111e-17
+openai,South Africa,A008,4,3.476317459251111e-17
+openai,South Africa,A008,5,3.476317459251111e-17
+openai,South Africa,A008,6,3.476317459251111e-17
+openai,South Africa,A008,7,3.476317459251111e-17
+openai,South Africa,A008,8,3.476317459251111e-17
+openai,South Africa,A008,9,3.476317459251111e-17
+openai,South Africa,A165,0,8.319186929507305e-17
+openai,South Africa,A165,1,8.319186929507305e-17
+openai,South Africa,A165,2,8.319186929507305e-17
+openai,South Africa,A165,3,8.319186929507305e-17
+openai,South Africa,A165,4,8.319186929507305e-17
+openai,South Africa,A165,5,8.319186929507305e-17
+openai,South Africa,A165,6,8.319186929507305e-17
+openai,South Africa,A165,7,8.319186929507305e-17
+openai,South Africa,A165,8,8.319186929507305e-17
+openai,South Africa,A165,9,8.319186929507305e-17
+openai,South Africa,E018,0,0.0
+openai,South Africa,E018,1,0.0
+openai,South Africa,E018,2,0.0
+openai,South Africa,E018,3,0.0
+openai,South Africa,E018,4,0.0
+openai,South Africa,E018,5,0.0
+openai,South Africa,E018,6,0.0
+openai,South Africa,E018,7,0.0
+openai,South Africa,E018,8,0.0
+openai,South Africa,E018,9,0.0
+openai,South Africa,E025,0,0.0
+openai,South Africa,E025,1,0.0
+openai,South Africa,E025,2,0.0
+openai,South Africa,E025,3,0.0
+openai,South Africa,E025,4,0.0
+openai,South Africa,E025,5,0.0
+openai,South Africa,E025,6,0.0
+openai,South Africa,E025,7,0.0
+openai,South Africa,E025,8,0.0
+openai,South Africa,E025,9,0.0
+openai,South Africa,F063,0,-8.162766638461413e-18
+openai,South Africa,F063,1,-8.162766638461413e-18
+openai,South Africa,F063,2,-8.162766638461413e-18
+openai,South Africa,F063,3,-8.162766638461413e-18
+openai,South Africa,F063,4,-8.162766638461413e-18
+openai,South Africa,F063,5,-8.162766638461413e-18
+openai,South Africa,F063,6,-8.162766638461413e-18
+openai,South Africa,F063,7,-8.162766638461413e-18
+openai,South Africa,F063,8,-8.162766638461413e-18
+openai,South Africa,F063,9,-8.162766638461413e-18
+openai,South Africa,F118,0,8.164403591460355e-18
+openai,South Africa,F118,1,8.164403591460355e-18
+openai,South Africa,F118,2,8.164403591460355e-18
+openai,South Africa,F118,3,8.164403591460355e-18
+openai,South Africa,F118,4,8.164403591460355e-18
+openai,South Africa,F118,5,8.164403591460355e-18
+openai,South Africa,F118,6,8.164403591460355e-18
+openai,South Africa,F118,7,8.164403591460355e-18
+openai,South Africa,F118,8,8.164403591460355e-18
+openai,South Africa,F118,9,8.164403591460355e-18
+openai,South Africa,F120,0,3.523770309665676e-17
+openai,South Africa,F120,1,3.523770309665676e-17
+openai,South Africa,F120,2,3.523770309665676e-17
+openai,South Africa,F120,3,3.523770309665676e-17
+openai,South Africa,F120,4,3.523770309665676e-17
+openai,South Africa,F120,5,3.523770309665676e-17
+openai,South Africa,F120,6,3.523770309665676e-17
+openai,South Africa,F120,7,3.523770309665676e-17
+openai,South Africa,F120,8,3.523770309665676e-17
+openai,South Africa,F120,9,3.523770309665676e-17
+openai,South Africa,G006,0,0.0
+openai,South Africa,G006,1,0.0
+openai,South Africa,G006,2,0.0
+openai,South Africa,G006,3,0.0
+openai,South Africa,G006,4,0.0
+openai,South Africa,G006,5,0.0
+openai,South Africa,G006,6,0.0
+openai,South Africa,G006,7,0.0
+openai,South Africa,G006,8,0.0
+openai,South Africa,G006,9,0.0
+openai,South Africa,Y002,0,0.0
+openai,South Africa,Y002,1,0.0
+openai,South Africa,Y002,2,0.0
+openai,South Africa,Y002,3,0.0
+openai,South Africa,Y002,4,0.0
+openai,South Africa,Y002,5,0.0
+openai,South Africa,Y002,6,0.0
+openai,South Africa,Y002,7,0.0
+openai,South Africa,Y002,8,0.0
+openai,South Africa,Y002,9,0.0

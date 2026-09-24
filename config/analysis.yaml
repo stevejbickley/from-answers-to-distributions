@@ -1,0 +1,21 @@
+primary_items: [A008, A165, E018, E025, F063, F118, F120, G006, Y002]
+cultural_map_items: [A008, A165, E018, E025, F063, F118, F120, G006, Y002, Y003]
+wave_codes: [5, 6, 7]
+weight_variable: S017
+country_variable: S003
+country_alpha_variable: S009
+year_variable: S020
+wave_variable: S002VS
+exclude_countries: [Egypt, Kuwait, Qatar, Tajikistan, Uzbekistan]
+country_year_aggregation: equal_country_year_after_within_year_survey_weighting
+js_log_base: 2
+bootstrap_replicates: 5000
+random_seed: 20260923
+openai_label_repetitions: 3
+option_order_repetitions: 4
+option_order_country_sample: 12
+paper_rescaling:
+  pc1_multiplier: 1.81
+  pc1_intercept: 0.38
+  pc2_multiplier: 1.61
+  pc2_intercept: -0.01

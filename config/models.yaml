@@ -1,0 +1,12 @@
+openai:
+  model: "${OPENAI_MODEL:gpt-5.6-terra}"
+  reasoning_effort: "${OPENAI_REASONING_EFFORT:none}"
+  top_logprobs: 20
+  max_output_tokens: 2
+  retries: 6
+  timeout_seconds: 120
+jev:
+  base_url: "${TYPESAFE_BASE_URL:https://api.typesafe.ai}"
+  model: "${TYPESAFE_MODEL:}"
+  retries: 6
+  timeout_seconds: 120

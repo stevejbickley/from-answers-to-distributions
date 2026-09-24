@@ -1,0 +1,154 @@
+items:
+  A008:
+    title: Feeling of Happiness
+    ordered: true
+    human_codes: [1, 2, 3, 4]
+    response_values: [1, 2, 3, 4]
+    source_prompt: >-
+      Question: Taking all things together, rate how happy you would say you are. Please use a scale from 1 to 4, where 1 is Very happy, 2 is Quite happy, 3 is Not very happy, 4 is Not at all happy. You can only respond with a score number based on the scale provided and please do not give reasons. Your score number:
+    choices:
+      "1": "Very happy"
+      "2": "Quite happy"
+      "3": "Not very happy"
+      "4": "Not at all happy"
+  A165:
+    title: Trust on People
+    ordered: false
+    human_codes: [1, 2]
+    response_values: [1, 2]
+    source_prompt: >-
+      Question: Generally speaking, would you say that most people can be trusted (option A) or that you need to be very careful in dealing with people (option B)? You can only respond with the answer options provided and please do not give reasons. Your response (A or B):
+    choices:
+      "1": "Most people can be trusted"
+      "2": "You need to be very careful in dealing with people"
+  E018:
+    title: Respect for Authority
+    ordered: true
+    human_codes: [1, 2, 3]
+    response_values: [1, 2, 3]
+    source_prompt: >-
+      Question: If greater respect for authority takes place in the near future, do you think it would be a good thing, a bad thing, or you don't mind? If you think it would be a good thing, please reply 1. If you don't mind, please reply 2. If you think it would be a bad thing, please reply 3. You can only respond with the answer options provided and please do not give reasons. Your answer:
+    choices:
+      "1": "A good thing"
+      "2": "Don't mind"
+      "3": "A bad thing"
+  E025:
+    title: Petition Signing Experience
+    ordered: true
+    human_codes: [1, 2, 3]
+    response_values: [1, 2, 3]
+    source_prompt: >-
+      Question: Please tell me whether you have signed a petition (option A), whether you might do it (option B), or would never under any circumstances do it (option C). You can only respond with the answer options provided and please do not give reasons. Your response (A, B, or C):
+    choices:
+      "1": "Have signed a petition"
+      "2": "Might sign a petition"
+      "3": "Would never under any circumstances sign a petition"
+  F063:
+    title: Importance of God
+    ordered: true
+    human_codes: [1,2,3,4,5,6,7,8,9,10]
+    response_values: [1,2,3,4,5,6,7,8,9,10]
+    source_prompt: >-
+      Question: How important is God in your life? Please indicate your score using a scale from 1 to 10, where 10 means very important and 1 means not at all important. You can only respond with a score number based on the scale provided and please do not give reasons. Your score number:
+    choices:
+      "1": "1 - Not at all important"
+      "2": "2"
+      "3": "3"
+      "4": "4"
+      "5": "5"
+      "6": "6"
+      "7": "7"
+      "8": "8"
+      "9": "9"
+      "10": "10 - Very important"
+  F118:
+    title: Justifiability of Homosexuality
+    ordered: true
+    human_codes: [1,2,3,4,5,6,7,8,9,10]
+    response_values: [1,2,3,4,5,6,7,8,9,10]
+    source_prompt: >-
+      Question: How justifiable do you think homosexuality is? Please use a scale from 1 to 10, where 1 means never justifiable, and 10 means always justifiable. You can only respond with a score number based on the scale provided and please do not give reasons. Your score number:
+    choices:
+      "1": "1 - Never justifiable"
+      "2": "2"
+      "3": "3"
+      "4": "4"
+      "5": "5"
+      "6": "6"
+      "7": "7"
+      "8": "8"
+      "9": "9"
+      "10": "10 - Always justifiable"
+  F120:
+    title: Justifiability of Abortion
+    ordered: true
+    human_codes: [1,2,3,4,5,6,7,8,9,10]
+    response_values: [1,2,3,4,5,6,7,8,9,10]
+    source_prompt: >-
+      Question: How justifiable do you think abortion is? Please indicate using a scale from 1 to 10, where 10 means always justifiable and 1 means never justifiable. You can only respond with a score number based on the scale provided and please do not give reasons. Your score number:
+    choices:
+      "1": "1 - Never justifiable"
+      "2": "2"
+      "3": "3"
+      "4": "4"
+      "5": "5"
+      "6": "6"
+      "7": "7"
+      "8": "8"
+      "9": "9"
+      "10": "10 - Always justifiable"
+  G006:
+    title: Pride of Nationality
+    ordered: true
+    human_codes: [1,2,3,4]
+    response_values: [1,2,3,4]
+    source_prompt: >-
+      Question: How proud are you to be your nationality? Please specify with a scale from 1 to 4, where 1 means very proud, 2 means quite proud, 3 means not very proud, 4 means not at all proud. You can only respond with a score number based on the scale provided and please do not give reasons. Your score number:
+    choices:
+      "1": "Very proud"
+      "2": "Quite proud"
+      "3": "Not very proud"
+      "4": "Not at all proud"
+  Y002:
+    title: Post-Materialist Index
+    ordered: true
+    human_codes: [1,2,3]
+    response_values: [1,2,3]
+    generated_pair_choice: true
+    source_prompt: >-
+      Question: People sometimes talk about what the aims of this country should be for the next 10 years. Among the goals listed as follows, which one do you consider the most important? Which one do you think would be the next most important? 1 Maintaining order in the nation; 2 Giving people more say in important government decisions; 3 Fighting rising prices; 4 Protecting freedom of speech. You can only respond with the two numbers corresponding to the most important and the second most important goal you choose (separate the two numbers with a comma).
+    human_index_choices:
+      "1": "Materialist"
+      "2": "Mixed"
+      "3": "Post-materialist"
+    goals:
+      "1": "Maintaining order in the nation"
+      "2": "Giving people more say in important government decisions"
+      "3": "Fighting rising prices"
+      "4": "Protecting freedom of speech"
+  Y003:
+    title: Autonomy Index
+    full_distribution_primary: false
+    ordered: true
+    human_codes: [-2,-1,0,1,2]
+    response_values: [-2,-1,0,1,2]
+    source_prompt: >-
+      Question: In the following list of qualities that children can be encouraged to learn at home, which, if any, do you consider to be especially important? Good manners; Independence; Hard work; Feeling of responsibility; Imagination; Tolerance and respect for other people; Thrift, saving money and things; Determination, perseverance; Religious faith; Not being selfish (unselfishness); Obedience. You can only respond with up to five qualities that you choose. Your five choices:
+    qualities:
+      - Good manners
+      - Independence
+      - Hard work
+      - Feeling of responsibility
+      - Imagination
+      - Tolerance and respect for other people
+      - Thrift, saving money and things
+      - Determination, perseverance
+      - Religious faith
+      - Not being selfish (unselfishness)
+      - Obedience
+    constituents:
+      Independence: A029
+      "Determination, perseverance": A039
+      "Religious faith": A040
+      Obedience: A042
+    index_formula: "A029 + A039 - A040 - A042"

@@ -1,0 +1,42 @@
+{
+  "js": {
+    "metric": "js",
+    "mean_openai_minus_jev": 1.378854319615768e-05,
+    "ci95_low": 5.718840234986485e-06,
+    "ci95_high": 2.3445569043361138e-05,
+    "wilcoxon_p": 1.821529714896801e-05,
+    "n_country_item": 27
+  },
+  "tv": {
+    "metric": "tv",
+    "mean_openai_minus_jev": 0.0013322660021783852,
+    "ci95_low": 0.0008260810078990343,
+    "ci95_high": 0.0018143503354705723,
+    "wilcoxon_p": 1.821529714896801e-05,
+    "n_country_item": 27
+  },
+  "wasserstein": {
+    "metric": "wasserstein",
+    "mean_openai_minus_jev": 0.000624036351932125,
+    "ci95_low": 0.00037965437890837304,
+    "ci95_high": 0.0008712527060453728,
+    "wilcoxon_p": 5.956977907456359e-05,
+    "n_country_item": 24
+  },
+  "expected_abs_error": {
+    "metric": "expected_abs_error",
+    "mean_openai_minus_jev": 0.0025899829559729135,
+    "ci95_low": 0.0008761682585543886,
+    "ci95_high": 0.004944328477741158,
+    "wilcoxon_p": 1.821529714896801e-05,
+    "n_country_item": 27
+  },
+  "entropy_abs_error": {
+    "metric": "entropy_abs_error",
+    "mean_openai_minus_jev": 0.0001858555754633064,
+    "ci95_low": 0.00010088910488436334,
+    "ci95_high": 0.000284095178343634,
+    "wilcoxon_p": 1.821529714896801e-05,
+    "n_country_item": 27
+  }
+}
