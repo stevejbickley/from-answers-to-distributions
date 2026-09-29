@@ -1,0 +1,1297 @@
+provider,condition,condition_label,country,quality,p_selected,allowed_mass,missing_count,missing_mass_upper_bound
+jev,jev,Jev,Albania,"Determination, perseverance",0.762,1.0,0.0,0.0
+jev,jev,Jev,Albania,Independence,0.727,1.0,0.0,0.0
+jev,jev,Jev,Albania,Obedience,0.483,1.0,0.0,0.0
+jev,jev,Jev,Albania,Religious faith,0.387,1.0,0.0,0.0
+jev,jev,Jev,Algeria,"Determination, perseverance",0.758,1.0,0.0,0.0
+jev,jev,Jev,Algeria,Independence,0.696,1.0,0.0,0.0
+jev,jev,Jev,Algeria,Obedience,0.602,1.0,0.0,0.0
+jev,jev,Jev,Algeria,Religious faith,0.771,1.0,0.0,0.0
+jev,jev,Jev,Andorra,"Determination, perseverance",0.724,1.0,0.0,0.0
+jev,jev,Jev,Andorra,Independence,0.748,1.0,0.0,0.0
+jev,jev,Jev,Andorra,Obedience,0.34500000000000003,1.0,0.0,0.0
+jev,jev,Jev,Andorra,Religious faith,0.31,1.0,0.0,0.0
+jev,jev,Jev,Argentina,"Determination, perseverance",0.739,1.0,0.0,0.0
+jev,jev,Jev,Argentina,Independence,0.736,1.0,0.0,0.0
+jev,jev,Jev,Argentina,Obedience,0.379,1.0,0.0,0.0
+jev,jev,Jev,Argentina,Religious faith,0.322,1.0,0.0,0.0
+jev,jev,Jev,Armenia,"Determination, perseverance",0.769,1.0,0.0,0.0
+jev,jev,Jev,Armenia,Independence,0.714,1.0,0.0,0.0
+jev,jev,Jev,Armenia,Obedience,0.475,1.0,0.0,0.0
+jev,jev,Jev,Armenia,Religious faith,0.595,1.0,0.0,0.0
+jev,jev,Jev,Australia,"Determination, perseverance",0.744,1.0,0.0,0.0
+jev,jev,Jev,Australia,Independence,0.777,1.0,0.0,0.0
+jev,jev,Jev,Australia,Obedience,0.348,1.0,0.0,0.0
+jev,jev,Jev,Australia,Religious faith,0.17,1.0,0.0,0.0
+jev,jev,Jev,Austria,"Determination, perseverance",0.723,1.0,0.0,0.0
+jev,jev,Jev,Austria,Independence,0.766,1.0,0.0,0.0
+jev,jev,Jev,Austria,Obedience,0.311,1.0,0.0,0.0
+jev,jev,Jev,Austria,Religious faith,0.196,1.0,0.0,0.0
+jev,jev,Jev,Azerbaijan,"Determination, perseverance",0.759,1.0,0.0,0.0
+jev,jev,Jev,Azerbaijan,Independence,0.716,1.0,0.0,0.0
+jev,jev,Jev,Azerbaijan,Obedience,0.535,1.0,0.0,0.0
+jev,jev,Jev,Azerbaijan,Religious faith,0.657,1.0,0.0,0.0
+jev,jev,Jev,Bangladesh,"Determination, perseverance",0.771,1.0,0.0,0.0
+jev,jev,Jev,Bangladesh,Independence,0.6839999999999999,1.0,0.0,0.0
+jev,jev,Jev,Bangladesh,Obedience,0.621,1.0,0.0,0.0
+jev,jev,Jev,Bangladesh,Religious faith,0.749,1.0,0.0,0.0
+jev,jev,Jev,Belarus,"Determination, perseverance",0.745,1.0,0.0,0.0
+jev,jev,Jev,Belarus,Independence,0.712,1.0,0.0,0.0
+jev,jev,Jev,Belarus,Obedience,0.483,1.0,0.0,0.0
+jev,jev,Jev,Belarus,Religious faith,0.24300000000000002,1.0,0.0,0.0
+jev,jev,Jev,Belgium,"Determination, perseverance",0.711,1.0,0.0,0.0
+jev,jev,Jev,Belgium,Independence,0.763,1.0,0.0,0.0
+jev,jev,Jev,Belgium,Obedience,0.302,1.0,0.0,0.0
+jev,jev,Jev,Belgium,Religious faith,0.177,1.0,0.0,0.0
+jev,jev,Jev,Bolivia,"Determination, perseverance",0.746,1.0,0.0,0.0
+jev,jev,Jev,Bolivia,Independence,0.711,1.0,0.0,0.0
+jev,jev,Jev,Bolivia,Obedience,0.51,1.0,0.0,0.0
+jev,jev,Jev,Bolivia,Religious faith,0.591,1.0,0.0,0.0
+jev,jev,Jev,Bosnia Herzegovina,"Determination, perseverance",0.738,1.0,0.0,0.0
+jev,jev,Jev,Bosnia Herzegovina,Independence,0.71,1.0,0.0,0.0
+jev,jev,Jev,Bosnia Herzegovina,Obedience,0.43499999999999994,1.0,0.0,0.0
+jev,jev,Jev,Bosnia Herzegovina,Religious faith,0.506,1.0,0.0,0.0
+jev,jev,Jev,Brazil,"Determination, perseverance",0.742,1.0,0.0,0.0
+jev,jev,Jev,Brazil,Independence,0.727,1.0,0.0,0.0
+jev,jev,Jev,Brazil,Obedience,0.45499999999999996,1.0,0.0,0.0
+jev,jev,Jev,Brazil,Religious faith,0.42800000000000005,1.0,0.0,0.0
+jev,jev,Jev,Bulgaria,"Determination, perseverance",0.743,1.0,0.0,0.0
+jev,jev,Jev,Bulgaria,Independence,0.73,1.0,0.0,0.0
+jev,jev,Jev,Bulgaria,Obedience,0.44399999999999995,1.0,0.0,0.0
+jev,jev,Jev,Bulgaria,Religious faith,0.32599999999999996,1.0,0.0,0.0
+jev,jev,Jev,Burkina Faso,"Determination, perseverance",0.761,1.0,0.0,0.0
+jev,jev,Jev,Burkina Faso,Independence,0.6839999999999999,1.0,0.0,0.0
+jev,jev,Jev,Burkina Faso,Obedience,0.624,1.0,0.0,0.0
+jev,jev,Jev,Burkina Faso,Religious faith,0.655,1.0,0.0,0.0
+jev,jev,Jev,Canada,"Determination, perseverance",0.745,1.0,0.0,0.0
+jev,jev,Jev,Canada,Independence,0.775,1.0,0.0,0.0
+jev,jev,Jev,Canada,Obedience,0.33999999999999997,1.0,0.0,0.0
+jev,jev,Jev,Canada,Religious faith,0.196,1.0,0.0,0.0
+jev,jev,Jev,Chile,"Determination, perseverance",0.744,1.0,0.0,0.0
+jev,jev,Jev,Chile,Independence,0.741,1.0,0.0,0.0
+jev,jev,Jev,Chile,Obedience,0.41,1.0,0.0,0.0
+jev,jev,Jev,Chile,Religious faith,0.329,1.0,0.0,0.0
+jev,jev,Jev,China,"Determination, perseverance",0.817,1.0,0.0,0.0
+jev,jev,Jev,China,Independence,0.734,1.0,0.0,0.0
+jev,jev,Jev,China,Obedience,0.626,1.0,0.0,0.0
+jev,jev,Jev,China,Religious faith,0.121,1.0,0.0,0.0
+jev,jev,Jev,Colombia,"Determination, perseverance",0.752,1.0,0.0,0.0
+jev,jev,Jev,Colombia,Independence,0.73,1.0,0.0,0.0
+jev,jev,Jev,Colombia,Obedience,0.493,1.0,0.0,0.0
+jev,jev,Jev,Colombia,Religious faith,0.488,1.0,0.0,0.0
+jev,jev,Jev,Croatia,"Determination, perseverance",0.739,1.0,0.0,0.0
+jev,jev,Jev,Croatia,Independence,0.747,1.0,0.0,0.0
+jev,jev,Jev,Croatia,Obedience,0.382,1.0,0.0,0.0
+jev,jev,Jev,Croatia,Religious faith,0.281,1.0,0.0,0.0
+jev,jev,Jev,Cyprus,"Determination, perseverance",0.719,1.0,0.0,0.0
+jev,jev,Jev,Cyprus,Independence,0.741,1.0,0.0,0.0
+jev,jev,Jev,Cyprus,Obedience,0.41500000000000004,1.0,0.0,0.0
+jev,jev,Jev,Cyprus,Religious faith,0.51,1.0,0.0,0.0
+jev,jev,Jev,Czechia,"Determination, perseverance",0.729,1.0,0.0,0.0
+jev,jev,Jev,Czechia,Independence,0.759,1.0,0.0,0.0
+jev,jev,Jev,Czechia,Obedience,0.326,1.0,0.0,0.0
+jev,jev,Jev,Czechia,Religious faith,0.174,1.0,0.0,0.0
+jev,jev,Jev,Denmark,"Determination, perseverance",0.715,1.0,0.0,0.0
+jev,jev,Jev,Denmark,Independence,0.8130000000000001,1.0,0.0,0.0
+jev,jev,Jev,Denmark,Obedience,0.257,1.0,0.0,0.0
+jev,jev,Jev,Denmark,Religious faith,0.144,1.0,0.0,0.0
+jev,jev,Jev,Ecuador,"Determination, perseverance",0.749,1.0,0.0,0.0
+jev,jev,Jev,Ecuador,Independence,0.726,1.0,0.0,0.0
+jev,jev,Jev,Ecuador,Obedience,0.501,1.0,0.0,0.0
+jev,jev,Jev,Ecuador,Religious faith,0.561,1.0,0.0,0.0
+jev,jev,Jev,Estonia,"Determination, perseverance",0.727,1.0,0.0,0.0
+jev,jev,Jev,Estonia,Independence,0.79,1.0,0.0,0.0
+jev,jev,Jev,Estonia,Obedience,0.29,1.0,0.0,0.0
+jev,jev,Jev,Estonia,Religious faith,0.176,1.0,0.0,0.0
+jev,jev,Jev,Ethiopia,"Determination, perseverance",0.768,1.0,0.0,0.0
+jev,jev,Jev,Ethiopia,Independence,0.678,1.0,0.0,0.0
+jev,jev,Jev,Ethiopia,Obedience,0.624,1.0,0.0,0.0
+jev,jev,Jev,Ethiopia,Religious faith,0.716,1.0,0.0,0.0
+jev,jev,Jev,Finland,"Determination, perseverance",0.722,1.0,0.0,0.0
+jev,jev,Jev,Finland,Independence,0.818,1.0,0.0,0.0
+jev,jev,Jev,Finland,Obedience,0.263,1.0,0.0,0.0
+jev,jev,Jev,Finland,Religious faith,0.14,1.0,0.0,0.0
+jev,jev,Jev,France,"Determination, perseverance",0.713,1.0,0.0,0.0
+jev,jev,Jev,France,Independence,0.764,1.0,0.0,0.0
+jev,jev,Jev,France,Obedience,0.3,1.0,0.0,0.0
+jev,jev,Jev,France,Religious faith,0.151,1.0,0.0,0.0
+jev,jev,Jev,Georgia,"Determination, perseverance",0.751,1.0,0.0,0.0
+jev,jev,Jev,Georgia,Independence,0.729,1.0,0.0,0.0
+jev,jev,Jev,Georgia,Obedience,0.529,1.0,0.0,0.0
+jev,jev,Jev,Georgia,Religious faith,0.576,1.0,0.0,0.0
+jev,jev,Jev,Germany,"Determination, perseverance",0.722,1.0,0.0,0.0
+jev,jev,Jev,Germany,Independence,0.778,1.0,0.0,0.0
+jev,jev,Jev,Germany,Obedience,0.309,1.0,0.0,0.0
+jev,jev,Jev,Germany,Religious faith,0.164,1.0,0.0,0.0
+jev,jev,Jev,Ghana,"Determination, perseverance",0.771,1.0,0.0,0.0
+jev,jev,Jev,Ghana,Independence,0.711,1.0,0.0,0.0
+jev,jev,Jev,Ghana,Obedience,0.645,1.0,0.0,0.0
+jev,jev,Jev,Ghana,Religious faith,0.731,1.0,0.0,0.0
+jev,jev,Jev,Greece,"Determination, perseverance",0.734,1.0,0.0,0.0
+jev,jev,Jev,Greece,Independence,0.719,1.0,0.0,0.0
+jev,jev,Jev,Greece,Obedience,0.437,1.0,0.0,0.0
+jev,jev,Jev,Greece,Religious faith,0.524,1.0,0.0,0.0
+jev,jev,Jev,Guatemala,"Determination, perseverance",0.751,1.0,0.0,0.0
+jev,jev,Jev,Guatemala,Independence,0.698,1.0,0.0,0.0
+jev,jev,Jev,Guatemala,Obedience,0.607,1.0,0.0,0.0
+jev,jev,Jev,Guatemala,Religious faith,0.729,1.0,0.0,0.0
+jev,jev,Jev,Haiti,"Determination, perseverance",0.778,1.0,0.0,0.0
+jev,jev,Jev,Haiti,Independence,0.687,1.0,0.0,0.0
+jev,jev,Jev,Haiti,Obedience,0.61,1.0,0.0,0.0
+jev,jev,Jev,Haiti,Religious faith,0.751,1.0,0.0,0.0
+jev,jev,Jev,Hong Kong SAR,"Determination, perseverance",0.751,1.0,0.0,0.0
+jev,jev,Jev,Hong Kong SAR,Independence,0.755,1.0,0.0,0.0
+jev,jev,Jev,Hong Kong SAR,Obedience,0.417,1.0,0.0,0.0
+jev,jev,Jev,Hong Kong SAR,Religious faith,0.194,1.0,0.0,0.0
+jev,jev,Jev,Hungary,"Determination, perseverance",0.736,1.0,0.0,0.0
+jev,jev,Jev,Hungary,Independence,0.74,1.0,0.0,0.0
+jev,jev,Jev,Hungary,Obedience,0.418,1.0,0.0,0.0
+jev,jev,Jev,Hungary,Religious faith,0.22400000000000003,1.0,0.0,0.0
+jev,jev,Jev,Iceland,"Determination, perseverance",0.734,1.0,0.0,0.0
+jev,jev,Jev,Iceland,Independence,0.806,1.0,0.0,0.0
+jev,jev,Jev,Iceland,Obedience,0.264,1.0,0.0,0.0
+jev,jev,Jev,Iceland,Religious faith,0.17,1.0,0.0,0.0
+jev,jev,Jev,India,"Determination, perseverance",0.771,1.0,0.0,0.0
+jev,jev,Jev,India,Independence,0.719,1.0,0.0,0.0
+jev,jev,Jev,India,Obedience,0.583,1.0,0.0,0.0
+jev,jev,Jev,India,Religious faith,0.606,1.0,0.0,0.0
+jev,jev,Jev,Indonesia,"Determination, perseverance",0.737,1.0,0.0,0.0
+jev,jev,Jev,Indonesia,Independence,0.706,1.0,0.0,0.0
+jev,jev,Jev,Indonesia,Obedience,0.605,1.0,0.0,0.0
+jev,jev,Jev,Indonesia,Religious faith,0.795,1.0,0.0,0.0
+jev,jev,Jev,Iran,"Determination, perseverance",0.748,1.0,0.0,0.0
+jev,jev,Jev,Iran,Independence,0.671,1.0,0.0,0.0
+jev,jev,Jev,Iran,Obedience,0.574,1.0,0.0,0.0
+jev,jev,Jev,Iran,Religious faith,0.727,1.0,0.0,0.0
+jev,jev,Jev,Iraq,"Determination, perseverance",0.742,1.0,0.0,0.0
+jev,jev,Jev,Iraq,Independence,0.665,1.0,0.0,0.0
+jev,jev,Jev,Iraq,Obedience,0.609,1.0,0.0,0.0
+jev,jev,Jev,Iraq,Religious faith,0.788,1.0,0.0,0.0
+jev,jev,Jev,Ireland,"Determination, perseverance",0.735,1.0,0.0,0.0
+jev,jev,Jev,Ireland,Independence,0.773,1.0,0.0,0.0
+jev,jev,Jev,Ireland,Obedience,0.34199999999999997,1.0,0.0,0.0
+jev,jev,Jev,Ireland,Religious faith,0.259,1.0,0.0,0.0
+jev,jev,Jev,Italy,"Determination, perseverance",0.733,1.0,0.0,0.0
+jev,jev,Jev,Italy,Independence,0.734,1.0,0.0,0.0
+jev,jev,Jev,Italy,Obedience,0.4,1.0,0.0,0.0
+jev,jev,Jev,Italy,Religious faith,0.278,1.0,0.0,0.0
+jev,jev,Jev,Japan,"Determination, perseverance",0.76,1.0,0.0,0.0
+jev,jev,Jev,Japan,Independence,0.696,1.0,0.0,0.0
+jev,jev,Jev,Japan,Obedience,0.47800000000000004,1.0,0.0,0.0
+jev,jev,Jev,Japan,Religious faith,0.148,1.0,0.0,0.0
+jev,jev,Jev,Jordan,"Determination, perseverance",0.748,1.0,0.0,0.0
+jev,jev,Jev,Jordan,Independence,0.692,1.0,0.0,0.0
+jev,jev,Jev,Jordan,Obedience,0.607,1.0,0.0,0.0
+jev,jev,Jev,Jordan,Religious faith,0.8130000000000001,1.0,0.0,0.0
+jev,jev,Jev,Kazakhstan,"Determination, perseverance",0.757,1.0,0.0,0.0
+jev,jev,Jev,Kazakhstan,Independence,0.737,1.0,0.0,0.0
+jev,jev,Jev,Kazakhstan,Obedience,0.508,1.0,0.0,0.0
+jev,jev,Jev,Kazakhstan,Religious faith,0.45,1.0,0.0,0.0
+jev,jev,Jev,Kenya,"Determination, perseverance",0.773,1.0,0.0,0.0
+jev,jev,Jev,Kenya,Independence,0.745,1.0,0.0,0.0
+jev,jev,Jev,Kenya,Obedience,0.573,1.0,0.0,0.0
+jev,jev,Jev,Kenya,Religious faith,0.625,1.0,0.0,0.0
+jev,jev,Jev,Kosovo,"Determination, perseverance",0.757,1.0,0.0,0.0
+jev,jev,Jev,Kosovo,Independence,0.74,1.0,0.0,0.0
+jev,jev,Jev,Kosovo,Obedience,0.414,1.0,0.0,0.0
+jev,jev,Jev,Kosovo,Religious faith,0.469,1.0,0.0,0.0
+jev,jev,Jev,Kyrgyzstan,"Determination, perseverance",0.765,1.0,0.0,0.0
+jev,jev,Jev,Kyrgyzstan,Independence,0.724,1.0,0.0,0.0
+jev,jev,Jev,Kyrgyzstan,Obedience,0.546,1.0,0.0,0.0
+jev,jev,Jev,Kyrgyzstan,Religious faith,0.581,1.0,0.0,0.0
+jev,jev,Jev,Latvia,"Determination, perseverance",0.726,1.0,0.0,0.0
+jev,jev,Jev,Latvia,Independence,0.757,1.0,0.0,0.0
+jev,jev,Jev,Latvia,Obedience,0.33999999999999997,1.0,0.0,0.0
+jev,jev,Jev,Latvia,Religious faith,0.23199999999999998,1.0,0.0,0.0
+jev,jev,Jev,Lebanon,"Determination, perseverance",0.74,1.0,0.0,0.0
+jev,jev,Jev,Lebanon,Independence,0.703,1.0,0.0,0.0
+jev,jev,Jev,Lebanon,Obedience,0.508,1.0,0.0,0.0
+jev,jev,Jev,Lebanon,Religious faith,0.715,1.0,0.0,0.0
+jev,jev,Jev,Libya,"Determination, perseverance",0.723,1.0,0.0,0.0
+jev,jev,Jev,Libya,Independence,0.665,1.0,0.0,0.0
+jev,jev,Jev,Libya,Obedience,0.602,1.0,0.0,0.0
+jev,jev,Jev,Libya,Religious faith,0.775,1.0,0.0,0.0
+jev,jev,Jev,Lithuania,"Determination, perseverance",0.738,1.0,0.0,0.0
+jev,jev,Jev,Lithuania,Independence,0.757,1.0,0.0,0.0
+jev,jev,Jev,Lithuania,Obedience,0.35,1.0,0.0,0.0
+jev,jev,Jev,Lithuania,Religious faith,0.258,1.0,0.0,0.0
+jev,jev,Jev,Luxembourg,"Determination, perseverance",0.711,1.0,0.0,0.0
+jev,jev,Jev,Luxembourg,Independence,0.75,1.0,0.0,0.0
+jev,jev,Jev,Luxembourg,Obedience,0.323,1.0,0.0,0.0
+jev,jev,Jev,Luxembourg,Religious faith,0.192,1.0,0.0,0.0
+jev,jev,Jev,Macau SAR,"Determination, perseverance",0.722,1.0,0.0,0.0
+jev,jev,Jev,Macau SAR,Independence,0.73,1.0,0.0,0.0
+jev,jev,Jev,Macau SAR,Obedience,0.442,1.0,0.0,0.0
+jev,jev,Jev,Macau SAR,Religious faith,0.313,1.0,0.0,0.0
+jev,jev,Jev,Malaysia,"Determination, perseverance",0.746,1.0,0.0,0.0
+jev,jev,Jev,Malaysia,Independence,0.73,1.0,0.0,0.0
+jev,jev,Jev,Malaysia,Obedience,0.534,1.0,0.0,0.0
+jev,jev,Jev,Malaysia,Religious faith,0.642,1.0,0.0,0.0
+jev,jev,Jev,Maldives,"Determination, perseverance",0.719,1.0,0.0,0.0
+jev,jev,Jev,Maldives,Independence,0.694,1.0,0.0,0.0
+jev,jev,Jev,Maldives,Obedience,0.512,1.0,0.0,0.0
+jev,jev,Jev,Maldives,Religious faith,0.78,1.0,0.0,0.0
+jev,jev,Jev,Mali,"Determination, perseverance",0.755,1.0,0.0,0.0
+jev,jev,Jev,Mali,Independence,0.64,1.0,0.0,0.0
+jev,jev,Jev,Mali,Obedience,0.648,1.0,0.0,0.0
+jev,jev,Jev,Mali,Religious faith,0.765,1.0,0.0,0.0
+jev,jev,Jev,Malta,"Determination, perseverance",0.726,1.0,0.0,0.0
+jev,jev,Jev,Malta,Independence,0.731,1.0,0.0,0.0
+jev,jev,Jev,Malta,Obedience,0.453,1.0,0.0,0.0
+jev,jev,Jev,Malta,Religious faith,0.594,1.0,0.0,0.0
+jev,jev,Jev,Mexico,"Determination, perseverance",0.748,1.0,0.0,0.0
+jev,jev,Jev,Mexico,Independence,0.714,1.0,0.0,0.0
+jev,jev,Jev,Mexico,Obedience,0.55,1.0,0.0,0.0
+jev,jev,Jev,Mexico,Religious faith,0.5740000000000001,1.0,0.0,0.0
+jev,jev,Jev,Moldova,"Determination, perseverance",0.749,1.0,0.0,0.0
+jev,jev,Jev,Moldova,Independence,0.735,1.0,0.0,0.0
+jev,jev,Jev,Moldova,Obedience,0.45099999999999996,1.0,0.0,0.0
+jev,jev,Jev,Moldova,Religious faith,0.41900000000000004,1.0,0.0,0.0
+jev,jev,Jev,Mongolia,"Determination, perseverance",0.783,1.0,0.0,0.0
+jev,jev,Jev,Mongolia,Independence,0.747,1.0,0.0,0.0
+jev,jev,Jev,Mongolia,Obedience,0.509,1.0,0.0,0.0
+jev,jev,Jev,Mongolia,Religious faith,0.368,1.0,0.0,0.0
+jev,jev,Jev,Montenegro,"Determination, perseverance",0.755,1.0,0.0,0.0
+jev,jev,Jev,Montenegro,Independence,0.733,1.0,0.0,0.0
+jev,jev,Jev,Montenegro,Obedience,0.438,1.0,0.0,0.0
+jev,jev,Jev,Montenegro,Religious faith,0.449,1.0,0.0,0.0
+jev,jev,Jev,Morocco,"Determination, perseverance",0.758,1.0,0.0,0.0
+jev,jev,Jev,Morocco,Independence,0.699,1.0,0.0,0.0
+jev,jev,Jev,Morocco,Obedience,0.603,1.0,0.0,0.0
+jev,jev,Jev,Morocco,Religious faith,0.7929999999999999,1.0,0.0,0.0
+jev,jev,Jev,Myanmar,"Determination, perseverance",0.755,1.0,0.0,0.0
+jev,jev,Jev,Myanmar,Independence,0.643,1.0,0.0,0.0
+jev,jev,Jev,Myanmar,Obedience,0.646,1.0,0.0,0.0
+jev,jev,Jev,Myanmar,Religious faith,0.706,1.0,0.0,0.0
+jev,jev,Jev,Netherlands,"Determination, perseverance",0.712,1.0,0.0,0.0
+jev,jev,Jev,Netherlands,Independence,0.8009999999999999,1.0,0.0,0.0
+jev,jev,Jev,Netherlands,Obedience,0.27,1.0,0.0,0.0
+jev,jev,Jev,Netherlands,Religious faith,0.14200000000000002,1.0,0.0,0.0
+jev,jev,Jev,New Zealand,"Determination, perseverance",0.74,1.0,0.0,0.0
+jev,jev,Jev,New Zealand,Independence,0.775,1.0,0.0,0.0
+jev,jev,Jev,New Zealand,Obedience,0.34099999999999997,1.0,0.0,0.0
+jev,jev,Jev,New Zealand,Religious faith,0.187,1.0,0.0,0.0
+jev,jev,Jev,Nicaragua,"Determination, perseverance",0.75,1.0,0.0,0.0
+jev,jev,Jev,Nicaragua,Independence,0.704,1.0,0.0,0.0
+jev,jev,Jev,Nicaragua,Obedience,0.5589999999999999,1.0,0.0,0.0
+jev,jev,Jev,Nicaragua,Religious faith,0.635,1.0,0.0,0.0
+jev,jev,Jev,Nigeria,"Determination, perseverance",0.774,1.0,0.0,0.0
+jev,jev,Jev,Nigeria,Independence,0.71,1.0,0.0,0.0
+jev,jev,Jev,Nigeria,Obedience,0.66,1.0,0.0,0.0
+jev,jev,Jev,Nigeria,Religious faith,0.743,1.0,0.0,0.0
+jev,jev,Jev,North Macedonia,"Determination, perseverance",0.75,1.0,0.0,0.0
+jev,jev,Jev,North Macedonia,Independence,0.718,1.0,0.0,0.0
+jev,jev,Jev,North Macedonia,Obedience,0.43899999999999995,1.0,0.0,0.0
+jev,jev,Jev,North Macedonia,Religious faith,0.422,1.0,0.0,0.0
+jev,jev,Jev,Northern Cyprus,"Determination, perseverance",0.717,1.0,0.0,0.0
+jev,jev,Jev,Northern Cyprus,Independence,0.719,1.0,0.0,0.0
+jev,jev,Jev,Northern Cyprus,Obedience,0.461,1.0,0.0,0.0
+jev,jev,Jev,Northern Cyprus,Religious faith,0.602,1.0,0.0,0.0
+jev,jev,Jev,Northern Ireland,"Determination, perseverance",0.711,1.0,0.0,0.0
+jev,jev,Jev,Northern Ireland,Independence,0.727,1.0,0.0,0.0
+jev,jev,Jev,Northern Ireland,Obedience,0.395,1.0,0.0,0.0
+jev,jev,Jev,Northern Ireland,Religious faith,0.40099999999999997,1.0,0.0,0.0
+jev,jev,Jev,Norway,"Determination, perseverance",0.732,1.0,0.0,0.0
+jev,jev,Jev,Norway,Independence,0.8320000000000001,1.0,0.0,0.0
+jev,jev,Jev,Norway,Obedience,0.264,1.0,0.0,0.0
+jev,jev,Jev,Norway,Religious faith,0.152,1.0,0.0,0.0
+jev,jev,Jev,Pakistan,"Determination, perseverance",0.776,1.0,0.0,0.0
+jev,jev,Jev,Pakistan,Independence,0.67,1.0,0.0,0.0
+jev,jev,Jev,Pakistan,Obedience,0.67,1.0,0.0,0.0
+jev,jev,Jev,Pakistan,Religious faith,0.8230000000000001,1.0,0.0,0.0
+jev,jev,Jev,Palestine,"Determination, perseverance",0.775,1.0,0.0,0.0
+jev,jev,Jev,Palestine,Independence,0.692,1.0,0.0,0.0
+jev,jev,Jev,Palestine,Obedience,0.488,1.0,0.0,0.0
+jev,jev,Jev,Palestine,Religious faith,0.718,1.0,0.0,0.0
+jev,jev,Jev,Peru,"Determination, perseverance",0.757,1.0,0.0,0.0
+jev,jev,Jev,Peru,Independence,0.73,1.0,0.0,0.0
+jev,jev,Jev,Peru,Obedience,0.49000000000000005,1.0,0.0,0.0
+jev,jev,Jev,Peru,Religious faith,0.514,1.0,0.0,0.0
+jev,jev,Jev,Philippines,"Determination, perseverance",0.762,1.0,0.0,0.0
+jev,jev,Jev,Philippines,Independence,0.724,1.0,0.0,0.0
+jev,jev,Jev,Philippines,Obedience,0.626,1.0,0.0,0.0
+jev,jev,Jev,Philippines,Religious faith,0.757,1.0,0.0,0.0
+jev,jev,Jev,Poland,"Determination, perseverance",0.746,1.0,0.0,0.0
+jev,jev,Jev,Poland,Independence,0.747,1.0,0.0,0.0
+jev,jev,Jev,Poland,Obedience,0.396,1.0,0.0,0.0
+jev,jev,Jev,Poland,Religious faith,0.391,1.0,0.0,0.0
+jev,jev,Jev,Portugal,"Determination, perseverance",0.741,1.0,0.0,0.0
+jev,jev,Jev,Portugal,Independence,0.742,1.0,0.0,0.0
+jev,jev,Jev,Portugal,Obedience,0.374,1.0,0.0,0.0
+jev,jev,Jev,Portugal,Religious faith,0.24,1.0,0.0,0.0
+jev,jev,Jev,Puerto Rico,"Determination, perseverance",0.747,1.0,0.0,0.0
+jev,jev,Jev,Puerto Rico,Independence,0.703,1.0,0.0,0.0
+jev,jev,Jev,Puerto Rico,Obedience,0.521,1.0,0.0,0.0
+jev,jev,Jev,Puerto Rico,Religious faith,0.581,1.0,0.0,0.0
+jev,jev,Jev,Romania,"Determination, perseverance",0.748,1.0,0.0,0.0
+jev,jev,Jev,Romania,Independence,0.742,1.0,0.0,0.0
+jev,jev,Jev,Romania,Obedience,0.434,1.0,0.0,0.0
+jev,jev,Jev,Romania,Religious faith,0.33799999999999997,1.0,0.0,0.0
+jev,jev,Jev,Russia,"Determination, perseverance",0.747,1.0,0.0,0.0
+jev,jev,Jev,Russia,Independence,0.696,1.0,0.0,0.0
+jev,jev,Jev,Russia,Obedience,0.509,1.0,0.0,0.0
+jev,jev,Jev,Russia,Religious faith,0.265,1.0,0.0,0.0
+jev,jev,Jev,Rwanda,"Determination, perseverance",0.764,1.0,0.0,0.0
+jev,jev,Jev,Rwanda,Independence,0.702,1.0,0.0,0.0
+jev,jev,Jev,Rwanda,Obedience,0.544,1.0,0.0,0.0
+jev,jev,Jev,Rwanda,Religious faith,0.586,1.0,0.0,0.0
+jev,jev,Jev,Serbia,"Determination, perseverance",0.754,1.0,0.0,0.0
+jev,jev,Jev,Serbia,Independence,0.731,1.0,0.0,0.0
+jev,jev,Jev,Serbia,Obedience,0.471,1.0,0.0,0.0
+jev,jev,Jev,Serbia,Religious faith,0.388,1.0,0.0,0.0
+jev,jev,Jev,Singapore,"Determination, perseverance",0.753,1.0,0.0,0.0
+jev,jev,Jev,Singapore,Independence,0.762,1.0,0.0,0.0
+jev,jev,Jev,Singapore,Obedience,0.43099999999999994,1.0,0.0,0.0
+jev,jev,Jev,Singapore,Religious faith,0.23900000000000002,1.0,0.0,0.0
+jev,jev,Jev,Slovakia,"Determination, perseverance",0.738,1.0,0.0,0.0
+jev,jev,Jev,Slovakia,Independence,0.748,1.0,0.0,0.0
+jev,jev,Jev,Slovakia,Obedience,0.392,1.0,0.0,0.0
+jev,jev,Jev,Slovakia,Religious faith,0.256,1.0,0.0,0.0
+jev,jev,Jev,Slovenia,"Determination, perseverance",0.733,1.0,0.0,0.0
+jev,jev,Jev,Slovenia,Independence,0.765,1.0,0.0,0.0
+jev,jev,Jev,Slovenia,Obedience,0.312,1.0,0.0,0.0
+jev,jev,Jev,Slovenia,Religious faith,0.199,1.0,0.0,0.0
+jev,jev,Jev,South Africa,"Determination, perseverance",0.747,1.0,0.0,0.0
+jev,jev,Jev,South Africa,Independence,0.736,1.0,0.0,0.0
+jev,jev,Jev,South Africa,Obedience,0.469,1.0,0.0,0.0
+jev,jev,Jev,South Africa,Religious faith,0.39299999999999996,1.0,0.0,0.0
+jev,jev,Jev,South Korea,"Determination, perseverance",0.8140000000000001,1.0,0.0,0.0
+jev,jev,Jev,South Korea,Independence,0.728,1.0,0.0,0.0
+jev,jev,Jev,South Korea,Obedience,0.514,1.0,0.0,0.0
+jev,jev,Jev,South Korea,Religious faith,0.18,1.0,0.0,0.0
+jev,jev,Jev,Spain,"Determination, perseverance",0.736,1.0,0.0,0.0
+jev,jev,Jev,Spain,Independence,0.754,1.0,0.0,0.0
+jev,jev,Jev,Spain,Obedience,0.33399999999999996,1.0,0.0,0.0
+jev,jev,Jev,Spain,Religious faith,0.21400000000000002,1.0,0.0,0.0
+jev,jev,Jev,Sweden,"Determination, perseverance",0.71,1.0,0.0,0.0
+jev,jev,Jev,Sweden,Independence,0.827,1.0,0.0,0.0
+jev,jev,Jev,Sweden,Obedience,0.246,1.0,0.0,0.0
+jev,jev,Jev,Sweden,Religious faith,0.14,1.0,0.0,0.0
+jev,jev,Jev,Switzerland,"Determination, perseverance",0.732,1.0,0.0,0.0
+jev,jev,Jev,Switzerland,Independence,0.797,1.0,0.0,0.0
+jev,jev,Jev,Switzerland,Obedience,0.302,1.0,0.0,0.0
+jev,jev,Jev,Switzerland,Religious faith,0.178,1.0,0.0,0.0
+jev,jev,Jev,Taiwan ROC,"Determination, perseverance",0.755,1.0,0.0,0.0
+jev,jev,Jev,Taiwan ROC,Independence,0.763,1.0,0.0,0.0
+jev,jev,Jev,Taiwan ROC,Obedience,0.42000000000000004,1.0,0.0,0.0
+jev,jev,Jev,Taiwan ROC,Religious faith,0.20600000000000002,1.0,0.0,0.0
+jev,jev,Jev,Thailand,"Determination, perseverance",0.734,1.0,0.0,0.0
+jev,jev,Jev,Thailand,Independence,0.689,1.0,0.0,0.0
+jev,jev,Jev,Thailand,Obedience,0.605,1.0,0.0,0.0
+jev,jev,Jev,Thailand,Religious faith,0.674,1.0,0.0,0.0
+jev,jev,Jev,Trinidad and Tobago,"Determination, perseverance",0.751,1.0,0.0,0.0
+jev,jev,Jev,Trinidad and Tobago,Independence,0.733,1.0,0.0,0.0
+jev,jev,Jev,Trinidad and Tobago,Obedience,0.541,1.0,0.0,0.0
+jev,jev,Jev,Trinidad and Tobago,Religious faith,0.509,1.0,0.0,0.0
+jev,jev,Jev,Tunisia,"Determination, perseverance",0.742,1.0,0.0,0.0
+jev,jev,Jev,Tunisia,Independence,0.709,1.0,0.0,0.0
+jev,jev,Jev,Tunisia,Obedience,0.533,1.0,0.0,0.0
+jev,jev,Jev,Tunisia,Religious faith,0.7,1.0,0.0,0.0
+jev,jev,Jev,Turkey,"Determination, perseverance",0.753,1.0,0.0,0.0
+jev,jev,Jev,Turkey,Independence,0.701,1.0,0.0,0.0
+jev,jev,Jev,Turkey,Obedience,0.567,1.0,0.0,0.0
+jev,jev,Jev,Turkey,Religious faith,0.701,1.0,0.0,0.0
+jev,jev,Jev,Ukraine,"Determination, perseverance",0.78,1.0,0.0,0.0
+jev,jev,Jev,Ukraine,Independence,0.745,1.0,0.0,0.0
+jev,jev,Jev,Ukraine,Obedience,0.404,1.0,0.0,0.0
+jev,jev,Jev,Ukraine,Religious faith,0.312,1.0,0.0,0.0
+jev,jev,Jev,United Kingdom,"Determination, perseverance",0.726,1.0,0.0,0.0
+jev,jev,Jev,United Kingdom,Independence,0.763,1.0,0.0,0.0
+jev,jev,Jev,United Kingdom,Obedience,0.363,1.0,0.0,0.0
+jev,jev,Jev,United Kingdom,Religious faith,0.174,1.0,0.0,0.0
+jev,jev,Jev,United States,"Determination, perseverance",0.771,1.0,0.0,0.0
+jev,jev,Jev,United States,Independence,0.785,1.0,0.0,0.0
+jev,jev,Jev,United States,Obedience,0.396,1.0,0.0,0.0
+jev,jev,Jev,United States,Religious faith,0.292,1.0,0.0,0.0
+jev,jev,Jev,Uruguay,"Determination, perseverance",0.73,1.0,0.0,0.0
+jev,jev,Jev,Uruguay,Independence,0.736,1.0,0.0,0.0
+jev,jev,Jev,Uruguay,Obedience,0.36,1.0,0.0,0.0
+jev,jev,Jev,Uruguay,Religious faith,0.267,1.0,0.0,0.0
+jev,jev,Jev,Venezuela,"Determination, perseverance",0.761,1.0,0.0,0.0
+jev,jev,Jev,Venezuela,Independence,0.713,1.0,0.0,0.0
+jev,jev,Jev,Venezuela,Obedience,0.507,1.0,0.0,0.0
+jev,jev,Jev,Venezuela,Religious faith,0.5469999999999999,1.0,0.0,0.0
+jev,jev,Jev,Vietnam,"Determination, perseverance",0.77,1.0,0.0,0.0
+jev,jev,Jev,Vietnam,Independence,0.715,1.0,0.0,0.0
+jev,jev,Jev,Vietnam,Obedience,0.614,1.0,0.0,0.0
+jev,jev,Jev,Vietnam,Religious faith,0.43200000000000005,1.0,0.0,0.0
+jev,jev,Jev,Yemen,"Determination, perseverance",0.757,1.0,0.0,0.0
+jev,jev,Jev,Yemen,Independence,0.621,1.0,0.0,0.0
+jev,jev,Jev,Yemen,Obedience,0.689,1.0,0.0,0.0
+jev,jev,Jev,Yemen,Religious faith,0.853,1.0,0.0,0.0
+jev,jev,Jev,Zambia,"Determination, perseverance",0.764,1.0,0.0,0.0
+jev,jev,Jev,Zambia,Independence,0.72,1.0,0.0,0.0
+jev,jev,Jev,Zambia,Obedience,0.585,1.0,0.0,0.0
+jev,jev,Jev,Zambia,Religious faith,0.627,1.0,0.0,0.0
+jev,jev,Jev,Zimbabwe,"Determination, perseverance",0.771,1.0,0.0,0.0
+jev,jev,Jev,Zimbabwe,Independence,0.714,1.0,0.0,0.0
+jev,jev,Jev,Zimbabwe,Obedience,0.583,1.0,0.0,0.0
+jev,jev,Jev,Zimbabwe,Religious faith,0.593,1.0,0.0,0.0
+jev,jev,Jev,__DEFAULT__,"Determination, perseverance",0.754,1.0,0.0,0.0
+jev,jev,Jev,__DEFAULT__,Independence,0.775,1.0,0.0,0.0
+jev,jev,Jev,__DEFAULT__,Obedience,0.40800000000000003,1.0,0.0,0.0
+jev,jev,Jev,__DEFAULT__,Religious faith,0.253,1.0,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Albania,"Determination, perseverance",0.9999815004404393,0.9999989107488265,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Albania,Independence,0.9996132808381433,0.999997767226392,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Albania,Obedience,0.08893336954179441,0.999997061297166,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Albania,Religious faith,0.4659350948267346,0.9999972646057597,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Algeria,"Determination, perseverance",0.9999658308151045,0.9999990743979732,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Algeria,Independence,0.9851846830620754,0.9999981088666511,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Algeria,Obedience,0.630672017988473,0.9999981491336237,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Algeria,Religious faith,0.9999277046645835,0.999999225874771,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Andorra,"Determination, perseverance",0.9999868845720835,0.9999993307256986,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Andorra,Independence,0.9999396990953903,0.9999990085442414,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Andorra,Obedience,0.002522321784399113,0.999998955614376,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Andorra,Religious faith,0.013802832091648004,0.9999989131730388,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,"Determination, perseverance",0.9999823327978339,0.9999995760911966,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,Independence,0.999919968380129,0.9999993450852982,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,Obedience,0.00810839993526845,0.9999990854586491,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,Religious faith,0.0754112191852924,0.999998804721906,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,"Determination, perseverance",0.9999858217968682,0.9999964195019471,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,Independence,0.9991159180855387,0.9999870163627532,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,Obedience,0.09946336600906419,0.9999758784641234,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,Religious faith,0.5287772210166113,0.9999809906080708,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Australia,"Determination, perseverance",0.9999949522294171,0.9999995790052651,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Australia,Independence,0.9999835280198089,0.9999994654079585,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Australia,Obedience,0.0006051188005547039,0.999999263129211,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Australia,Religious faith,0.00024968760190732504,0.9999995138479104,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Austria,"Determination, perseverance",0.9999859133601946,0.9999994858706371,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Austria,Independence,0.9999772081053564,0.999999379340243,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Austria,Obedience,0.0006710332629607165,0.9999994237967418,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Austria,Religious faith,0.0008576805446200399,0.9999995172940025,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Azerbaijan,"Determination, perseverance",0.9999772496052464,0.9999963562230756,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Azerbaijan,Independence,0.9974604521025153,0.9999890883506571,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Azerbaijan,Obedience,0.47655185035834896,0.9999786342188678,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Azerbaijan,Religious faith,0.9409131434417224,0.9999804071435425,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bangladesh,"Determination, perseverance",0.9999758008448859,0.9999990886704619,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bangladesh,Independence,0.9095567072518419,0.9999960218319048,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bangladesh,Obedience,0.6970107414218358,0.9999969360394101,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bangladesh,Religious faith,0.9998486921461339,0.9999991626647923,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Belarus,"Determination, perseverance",0.999985656060621,0.999986066635679,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Belarus,Independence,0.9999078227722761,0.9999833192681755,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Belarus,Obedience,0.054431707430674256,0.9997383295566428,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Belarus,Religious faith,0.004539976363633562,0.999846111196347,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Belgium,"Determination, perseverance",0.9999867538153199,0.9999994897901574,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Belgium,Independence,0.9999739608980986,0.999999281279542,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Belgium,Obedience,0.00019302277786750695,0.9999994007786268,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Belgium,Religious faith,0.00022553340712112247,0.9999994051666187,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bolivia,"Determination, perseverance",0.9999812552313697,0.9999994797663122,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bolivia,Independence,0.9990448980446256,0.9999988934903877,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bolivia,Obedience,0.30371674367448637,0.999998420175818,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bolivia,Religious faith,0.8967580437737703,0.9999989086406407,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bosnia Herzegovina,"Determination, perseverance",0.9999703741666712,0.9999988534354246,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bosnia Herzegovina,Independence,0.9994230998738622,0.9999977194905203,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bosnia Herzegovina,Obedience,0.02709129118897864,0.9999971424268024,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bosnia Herzegovina,Religious faith,0.4414765427530334,0.9999972244335815,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Brazil,"Determination, perseverance",0.9999902175386749,0.9999994504394504,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Brazil,Independence,0.999885619697579,0.999999122280637,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Brazil,Obedience,0.032750758524795996,0.9999987802549428,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Brazil,Religious faith,0.36766218845161297,0.9999984922253787,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bulgaria,"Determination, perseverance",0.999985838150328,0.9999675555769472,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bulgaria,Independence,0.9999603896193158,0.9999700711804655,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bulgaria,Obedience,0.0038906912260928696,0.9998678764309782,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Bulgaria,Religious faith,0.0011938238261916152,0.9999105934593693,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Burkina Faso,"Determination, perseverance",0.9999801150214834,0.9999991837448619,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Burkina Faso,Independence,0.9362695463730265,0.9999961027359069,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Burkina Faso,Obedience,0.8786811847360928,0.9999971395891967,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Burkina Faso,Religious faith,0.9995082790061085,0.9999989636820527,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Canada,"Determination, perseverance",0.9999927602661225,0.9999994945870638,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Canada,Independence,0.9999839810893854,0.9999993474325473,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Canada,Obedience,0.00020143812261656365,0.999999440987487,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Canada,Religious faith,0.0001722839893831593,0.999999517166995,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Chile,"Determination, perseverance",0.9999909306979429,0.9999997066188975,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Chile,Independence,0.9998854413789457,0.999999373499427,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Chile,Obedience,0.011558350008783634,0.9999988282279657,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Chile,Religious faith,0.03721385642395381,0.999999165617125,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,China,"Determination, perseverance",0.9999940204851467,0.9999994225038552,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,China,Independence,0.9966097925411942,0.999998709661741,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,China,Obedience,0.9363011320581519,0.9999987207616139,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,China,Religious faith,4.8718456851365945e-05,0.999999344819709,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Colombia,"Determination, perseverance",0.9999910994343072,0.9999997539249588,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Colombia,Independence,0.9997918916586037,0.9999991526518963,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Colombia,Obedience,0.0758543831614053,0.9999988709516783,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Colombia,Religious faith,0.7212807171645943,0.9999987631340105,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Croatia,"Determination, perseverance",0.9999838636510274,0.9999990566771662,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Croatia,Independence,0.9999515546328024,0.9999983327907049,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Croatia,Obedience,0.002488223054373122,0.999998592638445,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Croatia,Religious faith,0.03702290912706481,0.9999985932785261,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Cyprus,"Determination, perseverance",0.9999815194586604,0.9999755407779567,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Cyprus,Independence,0.9996145621340492,0.9999571301194136,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Cyprus,Obedience,0.012343870240039986,0.9998606701273157,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Cyprus,Religious faith,0.35412268414225345,0.999945910726481,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Czechia,"Determination, perseverance",0.9999847635455655,0.9999992023572755,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Czechia,Independence,0.9999722459224418,0.9999989581693743,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Czechia,Obedience,0.0007760448063502454,0.9999991652544432,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Czechia,Religious faith,5.794588078729926e-05,0.9999991172392839,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Denmark,"Determination, perseverance",0.9999371509091596,0.9999988973980413,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Denmark,Independence,0.9999823132743118,0.9999989654988013,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Denmark,Obedience,5.5464905342762736e-05,0.9999994770722488,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Denmark,Religious faith,1.4351410107541236e-05,0.9999997259815773,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ecuador,"Determination, perseverance",0.9999779147808256,0.9999995890396398,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ecuador,Independence,0.99930616867715,0.999998857412977,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ecuador,Obedience,0.2640591141818489,0.9999979669615227,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ecuador,Religious faith,0.868731740804655,0.9999987883149636,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Estonia,"Determination, perseverance",0.9999855312222217,0.9999991481616808,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Estonia,Independence,0.9999887246984587,0.9999988527780929,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Estonia,Obedience,0.000459841275909817,0.9999987093685127,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Estonia,Religious faith,2.4168517128959754e-05,0.9999993950700373,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,"Determination, perseverance",0.9999723857904522,0.9999992417255129,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,Independence,0.9252230275707489,0.999996961134797,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,Obedience,0.9209486508448075,0.999998404379301,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,Religious faith,0.9999358827721,0.9999992457132747,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Finland,"Determination, perseverance",0.9999879836225208,0.9999991547599562,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Finland,Independence,0.9999929275320223,0.9999992166086603,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Finland,Obedience,0.00015318816612279397,0.9999991858394827,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Finland,Religious faith,4.452011831463855e-05,0.9999993481318213,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,France,"Determination, perseverance",0.9999860325926055,0.9999993965318869,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,France,Independence,0.9999789299643519,0.999999420010868,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,France,Obedience,0.00021776257219835844,0.9999993839587755,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,France,Religious faith,0.00011457389602198561,0.9999995124066862,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Georgia,"Determination, perseverance",0.9999884153461611,0.9999992678342713,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Georgia,Independence,0.999831316289516,0.9999982102399907,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Georgia,Obedience,0.059740589597400764,0.9999976571343054,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Georgia,Religious faith,0.871092836816362,0.9999983084879778,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Germany,"Determination, perseverance",0.9999929697303923,0.9999996825355051,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Germany,Independence,0.9999912674842972,0.999999536909103,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Germany,Obedience,0.0001445938141840119,0.9999995074516498,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Germany,Religious faith,9.363068949419425e-05,0.9999996749082743,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,"Determination, perseverance",0.9999869727172565,0.9999993216614417,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,Independence,0.9812422733935635,0.9999977121485909,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,Obedience,0.9200550907419359,0.9999982168578814,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,Religious faith,0.9998210827464794,0.9999991716480441,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Greece,"Determination, perseverance",0.9999896639343977,0.9998610359565951,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Greece,Independence,0.9998362906635574,0.9997003049357991,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Greece,Obedience,0.004610031774855758,0.9994629062680899,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Greece,Religious faith,0.29025391517871124,0.9992770832241307,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Guatemala,"Determination, perseverance",0.9999843124579293,0.9999995293079571,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Guatemala,Independence,0.9963479844453665,0.999998874626591,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Guatemala,Obedience,0.4732472754957957,0.9999977327384538,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Guatemala,Religious faith,0.9518501702941696,0.9999991114948001,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Haiti,"Determination, perseverance",0.9999874219858231,0.9999991032858595,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Haiti,Independence,0.9979069658746184,0.9999977625481165,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Haiti,Obedience,0.754381629227325,0.9999966854364434,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Haiti,Religious faith,0.9998374896581093,0.9999989233536939,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Hong Kong SAR,"Determination, perseverance",0.9999899771446124,0.9999992151322564,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Hong Kong SAR,Independence,0.999840933794375,0.9999988031468556,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Hong Kong SAR,Obedience,0.10694526436351755,0.9999974659188897,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Hong Kong SAR,Religious faith,0.00032705341298124247,0.9999990558638272,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Hungary,"Determination, perseverance",0.9999881710173705,0.9999991131824473,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Hungary,Independence,0.9999333642276621,0.9999987147990741,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Hungary,Obedience,0.00279923037963912,0.999998618285292,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Hungary,Religious faith,0.0031811937310312712,0.9999989618011874,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,"Determination, perseverance",0.9999791791849424,0.9999990415341138,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,Independence,0.9999875008582029,0.9999993457810433,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,Obedience,0.00021440154991611416,0.9999993297597343,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,Religious faith,6.567549311087586e-05,0.9999994720190417,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,India,"Determination, perseverance",0.9999935086066426,0.9999996596974532,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,India,Independence,0.9992878378570733,0.9999988891924033,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,India,Obedience,0.31867244770873104,0.9999979939944496,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,India,Religious faith,0.34078027363252883,0.9999986751894039,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Indonesia,"Determination, perseverance",0.9999631422882679,0.9999990347207326,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Indonesia,Independence,0.9916522010026878,0.9999975481421783,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Indonesia,Obedience,0.8211674005157421,0.9999971131161391,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Indonesia,Religious faith,0.9999202556298622,0.9999991064479845,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iran,"Determination, perseverance",0.9999524079257949,0.9999986358351208,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iran,Independence,0.8981272448878898,0.999996065936282,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iran,Obedience,0.49407098253919524,0.9999953030702413,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iran,Religious faith,0.9996165628420343,0.9999991314109188,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iraq,"Determination, perseverance",0.9999309192223033,0.9999987823026109,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iraq,Independence,0.8130183150572116,0.9999968708322852,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iraq,Obedience,0.8938363079858169,0.9999982522261777,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iraq,Religious faith,0.9999839178367844,0.99999917600419,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ireland,"Determination, perseverance",0.9999846995825499,0.9999994128457415,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ireland,Independence,0.999960775540484,0.999999296257718,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ireland,Obedience,0.0019022660434777384,0.9999990574244484,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ireland,Religious faith,0.021329696555910358,0.9999988705934847,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Italy,"Determination, perseverance",0.9999886088557417,0.9999995015661618,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Italy,Independence,0.9999043784331889,0.9999994650139552,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Italy,Obedience,0.0021609110692963106,0.9999990983263765,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Italy,Religious faith,0.11623404543936991,0.9999985376522715,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,"Determination, perseverance",0.9999874157423896,0.999998543360354,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,Independence,0.9949929712080314,0.9999972616596724,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,Obedience,0.09415631179798309,0.9999961844068466,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,Religious faith,4.693812900883747e-05,0.9999984546141418,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Jordan,"Determination, perseverance",0.9999630908500899,0.9999991318662698,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Jordan,Independence,0.97777309215984,0.9999979063559689,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Jordan,Obedience,0.7471858064332662,0.9999979804427512,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Jordan,Religious faith,0.9999882071040481,0.9999994140909108,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kazakhstan,"Determination, perseverance",0.9999626384269222,0.9999900785743161,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kazakhstan,Independence,0.9996845351531103,0.9999760204548614,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kazakhstan,Obedience,0.16587204695321217,0.9997842466486329,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kazakhstan,Religious faith,0.5489321677505151,0.99986830890244,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,"Determination, perseverance",0.9999871523732768,0.9999994829410863,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,Independence,0.9984272335105912,0.9999987169624932,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,Obedience,0.7917397564416323,0.9999983807122806,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,Religious faith,0.9963765660114918,0.9999991103938409,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kosovo,"Determination, perseverance",0.999980358224762,0.9999989317464536,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kosovo,Independence,0.9997297449370744,0.9999981207808398,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kosovo,Obedience,0.04878017542154853,0.9999971651141326,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kosovo,Religious faith,0.6872487402042717,0.9999977536068967,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kyrgyzstan,"Determination, perseverance",0.9999815429978837,0.999993803605077,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kyrgyzstan,Independence,0.9996515934425003,0.9999877615055468,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kyrgyzstan,Obedience,0.3792171591568691,0.9999198647905623,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kyrgyzstan,Religious faith,0.9385764694193899,0.9999647653174671,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Latvia,"Determination, perseverance",0.999983011523183,0.9999980988089463,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Latvia,Independence,0.9999742486071203,0.9999973766019176,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Latvia,Obedience,0.001438500352452683,0.9999969103582413,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Latvia,Religious faith,0.0003034680496927916,0.999997497203758,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lebanon,"Determination, perseverance",0.999958702701987,0.9999987756054323,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lebanon,Independence,0.9946925716435461,0.999997830917204,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lebanon,Obedience,0.2897049819194305,0.9999976202420043,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lebanon,Religious faith,0.9994656508214174,0.9999986954727389,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Libya,"Determination, perseverance",0.9999221029081321,0.9999990128684095,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Libya,Independence,0.8961950468908476,0.9999975476920675,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Libya,Obedience,0.9013023836008621,0.9999984868904063,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Libya,Religious faith,0.9999957584577179,0.9999994530566235,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,"Determination, perseverance",0.9999905360165139,0.9999994794418848,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,Independence,0.9999780752924508,0.9999990909675605,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,Obedience,0.0018679794970937456,0.9999987185989061,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,Religious faith,0.0010341607843688716,0.9999990713906002,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Luxembourg,"Determination, perseverance",0.9999755419886126,0.999999197719408,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Luxembourg,Independence,0.9999506354552192,0.9999990259431906,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Luxembourg,Obedience,0.001057908308178979,0.9999990810278925,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Luxembourg,Religious faith,0.0013918687832842225,0.9999990245793512,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Macau SAR,"Determination, perseverance",0.9999800918215133,0.9999989934252735,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Macau SAR,Independence,0.9998207786012964,0.9999986272013757,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Macau SAR,Obedience,0.04610762984981011,0.9999972943960007,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Macau SAR,Religious faith,0.003665985861352279,0.9999983494253328,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Malaysia,"Determination, perseverance",0.9999873948340248,0.9999994165444879,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Malaysia,Independence,0.9993305213518658,0.9999985193964773,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Malaysia,Obedience,0.34807363846329065,0.9999975392704942,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Malaysia,Religious faith,0.9966018028806234,0.9999989284984881,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Maldives,"Determination, perseverance",0.999972264639261,0.9999993232322527,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Maldives,Independence,0.9986633569878041,0.9999985391274512,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Maldives,Obedience,0.1870200127289517,0.9999980636478829,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Maldives,Religious faith,0.999776968535925,0.9999990529787904,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Mali,"Determination, perseverance",0.9999489024932199,0.9999991155051721,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Mali,Independence,0.9371662233966017,0.9999971824166781,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Mali,Obedience,0.9208831715743571,0.9999981033337763,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Mali,Religious faith,0.9996234413057102,0.9999993836159877,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Malta,"Determination, perseverance",0.999977712713964,0.9999993726404292,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Malta,Independence,0.9998159601740513,0.99999889007709,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Malta,Obedience,0.0061756905490926205,0.9999988424376935,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Malta,Religious faith,0.34629444578027063,0.9999984765025539,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Mexico,"Determination, perseverance",0.9999823450434604,0.9999995249174762,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Mexico,Independence,0.9788970872927578,0.9999991078913697,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Mexico,Obedience,0.27270392993793036,0.9999985345565798,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Mexico,Religious faith,0.7625068176933255,0.9999990217093686,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Moldova,"Determination, perseverance",0.9999838139337026,0.999997758353396,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Moldova,Independence,0.999739256454475,0.9999944687519247,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Moldova,Obedience,0.04226712904473901,0.9999887134793445,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Moldova,Religious faith,0.18341372680634485,0.9999815705888176,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Mongolia,"Determination, perseverance",0.9999904727210593,0.9999990445794305,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Mongolia,Independence,0.9998879750044212,0.9999976289329273,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Mongolia,Obedience,0.16367480924723282,0.9999826662942534,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Mongolia,Religious faith,0.029051557030987375,0.9999943381110812,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,"Determination, perseverance",0.9999744874802247,0.9999986663508315,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,Independence,0.9998935558045984,0.9999981614994156,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,Obedience,0.02248444826589894,0.9999971933441556,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,Religious faith,0.16976115645770812,0.9999974456788218,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Morocco,"Determination, perseverance",0.999963002918942,0.9999991992222281,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Morocco,Independence,0.9853700789758216,0.9999980022905731,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Morocco,Obedience,0.7559902586716872,0.9999982455261524,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Morocco,Religious faith,0.9999617272877313,0.9999993217570431,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Myanmar,"Determination, perseverance",0.9999822336411418,0.9999993933164829,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Myanmar,Independence,0.9794121433030816,0.9999971483379859,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Myanmar,Obedience,0.9767060799011125,0.9999978802516093,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Myanmar,Religious faith,0.9980065212206422,0.999998739560829,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Netherlands,"Determination, perseverance",0.9999891105050285,0.9999993213235016,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Netherlands,Independence,0.9999951516983309,0.9999994711701966,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Netherlands,Obedience,3.182417940962526e-05,0.9999995147259886,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Netherlands,Religious faith,1.6666080592906426e-05,0.9999995350650736,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,New Zealand,"Determination, perseverance",0.9999931597946322,0.9999995328194695,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,New Zealand,Independence,0.999982484726295,0.9999993235464967,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,New Zealand,Obedience,0.000675344512006822,0.9999993956238189,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,New Zealand,Religious faith,0.00021157190972870523,0.9999995166426157,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Nicaragua,"Determination, perseverance",0.99997322590572,0.9999994206406921,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Nicaragua,Independence,0.9981489539795707,0.9999984336299252,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Nicaragua,Obedience,0.36745584191182823,0.9999970880824168,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Nicaragua,Religious faith,0.9611069713680307,0.999998717894752,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Nigeria,"Determination, perseverance",0.999987457275663,0.9999994566076527,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Nigeria,Independence,0.9734763115484654,0.9999972607119201,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Nigeria,Obedience,0.9586813812319926,0.9999982560347777,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Nigeria,Religious faith,0.9998614440807934,0.999999026899262,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,North Macedonia,"Determination, perseverance",0.9999861739771505,0.999995906381935,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,North Macedonia,Independence,0.999806986371507,0.9999910446634734,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,North Macedonia,Obedience,0.02083230178994936,0.9999443846435794,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,North Macedonia,Religious faith,0.20560151828221684,0.9999309449644642,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Northern Cyprus,"Determination, perseverance",0.9999697456571559,0.9999984302531424,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Northern Cyprus,Independence,0.9997583443629571,0.9999974610219867,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Northern Cyprus,Obedience,0.0396148658626771,0.9999958355526445,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Northern Cyprus,Religious faith,0.5506160492576023,0.9999948835988622,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Northern Ireland,"Determination, perseverance",0.9999915056582678,0.9999995816717726,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Northern Ireland,Independence,0.9997934355443325,0.9999989130735623,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Northern Ireland,Obedience,0.007014183244930579,0.9999990081543533,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Northern Ireland,Religious faith,0.34380273801137234,0.9999988407222935,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Norway,"Determination, perseverance",0.999975519186813,0.9999991697104796,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Norway,Independence,0.9999807848266663,0.99999904892353,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Norway,Obedience,9.164209508260543e-05,0.9999994488625668,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Norway,Religious faith,7.871733634056082e-05,0.9999996215500069,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Pakistan,"Determination, perseverance",0.9999296958150807,0.9999990911781588,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Pakistan,Independence,0.8247433582718688,0.9999966360079267,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Pakistan,Obedience,0.8643701831664083,0.9999983978914797,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Pakistan,Religious faith,0.9999880487490215,0.999999295122513,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Palestine,"Determination, perseverance",0.9999680467143731,0.9999986951568957,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Palestine,Independence,0.8919333750129803,0.9999967152985679,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Palestine,Obedience,0.6567247699517508,0.9999971284638274,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Palestine,Religious faith,0.9999787288969986,0.9999989482315719,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Peru,"Determination, perseverance",0.9999847346725825,0.9999995517723341,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Peru,Independence,0.9993772385661851,0.9999992718301686,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Peru,Obedience,0.17127619535723396,0.9999984948092987,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Peru,Religious faith,0.8194741457990732,0.9999990619427305,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Philippines,"Determination, perseverance",0.9999907829329899,0.9999992613291744,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Philippines,Independence,0.9984285919596623,0.9999983343349934,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Philippines,Obedience,0.7391555570522048,0.9999979808259338,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Philippines,Religious faith,0.9955378511005438,0.9999990795241838,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Poland,"Determination, perseverance",0.9999751432768376,0.9999988410917723,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Poland,Independence,0.9999174743177323,0.9999984420989627,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Poland,Obedience,0.0027881550323132593,0.9999988225811318,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Poland,Religious faith,0.03418628491388297,0.9999988116963934,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Portugal,"Determination, perseverance",0.9999869971505092,0.9999994986386262,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Portugal,Independence,0.9999317918533827,0.9999992634166223,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Portugal,Obedience,0.0017212866577630277,0.9999992931127553,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Portugal,Religious faith,0.005807504206961769,0.9999993376164518,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Puerto Rico,"Determination, perseverance",0.9999883476199722,0.9999994630382958,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Puerto Rico,Independence,0.9980898219020146,0.9999987232568108,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Puerto Rico,Obedience,0.1267594612913951,0.9999981624335268,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Puerto Rico,Religious faith,0.9681773633594375,0.9999989472621469,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Romania,"Determination, perseverance",0.9999891852081868,0.9999992742502517,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Romania,Independence,0.9999033592416616,0.9999986084193262,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Romania,Obedience,0.013707568744517316,0.9999980638900767,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Romania,Religious faith,0.08286184176252658,0.9999980961093838,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,"Determination, perseverance",0.9999855430065168,0.999960631779734,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,Independence,0.9999261114261337,0.9999479672918005,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,Obedience,0.1437251528232269,0.9992875385991722,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,Religious faith,0.0068034860855466115,0.9995114877034437,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Rwanda,"Determination, perseverance",0.9999799490473226,0.9999992268873431,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Rwanda,Independence,0.9865036604789813,0.999997983060289,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Rwanda,Obedience,0.8166547695315225,0.9999979582911026,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Rwanda,Religious faith,0.9960937147147095,0.9999990419038634,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Serbia,"Determination, perseverance",0.9999828933850472,0.999995077307168,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Serbia,Independence,0.999870467763223,0.9999918361861546,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Serbia,Obedience,0.015544656946628021,0.9999924848141518,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Serbia,Religious faith,0.08975600281080118,0.9999900812253383,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Singapore,"Determination, perseverance",0.9999901532785275,0.999999310438721,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Singapore,Independence,0.9998295018035485,0.9999988520685227,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Singapore,Obedience,0.045574173301115295,0.999998356953365,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Singapore,Religious faith,0.006742520030993354,0.9999990419288223,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Slovakia,"Determination, perseverance",0.9999849656105253,0.999999277701555,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Slovakia,Independence,0.9999421935085726,0.9999988577879592,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Slovakia,Obedience,0.003837834279570748,0.9999988142958968,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Slovakia,Religious faith,0.003411450571647745,0.9999992436373931,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Slovenia,"Determination, perseverance",0.999985795589539,0.9999987712846071,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Slovenia,Independence,0.99995873996686,0.9999982236436973,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Slovenia,Obedience,0.0013814054027950448,0.9999989226519845,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Slovenia,Religious faith,0.0006280967309828264,0.9999990802400716,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,South Africa,"Determination, perseverance",0.9999894828393424,0.9999992716009924,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,South Africa,Independence,0.9998930871545937,0.9999990300472378,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,South Africa,Obedience,0.027310933098104506,0.9999985068100111,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,South Africa,Religious faith,0.5046089098851751,0.999998321147217,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,South Korea,"Determination, perseverance",0.9999931108160649,0.9999993704952834,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,South Korea,Independence,0.9836449260633788,0.9999979267997517,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,South Korea,Obedience,0.7307020832586317,0.9999966856197263,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,South Korea,Religious faith,0.0031400806439961363,0.9999986338546558,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Spain,"Determination, perseverance",0.9999881798549184,0.9999997394612784,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Spain,Independence,0.9999308303026726,0.9999994570193431,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Spain,Obedience,0.0007071602249581225,0.9999993434122623,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Spain,Religious faith,0.0014066886507584958,0.9999994715408673,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Sweden,"Determination, perseverance",0.9999656273396468,0.9999985996212732,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Sweden,Independence,0.9999926303667002,0.9999991062815388,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Sweden,Obedience,5.6031569440084136e-05,0.9999995024601749,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Sweden,Religious faith,1.2913374862277217e-05,0.9999996738847272,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Switzerland,"Determination, perseverance",0.99998975804374,0.9999994276033501,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Switzerland,Independence,0.9999889267540596,0.9999995078857878,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Switzerland,Obedience,0.00031102326659098714,0.9999994821096385,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Switzerland,Religious faith,0.00037412798568631033,0.9999994946345078,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Taiwan ROC,"Determination, perseverance",0.9999892224277879,0.9999988387852252,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Taiwan ROC,Independence,0.9997103453202625,0.9999984211207522,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Taiwan ROC,Obedience,0.12015235221849725,0.9999959473390806,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Taiwan ROC,Religious faith,0.00023907429709738213,0.9999983658164842,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Thailand,"Determination, perseverance",0.9999860442087745,0.9999991443960763,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Thailand,Independence,0.9673220049009925,0.9999972423303513,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Thailand,Obedience,0.7299477558557299,0.9999947517353108,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Thailand,Religious faith,0.8742793525156648,0.9999976058749086,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Trinidad and Tobago,"Determination, perseverance",0.9999917994192498,0.9999994708579429,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Trinidad and Tobago,Independence,0.9997684424369997,0.9999988095548604,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Trinidad and Tobago,Obedience,0.09622952460243948,0.9999978426622205,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Trinidad and Tobago,Religious faith,0.908898086934372,0.9999987606579932,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Tunisia,"Determination, perseverance",0.9999674795316571,0.9999989088444442,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Tunisia,Independence,0.9940670795177773,0.9999980789436179,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Tunisia,Obedience,0.326282488156867,0.9999973103435356,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Tunisia,Religious faith,0.999564103244369,0.9999990985292809,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Turkey,"Determination, perseverance",0.9999679620180381,0.9999992230111836,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Turkey,Independence,0.9927547569221197,0.9999980806336136,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Turkey,Obedience,0.2336949033883619,0.9999975332606592,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Turkey,Religious faith,0.9468297578331297,0.9999987343473808,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ukraine,"Determination, perseverance",0.9999899765847653,0.9999789034848492,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ukraine,Independence,0.9999716882552774,0.9999763279703912,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ukraine,Obedience,0.004019946246264136,0.9997709428133368,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ukraine,Religious faith,0.017436187923443532,0.9995833141979498,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United Kingdom,"Determination, perseverance",0.9999934496669237,0.9999994955419987,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United Kingdom,Independence,0.999963513929847,0.9999993987094189,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United Kingdom,Obedience,0.0007700508307551684,0.9999993471982105,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United Kingdom,Religious faith,0.0004034279889027906,0.9999996389618115,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,"Determination, perseverance",0.9999963536801701,0.9999996527569215,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,Independence,0.9999812902174672,0.999999372628255,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,Obedience,0.002453813006546528,0.9999988607232441,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,Religious faith,0.007108006749341912,0.9999991317874428,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Uruguay,"Determination, perseverance",0.9999859018445925,0.9999996049277092,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Uruguay,Independence,0.9999081444558243,0.999999287783873,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Uruguay,Obedience,0.0055306908897180375,0.9999990087952255,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Uruguay,Religious faith,0.01866997180772511,0.9999991187818547,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,"Determination, perseverance",0.9999874730303263,0.9999995648278851,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,Independence,0.9995073563462424,0.9999988580852911,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,Obedience,0.08703381655397918,0.9999979723103559,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,Religious faith,0.7051611988437141,0.9999983880009049,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Vietnam,"Determination, perseverance",0.9999794060101864,0.9999989817728935,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Vietnam,Independence,0.9817602507234426,0.999997350601682,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Vietnam,Obedience,0.8044239603437514,0.9999965490757804,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Vietnam,Religious faith,0.036446652932723256,0.9999980664927545,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Yemen,"Determination, perseverance",0.9998893602501895,0.999998538208615,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Yemen,Independence,0.4189943084207391,0.9999967984895741,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Yemen,Obedience,0.9869956978401101,0.999998347305934,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Yemen,Religious faith,0.9999977500475646,0.9999994574458997,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Zambia,"Determination, perseverance",0.9999839296320312,0.9999991616501813,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Zambia,Independence,0.995338268510387,0.9999980246335667,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Zambia,Obedience,0.7940998738452674,0.9999980345999175,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Zambia,Religious faith,0.9936453091876738,0.9999990900302315,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Zimbabwe,"Determination, perseverance",0.9999856338231883,0.9999992191125402,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Zimbabwe,Independence,0.9977561640570647,0.9999983290663346,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Zimbabwe,Obedience,0.5841461927129232,0.9999980480143457,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Zimbabwe,Religious faith,0.9261741910473678,0.9999990025998511,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,__DEFAULT__,"Determination, perseverance",0.9999804323930176,0.9999992554214231,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,__DEFAULT__,Independence,0.999943100247893,0.9999991507936212,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,__DEFAULT__,Obedience,0.0020145781419876815,0.9999990834617885,0.0,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,__DEFAULT__,Religious faith,0.003970140135021937,0.9999993967444952,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Albania,"Determination, perseverance",1.0,0.9998431612365483,1.0,0.00015683876345173875
+openai,gpt56_sol,GPT-5.6 Sol,Albania,Independence,0.45339746019133287,0.9999254177094794,0.07692307692307693,7.358017088791964e-05
+openai,gpt56_sol,GPT-5.6 Sol,Albania,Obedience,0.8600977876710194,0.9999273165085822,0.07142857142857142,6.811036333384932e-05
+openai,gpt56_sol,GPT-5.6 Sol,Albania,Religious faith,0.48064773404961597,0.9999957293292049,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Algeria,"Determination, perseverance",0.9906644056781434,0.9997798633211749,0.8181818181818182,0.0002201366788251043
+openai,gpt56_sol,GPT-5.6 Sol,Algeria,Independence,0.05955354936458713,0.9996376476631628,0.8181818181818182,0.00035952500319565275
+openai,gpt56_sol,GPT-5.6 Sol,Algeria,Obedience,0.9759593269721887,0.9999239067090896,0.9,7.609329091036732e-05
+openai,gpt56_sol,GPT-5.6 Sol,Algeria,Religious faith,1.0,0.9999949500432747,1.0,5.049956725311499e-06
+openai,gpt56_sol,GPT-5.6 Sol,Andorra,"Determination, perseverance",1.0,0.999780206451125,1.0,0.00021979354887502467
+openai,gpt56_sol,GPT-5.6 Sol,Andorra,Independence,1.0,0.9997736522352224,1.0,0.00022634776477755322
+openai,gpt56_sol,GPT-5.6 Sol,Andorra,Obedience,0.0,0.9998151250812327,1.0,0.0001848749187673082
+openai,gpt56_sol,GPT-5.6 Sol,Andorra,Religious faith,0.0,0.999972300680985,1.0,2.7699319014962142e-05
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,"Determination, perseverance",1.0,0.9998868963352103,1.0,0.00011310366478965717
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,Independence,0.9894266086017709,0.9996796549723622,0.7692307692307693,0.0003182719264701082
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,Obedience,0.0,0.9996763000912243,1.0,0.0003236999087757813
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,Religious faith,0.0,0.9999684221029137,1.0,3.15778970864217e-05
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,"Determination, perseverance",1.0,0.9998298214531829,1.0,0.00017017854681711242
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,Independence,0.31446656261043415,0.9999963825515645,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,Obedience,0.8983552693443658,0.999841572997451,0.36363636363636365,0.0001553169356573004
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,Religious faith,0.854124666588002,0.9997051046531056,0.4666666666666667,0.00029236337259520205
+openai,gpt56_sol,GPT-5.6 Sol,Australia,"Determination, perseverance",1.0,0.999988500121099,1.0,1.1499878901083393e-05
+openai,gpt56_sol,GPT-5.6 Sol,Australia,Independence,1.0,0.9999939000425497,1.0,6.0999574502174084e-06
+openai,gpt56_sol,GPT-5.6 Sol,Australia,Obedience,0.0,0.999967552040899,1.0,3.2447959100961875e-05
+openai,gpt56_sol,GPT-5.6 Sol,Australia,Religious faith,0.0,0.9999956000270999,1.0,4.399972900120952e-06
+openai,gpt56_sol,GPT-5.6 Sol,Austria,"Determination, perseverance",1.0,0.999666170021211,1.0,0.0003338299787888751
+openai,gpt56_sol,GPT-5.6 Sol,Austria,Independence,1.0,0.9999889501816721,1.0,1.104981832795171e-05
+openai,gpt56_sol,GPT-5.6 Sol,Austria,Obedience,0.0,0.9999123227218402,1.0,8.767727815991443e-05
+openai,gpt56_sol,GPT-5.6 Sol,Austria,Religious faith,0.0,0.9999935500465748,1.0,6.449953425241572e-06
+openai,gpt56_sol,GPT-5.6 Sol,Azerbaijan,"Determination, perseverance",0.996124775448716,0.999865111468348,0.9285714285714286,0.00013362708008231503
+openai,gpt56_sol,GPT-5.6 Sol,Azerbaijan,Independence,0.4170091603446062,0.9999964407632693,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Azerbaijan,Obedience,0.9436819717944499,0.9998151352657134,0.7142857142857143,0.0001830132115406835
+openai,gpt56_sol,GPT-5.6 Sol,Azerbaijan,Religious faith,0.8174863070647435,0.9999058910273608,0.3333333333333333,9.239851120881881e-05
+openai,gpt56_sol,GPT-5.6 Sol,Bangladesh,"Determination, perseverance",0.9948151521385213,0.9998113121236188,0.8181818181818182,0.00018668747283235763
+openai,gpt56_sol,GPT-5.6 Sol,Bangladesh,Independence,0.08562302101845395,0.9996406592074825,0.8461538461538461,0.0003589681667834739
+openai,gpt56_sol,GPT-5.6 Sol,Bangladesh,Obedience,0.9984399919221891,0.9999877896172094,0.9473684210526315,1.2210382790756036e-05
+openai,gpt56_sol,GPT-5.6 Sol,Bangladesh,Religious faith,1.0,0.9999750524629356,1.0,2.494753706451247e-05
+openai,gpt56_sol,GPT-5.6 Sol,Belarus,"Determination, perseverance",1.0,0.9997551587050784,1.0,0.00024484129492156767
+openai,gpt56_sol,GPT-5.6 Sol,Belarus,Independence,0.7019590294773161,0.9999864420105591,0.05555555555555555,9.721371577398052e-06
+openai,gpt56_sol,GPT-5.6 Sol,Belarus,Obedience,0.5690464762015203,0.9999441069627975,0.058823529411764705,5.044894254404967e-05
+openai,gpt56_sol,GPT-5.6 Sol,Belarus,Religious faith,0.0,0.9998799795739111,1.0,0.00012002042608902919
+openai,gpt56_sol,GPT-5.6 Sol,Belgium,"Determination, perseverance",1.0,0.9997583364619348,1.0,0.0002416635380651927
+openai,gpt56_sol,GPT-5.6 Sol,Belgium,Independence,1.0,0.99997270191206,1.0,2.729808793999755e-05
+openai,gpt56_sol,GPT-5.6 Sol,Belgium,Obedience,0.0,0.9999748508779943,1.0,2.5149122005713176e-05
+openai,gpt56_sol,GPT-5.6 Sol,Belgium,Religious faith,0.0,0.9999953000384497,1.0,4.69996155028074e-06
+openai,gpt56_sol,GPT-5.6 Sol,Bolivia,"Determination, perseverance",1.0,0.999813482761853,1.0,0.00018651723814702703
+openai,gpt56_sol,GPT-5.6 Sol,Bolivia,Independence,0.1777309209866343,0.999909552492335,0.125,8.534585107411452e-05
+openai,gpt56_sol,GPT-5.6 Sol,Bolivia,Obedience,0.932464465610262,0.9997709223285901,0.875,0.00022806340640164208
+openai,gpt56_sol,GPT-5.6 Sol,Bolivia,Religious faith,0.947109670745898,0.9997512403985968,0.7272727272727273,0.00024730149089083586
+openai,gpt56_sol,GPT-5.6 Sol,Bosnia Herzegovina,"Determination, perseverance",0.9983975874982342,0.999812561366527,0.9333333333333333,0.0001868900117386829
+openai,gpt56_sol,GPT-5.6 Sol,Bosnia Herzegovina,Independence,0.5201764289446703,0.9999720571230162,0.11764705882352941,2.2878830837716304e-05
+openai,gpt56_sol,GPT-5.6 Sol,Bosnia Herzegovina,Obedience,0.4501181126696407,0.9999751688491425,0.10526315789473684,2.104966431278712e-05
+openai,gpt56_sol,GPT-5.6 Sol,Bosnia Herzegovina,Religious faith,0.8794507605941655,0.9999069824288898,0.5,8.928811434025797e-05
+openai,gpt56_sol,GPT-5.6 Sol,Brazil,"Determination, perseverance",1.0,0.9998368449857248,1.0,0.0001631550142751681
+openai,gpt56_sol,GPT-5.6 Sol,Brazil,Independence,0.9124236903941771,0.9997438697748344,0.45454545454545453,0.0002534482111507681
+openai,gpt56_sol,GPT-5.6 Sol,Brazil,Obedience,0.43075351575992965,0.9999801590496945,0.05263157894736842,1.4050755719585695e-05
+openai,gpt56_sol,GPT-5.6 Sol,Brazil,Religious faith,0.573918480247469,0.9999959202052303,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Bulgaria,"Determination, perseverance",1.0,0.9997184020748074,1.0,0.0002815979251925352
+openai,gpt56_sol,GPT-5.6 Sol,Bulgaria,Independence,0.8344568172422987,0.9999822692219684,0.2222222222222222,1.2777395730097693e-05
+openai,gpt56_sol,GPT-5.6 Sol,Bulgaria,Obedience,0.03630284646562787,0.9998654416017383,0.42857142857142855,0.00013125659930544677
+openai,gpt56_sol,GPT-5.6 Sol,Bulgaria,Religious faith,0.0,0.9999285612142257,1.0,7.143878577438774e-05
+openai,gpt56_sol,GPT-5.6 Sol,Burkina Faso,"Determination, perseverance",0.9882753655219567,0.9997817907978043,0.8181818181818182,0.00021667704707905124
+openai,gpt56_sol,GPT-5.6 Sol,Burkina Faso,Independence,0.0,0.9996856548792252,1.0,0.00031434512077481436
+openai,gpt56_sol,GPT-5.6 Sol,Burkina Faso,Obedience,1.0,0.9999948000398998,1.0,5.1999601002217234e-06
+openai,gpt56_sol,GPT-5.6 Sol,Burkina Faso,Religious faith,1.0,0.9999920000529997,1.0,7.99994700022566e-06
+openai,gpt56_sol,GPT-5.6 Sol,Canada,"Determination, perseverance",1.0,0.9999872001900971,1.0,1.2799809902741544e-05
+openai,gpt56_sol,GPT-5.6 Sol,Canada,Independence,1.0,0.9999969000176498,1.0,3.0999823500632574e-06
+openai,gpt56_sol,GPT-5.6 Sol,Canada,Obedience,0.0,0.9999919000791493,1.0,8.099920850596076e-06
+openai,gpt56_sol,GPT-5.6 Sol,Canada,Religious faith,0.0,0.9999944000634995,1.0,5.599936500533253e-06
+openai,gpt56_sol,GPT-5.6 Sol,Chile,"Determination, perseverance",1.0,0.9998358841127671,1.0,0.00016411588723294314
+openai,gpt56_sol,GPT-5.6 Sol,Chile,Independence,0.9809805726240691,0.9996493391940003,0.6,0.00035007801683604176
+openai,gpt56_sol,GPT-5.6 Sol,Chile,Obedience,0.0,0.9995366486425127,1.0,0.000463351357487346
+openai,gpt56_sol,GPT-5.6 Sol,Chile,Religious faith,0.0,0.999960801975649,1.0,3.9198024351005946e-05
+openai,gpt56_sol,GPT-5.6 Sol,China,"Determination, perseverance",1.0,0.9999896500884244,1.0,1.0349911575574521e-05
+openai,gpt56_sol,GPT-5.6 Sol,China,Independence,0.8461602347528856,0.99992249734211,0.11764705882352941,7.496932313538436e-05
+openai,gpt56_sol,GPT-5.6 Sol,China,Obedience,0.8353852236882383,0.9996602140904229,0.5714285714285714,0.00033558976793479633
+openai,gpt56_sol,GPT-5.6 Sol,China,Religious faith,0.0,0.9999950000253,1.0,4.999974700081733e-06
+openai,gpt56_sol,GPT-5.6 Sol,Colombia,"Determination, perseverance",1.0,0.999906310032328,1.0,9.368996767209481e-05
+openai,gpt56_sol,GPT-5.6 Sol,Colombia,Independence,0.6054634530468764,0.9999947651954935,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Colombia,Obedience,0.7082550000913035,0.9999935459730489,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Colombia,Religious faith,0.8007098445129865,0.9998900229138674,0.1875,0.0001049053018193219
+openai,gpt56_sol,GPT-5.6 Sol,Croatia,"Determination, perseverance",1.0,0.9998369715802163,1.0,0.00016302841978369648
+openai,gpt56_sol,GPT-5.6 Sol,Croatia,Independence,0.9953991672951632,0.9997614400508174,0.8666666666666667,0.00023780661897490062
+openai,gpt56_sol,GPT-5.6 Sol,Croatia,Obedience,0.0,0.9996591936371322,1.0,0.00034080636286782436
+openai,gpt56_sol,GPT-5.6 Sol,Croatia,Religious faith,0.0,0.9997691178499415,1.0,0.00023088215005848337
+openai,gpt56_sol,GPT-5.6 Sol,Cyprus,"Determination, perseverance",1.0,0.9998157174564349,1.0,0.0001842825435650411
+openai,gpt56_sol,GPT-5.6 Sol,Cyprus,Independence,0.788314964280297,0.9999872230139962,0.16666666666666666,8.583086796770667e-06
+openai,gpt56_sol,GPT-5.6 Sol,Cyprus,Obedience,0.09179473662497885,0.9998591498600268,0.4166666666666667,0.00013788098960543227
+openai,gpt56_sol,GPT-5.6 Sol,Cyprus,Religious faith,0.699637907543838,0.9999966710694609,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Czechia,"Determination, perseverance",1.0,0.9997717351098064,1.0,0.0002282648901935705
+openai,gpt56_sol,GPT-5.6 Sol,Czechia,Independence,1.0,0.999990250112074,1.0,9.749887926024937e-06
+openai,gpt56_sol,GPT-5.6 Sol,Czechia,Obedience,0.0,0.9999858001779982,1.0,1.4199822001748075e-05
+openai,gpt56_sol,GPT-5.6 Sol,Czechia,Religious faith,0.0,0.9999956000263,1.0,4.399973700103254e-06
+openai,gpt56_sol,GPT-5.6 Sol,Denmark,"Determination, perseverance",0.994730458535826,0.9995528158380801,0.8888888888888888,0.00044718416191980026
+openai,gpt56_sol,GPT-5.6 Sol,Denmark,Independence,1.0,0.9999973500184749,1.0,2.6499815250824454e-06
+openai,gpt56_sol,GPT-5.6 Sol,Denmark,Obedience,0.0,0.9999897000924494,1.0,1.0299907550626041e-05
+openai,gpt56_sol,GPT-5.6 Sol,Denmark,Religious faith,0.0,0.9999980500104251,1.0,1.9499895750341167e-06
+openai,gpt56_sol,GPT-5.6 Sol,Ecuador,"Determination, perseverance",1.0,0.9998740894399134,1.0,0.00012591056008660247
+openai,gpt56_sol,GPT-5.6 Sol,Ecuador,Independence,0.27655721949931333,0.9999965520069792,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ecuador,Obedience,0.9975573141040536,0.9998318173552181,0.9166666666666666,0.00016688417761650162
+openai,gpt56_sol,GPT-5.6 Sol,Ecuador,Religious faith,0.9219613503316286,0.9996761777473514,0.8461538461538461,0.00032143614581325863
+openai,gpt56_sol,GPT-5.6 Sol,Estonia,"Determination, perseverance",1.0,0.9997953249113105,1.0,0.0002046750886895247
+openai,gpt56_sol,GPT-5.6 Sol,Estonia,Independence,1.0,0.9999915500912241,1.0,8.449908775809423e-06
+openai,gpt56_sol,GPT-5.6 Sol,Estonia,Obedience,0.0,0.9999491520238559,1.0,5.084797614420267e-05
+openai,gpt56_sol,GPT-5.6 Sol,Estonia,Religious faith,0.0,0.9999959500236748,1.0,4.0499763250878565e-06
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,"Determination, perseverance",0.9918381792033851,0.9997196975443627,0.8,0.0002797157635968365
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,Independence,0.0029641170735979234,0.9996634206358945,0.9375,0.00033628883813964505
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,Obedience,1.0,0.9999828515190039,1.0,1.7148480996176386e-05
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,Religious faith,1.0,0.9999920500510248,1.0,7.949948975216614e-06
+openai,gpt56_sol,GPT-5.6 Sol,Finland,"Determination, perseverance",1.0,0.9997459310712753,1.0,0.00025406892872465586
+openai,gpt56_sol,GPT-5.6 Sol,Finland,Independence,1.0,0.9999934500655744,1.0,6.549934425603699e-06
+openai,gpt56_sol,GPT-5.6 Sol,Finland,Obedience,0.0,0.9999859002382457,1.0,1.4099761754277073e-05
+openai,gpt56_sol,GPT-5.6 Sol,Finland,Religious faith,0.0,0.999995250028125,1.0,4.749971875112058e-06
+openai,gpt56_sol,GPT-5.6 Sol,France,"Determination, perseverance",1.0,0.9998319311776213,1.0,0.00016806882237877692
+openai,gpt56_sol,GPT-5.6 Sol,France,Independence,1.0,0.9999870502683699,1.0,1.294973163022406e-05
+openai,gpt56_sol,GPT-5.6 Sol,France,Obedience,0.0,0.9999909501100239,1.0,9.049889976064928e-06
+openai,gpt56_sol,GPT-5.6 Sol,France,Religious faith,0.0,0.9999956000226999,1.0,4.399977300079128e-06
+openai,gpt56_sol,GPT-5.6 Sol,Georgia,"Determination, perseverance",1.0,0.9997292617645412,1.0,0.00027073823545876313
+openai,gpt56_sol,GPT-5.6 Sol,Georgia,Independence,0.22778207686951263,0.9999989492420154,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Georgia,Obedience,0.870513605637319,0.999757566414009,0.8,0.00024243358599108645
+openai,gpt56_sol,GPT-5.6 Sol,Georgia,Religious faith,0.9543141962867081,0.9998665316907275,0.9,0.00013346830927246645
+openai,gpt56_sol,GPT-5.6 Sol,Germany,"Determination, perseverance",1.0,0.9997599097456636,1.0,0.00024009025433632174
+openai,gpt56_sol,GPT-5.6 Sol,Germany,Independence,1.0,0.9999941000419497,1.0,5.899958050198384e-06
+openai,gpt56_sol,GPT-5.6 Sol,Germany,Obedience,0.0,0.9999818510149628,1.0,1.8148985037147457e-05
+openai,gpt56_sol,GPT-5.6 Sol,Germany,Religious faith,0.0,0.9999957500226749,1.0,4.2499773250770366e-06
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,"Determination, perseverance",1.0,0.9998610931292895,1.0,0.0001389068707105534
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,Independence,0.12074050833056768,0.9997538326804456,0.5714285714285714,0.00024364071194533338
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,Obedience,1.0,0.9999254274093241,1.0,7.457259067595313e-05
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,Religious faith,1.0,0.9999931501464718,1.0,6.849853528168026e-06
+openai,gpt56_sol,GPT-5.6 Sol,Greece,"Determination, perseverance",1.0,0.9998024912746364,1.0,0.00019750872536355486
+openai,gpt56_sol,GPT-5.6 Sol,Greece,Independence,0.6776614836115236,0.9999908389835125,0.125,4.999897751420401e-06
+openai,gpt56_sol,GPT-5.6 Sol,Greece,Obedience,0.00642850224185526,0.999811175380154,0.75,0.0001873330294635267
+openai,gpt56_sol,GPT-5.6 Sol,Greece,Religious faith,0.21505288556822588,0.9999205222299152,0.09090909090909091,7.387905500391953e-05
+openai,gpt56_sol,GPT-5.6 Sol,Guatemala,"Determination, perseverance",0.9811130568975724,0.9997865826068263,0.8666666666666667,0.00021341739317380556
+openai,gpt56_sol,GPT-5.6 Sol,Guatemala,Independence,0.0716386458758264,0.999591879056303,0.9166666666666666,0.0004067837852085865
+openai,gpt56_sol,GPT-5.6 Sol,Guatemala,Obedience,0.9430821553992536,0.999949397913762,0.9,5.0593917971403225e-05
+openai,gpt56_sol,GPT-5.6 Sol,Guatemala,Religious faith,1.0,0.9999602154526511,1.0,3.978454734882301e-05
+openai,gpt56_sol,GPT-5.6 Sol,Haiti,"Determination, perseverance",0.9983773363396005,0.9998178572712701,0.9411764705882353,0.00018214272872980476
+openai,gpt56_sol,GPT-5.6 Sol,Haiti,Independence,0.005057212001416237,0.9996069227101695,0.9333333333333333,0.000393077289830542
+openai,gpt56_sol,GPT-5.6 Sol,Haiti,Obedience,1.0,0.9999541735700067,1.0,4.582642999339497e-05
+openai,gpt56_sol,GPT-5.6 Sol,Haiti,Religious faith,1.0,0.9999967000180499,1.0,3.2999819500612038e-06
+openai,gpt56_sol,GPT-5.6 Sol,Hong Kong SAR,"Determination, perseverance",1.0,0.9999869502355212,1.0,1.3049764478750836e-05
+openai,gpt56_sol,GPT-5.6 Sol,Hong Kong SAR,Independence,0.9968054909620369,0.9997096055467796,0.8666666666666667,0.0002903944532204994
+openai,gpt56_sol,GPT-5.6 Sol,Hong Kong SAR,Obedience,0.06212941365923097,0.9999377035938078,0.2,5.6091635825006315e-05
+openai,gpt56_sol,GPT-5.6 Sol,Hong Kong SAR,Religious faith,0.0,0.9999974500124249,1.0,2.5499875750345514e-06
+openai,gpt56_sol,GPT-5.6 Sol,Hungary,"Determination, perseverance",1.0,0.9997734458680129,1.0,0.00022655413198707168
+openai,gpt56_sol,GPT-5.6 Sol,Hungary,Independence,1.0,0.9997569582303516,1.0,0.00024304176964845043
+openai,gpt56_sol,GPT-5.6 Sol,Hungary,Obedience,0.0,0.9996047543599007,1.0,0.000395245640099217
+openai,gpt56_sol,GPT-5.6 Sol,Hungary,Religious faith,0.0,0.9999715508081527,1.0,2.844919184730177e-05
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,"Determination, perseverance",1.0,0.9996998063754818,1.0,0.00030019362451815613
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,Independence,1.0,0.9999922000587997,1.0,7.799941200331561e-06
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,Obedience,0.0,0.9999878001481985,1.0,1.2199851801464324e-05
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,Religious faith,0.0,0.9999931000501497,1.0,6.899949850275311e-06
+openai,gpt56_sol,GPT-5.6 Sol,India,"Determination, perseverance",1.0,0.9999749515328219,1.0,2.5048467178179214e-05
+openai,gpt56_sol,GPT-5.6 Sol,India,Independence,0.5793899497162164,0.9999931726159674,0.1111111111111111,3.3888238620395484e-06
+openai,gpt56_sol,GPT-5.6 Sol,India,Obedience,0.9232568922624119,0.9998004697444435,0.9166666666666666,0.00019953025555651446
+openai,gpt56_sol,GPT-5.6 Sol,India,Religious faith,0.8572957228057949,0.999787677627689,0.36363636363636365,0.0002093786557450365
+openai,gpt56_sol,GPT-5.6 Sol,Indonesia,"Determination, perseverance",0.9944299554470915,0.9996671230346811,0.875,0.0003328769653189456
+openai,gpt56_sol,GPT-5.6 Sol,Indonesia,Independence,0.3287830946635273,0.999998110014842,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Indonesia,Obedience,0.9899750621002967,0.9999249674545938,0.8947368421052632,7.430598130932e-05
+openai,gpt56_sol,GPT-5.6 Sol,Indonesia,Religious faith,1.0,0.9999913501499222,1.0,8.649850077852018e-06
+openai,gpt56_sol,GPT-5.6 Sol,Iran,"Determination, perseverance",1.0,0.9997578137749614,1.0,0.00024218622503855794
+openai,gpt56_sol,GPT-5.6 Sol,Iran,Independence,0.16281915518855164,0.9999962685047198,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Iran,Obedience,0.8396758751961942,0.9999103428154376,0.25,8.810788831992156e-05
+openai,gpt56_sol,GPT-5.6 Sol,Iran,Religious faith,0.9872695271570743,0.9999070400270774,0.9,9.294174220884632e-05
+openai,gpt56_sol,GPT-5.6 Sol,Iraq,"Determination, perseverance",0.9676069277053919,0.9997640154008054,0.75,0.000234845729137891
+openai,gpt56_sol,GPT-5.6 Sol,Iraq,Independence,0.011221644974738258,0.9997268391981979,0.8461538461538461,0.0002731608018020466
+openai,gpt56_sol,GPT-5.6 Sol,Iraq,Obedience,0.9984572510130866,0.9999820003812561,0.9473684210526315,1.799961874382472e-05
+openai,gpt56_sol,GPT-5.6 Sol,Iraq,Religious faith,1.0,0.999996250028125,1.0,3.7499718751332622e-06
+openai,gpt56_sol,GPT-5.6 Sol,Ireland,"Determination, perseverance",1.0,0.9999582521538303,1.0,4.174784616978733e-05
+openai,gpt56_sol,GPT-5.6 Sol,Ireland,Independence,1.0,0.9999048563728902,1.0,9.514362710976399e-05
+openai,gpt56_sol,GPT-5.6 Sol,Ireland,Obedience,0.0,0.9999545523296163,1.0,4.5447670383630404e-05
+openai,gpt56_sol,GPT-5.6 Sol,Ireland,Religious faith,0.0,0.999873666651393,1.0,0.00012633334860703022
+openai,gpt56_sol,GPT-5.6 Sol,Italy,"Determination, perseverance",1.0,0.9997580720846992,1.0,0.00024192791530083246
+openai,gpt56_sol,GPT-5.6 Sol,Italy,Independence,1.0,0.999678034423491,1.0,0.0003219655765090312
+openai,gpt56_sol,GPT-5.6 Sol,Italy,Obedience,0.0,0.9998650723880012,1.0,0.000134927611998803
+openai,gpt56_sol,GPT-5.6 Sol,Italy,Religious faith,0.0,0.9999151096191831,1.0,8.489038081690436e-05
+openai,gpt56_sol,GPT-5.6 Sol,Japan,"Determination, perseverance",1.0,0.9997744767540061,1.0,0.0002255232459939844
+openai,gpt56_sol,GPT-5.6 Sol,Japan,Independence,0.9384172949275242,0.9999415523282745,0.09090909090909091,5.198513083519303e-05
+openai,gpt56_sol,GPT-5.6 Sol,Japan,Obedience,0.048208180507893605,0.9998804409613312,0.2222222222222222,0.00011652456040429144
+openai,gpt56_sol,GPT-5.6 Sol,Japan,Religious faith,0.0,0.9999954000222999,1.0,4.599977700070479e-06
+openai,gpt56_sol,GPT-5.6 Sol,Jordan,"Determination, perseverance",0.9454275389053327,0.9997614967973506,0.6666666666666666,0.0002351519114436688
+openai,gpt56_sol,GPT-5.6 Sol,Jordan,Independence,0.11819331905174403,0.9997308504330769,0.4444444444444444,0.00026824967068929243
+openai,gpt56_sol,GPT-5.6 Sol,Jordan,Obedience,0.9886446802960498,0.9999583029630404,0.9,4.1697036959603696e-05
+openai,gpt56_sol,GPT-5.6 Sol,Jordan,Religious faith,1.0,0.9999925000817493,1.0,7.499918250675197e-06
+openai,gpt56_sol,GPT-5.6 Sol,Kazakhstan,"Determination, perseverance",1.0,0.9997984856839,1.0,0.00020151431610007962
+openai,gpt56_sol,GPT-5.6 Sol,Kazakhstan,Independence,0.7354914657839141,0.9998976411546963,0.14285714285714285,9.889428247099121e-05
+openai,gpt56_sol,GPT-5.6 Sol,Kazakhstan,Obedience,0.7556606330487761,0.9998565823883278,0.2,0.00014034438518596427
+openai,gpt56_sol,GPT-5.6 Sol,Kazakhstan,Religious faith,0.0683807954730798,0.9999952935056489,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,"Determination, perseverance",1.0,0.999965602504032,1.0,3.4397495967986023e-05
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,Independence,0.18239272226815723,0.9999960174899503,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,Obedience,0.9962320421344973,0.9999823161962029,0.9473684210526315,1.768380379713929e-05
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,Religious faith,1.0,0.9999511620413208,1.0,4.883795867910989e-05
+openai,gpt56_sol,GPT-5.6 Sol,Kosovo,"Determination, perseverance",1.0,0.9998196788254133,1.0,0.00018032117458670932
+openai,gpt56_sol,GPT-5.6 Sol,Kosovo,Independence,0.4965796601073815,0.9999409888135268,0.0625,5.672424329628695e-05
+openai,gpt56_sol,GPT-5.6 Sol,Kosovo,Obedience,0.7050388585704562,0.999993215045162,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kosovo,Religious faith,0.9247386824421635,0.999766133425003,0.7,0.00023374226511226892
+openai,gpt56_sol,GPT-5.6 Sol,Kyrgyzstan,"Determination, perseverance",1.0,0.9997757479139937,1.0,0.00022425208600630208
+openai,gpt56_sol,GPT-5.6 Sol,Kyrgyzstan,Independence,0.34451621519325654,0.9999954908001717,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kyrgyzstan,Obedience,0.9408672664154614,0.9998260761700325,0.8823529411764706,0.0001731331833249877
+openai,gpt56_sol,GPT-5.6 Sol,Kyrgyzstan,Religious faith,0.865704843696224,0.9998434935343558,0.375,0.00015071759273091456
+openai,gpt56_sol,GPT-5.6 Sol,Latvia,"Determination, perseverance",1.0,0.9997405014071986,1.0,0.00025949859280133963
+openai,gpt56_sol,GPT-5.6 Sol,Latvia,Independence,1.0,0.9999244601896236,1.0,7.553981037652368e-05
+openai,gpt56_sol,GPT-5.6 Sol,Latvia,Obedience,0.0,0.9997094640641117,1.0,0.00029053593588842765
+openai,gpt56_sol,GPT-5.6 Sol,Latvia,Religious faith,0.0,0.9999895001404985,1.0,1.0499859501500453e-05
+openai,gpt56_sol,GPT-5.6 Sol,Lebanon,"Determination, perseverance",0.998347114400684,0.9998262441549883,0.9285714285714286,0.00017375584501170112
+openai,gpt56_sol,GPT-5.6 Sol,Lebanon,Independence,0.25887245201603476,0.9999955297601931,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Lebanon,Obedience,0.7465269237221022,0.9998829674110284,0.38461538461538464,0.00011359230688633682
+openai,gpt56_sol,GPT-5.6 Sol,Lebanon,Religious faith,1.0,0.999934457023443,1.0,6.554297655707586e-05
+openai,gpt56_sol,GPT-5.6 Sol,Libya,"Determination, perseverance",0.9335983470576449,0.9999529872853358,0.36363636363636365,4.5813891491487304e-05
+openai,gpt56_sol,GPT-5.6 Sol,Libya,Independence,0.015868410770326812,0.9995625624353542,0.8666666666666667,0.0004365172501231621
+openai,gpt56_sol,GPT-5.6 Sol,Libya,Obedience,0.9893215322829432,0.9999751566439257,0.9,2.4448859276465784e-05
+openai,gpt56_sol,GPT-5.6 Sol,Libya,Religious faith,1.0,0.9999952000256999,1.0,4.799974300090382e-06
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,"Determination, perseverance",1.0,0.9997679455728419,1.0,0.00023205442715811068
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,Independence,1.0,0.9999007134649849,1.0,9.928653501500295e-05
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,Obedience,0.0,0.9997134526619418,1.0,0.0002865473380582801
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,Religious faith,0.0,0.9999749510237825,1.0,2.5048976217445505e-05
+openai,gpt56_sol,GPT-5.6 Sol,Luxembourg,"Determination, perseverance",1.0,0.9996401040596142,1.0,0.0003598959403858168
+openai,gpt56_sol,GPT-5.6 Sol,Luxembourg,Independence,1.0,0.999945212721743,1.0,5.478727825711238e-05
+openai,gpt56_sol,GPT-5.6 Sol,Luxembourg,Obedience,0.0,0.9999651514445219,1.0,3.484855547806198e-05
+openai,gpt56_sol,GPT-5.6 Sol,Luxembourg,Religious faith,0.0,0.9999939000507497,1.0,6.09994925031554e-06
+openai,gpt56_sol,GPT-5.6 Sol,Macau SAR,"Determination, perseverance",1.0,0.9998138253732765,1.0,0.00018617462672350835
+openai,gpt56_sol,GPT-5.6 Sol,Macau SAR,Independence,0.8360063227910751,0.9999957274560851,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Macau SAR,Obedience,0.347977947849981,0.9999949755642304,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Macau SAR,Religious faith,0.0,0.9999856501887731,1.0,1.4349811226876951e-05
+openai,gpt56_sol,GPT-5.6 Sol,Malaysia,"Determination, perseverance",1.0,0.9998970269846478,1.0,0.00010297301535219794
+openai,gpt56_sol,GPT-5.6 Sol,Malaysia,Independence,0.5389046199984425,0.9999953978107133,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Malaysia,Obedience,0.8809186213329794,0.9997790127336849,0.5,0.00021932693831252514
+openai,gpt56_sol,GPT-5.6 Sol,Malaysia,Religious faith,0.9981459030573002,0.9998048322425287,0.9285714285714286,0.00019516775747122468
+openai,gpt56_sol,GPT-5.6 Sol,Maldives,"Determination, perseverance",0.8866363490891701,0.9998013163998496,0.38461538461538464,0.00019647119186988043
+openai,gpt56_sol,GPT-5.6 Sol,Maldives,Independence,0.019073334371003694,0.9997767314893035,0.7142857142857143,0.00022236354068822756
+openai,gpt56_sol,GPT-5.6 Sol,Maldives,Obedience,1.0,0.9998315462577515,1.0,0.00016845374224846074
+openai,gpt56_sol,GPT-5.6 Sol,Maldives,Religious faith,1.0,0.9999950500337249,1.0,4.949966275158424e-06
+openai,gpt56_sol,GPT-5.6 Sol,Mali,"Determination, perseverance",0.9381653979454886,0.9997124095983565,0.7692307692307693,0.0002866903867620921
+openai,gpt56_sol,GPT-5.6 Sol,Mali,Independence,0.0,0.999796754691512,1.0,0.00020324530848807464
+openai,gpt56_sol,GPT-5.6 Sol,Mali,Obedience,1.0,0.9999903501900705,1.0,9.649809929362928e-06
+openai,gpt56_sol,GPT-5.6 Sol,Mali,Religious faith,1.0,0.9999946000284998,1.0,5.399971500097412e-06
+openai,gpt56_sol,GPT-5.6 Sol,Malta,"Determination, perseverance",1.0,0.9996722826287275,1.0,0.0003277173712723644
+openai,gpt56_sol,GPT-5.6 Sol,Malta,Independence,0.7885807784564196,0.99997508098905,0.14285714285714285,2.0140980059765328e-05
+openai,gpt56_sol,GPT-5.6 Sol,Malta,Obedience,0.10828528256740098,0.9999579154682614,0.18181818181818182,3.5722191038776366e-05
+openai,gpt56_sol,GPT-5.6 Sol,Malta,Religious faith,0.8317588374021468,0.9999164740976161,0.08333333333333333,7.596535453302522e-05
+openai,gpt56_sol,GPT-5.6 Sol,Mexico,"Determination, perseverance",1.0,0.9998881207249835,1.0,0.00011187927501654093
+openai,gpt56_sol,GPT-5.6 Sol,Mexico,Independence,0.6968327852004286,0.9999884628430025,0.125,5.749853690173445e-06
+openai,gpt56_sol,GPT-5.6 Sol,Mexico,Obedience,0.6078163824090586,0.99997933878775,0.07692307692307693,1.5844521804373117e-05
+openai,gpt56_sol,GPT-5.6 Sol,Mexico,Religious faith,0.4660896728205065,0.9999943944639197,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Moldova,"Determination, perseverance",1.0,0.9998191607727878,1.0,0.00018083922721232864
+openai,gpt56_sol,GPT-5.6 Sol,Moldova,Independence,0.6838141762210708,0.9999192086162103,0.13333333333333333,7.776962672972528e-05
+openai,gpt56_sol,GPT-5.6 Sol,Moldova,Obedience,0.4663694430556882,0.9998980432148111,0.13333333333333333,9.76308712570632e-05
+openai,gpt56_sol,GPT-5.6 Sol,Moldova,Religious faith,0.44878151604455824,0.999998078831275,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Mongolia,"Determination, perseverance",1.0,0.9998682789963121,1.0,0.00013172100368786244
+openai,gpt56_sol,GPT-5.6 Sol,Mongolia,Independence,0.6052059973781853,0.9999957188531289,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Mongolia,Obedience,0.6982455591638995,0.9999917328221722,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Mongolia,Religious faith,0.0,0.9998789151336022,1.0,0.00012108486639792471
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,"Determination, perseverance",1.0,0.9998231142659993,1.0,0.00017688573400064615
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,Independence,0.7077553469928736,0.9999331352582482,0.14285714285714285,6.319034157804231e-05
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,Obedience,0.6061595792567548,0.9999960480137742,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,Religious faith,0.429928054208705,0.99999730433907,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Morocco,"Determination, perseverance",0.9946466895032872,0.999774447383548,0.8666666666666667,0.00022555261645190356
+openai,gpt56_sol,GPT-5.6 Sol,Morocco,Independence,0.12260407883441149,0.9996198360976881,0.7142857142857143,0.0003801639023118967
+openai,gpt56_sol,GPT-5.6 Sol,Morocco,Obedience,0.9499968542305968,0.9999315333592651,0.9473684210526315,6.846664073481703e-05
+openai,gpt56_sol,GPT-5.6 Sol,Morocco,Religious faith,1.0,0.9999885503120677,1.0,1.144968793241885e-05
+openai,gpt56_sol,GPT-5.6 Sol,Myanmar,"Determination, perseverance",0.9878846521911809,0.9997914925074672,0.8333333333333334,0.0002067802321014852
+openai,gpt56_sol,GPT-5.6 Sol,Myanmar,Independence,0.05586765534293185,0.9996043860043741,0.8181818181818182,0.0003953318048097933
+openai,gpt56_sol,GPT-5.6 Sol,Myanmar,Obedience,1.0,0.9999443902196701,1.0,5.56097803299355e-05
+openai,gpt56_sol,GPT-5.6 Sol,Myanmar,Religious faith,0.9769483667794502,0.9999561628949143,0.9473684210526315,4.3837105085627124e-05
+openai,gpt56_sol,GPT-5.6 Sol,Netherlands,"Determination, perseverance",1.0,0.9997447688874315,1.0,0.0002552311125685325
+openai,gpt56_sol,GPT-5.6 Sol,Netherlands,Independence,1.0,0.9999954000288998,1.0,4.5999711001165625e-06
+openai,gpt56_sol,GPT-5.6 Sol,Netherlands,Obedience,0.0,0.999996650013425,1.0,3.3499865750241665e-06
+openai,gpt56_sol,GPT-5.6 Sol,Netherlands,Religious faith,0.0,0.9999965500208748,1.0,3.4499791250808264e-06
+openai,gpt56_sol,GPT-5.6 Sol,New Zealand,"Determination, perseverance",1.0,0.9999933500597746,1.0,6.649940225400553e-06
+openai,gpt56_sol,GPT-5.6 Sol,New Zealand,Independence,1.0,0.9999892501314737,1.0,1.074986852636628e-05
+openai,gpt56_sol,GPT-5.6 Sol,New Zealand,Obedience,0.0,0.999959201455104,1.0,4.079854489607016e-05
+openai,gpt56_sol,GPT-5.6 Sol,New Zealand,Religious faith,0.0,0.9999901500798746,1.0,9.849920125493129e-06
+openai,gpt56_sol,GPT-5.6 Sol,Nicaragua,"Determination, perseverance",0.9915722233728462,0.999799290904045,0.7857142857142857,0.00020030833127084233
+openai,gpt56_sol,GPT-5.6 Sol,Nicaragua,Independence,0.015673014206851056,0.9997300779612495,0.7692307692307693,0.00026792182670504634
+openai,gpt56_sol,GPT-5.6 Sol,Nicaragua,Obedience,1.0,0.9999609468187948,1.0,3.905318120532112e-05
+openai,gpt56_sol,GPT-5.6 Sol,Nicaragua,Religious faith,1.0,0.999958706054082,1.0,4.129394591790292e-05
+openai,gpt56_sol,GPT-5.6 Sol,Nigeria,"Determination, perseverance",1.0,0.9999409547120237,1.0,5.9045287976355884e-05
+openai,gpt56_sol,GPT-5.6 Sol,Nigeria,Independence,0.260927007445716,0.9999465514161673,0.16666666666666666,5.082558203806098e-05
+openai,gpt56_sol,GPT-5.6 Sol,Nigeria,Obedience,1.0,0.9999667443797696,1.0,3.325562023044114e-05
+openai,gpt56_sol,GPT-5.6 Sol,Nigeria,Religious faith,1.0,0.9999841508779237,1.0,1.5849122076228016e-05
+openai,gpt56_sol,GPT-5.6 Sol,North Macedonia,"Determination, perseverance",0.9973311411078909,0.9997932586453705,0.9285714285714286,0.00020674135462952651
+openai,gpt56_sol,GPT-5.6 Sol,North Macedonia,Independence,0.6101963484539742,0.9999828834945842,0.0625,1.0249159545942799e-05
+openai,gpt56_sol,GPT-5.6 Sol,North Macedonia,Obedience,0.36114284804325353,0.9999954443839517,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,North Macedonia,Religious faith,0.31177967042209176,0.9999944802201111,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Northern Cyprus,"Determination, perseverance",1.0,0.9996446048565142,1.0,0.0003553951434857594
+openai,gpt56_sol,GPT-5.6 Sol,Northern Cyprus,Independence,0.5393684433537137,0.9999977485740883,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Northern Cyprus,Obedience,0.44097635189544504,0.9999946623429614,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Northern Cyprus,Religious faith,0.6819180834094575,0.9999964131863764,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Northern Ireland,"Determination, perseverance",1.0,0.9999611024137123,1.0,3.889758628774498e-05
+openai,gpt56_sol,GPT-5.6 Sol,Northern Ireland,Independence,1.0,0.999707614156214,1.0,0.00029238584378597684
+openai,gpt56_sol,GPT-5.6 Sol,Northern Ireland,Obedience,0.0,0.9996698865131128,1.0,0.0003301134868871833
+openai,gpt56_sol,GPT-5.6 Sol,Northern Ireland,Religious faith,0.025869390105234147,0.999679925694808,0.8181818181818182,0.00032007430519204687
+openai,gpt56_sol,GPT-5.6 Sol,Norway,"Determination, perseverance",1.0,0.9997589702425009,1.0,0.0002410297574990672
+openai,gpt56_sol,GPT-5.6 Sol,Norway,Independence,1.0,0.9999942500789741,1.0,5.749921025954841e-06
+openai,gpt56_sol,GPT-5.6 Sol,Norway,Obedience,0.0,0.9999922000571997,1.0,7.799942800301717e-06
+openai,gpt56_sol,GPT-5.6 Sol,Norway,Religious faith,0.0,0.9999937500407748,1.0,6.249959225174129e-06
+openai,gpt56_sol,GPT-5.6 Sol,Pakistan,"Determination, perseverance",0.9678379092330669,0.999902765775758,0.5454545454545454,9.571577700435101e-05
+openai,gpt56_sol,GPT-5.6 Sol,Pakistan,Independence,0.1633700427351233,0.9996992425973092,0.8,0.000300112144209741
+openai,gpt56_sol,GPT-5.6 Sol,Pakistan,Obedience,0.9912141584913602,0.9999946733848374,0.9473684210526315,5.263115473944237e-06
+openai,gpt56_sol,GPT-5.6 Sol,Pakistan,Religious faith,1.0,0.9999904001242985,1.0,9.599875701521433e-06
+openai,gpt56_sol,GPT-5.6 Sol,Palestine,"Determination, perseverance",1.0,0.9997828563307307,1.0,0.00021714366926928926
+openai,gpt56_sol,GPT-5.6 Sol,Palestine,Independence,0.2170983091355862,0.9998788511747048,0.2,0.0001200639381723545
+openai,gpt56_sol,GPT-5.6 Sol,Palestine,Obedience,0.8868285721352746,0.9997399720486005,0.6666666666666666,0.00025843216408067787
+openai,gpt56_sol,GPT-5.6 Sol,Palestine,Religious faith,1.0,0.9999939000401499,1.0,6.099959850169867e-06
+openai,gpt56_sol,GPT-5.6 Sol,Peru,"Determination, perseverance",1.0,0.9999029557737154,1.0,9.704422628476545e-05
+openai,gpt56_sol,GPT-5.6 Sol,Peru,Independence,0.3039786089522486,0.9999973863946486,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Peru,Obedience,0.9967692012624466,0.9995786834494153,0.8888888888888888,0.00042131655058481106
+openai,gpt56_sol,GPT-5.6 Sol,Peru,Religious faith,0.8116235011982226,0.9999050387044843,0.2727272727272727,9.080037781700694e-05
+openai,gpt56_sol,GPT-5.6 Sol,Philippines,"Determination, perseverance",0.9954726663630358,0.9998318698666082,0.9411764705882353,0.00016813013339178617
+openai,gpt56_sol,GPT-5.6 Sol,Philippines,Independence,0.21980548012388282,0.9999413808318858,0.08333333333333333,5.240018508081978e-05
+openai,gpt56_sol,GPT-5.6 Sol,Philippines,Obedience,1.0,0.9999892223474988,1.0,1.0777652501255583e-05
+openai,gpt56_sol,GPT-5.6 Sol,Philippines,Religious faith,1.0,0.9999714534640655,1.0,2.8546535934576012e-05
+openai,gpt56_sol,GPT-5.6 Sol,Poland,"Determination, perseverance",1.0,0.9997581455512375,1.0,0.00024185444876246597
+openai,gpt56_sol,GPT-5.6 Sol,Poland,Independence,1.0,0.9997908100626186,1.0,0.00020918993738145304
+openai,gpt56_sol,GPT-5.6 Sol,Poland,Obedience,0.0,0.9996146397535233,1.0,0.00038536024647674305
+openai,gpt56_sol,GPT-5.6 Sol,Poland,Religious faith,0.033035164953002474,0.9997338281685744,0.6,0.0002654208872171049
+openai,gpt56_sol,GPT-5.6 Sol,Portugal,"Determination, perseverance",1.0,0.9998573058487268,1.0,0.0001426941512731841
+openai,gpt56_sol,GPT-5.6 Sol,Portugal,Independence,0.9967647177368035,0.9998228593034195,0.9230769230769231,0.00017596720199328445
+openai,gpt56_sol,GPT-5.6 Sol,Portugal,Obedience,0.0,0.9999242569613432,1.0,7.57430386566671e-05
+openai,gpt56_sol,GPT-5.6 Sol,Portugal,Religious faith,0.0,0.999959404505268,1.0,4.0595494731976435e-05
+openai,gpt56_sol,GPT-5.6 Sol,Puerto Rico,"Determination, perseverance",1.0,0.9998711366044817,1.0,0.00012886339551831938
+openai,gpt56_sol,GPT-5.6 Sol,Puerto Rico,Independence,0.5827820470871901,0.9999867842238835,0.058823529411764705,9.175754860747593e-06
+openai,gpt56_sol,GPT-5.6 Sol,Puerto Rico,Obedience,0.8968419676624396,0.9996732899204006,0.36363636363636365,0.0003216744042194146
+openai,gpt56_sol,GPT-5.6 Sol,Puerto Rico,Religious faith,0.9391225366056731,0.9998939602637317,0.8666666666666667,0.00010603973626828929
+openai,gpt56_sol,GPT-5.6 Sol,Romania,"Determination, perseverance",1.0,0.9999517021591741,1.0,4.8297840825983765e-05
+openai,gpt56_sol,GPT-5.6 Sol,Romania,Independence,0.9475162221645139,0.9998717163120067,0.38461538461538464,0.00012557805578892702
+openai,gpt56_sol,GPT-5.6 Sol,Romania,Obedience,0.1614464686099243,0.9999676276759862,0.2,2.939749115704604e-05
+openai,gpt56_sol,GPT-5.6 Sol,Romania,Religious faith,0.21126543382752275,0.9998799717619073,0.2,0.00011546578207378699
+openai,gpt56_sol,GPT-5.6 Sol,Russia,"Determination, perseverance",1.0,0.9998532443480426,1.0,0.00014675565195757277
+openai,gpt56_sol,GPT-5.6 Sol,Russia,Independence,0.9261988992165131,0.9999894300517945,0.16666666666666666,9.58299930030789e-06
+openai,gpt56_sol,GPT-5.6 Sol,Russia,Obedience,0.5654707009915293,0.9999963985391861,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Russia,Religious faith,0.0,0.9999527031685209,1.0,4.729683147898789e-05
+openai,gpt56_sol,GPT-5.6 Sol,Rwanda,"Determination, perseverance",1.0,0.9998188201811534,1.0,0.0001811798188464849
+openai,gpt56_sol,GPT-5.6 Sol,Rwanda,Independence,0.09858322585963408,0.9995783661550914,0.7777777777777778,0.00041985096692396005
+openai,gpt56_sol,GPT-5.6 Sol,Rwanda,Obedience,1.0,0.9999558541752231,1.0,4.414582477686505e-05
+openai,gpt56_sol,GPT-5.6 Sol,Rwanda,Religious faith,1.0,0.9999916501651217,1.0,8.349834878301765e-06
+openai,gpt56_sol,GPT-5.6 Sol,Serbia,"Determination, perseverance",1.0,0.9998711800164319,1.0,0.00012881998356808818
+openai,gpt56_sol,GPT-5.6 Sol,Serbia,Independence,0.7905189904992479,0.9998785007256311,0.25,0.00012033235986232821
+openai,gpt56_sol,GPT-5.6 Sol,Serbia,Obedience,0.11055114431959205,0.9997905423101315,0.375,0.00020929792812857118
+openai,gpt56_sol,GPT-5.6 Sol,Serbia,Religious faith,0.024001750977453794,0.9996512585096213,0.7777777777777778,0.00034656520962399954
+openai,gpt56_sol,GPT-5.6 Sol,Singapore,"Determination, perseverance",1.0,0.9999933500642244,1.0,6.649935775571159e-06
+openai,gpt56_sol,GPT-5.6 Sol,Singapore,Independence,1.0,0.9997912821927346,1.0,0.00020871780726531222
+openai,gpt56_sol,GPT-5.6 Sol,Singapore,Obedience,0.12637623711709897,0.9998615813146373,0.21428571428571427,0.00013402271103487732
+openai,gpt56_sol,GPT-5.6 Sol,Singapore,Religious faith,0.0,0.9999738509300897,1.0,2.614906991035837e-05
+openai,gpt56_sol,GPT-5.6 Sol,Slovakia,"Determination, perseverance",1.0,0.9998320328026215,1.0,0.00016796719737846021
+openai,gpt56_sol,GPT-5.6 Sol,Slovakia,Independence,1.0,0.999772629890369,1.0,0.00022737010963105875
+openai,gpt56_sol,GPT-5.6 Sol,Slovakia,Obedience,0.0,0.9996830750774096,1.0,0.0003169249225904114
+openai,gpt56_sol,GPT-5.6 Sol,Slovakia,Religious faith,0.0,0.9998606170655305,1.0,0.0001393829344693434
+openai,gpt56_sol,GPT-5.6 Sol,Slovenia,"Determination, perseverance",1.0,0.9998733318224147,1.0,0.00012666817758529014
+openai,gpt56_sol,GPT-5.6 Sol,Slovenia,Independence,1.0,0.999983100253097,1.0,1.689974690299301e-05
+openai,gpt56_sol,GPT-5.6 Sol,Slovenia,Obedience,0.0,0.9999147558975034,1.0,8.524410249667324e-05
+openai,gpt56_sol,GPT-5.6 Sol,Slovenia,Religious faith,0.0,0.9999952000338999,1.0,4.799966100188513e-06
+openai,gpt56_sol,GPT-5.6 Sol,South Africa,"Determination, perseverance",1.0,0.9999712011317138,1.0,2.879886828626721e-05
+openai,gpt56_sol,GPT-5.6 Sol,South Africa,Independence,0.8297099963919236,0.999872883913344,0.5,0.00012437764217975155
+openai,gpt56_sol,GPT-5.6 Sol,South Africa,Obedience,0.5144420600197233,0.999943155305342,0.15384615384615385,5.3373825447968244e-05
+openai,gpt56_sol,GPT-5.6 Sol,South Africa,Religious faith,0.6581744193495677,0.9999119500351017,0.2222222222222222,8.131531629656457e-05
+openai,gpt56_sol,GPT-5.6 Sol,South Korea,"Determination, perseverance",1.0,0.9998329938996984,1.0,0.00016700610030164208
+openai,gpt56_sol,GPT-5.6 Sol,South Korea,Independence,0.6648773355888414,0.9999692264978738,0.125,2.6247133716073012e-05
+openai,gpt56_sol,GPT-5.6 Sol,South Korea,Obedience,0.15415085757153055,0.9998766395853574,0.13333333333333333,0.00012047858726776569
+openai,gpt56_sol,GPT-5.6 Sol,South Korea,Religious faith,0.0,0.9999932000481998,1.0,6.7999518002181954e-06
+openai,gpt56_sol,GPT-5.6 Sol,Spain,"Determination, perseverance",1.0,0.9997317225163018,1.0,0.00026827748369812054
+openai,gpt56_sol,GPT-5.6 Sol,Spain,Independence,1.0,0.9998043811600138,1.0,0.0001956188399862064
+openai,gpt56_sol,GPT-5.6 Sol,Spain,Obedience,0.0,0.9999815504343665,1.0,1.8449565633477105e-05
+openai,gpt56_sol,GPT-5.6 Sol,Spain,Religious faith,0.0,0.9999948500319249,1.0,5.149968075129907e-06
+openai,gpt56_sol,GPT-5.6 Sol,Sweden,"Determination, perseverance",0.9875636778206359,0.999786803959314,0.8333333333333334,0.00021319604068609221
+openai,gpt56_sol,GPT-5.6 Sol,Sweden,Independence,1.0,0.999996350022075,1.0,3.6499779250853683e-06
+openai,gpt56_sol,GPT-5.6 Sol,Sweden,Obedience,0.0,0.9999966000240998,1.0,3.3999759001090977e-06
+openai,gpt56_sol,GPT-5.6 Sol,Sweden,Religious faith,0.0,0.9999952000271,1.0,4.799972900099148e-06
+openai,gpt56_sol,GPT-5.6 Sol,Switzerland,"Determination, perseverance",1.0,0.9997884109557484,1.0,0.0002115890442515351
+openai,gpt56_sol,GPT-5.6 Sol,Switzerland,Independence,1.0,0.9999929500599747,1.0,7.049940025410928e-06
+openai,gpt56_sol,GPT-5.6 Sol,Switzerland,Obedience,0.0,0.9999723011162638,1.0,2.7698883736132496e-05
+openai,gpt56_sol,GPT-5.6 Sol,Switzerland,Religious faith,0.0,0.9999946500309249,1.0,5.349969075119088e-06
+openai,gpt56_sol,GPT-5.6 Sol,Taiwan ROC,"Determination, perseverance",1.0,0.9998945419526296,1.0,0.00010545804737028877
+openai,gpt56_sol,GPT-5.6 Sol,Taiwan ROC,Independence,0.993407568080668,0.999654795344489,0.7777777777777778,0.0003424572279763351
+openai,gpt56_sol,GPT-5.6 Sol,Taiwan ROC,Obedience,0.04521560682336504,0.9998450718189072,0.2,0.00015094301184293002
+openai,gpt56_sol,GPT-5.6 Sol,Taiwan ROC,Religious faith,0.0,0.9999946000440998,1.0,5.3999559002759765e-06
+openai,gpt56_sol,GPT-5.6 Sol,Thailand,"Determination, perseverance",1.0,0.9998013842480727,1.0,0.00019861575192722618
+openai,gpt56_sol,GPT-5.6 Sol,Thailand,Independence,0.1550919333730622,0.9998652493053345,0.14285714285714285,0.00013022632205661466
+openai,gpt56_sol,GPT-5.6 Sol,Thailand,Obedience,0.9673285627034869,0.9998425902074135,0.9,0.00015657373815494146
+openai,gpt56_sol,GPT-5.6 Sol,Thailand,Religious faith,0.5953626021203972,0.9999977443290952,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Trinidad and Tobago,"Determination, perseverance",1.0,0.999958706343455,1.0,4.1293656545071665e-05
+openai,gpt56_sol,GPT-5.6 Sol,Trinidad and Tobago,Independence,0.6196528244830066,0.9999961362023105,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Trinidad and Tobago,Obedience,0.8879100970726308,0.9996382448769638,0.6666666666666666,0.0003593140451873225
+openai,gpt56_sol,GPT-5.6 Sol,Trinidad and Tobago,Religious faith,0.9553283141329135,0.9999206141317251,0.9375,7.911596972995372e-05
+openai,gpt56_sol,GPT-5.6 Sol,Tunisia,"Determination, perseverance",1.0,0.999763434309001,1.0,0.00023656569099888685
+openai,gpt56_sol,GPT-5.6 Sol,Tunisia,Independence,0.18570330793004966,0.9999963460549207,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Tunisia,Obedience,0.8997947204351946,0.9997463862901635,0.6363636363636364,0.00025018336851825103
+openai,gpt56_sol,GPT-5.6 Sol,Tunisia,Religious faith,1.0,0.9999537504868975,1.0,4.624951310259663e-05
+openai,gpt56_sol,GPT-5.6 Sol,Turkey,"Determination, perseverance",1.0,0.999786943496657,1.0,0.00021305650334308373
+openai,gpt56_sol,GPT-5.6 Sol,Turkey,Independence,0.3437554751477871,0.9999962875300022,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Turkey,Obedience,0.4272947535423042,0.9999960895279462,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Turkey,Religious faith,0.8198402316491626,0.9999838900568879,0.1111111111111111,1.6109943112013132e-05
+openai,gpt56_sol,GPT-5.6 Sol,Ukraine,"Determination, perseverance",1.0,0.999893930592464,1.0,0.00010606940753597471
+openai,gpt56_sol,GPT-5.6 Sol,Ukraine,Independence,0.9981088278016713,0.9997264425822306,0.9411764705882353,0.0002735574177694002
+openai,gpt56_sol,GPT-5.6 Sol,Ukraine,Obedience,0.10235140334651811,0.9997730026214383,0.5833333333333334,0.00022585343799310284
+openai,gpt56_sol,GPT-5.6 Sol,Ukraine,Religious faith,0.0,0.9997641273618192,1.0,0.00023587263818089326
+openai,gpt56_sol,GPT-5.6 Sol,United Kingdom,"Determination, perseverance",1.0,0.9999673517174801,1.0,3.264828251996477e-05
+openai,gpt56_sol,GPT-5.6 Sol,United Kingdom,Independence,1.0,0.9999813505933057,1.0,1.8649406694287717e-05
+openai,gpt56_sol,GPT-5.6 Sol,United Kingdom,Obedience,0.0,0.9999792506432519,1.0,2.0749356748184234e-05
+openai,gpt56_sol,GPT-5.6 Sol,United Kingdom,Religious faith,0.0,0.9999908001092489,1.0,9.199890751049323e-06
+openai,gpt56_sol,GPT-5.6 Sol,United States,"Determination, perseverance",1.0,0.9999858509118702,1.0,1.4149088129722376e-05
+openai,gpt56_sol,GPT-5.6 Sol,United States,Independence,1.0,0.9999908501716221,1.0,9.149828377813529e-06
+openai,gpt56_sol,GPT-5.6 Sol,United States,Obedience,0.0,0.999955701988205,1.0,4.4298011794996486e-05
+openai,gpt56_sol,GPT-5.6 Sol,United States,Religious faith,0.0,0.9999461553235856,1.0,5.384467641448287e-05
+openai,gpt56_sol,GPT-5.6 Sol,Uruguay,"Determination, perseverance",0.9973337937611336,0.999736014834977,0.9285714285714286,0.0002639851650230888
+openai,gpt56_sol,GPT-5.6 Sol,Uruguay,Independence,0.9651756810090861,0.9997613644044376,0.6,0.0002380477041054596
+openai,gpt56_sol,GPT-5.6 Sol,Uruguay,Obedience,0.0,0.9995984127421794,1.0,0.00040158725782070984
+openai,gpt56_sol,GPT-5.6 Sol,Uruguay,Religious faith,0.0,0.9999853002419968,1.0,1.4699758003178243e-05
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,"Determination, perseverance",1.0,0.9998476209606145,1.0,0.0001523790393854167
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,Independence,0.4115878886590595,0.9999944465009661,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,Obedience,0.8478368333567837,0.9998142103177946,0.5833333333333334,0.00018295567528098244
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,Religious faith,0.9417979839566724,0.9997703866007945,0.8666666666666667,0.0002287449749836486
+openai,gpt56_sol,GPT-5.6 Sol,Vietnam,"Determination, perseverance",1.0,0.9999849502031228,1.0,1.5049796877170119e-05
+openai,gpt56_sol,GPT-5.6 Sol,Vietnam,Independence,0.20973361687407563,0.9999931912299743,0.0,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Vietnam,Obedience,0.9427413056020525,0.999853074591571,0.8947368421052632,0.00014602343040355588
+openai,gpt56_sol,GPT-5.6 Sol,Vietnam,Religious faith,0.0,0.9997997134118933,1.0,0.0002002865881066191
+openai,gpt56_sol,GPT-5.6 Sol,Yemen,"Determination, perseverance",0.7976812966437407,0.9999766090893527,0.13333333333333333,1.8797349449154824e-05
+openai,gpt56_sol,GPT-5.6 Sol,Yemen,Independence,0.0,0.9998036864700331,1.0,0.00019631352996695619
+openai,gpt56_sol,GPT-5.6 Sol,Yemen,Obedience,1.0,0.9999576609044205,1.0,4.233909557960214e-05
+openai,gpt56_sol,GPT-5.6 Sol,Yemen,Religious faith,1.0,0.9999963500212748,1.0,3.649978725078773e-06
+openai,gpt56_sol,GPT-5.6 Sol,Zambia,"Determination, perseverance",1.0,0.9998514365579224,1.0,0.00014856344207758165
+openai,gpt56_sol,GPT-5.6 Sol,Zambia,Independence,0.2436659660782697,0.9998016579006518,0.42857142857142855,0.00019722820230135988
+openai,gpt56_sol,GPT-5.6 Sol,Zambia,Obedience,1.0,0.9999548590048611,1.0,4.514099513885343e-05
+openai,gpt56_sol,GPT-5.6 Sol,Zambia,Religious faith,1.0,0.9999928001015487,1.0,7.199898451376585e-06
+openai,gpt56_sol,GPT-5.6 Sol,Zimbabwe,"Determination, perseverance",1.0,0.9999486049799925,1.0,5.139502000754414e-05
+openai,gpt56_sol,GPT-5.6 Sol,Zimbabwe,Independence,0.16456474436815055,0.9998692998570196,0.2222222222222222,0.00012496484698164433
+openai,gpt56_sol,GPT-5.6 Sol,Zimbabwe,Obedience,1.0,0.9999873335598299,1.0,1.2666440170055409e-05
+openai,gpt56_sol,GPT-5.6 Sol,Zimbabwe,Religious faith,1.0,0.999986800179798,1.0,1.3199820202075552e-05
+openai,gpt56_sol,GPT-5.6 Sol,__DEFAULT__,"Determination, perseverance",1.0,0.9999876501921221,1.0,1.234980787779838e-05
+openai,gpt56_sol,GPT-5.6 Sol,__DEFAULT__,Independence,1.0,0.9999924500709245,1.0,7.54992907552876e-06
+openai,gpt56_sol,GPT-5.6 Sol,__DEFAULT__,Obedience,0.0,0.9996435930897434,1.0,0.00035640691025669026
+openai,gpt56_sol,GPT-5.6 Sol,__DEFAULT__,Religious faith,0.0,0.9997549343163457,1.0,0.0002450656836543589

@@ -1,0 +1,173 @@
+{
+  "gpt56_sol_vs_jev": {
+    "js": {
+      "metric": "js",
+      "representation": "full",
+      "condition_a": "gpt56_sol",
+      "condition_b": "jev",
+      "mean_error_a_minus_b": 0.09871320274656241,
+      "ci95_low": 0.056895247134013026,
+      "ci95_high": 0.1446326927884971,
+      "wilcoxon_p": 2.0456264209859383e-61,
+      "n_country_item": 946
+    },
+    "tv": {
+      "metric": "tv",
+      "representation": "full",
+      "condition_a": "gpt56_sol",
+      "condition_b": "jev",
+      "mean_error_a_minus_b": 0.06347327850622578,
+      "ci95_low": 0.008443957487208826,
+      "ci95_high": 0.11673731044415303,
+      "wilcoxon_p": 3.2797458210486495e-24,
+      "n_country_item": 946
+    },
+    "wasserstein": {
+      "metric": "wasserstein",
+      "representation": "full",
+      "condition_a": "gpt56_sol",
+      "condition_b": "jev",
+      "mean_error_a_minus_b": 0.05517297718650503,
+      "ci95_low": -0.00044510219236077304,
+      "ci95_high": 0.11301056285822257,
+      "wilcoxon_p": 8.781285522688491e-24,
+      "n_country_item": 839
+    },
+    "expected_abs_error": {
+      "metric": "expected_abs_error",
+      "representation": "full",
+      "condition_a": "gpt56_sol",
+      "condition_b": "jev",
+      "mean_error_a_minus_b": 0.25952469009341067,
+      "ci95_low": -0.09798088046564589,
+      "ci95_high": 0.7583548634006683,
+      "wilcoxon_p": 1.1617095319592462e-10,
+      "n_country_item": 946
+    },
+    "entropy_abs_error": {
+      "metric": "entropy_abs_error",
+      "representation": "full",
+      "condition_a": "gpt56_sol",
+      "condition_b": "jev",
+      "mean_error_a_minus_b": 0.28085567328258715,
+      "ci95_low": 0.22025035733191245,
+      "ci95_high": 0.3417736611096956,
+      "wilcoxon_p": 7.796925044881081e-109,
+      "n_country_item": 946
+    }
+  },
+  "gpt4o_anchor_vs_jev": {
+    "js": {
+      "metric": "js",
+      "representation": "full",
+      "condition_a": "gpt4o_anchor",
+      "condition_b": "jev",
+      "mean_error_a_minus_b": 0.020462385165139946,
+      "ci95_low": -0.015537824391989391,
+      "ci95_high": 0.05330419006192242,
+      "wilcoxon_p": 1.4756771404981174e-06,
+      "n_country_item": 963
+    },
+    "tv": {
+      "metric": "tv",
+      "representation": "full",
+      "condition_a": "gpt4o_anchor",
+      "condition_b": "jev",
+      "mean_error_a_minus_b": -0.012158743458331508,
+      "ci95_low": -0.05649041705003972,
+      "ci95_high": 0.026339391837259828,
+      "wilcoxon_p": 0.25710509836846784,
+      "n_country_item": 963
+    },
+    "wasserstein": {
+      "metric": "wasserstein",
+      "representation": "full",
+      "condition_a": "gpt4o_anchor",
+      "condition_b": "jev",
+      "mean_error_a_minus_b": 0.011719114739556145,
+      "ci95_low": -0.025226155235509924,
+      "ci95_high": 0.05347339792257192,
+      "wilcoxon_p": 0.07931209532125734,
+      "n_country_item": 856
+    },
+    "expected_abs_error": {
+      "metric": "expected_abs_error",
+      "representation": "full",
+      "condition_a": "gpt4o_anchor",
+      "condition_b": "jev",
+      "mean_error_a_minus_b": 0.08300319057225668,
+      "ci95_low": -0.2393356116182775,
+      "ci95_high": 0.455367669367424,
+      "wilcoxon_p": 0.005382095297728379,
+      "n_country_item": 963
+    },
+    "entropy_abs_error": {
+      "metric": "entropy_abs_error",
+      "representation": "full",
+      "condition_a": "gpt4o_anchor",
+      "condition_b": "jev",
+      "mean_error_a_minus_b": 0.14135757043551786,
+      "ci95_low": 0.0806326989347567,
+      "ci95_high": 0.20292652675369088,
+      "wilcoxon_p": 6.969806941837856e-46,
+      "n_country_item": 963
+    }
+  },
+  "gpt4o_anchor_vs_gpt56_sol": {
+    "js": {
+      "metric": "js",
+      "representation": "full",
+      "condition_a": "gpt4o_anchor",
+      "condition_b": "gpt56_sol",
+      "mean_error_a_minus_b": -0.07924649066412266,
+      "ci95_low": -0.11310853202338683,
+      "ci95_high": -0.04512254817433789,
+      "wilcoxon_p": 1.9445494806994965e-54,
+      "n_country_item": 946
+    },
+    "tv": {
+      "metric": "tv",
+      "representation": "full",
+      "condition_a": "gpt4o_anchor",
+      "condition_b": "gpt56_sol",
+      "mean_error_a_minus_b": -0.07731689813902658,
+      "ci95_low": -0.11381885917292892,
+      "ci95_high": -0.04210688221697941,
+      "wilcoxon_p": 9.152182246330481e-42,
+      "n_country_item": 946
+    },
+    "wasserstein": {
+      "metric": "wasserstein",
+      "representation": "full",
+      "condition_a": "gpt4o_anchor",
+      "condition_b": "gpt56_sol",
+      "mean_error_a_minus_b": -0.043185455799119955,
+      "ci95_low": -0.07604735863090244,
+      "ci95_high": -0.013787982530735455,
+      "wilcoxon_p": 9.313041103760795e-30,
+      "n_country_item": 839
+    },
+    "expected_abs_error": {
+      "metric": "expected_abs_error",
+      "representation": "full",
+      "condition_a": "gpt4o_anchor",
+      "condition_b": "gpt56_sol",
+      "mean_error_a_minus_b": -0.16240494355369017,
+      "ci95_low": -0.3478409586442078,
+      "ci95_high": -0.01420568528062587,
+      "wilcoxon_p": 2.4796741484381693e-11,
+      "n_country_item": 946
+    },
+    "entropy_abs_error": {
+      "metric": "entropy_abs_error",
+      "representation": "full",
+      "condition_a": "gpt4o_anchor",
+      "condition_b": "gpt56_sol",
+      "mean_error_a_minus_b": -0.14139415302493966,
+      "ci95_low": -0.2244559019480135,
+      "ci95_high": -0.06351226091505971,
+      "wilcoxon_p": 3.4728429024472014e-46,
+      "n_country_item": 946
+    }
+  }
+}

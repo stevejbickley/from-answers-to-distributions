@@ -1,0 +1,7 @@
+condition,condition_label,representation,mean_distance,median_distance,n
+gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.689819410874078,1.604720234992863,107
+gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.5622544511952174,1.519855778893744,107
+gpt56_sol,GPT-5.6 Sol,argmax,1.8838741877353047,2.0607111176604667,91
+gpt56_sol,GPT-5.6 Sol,expected,1.7861232474235809,1.8975556142642176,91
+jev,Jev,argmax,1.844702451689813,1.9059547510553916,107
+jev,Jev,expected,1.6284612118386583,1.553710029747473,107

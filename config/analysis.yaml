@@ -5,6 +5,8 @@ weight_variable: S017
 country_variable: S003
 country_alpha_variable: S009
 year_variable: S020
+year_min: 2005
+year_max: 2022
 wave_variable: S002VS
 exclude_countries: [Egypt, Kuwait, Qatar, Tajikistan, Uzbekistan]
 country_year_aggregation: equal_country_year_after_within_year_survey_weighting
@@ -19,3 +21,16 @@ paper_rescaling:
   pc1_intercept: 0.38
   pc2_multiplier: 1.61
   pc2_intercept: -0.01
+
+primary_model_conditions: [gpt4o_anchor, gpt56_sol, jev]
+optional_model_conditions: [gpt56_terra]
+reference_contemporary_condition: gpt56_sol
+historical_anchor_condition: gpt4o_anchor
+
+# OpenAI top-K censoring policy. Missing labels are never silently treated as exact zero.
+openai_censoring:
+  primary_missing_mass_upper_bound: 0.001
+  strict_missing_mass_upper_bound: 0.0001
+  primary_policy_name: tail_bound_0p001
+  strict_policy_name: tail_bound_0p0001
+  complete_only_policy_name: complete_only

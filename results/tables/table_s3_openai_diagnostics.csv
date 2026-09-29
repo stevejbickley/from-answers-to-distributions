@@ -1,0 +1,3 @@
+condition,condition_label,calls,complete_calls,incomplete_percent,allowed_mass_mean,allowed_mass_median,missing_mass_upper_bound_max,primary_retained_percent,strict_retained_percent,complete_only_percent,invalid_generated_percent
+gpt4o_anchor,GPT-4o historical-generation anchor,37800,35754,5.412698412698413,0.99968970141386,0.999997150279736,0.0003690312561426,100.0,99.9920634920635,94.58730158730158,0.0343915343915344
+gpt56_sol,GPT-5.6 Sol,37800,1922,94.91534391534393,0.9972745243085378,0.999882006961726,0.0199963668220962,65.40476190476191,48.87301587301587,5.084656084656085,0.0

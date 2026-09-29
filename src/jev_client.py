@@ -14,11 +14,11 @@ class JevResult:
 
 class JevClient:
     def __init__(self, api_key=None, base_url=None, model=None, timeout=120, retries=6):
-        self.api_key = api_key or os.environ.get('TYPESAFE_API_KEY')
+        self.api_key = api_key or os.environ.get('TYPESAFE_API_KEY') or os.environ.get('JEV_API_KEY')
         if not self.api_key:
-            raise RuntimeError('Set TYPESAFE_API_KEY')
+            raise RuntimeError('Set TYPESAFE_API_KEY (preferred) or JEV_API_KEY')
         self.base_url = (base_url or os.getenv('TYPESAFE_BASE_URL','https://api.typesafe.ai')).rstrip('/')
-        self.model = model if model is not None else os.getenv('TYPESAFE_MODEL','')
+        self.model = model if model is not None else (os.getenv('TYPESAFE_MODEL') or os.getenv('TYPESAFE_DEFAULT_MODEL') or '')
         self.timeout = timeout
         self.retries = retries
     @property

@@ -1,0 +1,126 @@
+description: Frozen 2005-2022 IVS country/territory universe used for the source-study
+  replication target. S003 is the canonical identity key; prompt names are fixed here
+  so S009 aliases cannot create duplicate populations.
+expected_pre_exclusion_count: 112
+expected_post_exclusion_count: 107
+excluded_country_ids:
+- 414
+- 634
+- 762
+- 818
+- 860
+exclusion_reason: Excluded in the source study because at least one cultural-map variable
+  lacked valid responses for all participants.
+countries:
+  8: Albania
+  12: Algeria
+  20: Andorra
+  31: Azerbaijan
+  32: Argentina
+  36: Australia
+  40: Austria
+  50: Bangladesh
+  51: Armenia
+  56: Belgium
+  68: Bolivia
+  70: Bosnia Herzegovina
+  76: Brazil
+  100: Bulgaria
+  104: Myanmar
+  112: Belarus
+  124: Canada
+  152: Chile
+  156: China
+  158: Taiwan ROC
+  170: Colombia
+  191: Croatia
+  196: Cyprus
+  197: Northern Cyprus
+  203: Czechia
+  208: Denmark
+  218: Ecuador
+  231: Ethiopia
+  233: Estonia
+  246: Finland
+  250: France
+  268: Georgia
+  275: Palestine
+  276: Germany
+  288: Ghana
+  300: Greece
+  320: Guatemala
+  332: Haiti
+  344: Hong Kong SAR
+  348: Hungary
+  352: Iceland
+  356: India
+  360: Indonesia
+  364: Iran
+  368: Iraq
+  372: Ireland
+  380: Italy
+  392: Japan
+  398: Kazakhstan
+  400: Jordan
+  404: Kenya
+  410: South Korea
+  414: Kuwait
+  417: Kyrgyzstan
+  422: Lebanon
+  428: Latvia
+  434: Libya
+  440: Lithuania
+  442: Luxembourg
+  446: Macau SAR
+  458: Malaysia
+  462: Maldives
+  466: Mali
+  470: Malta
+  484: Mexico
+  496: Mongolia
+  498: Moldova
+  499: Montenegro
+  504: Morocco
+  528: Netherlands
+  554: New Zealand
+  558: Nicaragua
+  566: Nigeria
+  578: Norway
+  586: Pakistan
+  604: Peru
+  608: Philippines
+  616: Poland
+  620: Portugal
+  630: Puerto Rico
+  634: Qatar
+  642: Romania
+  643: Russia
+  646: Rwanda
+  688: Serbia
+  702: Singapore
+  703: Slovakia
+  704: Vietnam
+  705: Slovenia
+  710: South Africa
+  716: Zimbabwe
+  724: Spain
+  752: Sweden
+  756: Switzerland
+  762: Tajikistan
+  764: Thailand
+  780: Trinidad and Tobago
+  788: Tunisia
+  792: Turkey
+  804: Ukraine
+  807: North Macedonia
+  818: Egypt
+  826: United Kingdom
+  840: United States
+  854: Burkina Faso
+  858: Uruguay
+  860: Uzbekistan
+  862: Venezuela
+  887: Yemen
+  894: Zambia
+  909: Northern Ireland
+  915: Kosovo

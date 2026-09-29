@@ -1,0 +1,15 @@
+{
+  "requests": 95186,
+  "input_tokens": 20713572,
+  "cached_input_tokens": 0,
+  "cache_write_input_tokens": 0,
+  "output_tokens": 1215251,
+  "reasoning_output_tokens": 0,
+  "total_tokens": 21928823,
+  "estimated_total_cost_usd": 44.872022136,
+  "provider_reported_cost_usd": null,
+  "pricing_snapshot_dates": [
+    "2026-09-25"
+  ],
+  "note": "Estimated cost uses the dated standard list-price snapshot in config/pricing.yaml; provider invoices are authoritative. Batched Jev answer records are deduplicated by request_id."
+}

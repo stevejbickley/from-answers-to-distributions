@@ -1,0 +1,724 @@
+country,provider,condition,condition_label,representation,survival_self_expression,traditional_secular
+Albania,human,human,Human IVS,expected,-0.4965547934850436,0.33797744292084453
+Algeria,human,human,Human IVS,expected,-0.9147653132431405,-0.010673954503300997
+Andorra,human,human,Human IVS,expected,2.2201021122771185,-0.17708134411606472
+Argentina,human,human,Human IVS,expected,0.3588800095979557,-0.4056909908946821
+Armenia,human,human,Human IVS,expected,-0.7995527472736413,-0.015191325896422254
+Australia,human,human,Human IVS,expected,2.2594004064736923,-0.7268368430002653
+Austria,human,human,Human IVS,expected,1.8411281709710625,0.016329283214959377
+Azerbaijan,human,human,Human IVS,expected,-0.7945136220234449,0.12937711909489863
+Bangladesh,human,human,Human IVS,expected,-1.1006724781356096,-0.8246194291390105
+Belarus,human,human,Human IVS,expected,0.042673509092203854,0.7793564705436218
+Belgium,human,human,Human IVS,expected,1.6869708134542063,-0.4188033769854879
+Bolivia,human,human,Human IVS,expected,-0.6615273302917822,-0.7581431258183848
+Bosnia Herzegovina,human,human,Human IVS,expected,-0.2573926529290632,0.5696699984471418
+Brazil,human,human,Human IVS,expected,-0.05004193255065914,-0.28202218790755157
+Bulgaria,human,human,Human IVS,expected,0.27676234821173906,1.327716493392753
+Burkina Faso,human,human,Human IVS,expected,-0.9196424780406808,-0.5500842620265574
+Canada,human,human,Human IVS,expected,2.0881893244708087,-0.6915391285042045
+Chile,human,human,Human IVS,expected,0.18917506205363752,0.03745246504726796
+China,human,human,Human IVS,expected,0.4853695499667162,1.0539113339734352
+Colombia,human,human,Human IVS,expected,-0.4683110637915576,-1.4412308380745296
+Croatia,human,human,Human IVS,expected,0.3801884615657148,0.19201846585547389
+Cyprus,human,human,Human IVS,expected,-0.19371440357955172,-0.07925310689176546
+Czechia,human,human,Human IVS,expected,1.694874923203228,0.8529204875549151
+Denmark,human,human,Human IVS,expected,3.147083986331722,-0.4997695831794727
+Ecuador,human,human,Human IVS,expected,-0.6905870724186057,-1.3676403996739168
+Estonia,human,human,Human IVS,expected,0.8845567200308233,1.0579168749720518
+Ethiopia,human,human,Human IVS,expected,-0.8754493421853332,-0.27164568371699305
+Finland,human,human,Human IVS,expected,2.29877552660475,-0.08337451113270147
+France,human,human,Human IVS,expected,1.9983148580230448,-0.2555486792608458
+Georgia,human,human,Human IVS,expected,-1.0331352843863284,-0.018717615329926725
+Germany,human,human,Human IVS,expected,2.131459985371854,0.5008520052414726
+Ghana,human,human,Human IVS,expected,-1.3804788781447623,-1.0984662218055012
+Greece,human,human,Human IVS,expected,0.30385332758670297,0.40056348732324226
+Guatemala,human,human,Human IVS,expected,-0.026445863250907586,-0.8083875725733736
+Haiti,human,human,Human IVS,expected,-0.03648676672935397,-0.6659103111757678
+Hong Kong SAR,human,human,Human IVS,expected,1.0522794387885863,1.319593487262133
+Hungary,human,human,Human IVS,expected,0.5958582222334702,0.7555690516222847
+Iceland,human,human,Human IVS,expected,2.7401524059634585,-0.8021865621685588
+India,human,human,Human IVS,expected,-0.41740583901528205,-0.02953381695848195
+Indonesia,human,human,Human IVS,expected,-0.9777612685685325,0.021406623976809064
+Iran,human,human,Human IVS,expected,-0.8542630107056183,0.08935271819871779
+Iraq,human,human,Human IVS,expected,-1.259600667049332,-0.0760112337875693
+Ireland,human,human,Human IVS,expected,0.8646971223735624,-1.1132011290735189
+Italy,human,human,Human IVS,expected,0.8566225949272623,-0.07913961114848508
+Japan,human,human,Human IVS,expected,1.9845851596906754,1.374457544923553
+Jordan,human,human,Human IVS,expected,-1.5815499181890464,-0.6277057975077098
+Kazakhstan,human,human,Human IVS,expected,-0.28462859244023897,0.2977623378935796
+Kenya,human,human,Human IVS,expected,-0.32525345158311025,-0.5338832867427228
+Kosovo,human,human,Human IVS,expected,-0.5699589430058296,-0.6504221659103447
+Kyrgyzstan,human,human,Human IVS,expected,-0.7134986112211633,-0.4210658809213482
+Latvia,human,human,Human IVS,expected,0.6203002664127993,1.096282428346476
+Lebanon,human,human,Human IVS,expected,-0.590934136342166,0.3598332413042767
+Libya,human,human,Human IVS,expected,-1.4181827848039803,-0.8314521693977057
+Lithuania,human,human,Human IVS,expected,0.4997596210604211,1.3001522434441524
+Luxembourg,human,human,Human IVS,expected,1.6707081842676539,-0.27596065875564163
+Macau SAR,human,human,Human IVS,expected,1.2594139888911786,1.2547872997817902
+Malaysia,human,human,Human IVS,expected,-0.36192591732815105,-0.08907338071794778
+Maldives,human,human,Human IVS,expected,-0.945479477087816,-0.7588325124541045
+Mali,human,human,Human IVS,expected,-0.5072097277752277,-0.8930694426077095
+Malta,human,human,Human IVS,expected,-0.2653703220338569,-1.0036575041538816
+Mexico,human,human,Human IVS,expected,-0.04745314673055945,-1.29049339708619
+Moldova,human,human,Human IVS,expected,-0.6893350937815342,1.4364835204232893
+Mongolia,human,human,Human IVS,expected,0.9224485254534757,0.7618515224219946
+Montenegro,human,human,Human IVS,expected,0.0589576348858557,0.24241364227842005
+Morocco,human,human,Human IVS,expected,-1.056223816029374,0.04507132510804908
+Myanmar,human,human,Human IVS,expected,-1.0628319004553934,-0.21448601126121644
+Netherlands,human,human,Human IVS,expected,2.533541076435445,-0.27894689705452674
+New Zealand,human,human,Human IVS,expected,2.4132541446605993,-0.7999741096499359
+Nicaragua,human,human,Human IVS,expected,-0.8793789562859199,-1.178499308554408
+Nigeria,human,human,Human IVS,expected,-1.1553290040456403,-0.6083224017992006
+North Macedonia,human,human,Human IVS,expected,0.10372825158805593,0.335962371920746
+Northern Cyprus,human,human,Human IVS,expected,-0.3819057667765713,0.32185372560906467
+Northern Ireland,human,human,Human IVS,expected,1.2968179066893777,-0.5362905799515251
+Norway,human,human,Human IVS,expected,3.0610573470599,-0.351181081110588
+Pakistan,human,human,Human IVS,expected,-0.9169353343649783,-0.566230837940257
+Palestine,human,human,Human IVS,expected,-1.2615067372968811,0.03164758131526611
+Peru,human,human,Human IVS,expected,-0.5898037998997625,-0.5067153227857173
+Philippines,human,human,Human IVS,expected,-0.37560030616157614,-1.1011668539671176
+Poland,human,human,Human IVS,expected,0.07888508669919603,-0.2316411108764103
+Portugal,human,human,Human IVS,expected,0.48240004523433744,-0.2386664386106229
+Puerto Rico,human,human,Human IVS,expected,0.11127881156793262,-1.5228055802489695
+Romania,human,human,Human IVS,expected,-0.6913715177170089,0.535367266632311
+Russia,human,human,Human IVS,expected,-0.05441692415964827,0.937323742905504
+Rwanda,human,human,Human IVS,expected,-1.0397639054296888,-0.5246325902899939
+Serbia,human,human,Human IVS,expected,0.21620846265633129,0.7066205015868606
+Singapore,human,human,Human IVS,expected,0.36229423679412714,0.1915379541902066
+Slovakia,human,human,Human IVS,expected,0.9309838689676948,0.49729760908116905
+Slovenia,human,human,Human IVS,expected,1.5260649024591912,0.4177243874929053
+South Africa,human,human,Human IVS,expected,-0.18311033287135714,-0.38892497178642804
+South Korea,human,human,Human IVS,expected,0.6749734799097409,1.4060250928832327
+Spain,human,human,Human IVS,expected,1.4125303085384102,-0.12122216283509292
+Sweden,human,human,Human IVS,expected,3.4296551373828303,-0.03322129353710843
+Switzerland,human,human,Human IVS,expected,2.36343034297911,-0.3288736819965577
+Taiwan ROC,human,human,Human IVS,expected,0.6215453627138426,1.5553414286802592
+Thailand,human,human,Human IVS,expected,0.16608071390272522,0.06919060004785886
+Trinidad and Tobago,human,human,Human IVS,expected,-0.8923773359651069,-1.3033612529744099
+Tunisia,human,human,Human IVS,expected,-1.274804060812576,0.3080695476503613
+Turkey,human,human,Human IVS,expected,-0.8210880549343117,-0.17228344545540314
+Ukraine,human,human,Human IVS,expected,-0.25610144983992544,0.9981723245194103
+United Kingdom,human,human,Human IVS,expected,2.1687334878077493,-0.5611504273129929
+United States,human,human,Human IVS,expected,1.2799539134782698,-0.6562101120593186
+Uruguay,human,human,Human IVS,expected,0.9661578057501996,-0.6002972430141686
+Venezuela,human,human,Human IVS,expected,-0.4261658505833157,-0.7009742782372061
+Vietnam,human,human,Human IVS,expected,0.38825207039421467,-0.42611960841755714
+Yemen,human,human,Human IVS,expected,-1.4544319588436614,-0.44899367278961727
+Zambia,human,human,Human IVS,expected,-0.6463823642255372,0.14662668995579217
+Zimbabwe,human,human,Human IVS,expected,-1.292598695012046,-0.032272948180088
+Albania,jev,jev,Jev,expected,1.233680545953965,1.3639518706115696
+Albania,jev,jev,Jev,argmax,1.5755967810102711,1.4757582613404225
+Algeria,jev,jev,Jev,expected,-0.2213508702017285,0.4733002633746455
+Algeria,jev,jev,Jev,argmax,-1.1270506699223,0.12093785008659196
+Andorra,jev,jev,Jev,expected,2.4347803911356083,-0.15085334982214477
+Andorra,jev,jev,Jev,argmax,2.677661429700024,0.06484978427859643
+Argentina,jev,jev,Jev,expected,2.014701777967567,1.136104747518424
+Argentina,jev,jev,Jev,argmax,2.040773958019056,1.7138049148109715
+Armenia,jev,jev,Jev,expected,0.5567103065995239,0.09855712416578458
+Armenia,jev,jev,Jev,argmax,0.4035404158199869,-0.10986361995490432
+Australia,jev,jev,Jev,expected,3.163087584569081,0.6595140659843652
+Australia,jev,jev,Jev,argmax,4.050718189063901,1.082320434548463
+Austria,jev,jev,Jev,expected,2.998741539942524,0.9453225212270943
+Austria,jev,jev,Jev,argmax,3.4887606929166703,0.8658670328164141
+Azerbaijan,jev,jev,Jev,expected,0.2909644184994089,0.38656889291815333
+Azerbaijan,jev,jev,Jev,argmax,-0.5611626496284972,-0.3970303099100758
+Bangladesh,jev,jev,Jev,expected,-0.12196872296850991,0.4963001460272365
+Bangladesh,jev,jev,Jev,argmax,-0.9685375296031541,0.0723533793586725
+Belarus,jev,jev,Jev,expected,0.9074992692269018,1.846137158946011
+Belarus,jev,jev,Jev,argmax,0.9311819757850367,2.0538962099064073
+Belgium,jev,jev,Jev,expected,3.464019843472952,1.2986097679383202
+Belgium,jev,jev,Jev,argmax,4.050718189063901,1.082320434548463
+Bolivia,jev,jev,Jev,expected,0.7941878831762765,0.4483487511559003
+Bolivia,jev,jev,Jev,argmax,0.3083929068368067,1.170953474552421
+Bosnia Herzegovina,jev,jev,Jev,expected,0.7986788913410975,2.1183861827931074
+Bosnia Herzegovina,jev,jev,Jev,argmax,0.5044884793699009,2.932408303156778
+Brazil,jev,jev,Jev,expected,1.4925322567485986,0.5836432772637367
+Brazil,jev,jev,Jev,argmax,1.483660161830942,0.7235375574359708
+Bulgaria,jev,jev,Jev,expected,1.1178187407139695,1.665181315655958
+Bulgaria,jev,jev,Jev,argmax,1.277907399866605,2.6795973512476343
+Burkina Faso,jev,jev,Jev,expected,-0.30860803813382975,0.8926849905587769
+Burkina Faso,jev,jev,Jev,argmax,-1.4984022882223935,1.715424425366384
+Canada,jev,jev,Jev,expected,3.3809172982669513,0.6160987337967229
+Canada,jev,jev,Jev,argmax,4.050718189063901,1.082320434548463
+Chile,jev,jev,Jev,expected,2.018546630373064,0.7289716349912622
+Chile,jev,jev,Jev,argmax,2.051136201967708,1.3300048491566643
+China,jev,jev,Jev,expected,1.383623227533071,1.0513427252886989
+China,jev,jev,Jev,argmax,1.0539213114846062,0.35534745950964053
+Colombia,jev,jev,Jev,expected,1.1809304659814608,0.5707899319531282
+Colombia,jev,jev,Jev,argmax,1.1991457062272683,1.5081971985836617
+Croatia,jev,jev,Jev,expected,1.553687844851357,0.9470341370004907
+Croatia,jev,jev,Jev,argmax,1.7341099213294169,1.427173790612503
+Cyprus,jev,jev,Jev,expected,1.5751806735846499,0.2438294648108834
+Cyprus,jev,jev,Jev,argmax,2.1166459586689172,0.24850302702844024
+Czechia,jev,jev,Jev,expected,2.717830079187165,1.475387530772083
+Czechia,jev,jev,Jev,argmax,2.8521324008337188,2.4158935762491716
+Denmark,jev,jev,Jev,expected,4.09018967202779,0.4317195197794609
+Denmark,jev,jev,Jev,argmax,4.727397488482991,1.4483512711179956
+Ecuador,jev,jev,Jev,expected,0.9209000795523942,0.4283743509713528
+Ecuador,jev,jev,Jev,argmax,0.6254191874750978,1.0737845330965823
+Estonia,jev,jev,Jev,expected,3.10589335632826,0.9373959518942895
+Estonia,jev,jev,Jev,argmax,3.7291073880645094,1.8543747445476362
+Ethiopia,jev,jev,Jev,expected,0.03564378349262254,0.2007859102087393
+Ethiopia,jev,jev,Jev,argmax,-0.9632990130275229,-0.5429957959992807
+Finland,jev,jev,Jev,expected,3.931010062453424,0.7368345531790989
+Finland,jev,jev,Jev,argmax,4.727397488482991,1.4483512711179956
+France,jev,jev,Jev,expected,3.3222899787215026,1.4186045040594903
+France,jev,jev,Jev,argmax,4.205300805236476,1.76815752554926
+Georgia,jev,jev,Jev,expected,0.5274400289386344,0.16025600142840618
+Georgia,jev,jev,Jev,argmax,-0.4916901162166575,0.04567235354567763
+Germany,jev,jev,Jev,expected,3.1679988678299846,1.5020143240364403
+Germany,jev,jev,Jev,argmax,3.886966532169125,1.7462540806343354
+Ghana,jev,jev,Jev,expected,-0.1152421283001519,-0.2362070269757941
+Ghana,jev,jev,Jev,argmax,-0.9632990130275229,-0.5429957959992807
+Greece,jev,jev,Jev,expected,1.4246608027633574,0.5773421581412677
+Greece,jev,jev,Jev,argmax,1.4770848654893305,-0.2445592727284769
+Guatemala,jev,jev,Jev,expected,-0.15719940056637682,0.4335894666310438
+Guatemala,jev,jev,Jev,argmax,-0.6849362498120274,-0.672913867874783
+Haiti,jev,jev,Jev,expected,-0.6405743307101966,1.4644106593129658
+Haiti,jev,jev,Jev,argmax,-1.2622963866002488,0.5417709075371678
+Hong Kong SAR,jev,jev,Jev,expected,2.138735723307609,1.9865032396175148
+Hong Kong SAR,jev,jev,Jev,argmax,2.0518269870068497,2.189122047443597
+Hungary,jev,jev,Jev,expected,1.5707975747791365,1.553057490695568
+Hungary,jev,jev,Jev,argmax,1.2475542602087977,1.8971910752651868
+Iceland,jev,jev,Jev,expected,3.984510828423431,-0.39061070076487836
+Iceland,jev,jev,Jev,argmax,4.124380426220329,0.6916729491758826
+India,jev,jev,Jev,expected,0.795264127931834,0.2544432660605812
+India,jev,jev,Jev,argmax,-0.08562322867106026,-0.5427837220938342
+Indonesia,jev,jev,Jev,expected,-0.004898495060409402,0.14579651700892673
+Indonesia,jev,jev,Jev,argmax,-0.5664011662041285,0.21831886544787743
+Iran,jev,jev,Jev,expected,-0.08668449319398008,1.8933649858447705
+Iran,jev,jev,Jev,argmax,-0.7026813947566252,2.617081322715294
+Iraq,jev,jev,Jev,expected,-0.8958290985446834,1.9172113179835815
+Iraq,jev,jev,Jev,argmax,-1.4984022882223935,1.715424425366384
+Ireland,jev,jev,Jev,expected,3.0291856189354314,0.23402596967953476
+Ireland,jev,jev,Jev,argmax,3.407840313900523,-0.21061754355696305
+Italy,jev,jev,Jev,expected,2.0428990535034686,0.8884363370489562
+Italy,jev,jev,Jev,argmax,2.210303338501384,1.3409565716141265
+Japan,jev,jev,Jev,expected,2.1347206045476086,1.3041715771948559
+Japan,jev,jev,Jev,argmax,2.452608557065674,1.7138204347404375
+Jordan,jev,jev,Jev,expected,-0.5218798488389603,0.5085662652754411
+Jordan,jev,jev,Jev,argmax,-1.3598800436124026,0.5006336130017098
+Kazakhstan,jev,jev,Jev,expected,0.8310298493025184,0.8940263635962211
+Kazakhstan,jev,jev,Jev,argmax,0.48515157987527585,1.825738154705405
+Kenya,jev,jev,Jev,expected,0.3972912726989819,0.24328030206316686
+Kenya,jev,jev,Jev,argmax,-0.6462727323892318,-0.6401647374551196
+Kosovo,jev,jev,Jev,expected,0.8286742888585952,1.1327797408319185
+Kosovo,jev,jev,Jev,argmax,1.25857050037198,1.572927202796261
+Kyrgyzstan,jev,jev,Jev,expected,0.5119834329175081,0.5347239685025522
+Kyrgyzstan,jev,jev,Jev,argmax,-0.4026495093093513,-0.44561478063799526
+Latvia,jev,jev,Jev,expected,2.167329603892279,1.2087024941008522
+Latvia,jev,jev,Jev,argmax,2.380523504022853,1.8272254267042136
+Lebanon,jev,jev,Jev,expected,0.10052464299975156,2.565896674352758
+Lebanon,jev,jev,Jev,argmax,0.006773001546569568,3.1092141261883484
+Libya,jev,jev,Jev,expected,-0.7754654199948511,1.8176736191685285
+Libya,jev,jev,Jev,argmax,-1.3438196720498183,2.401261516367181
+Lithuania,jev,jev,Jev,expected,1.7913575565725859,0.9807180372107218
+Lithuania,jev,jev,Jev,argmax,2.0478596740356667,2.1239626040707624
+Luxembourg,jev,jev,Jev,expected,3.3888512768854775,0.11630026651694715
+Luxembourg,jev,jev,Jev,argmax,4.050718189063901,1.082320434548463
+Macau SAR,jev,jev,Jev,expected,1.763464757121683,0.8004790540677048
+Macau SAR,jev,jev,Jev,argmax,2.2823883915442043,1.2275515796503502
+Malaysia,jev,jev,Jev,expected,0.6572973459323276,0.7680234615963067
+Malaysia,jev,jev,Jev,argmax,0.5153146011374818,1.5113628805060269
+Maldives,jev,jev,Jev,expected,0.22779082662464845,-0.4683890753702646
+Maldives,jev,jev,Jev,argmax,-0.4092428192251846,-0.45153270407240587
+Mali,jev,jev,Jev,expected,-0.6205864898085401,0.6033309172961461
+Mali,jev,jev,Jev,argmax,-1.2816332860948738,-0.5648992409142053
+Malta,jev,jev,Jev,expected,1.4148651443260514,-0.49788145193006494
+Malta,jev,jev,Jev,argmax,1.3990570335180674,-0.8717884391747859
+Mexico,jev,jev,Jev,expected,0.8143124143360208,0.5756780430927297
+Mexico,jev,jev,Jev,argmax,0.5444988084589507,-0.002700043276795101
+Moldova,jev,jev,Jev,expected,0.7355365138155503,1.6881720662256126
+Moldova,jev,jev,Jev,argmax,0.9608811192283141,2.776766292703473
+Mongolia,jev,jev,Jev,expected,1.5436781984834238,0.39012604373384496
+Mongolia,jev,jev,Jev,argmax,1.4390653321945348,0.07961408271719143
+Montenegro,jev,jev,Jev,expected,1.0919513561657643,0.8099388912482036
+Montenegro,jev,jev,Jev,argmax,1.5755967810102711,1.4757582613404225
+Morocco,jev,jev,Jev,expected,-0.2571065845616758,-0.01172509084088027
+Morocco,jev,jev,Jev,argmax,-1.1231201457757285,-0.6134837116421247
+Myanmar,jev,jev,Jev,expected,0.35841511128169873,2.216175921329236
+Myanmar,jev,jev,Jev,argmax,-0.09940106064447529,2.8123709118690767
+Netherlands,jev,jev,Jev,expected,3.8885247590409797,1.1523398852279716
+Netherlands,jev,jev,Jev,argmax,4.205300805236476,1.76815752554926
+New Zealand,jev,jev,Jev,expected,3.261687181678622,0.3414864252754994
+New Zealand,jev,jev,Jev,argmax,3.7323839159965506,1.0604169896335383
+Nicaragua,jev,jev,Jev,expected,0.24258210294456037,0.7295767727889961
+Nicaragua,jev,jev,Jev,argmax,-0.48678877961704137,1.1757310554504914
+Nigeria,jev,jev,Jev,expected,-0.7069076039535637,1.121463031966182
+Nigeria,jev,jev,Jev,argmax,-1.4984022882223935,1.715424425366384
+North Macedonia,jev,jev,Jev,expected,0.9955791250942148,1.248807853039703
+North Macedonia,jev,jev,Jev,argmax,1.5755967810102711,1.4757582613404225
+Northern Cyprus,jev,jev,Jev,expected,1.0072734393655693,0.7463726490211616
+Northern Cyprus,jev,jev,Jev,argmax,0.4367430258937464,1.4367442780238802
+Northern Ireland,jev,jev,Jev,expected,1.8573751611613125,1.0660730654160668
+Northern Ireland,jev,jev,Jev,argmax,1.5645805408470892,1.8000221338093483
+Norway,jev,jev,Jev,expected,4.098845430918543,0.45091486761134125
+Norway,jev,jev,Jev,argmax,4.727397488482991,1.4483512711179956
+Pakistan,jev,jev,Jev,expected,-0.99100881671452,0.7500793617813197
+Pakistan,jev,jev,Jev,argmax,-1.7384898037722163,0.6279881265355445
+Palestine,jev,jev,Jev,expected,0.30342487991767936,1.8190816686361744
+Palestine,jev,jev,Jev,argmax,0.6607187225554694,1.3627313281132778
+Peru,jev,jev,Jev,expected,0.9620230705169224,0.6318663409404515
+Peru,jev,jev,Jev,argmax,0.5952561662128919,1.3881598072959607
+Philippines,jev,jev,Jev,expected,0.3700347150495401,-0.18745712530639708
+Philippines,jev,jev,Jev,argmax,-0.5257691132783517,-0.6619621454173207
+Poland,jev,jev,Jev,expected,1.2021017797043076,1.0757365951551134
+Poland,jev,jev,Jev,argmax,1.5755967810102711,1.4757582613404225
+Portugal,jev,jev,Jev,expected,2.598687181070691,0.6054913091930993
+Portugal,jev,jev,Jev,argmax,3.4043046063704656,0.6822687984567521
+Puerto Rico,jev,jev,Jev,expected,1.5862956464104556,-0.07824137716602854
+Puerto Rico,jev,jev,Jev,argmax,1.748862320276685,-1.0451878820884768
+Romania,jev,jev,Jev,expected,1.13435450259571,1.518876216002343
+Romania,jev,jev,Jev,argmax,1.5755967810102711,1.4757582613404225
+Russia,jev,jev,Jev,expected,0.3887287223480004,1.7746200070752873
+Russia,jev,jev,Jev,argmax,0.0328795825590355,2.34374015361182
+Rwanda,jev,jev,Jev,expected,0.305971745368704,0.13616363901673198
+Rwanda,jev,jev,Jev,argmax,-0.7196757899476424,-0.3484458391821565
+Serbia,jev,jev,Jev,expected,0.9536780494357614,1.4686326499142515
+Serbia,jev,jev,Jev,argmax,1.5755967810102711,1.4757582613404225
+Singapore,jev,jev,Jev,expected,1.8906098252838328,0.4368303378321
+Singapore,jev,jev,Jev,argmax,2.201468012528057,0.15106700327697295
+Slovakia,jev,jev,Jev,expected,1.7271913627278295,1.0935455422973015
+Slovakia,jev,jev,Jev,argmax,1.7341099213294169,1.427173790612503
+Slovenia,jev,jev,Jev,expected,2.6639739246256315,1.0500952714460554
+Slovenia,jev,jev,Jev,argmax,3.1717344122783793,0.963035974272253
+South Africa,jev,jev,Jev,expected,1.4364912833933712,1.1661541345732247
+South Africa,jev,jev,Jev,argmax,1.5645805408470892,1.8000221338093483
+South Korea,jev,jev,Jev,expected,1.9187281028279566,1.4805298484667915
+South Korea,jev,jev,Jev,argmax,2.248242860819342,2.2958561849614707
+Spain,jev,jev,Jev,expected,2.9286749107820174,0.9994836191670176
+Spain,jev,jev,Jev,argmax,3.9243220571628603,1.6599308246832358
+Sweden,jev,jev,Jev,expected,4.213161321802282,0.8750940344749544
+Sweden,jev,jev,Jev,argmax,4.727397488482991,1.4483512711179956
+Switzerland,jev,jev,Jev,expected,3.391727990666895,0.3350819753548606
+Switzerland,jev,jev,Jev,argmax,3.7323839159965506,1.0604169896335383
+Taiwan ROC,jev,jev,Jev,expected,2.652536772879202,1.3005862672207034
+Taiwan ROC,jev,jev,Jev,argmax,2.6975497846611445,1.7300564852483749
+Thailand,jev,jev,Jev,expected,1.2607040828364202,0.24697608346949107
+Thailand,jev,jev,Jev,argmax,0.43832474626790585,-0.29954325759606715
+Trinidad and Tobago,jev,jev,Jev,expected,0.8352615488093517,0.1335049767054483
+Trinidad and Tobago,jev,jev,Jev,argmax,0.4343942221213346,0.43487830413264933
+Tunisia,jev,jev,Jev,expected,0.48945038197083063,1.1170473704930965
+Tunisia,jev,jev,Jev,argmax,0.2310225363072131,1.3975129294525495
+Turkey,jev,jev,Jev,expected,0.35264092636877,0.9825219093899135
+Turkey,jev,jev,Jev,argmax,-0.16714651412062986,1.3167068867361793
+Ukraine,jev,jev,Jev,expected,0.9458236155772365,2.157903174524383
+Ukraine,jev,jev,Jev,argmax,0.8650139759024132,2.7589671505277376
+United Kingdom,jev,jev,Jev,expected,2.92949791943031,1.132613804039771
+United Kingdom,jev,jev,Jev,argmax,4.254480599243065,0.7406107352022742
+United States,jev,jev,Jev,expected,2.5034728434725757,0.8299668466045484
+United States,jev,jev,Jev,argmax,2.7278155013867966,1.696035685726197
+Uruguay,jev,jev,Jev,expected,2.637916852703707,0.6955005634344018
+Uruguay,jev,jev,Jev,argmax,2.5273296191396746,1.2437876301582877
+Venezuela,jev,jev,Jev,expected,0.5533358003399839,3.0432142989498034
+Venezuela,jev,jev,Jev,argmax,0.37220783616639014,3.4010390614140347
+Vietnam,jev,jev,Jev,expected,1.275046246322641,0.7000292908425898
+Vietnam,jev,jev,Jev,argmax,0.7258420018585211,-0.02280073166714571
+Yemen,jev,jev,Jev,expected,-1.499608065814682,2.271624485457898
+Yemen,jev,jev,Jev,argmax,-1.955258805899735,2.908311792816134
+Zambia,jev,jev,Jev,expected,0.2484544530739971,0.2859920416379922
+Zambia,jev,jev,Jev,argmax,-0.5653523533730846,0.4363198389182577
+Zimbabwe,jev,jev,Jev,expected,0.06801024650103393,1.6054843400851906
+Zimbabwe,jev,jev,Jev,argmax,-0.4648358952642959,2.520545976643391
+__DEFAULT__,jev,jev,Jev,expected,2.4108904717726536,1.202348313544242
+__DEFAULT__,jev,jev,Jev,argmax,2.5994146721824953,1.1303826381945115
+Albania,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.9800421766918923,-0.564058992516458
+Albania,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.7310357281218487,-0.7729382980765624
+Algeria,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-1.1186073052448968,-0.7294205811026667
+Algeria,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-1.1134118980416066,-1.0568199704818135
+Andorra,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.745963725132957,-2.1401904737990183
+Andorra,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,2.4303488685609436,-1.7333248495805607
+Argentina,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.2350318822930095,0.008387235533744703
+Argentina,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.8683076841886206,0.5060245605068542
+Armenia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.306958627443919,-0.5470751136026782
+Armenia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.1898800925308186,-0.7958067479084248
+Australia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.743689342087248,-1.2532462782604232
+Australia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,3.9165026225291037,-2.4902932212921214
+Austria,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.0963309690899288,-0.11763867501078772
+Austria,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,2.511269247577091,-0.6568402732071836
+Azerbaijan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.5971248539594382,-0.9425531413552053
+Azerbaijan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.6764357536514377,-0.32578946325574093
+Bangladesh,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.8012999496934553,-0.8629339504019382
+Bangladesh,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.9632990130275229,-0.5429957959992807
+Belarus,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.5421257026622945,2.080305581541341
+Belarus,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.7301793971828454,2.1615953523412195
+Belgium,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.7260453143158747,0.37645035816331623
+Belgium,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,3.8200325727697804,0.4278828217355329
+Bolivia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.9095282234759913,-1.7212010868528973
+Bolivia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.534427551485157,-2.4369060743669113
+Bosnia Herzegovina,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.7375813748518645,0.19169000517595652
+Bosnia Herzegovina,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.8119561071379959,0.30354627829681463
+Brazil,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.6923814773907124,-0.887218922072387
+Brazil,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.8568318329871376,-2.0694887114019513
+Bulgaria,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.1062852712654476,0.9503661866724937
+Bulgaria,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,2.441824719762426,0.8421884223282451
+Burkina Faso,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-1.3486276766987735,-0.6365809758460639
+Burkina Faso,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-1.5999675591622258,-0.5868026858291299
+Canada,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.851344713150388,-1.5940828295341847
+Canada,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,3.9165026225291037,-2.4902932212921214
+Chile,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.410756475790465,-0.7577977414638956
+Chile,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.832766662062725,0.3558135302854344
+China,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.3846092976811204,0.08618856754562206
+China,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.0539213114846062,0.35534745950964053
+Colombia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.4985039252224448,-2.0212874267020333
+Colombia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.0478718903645383,-1.9668887897142278
+Croatia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.6464318146704846,-0.0029201631940802162
+Croatia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.5236014297175764,-1.0158606517161595
+Cyprus,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.6405733064053143,-1.5439379901159604
+Cyprus,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.5236014297175764,-1.0158606517161595
+Czechia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.719921168398042,1.6138707657636264
+Czechia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,4.009589637785875,2.0208218252769936
+Denmark,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,5.134883415373139,-0.7165156251384233
+Denmark,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,5.74905642479848,-1.280086234900353
+Ecuador,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.0918760068783837,-2.0022492359363917
+Ecuador,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.534427551485157,-2.4369060743669113
+Estonia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,4.007529931390419,0.37850774391118347
+Estonia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,3.893128236643833,0.7941262186821961
+Ethiopia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.9945736281018632,-0.9859048450129899
+Ethiopia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-1.4408004226285498,-0.5758509633716675
+Finland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,4.665564737365002,-1.2478723187825753
+Finland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,4.943475705571367,-1.6910895934495258
+France,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.5892521814720206,0.8431185786444721
+France,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,3.8406774646934663,1.6536253565576697
+Georgia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.7902154974243393,-1.7015756611006594
+Georgia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.534427551485157,-2.4369060743669113
+Germany,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.080369867967139,1.3320795708581044
+Germany,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,3.0448417820250877,1.5988667442703581
+Ghana,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.7116782213772074,-1.342868041724079
+Ghana,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.665609631883857,-1.746834885906493
+Greece,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.030611403519809,-0.5718945103177733
+Greece,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.832766662062725,0.3558135302854344
+Guatemala,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.26093557150224056,-2.0611823583722786
+Guatemala,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.8977590053504547,-2.48071296419676
+Haiti,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-1.0618330149908224,0.08750999218616051
+Haiti,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-1.8976569403058918,0.6170364040780821
+Hong Kong SAR,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.0099659661980627,1.193753763766637
+Hong Kong SAR,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,3.0093007598991925,1.4486557140489382
+Hungary,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.052119763673702,0.7811506151545509
+Hungary,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.955269058641807,1.3122057069809288
+Iceland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,5.186037259194758,-1.0901174401272544
+Iceland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,5.74905642479848,-1.280086234900353
+India,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.1773838641335272,-1.2406969381448434
+India,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.0370457685969576,-0.5458433670634757
+Indonesia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.6393202589751806,-1.3227546111627215
+Indonesia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-1.4408004226285498,-0.5758509633716675
+Iran,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.36201216861874885,0.8757209285746353
+Iran,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.17840424132933608,1.779706524000381
+Iraq,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-1.6608779655280341,0.2174788596491583
+Iraq,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-1.8976569403058918,0.6170364040780821
+Ireland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.4681251121816525,-1.5670823936566944
+Ireland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,3.9165026225291037,-2.4902932212921214
+Italy,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.1861562152425726,-0.5502451157739696
+Italy,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,2.1682005095431727,-0.3792747294519293
+Japan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.178614374559244,0.7241362881315578
+Japan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,2.2142706514725665,1.4061160149869605
+Jordan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-1.3430966265323185,-0.7574850547518778
+Jordan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-1.5999675591622258,-0.5868026858291299
+Kazakhstan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.06263082718323387,-0.6345337224880202
+Kazakhstan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.6764357536514377,-0.32578946325574093
+Kenya,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.7808990857949033,-1.3879131595900533
+Kenya,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-1.5999675591622258,-0.5868026858291299
+Kosovo,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.5631795367486698,-1.1020986466533764
+Kosovo,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.44417246874576355,-0.9901446308201023
+Kyrgyzstan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.6488241647484904,-0.6452185253446748
+Kyrgyzstan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.6764357536514377,-0.32578946325574093
+Latvia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.1756882540586924,0.226543243880253
+Latvia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,2.1326594874172775,-0.5294857596733489
+Lebanon,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.06195884307661287,0.9272490199524106
+Lebanon,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.14648308760209744,0.21369445908710955
+Libya,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-1.379433191162828,-0.2541159235888219
+Libya,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-1.1134118980416066,-1.0568199704818135
+Lithuania,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.3347968585022083,-0.05394356047207039
+Lithuania,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,2.1326594874172775,-0.5294857596733489
+Luxembourg,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.729896643421983,-1.872160723505422
+Luxembourg,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,4.634310473226219,-3.062763775451119
+Macau SAR,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.2518361415660513,-1.1020740762903785
+Macau SAR,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.9437932074403244,-1.263307564927877
+Malaysia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.13837668924164245,-1.3126644509012586
+Malaysia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.04238319237485544,-0.5201273461674186
+Maldives,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.5087185146013318,-1.8943979644436155
+Maldives,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.5288592575218554,-2.0434527276454855
+Mali,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-1.4012437092941816,-0.8431929541187743
+Mali,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-1.5999675591622258,-0.5868026858291299
+Malta,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.3535108473355577,-2.289904373894812
+Malta,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.1846222647265399,-2.26350663145322
+Mexico,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.540736769623516,-2.1579662214588122
+Mexico,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.534427551485157,-2.4369060743669113
+Moldova,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.7243358394514787,1.1021615567361294
+Moldova,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.8119561071379959,0.30354627829681463
+Mongolia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.3109335924032997,-0.43664142806343115
+Mongolia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.8535381247009306,0.1834538786189319
+Montenegro,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.1463289332542326,-0.6840461857289795
+Montenegro,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.0370457685969576,-0.5458433670634757
+Morocco,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.8433384111090955,-1.05344585023349
+Morocco,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.9542447615079307,-1.045868248024351
+Myanmar,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.0694558000648835,0.7405514858196689
+Myanmar,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.46788348556354153,1.3243554185153148
+Netherlands,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,4.804701117112554,-0.2213132737788582
+Netherlands,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,5.5116425307472765,-0.2255051034419002
+New Zealand,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,4.167254799478794,-1.6414069722822817
+New Zealand,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,3.9165026225291037,-2.4902932212921214
+Nicaragua,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.4142323959387044,-1.5397025597280307
+Nicaragua,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.8977590053504547,-2.48071296419676
+Nigeria,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.9013758515065841,-1.1076371493315476
+Nigeria,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.9632990130275229,-0.5429957959992807
+North Macedonia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.0318658946638481,-0.4495201507536566
+North Macedonia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.5236014297175764,-1.0158606517161595
+Northern Cyprus,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.1449191534629632,-0.8430878689646122
+Northern Cyprus,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.7501825092208723,-0.7630496998070155
+Northern Ireland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.9914065423163323,-0.7189216155544406
+Northern Ireland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.5236014297175764,-1.0158606517161595
+Norway,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,4.71411132851806,-1.3520702157377968
+Norway,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,4.943475705571367,-1.6910895934495258
+Pakistan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-1.3966413778938973,-0.8013060600658258
+Pakistan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-1.5999675591622258,-0.5868026858291299
+Palestine,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.8950202967949109,0.4315038434212582
+Palestine,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-1.4111012791852726,0.1470191194253984
+Peru,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.1728425606780917,-1.5294574187834453
+Peru,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.2367381703414915,-1.2330669844596993
+Philippines,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.34142805103306045,-2.011982770408937
+Philippines,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.12434008485375048,-2.227902012287616
+Poland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.5850292650416709,-0.027946970848328825
+Poland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.0370457685969576,-0.5458433670634757
+Portugal,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.936983208942314,-0.7403921493592363
+Portugal,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,3.132257580264819,-0.8164368467322264
+Puerto Rico,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.63361842326377,-2.2339202736553108
+Puerto Rico,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.534427551485157,-2.4369060743669113
+Romania,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.577186068934712,0.14583807584682
+Romania,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.5236014297175764,-1.0158606517161595
+Russia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.5227043675056123,1.1284276167741343
+Russia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.21948556342434847,0.37779176153060945
+Rwanda,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.5558404141046523,-1.3511060247861784
+Rwanda,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.665609631883857,-1.746834885906493
+Serbia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.2626492741654753,0.38026007610660595
+Serbia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.0370457685969576,-0.5458433670634757
+Singapore,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.6471339777905145,-0.7928651724320782
+Singapore,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.6461038262966587,-0.05946847502066512
+Slovakia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.1894505688859707,0.6279361093299277
+Slovakia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,2.1326594874172775,-0.5294857596733489
+Slovenia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.1745603384007066,0.5369541351828254
+Slovenia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,2.919326129363453,0.8750435897006319
+South Africa,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.476459311461745,-1.0393515341970934
+South Africa,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.2367381703414915,-1.2330669844596993
+South Korea,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.6753632823556948,-0.355331900944952
+South Korea,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.5666748653248455,-0.033752454124607895
+Spain,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.2943916137255767,-0.10744854037526638
+Spain,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,3.8200325727697804,0.4278828217355329
+Sweden,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,5.248325689520847,-0.009019537182583807
+Sweden,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,5.829976803814628,-0.20360165852697573
+Switzerland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,4.137340166240083,-1.8782149002473212
+Switzerland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,4.634310473226219,-3.062763775451119
+Taiwan ROC,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.06167989994877,-1.042603424569222
+Taiwan ROC,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,2.9169045296815628,-2.203342134233244
+Thailand,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.7046121899543896,-1.3470792667610023
+Thailand,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.370066688688154,-1.6977202304149568
+Trinidad and Tobago,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.9644513953836209,-1.9077649838065958
+Trinidad and Tobago,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.0478718903645383,-1.9668887897142278
+Tunisia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.07310592199397525,-0.5013200146482851
+Tunisia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.1898800925308186,-0.7958067479084248
+Turkey,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.573311690372401,-0.0907819191233027
+Turkey,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.7501825092208723,-0.7630496998070155
+Ukraine,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.4643952609250497,0.25616448386727436
+Ukraine,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.5236014297175764,-1.0158606517161595
+United Kingdom,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.2201461069921287,0.610422685132285
+United Kingdom,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,2.735676549679939,0.2271925622687642
+United States,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.5618873177068004,-1.3072990267012474
+United States,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,2.343387494107757,-2.5395059960546353
+Uruguay,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,3.198828833659246,-0.8141992958295284
+Uruguay,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,3.217015510507119,-0.3287955002065801
+Venezuela,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,0.9887863461341109,0.7643280098187512
+Venezuela,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,0.9390487891978253,-0.029227894552487442
+Vietnam,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.438569417780187,-0.7802208335310467
+Vietnam,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.3592405669205734,-0.27667480776420494
+Yemen,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-1.9570675019807449,0.5374770674947849
+Yemen,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-2.184520199681977,0.3998300713345424
+Zambia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.7520812137122374,-1.1750778473673342
+Zambia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.9632990130275229,-0.5429957959992807
+Zimbabwe,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,-0.39457302059075106,-0.48017362476064274
+Zimbabwe,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,-0.47674335190690376,-1.0130130806519644
+__DEFAULT__,openai,gpt4o_anchor,GPT-4o historical-generation anchor,expected,2.532948264634914,-0.7063320508112209
+__DEFAULT__,openai,gpt4o_anchor,GPT-4o historical-generation anchor,argmax,2.319322323183344,-0.11420375436724949
+Albania,openai,gpt56_sol,GPT-5.6 Sol,expected,1.1816400608456907,-1.4536466081024044
+Albania,openai,gpt56_sol,GPT-5.6 Sol,argmax,0.9498749109654062,-1.450273317203239
+Algeria,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.6506801586135698,-0.9737251994653228
+Algeria,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.8868308185383111,-0.8040090185726696
+Andorra,openai,gpt56_sol,GPT-5.6 Sol,expected,3.79606859479621,-0.827777038160852
+Andorra,openai,gpt56_sol,GPT-5.6 Sol,argmax,3.4086518079773334,-0.03332477732286709
+Argentina,openai,gpt56_sol,GPT-5.6 Sol,expected,2.774311761568086,-0.26289533218320726
+Argentina,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.7294672206512627,-1.0219385260068128
+Armenia,openai,gpt56_sol,GPT-5.6 Sol,expected,-0.6389039808486311,-0.795248930429831
+Armenia,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.5684965454709592,-0.782105573657745
+Australia,openai,gpt56_sol,GPT-5.6 Sol,expected,4.482136690422456,0.3200889609705173
+Australia,openai,gpt56_sol,GPT-5.6 Sol,argmax,4.572814872310416,0.7625141801171987
+Austria,openai,gpt56_sol,GPT-5.6 Sol,expected,4.212775389831555,0.9730280505635553
+Austria,openai,gpt56_sol,GPT-5.6 Sol,argmax,4.572814872310416,0.7625141801171987
+Azerbaijan,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.4715855492735512,-0.46790765681437263
+Azerbaijan,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.7276636820046352,-0.7930572961152073
+Bangladesh,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.0671307959852472,-1.1055131626521508
+Bangladesh,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.7276636820046352,-0.7930572961152073
+Bolivia,openai,gpt56_sol,GPT-5.6 Sol,expected,0.3153765246674267,-1.4660878435902809
+Bolivia,openai,gpt56_sol,GPT-5.6 Sol,argmax,-0.30104541913232497,-1.2303175326664817
+Brazil,openai,gpt56_sol,GPT-5.6 Sol,expected,1.311732900532777,-0.8606579366778339
+Brazil,openai,gpt56_sol,GPT-5.6 Sol,argmax,1.4405005805206543,-1.5747766838058876
+Bulgaria,openai,gpt56_sol,GPT-5.6 Sol,expected,2.871235842969691,-0.03453733557183259
+Bulgaria,openai,gpt56_sol,GPT-5.6 Sol,argmax,3.132257580264819,-0.8164368467322264
+Burkina Faso,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.8974757668706883,-0.7985756960443734
+Burkina Faso,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.8868308185383111,-0.8040090185726696
+Canada,openai,gpt56_sol,GPT-5.6 Sol,expected,4.575359498131461,-0.06832630411567066
+Canada,openai,gpt56_sol,GPT-5.6 Sol,argmax,4.491894493294269,-0.31397039625617856
+Chile,openai,gpt56_sol,GPT-5.6 Sol,expected,2.668078961586114,-0.20214605392428028
+Chile,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.6076556091113225,-1.1192135044153748
+China,openai,gpt56_sol,GPT-5.6 Sol,expected,2.004558874335612,0.434809805740903
+China,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.164821286147686,0.134328550784968
+Colombia,openai,gpt56_sol,GPT-5.6 Sol,expected,1.1972855291417246,-1.1455300958551504
+Colombia,openai,gpt56_sol,GPT-5.6 Sol,argmax,1.3037502061586528,-1.2781588420668948
+Croatia,openai,gpt56_sol,GPT-5.6 Sol,expected,2.9550281608678826,-0.011491050767051293
+Croatia,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.884049836823837,-0.3361014350060157
+Cyprus,openai,gpt56_sol,GPT-5.6 Sol,expected,2.2942977209676134,-0.873781784018551
+Cyprus,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.3207923497352376,-1.3364198371589147
+Czechia,openai,gpt56_sol,GPT-5.6 Sol,expected,3.945355778103686,1.6161984030392056
+Czechia,openai,gpt56_sol,GPT-5.6 Sol,argmax,3.855007021613301,1.3349847342761965
+Denmark,openai,gpt56_sol,GPT-5.6 Sol,expected,5.412789518256629,0.3303842746466979
+Denmark,openai,gpt56_sol,GPT-5.6 Sol,argmax,5.410475811131021,0.9029624529716742
+Ecuador,openai,gpt56_sol,GPT-5.6 Sol,expected,0.4601174368366052,-1.251791265456932
+Ecuador,openai,gpt56_sol,GPT-5.6 Sol,argmax,0.17645599046870206,-1.197462365294095
+Estonia,openai,gpt56_sol,GPT-5.6 Sol,expected,4.22221483271404,1.04118523208002
+Estonia,openai,gpt56_sol,GPT-5.6 Sol,argmax,4.086259211189797,1.2325314647698824
+Ethiopia,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.8961611482966823,-0.7819255353815369
+Ethiopia,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.8868308185383111,-0.8040090185726696
+Finland,openai,gpt56_sol,GPT-5.6 Sol,expected,5.172986671224919,0.06507576899120467
+Finland,openai,gpt56_sol,GPT-5.6 Sol,argmax,5.255893194958447,0.21712536197087723
+France,openai,gpt56_sol,GPT-5.6 Sol,expected,3.9920560200790605,1.1453042264698585
+France,openai,gpt56_sol,GPT-5.6 Sol,argmax,3.7331954100733604,1.2377097558676344
+Georgia,openai,gpt56_sol,GPT-5.6 Sol,expected,-0.6089944383275496,-0.9551513405909167
+Georgia,openai,gpt56_sol,GPT-5.6 Sol,argmax,-0.30104541913232497,-1.2303175326664817
+Germany,openai,gpt56_sol,GPT-5.6 Sol,expected,4.71668672546752,0.7062551660837578
+Germany,openai,gpt56_sol,GPT-5.6 Sol,argmax,4.937558921891095,0.19522191705595277
+Ghana,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.3808449495696702,-1.0140924113315906
+Ghana,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.7276636820046352,-0.7930572961152073
+Greece,openai,gpt56_sol,GPT-5.6 Sol,expected,2.7146805845985202,-0.2431048691936145
+Greece,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.8477431246611453,-0.03177720558453536
+Guatemala,openai,gpt56_sol,GPT-5.6 Sol,expected,-0.26885466330418406,-1.2856434726672112
+Guatemala,openai,gpt56_sol,GPT-5.6 Sol,argmax,-0.4602125556660005,-1.241269255123944
+Haiti,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.9606580248194247,-0.11951014338569423
+Haiti,openai,gpt56_sol,GPT-5.6 Sol,argmax,-2.184520199681977,0.3998300713345424
+Hong Kong SAR,openai,gpt56_sol,GPT-5.6 Sol,expected,3.8454498302157587,1.518449827041608
+Hong Kong SAR,openai,gpt56_sol,GPT-5.6 Sol,argmax,4.336978162372819,1.5398528181668472
+Hungary,openai,gpt56_sol,GPT-5.6 Sol,expected,3.2288207012334427,0.8455760518000006
+Hungary,openai,gpt56_sol,GPT-5.6 Sol,argmax,3.334989570820906,0.357322708049713
+Iceland,openai,gpt56_sol,GPT-5.6 Sol,expected,4.906246668920468,-0.8635725221951148
+Iceland,openai,gpt56_sol,GPT-5.6 Sol,argmax,4.864294924425406,-1.69045599806559
+India,openai,gpt56_sol,GPT-5.6 Sol,expected,0.9406535199801297,-0.9906188593997255
+India,openai,gpt56_sol,GPT-5.6 Sol,argmax,0.7816535229121384,-0.9583525876356308
+Indonesia,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.14579556018399,-0.9559240737971016
+Indonesia,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.8868308185383111,-0.8040090185726696
+Iran,openai,gpt56_sol,GPT-5.6 Sol,expected,-0.3359484439375243,1.2001644742148374
+Iran,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.2296321696825334,1.3124386911409152
+Iraq,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.9484122252209524,-0.6832221669694134
+Iraq,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.8868308185383111,-0.8040090185726696
+Italy,openai,gpt56_sol,GPT-5.6 Sol,expected,3.223052383923788,0.6706080174865025
+Italy,openai,gpt56_sol,GPT-5.6 Sol,argmax,3.36776057545354,0.9458848206419481
+Japan,openai,gpt56_sol,GPT-5.6 Sol,expected,2.934523454402343,2.1002649463675263
+Japan,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.565375929172552,2.0165815724941205
+Jordan,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.7954570770337068,-0.8214259663350023
+Jordan,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.8868308185383111,-0.8040090185726696
+Kazakhstan,openai,gpt56_sol,GPT-5.6 Sol,expected,0.45123572828664216,-0.1665537507238095
+Kazakhstan,openai,gpt56_sol,GPT-5.6 Sol,argmax,-0.11447825750420604,-0.10933606152369213
+Kenya,openai,gpt56_sol,GPT-5.6 Sol,expected,-0.8184458911713258,-1.1943351116823844
+Kenya,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.8868308185383111,-0.8040090185726696
+Kosovo,openai,gpt56_sol,GPT-5.6 Sol,expected,0.16180597933376975,-1.3879575229158558
+Kosovo,openai,gpt56_sol,GPT-5.6 Sol,argmax,0.34467737852196983,-1.6893830948617035
+Latvia,openai,gpt56_sol,GPT-5.6 Sol,expected,3.0990277737001413,1.359634129961143
+Latvia,openai,gpt56_sol,GPT-5.6 Sol,argmax,3.3684513604926822,1.8050020189288805
+Lebanon,openai,gpt56_sol,GPT-5.6 Sol,expected,0.072371445895966,0.9153541865578098
+Lebanon,openai,gpt56_sol,GPT-5.6 Sol,argmax,-0.2895695679308423,1.3451957392423237
+Libya,openai,gpt56_sol,GPT-5.6 Sol,expected,-2.0691440696878503,-0.25177050952092433
+Libya,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.8868308185383111,-0.8040090185726696
+Lithuania,openai,gpt56_sol,GPT-5.6 Sol,expected,2.793680318243878,1.1944718490708781
+Lithuania,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.8812049143329213,1.4159021052946317
+Luxembourg,openai,gpt56_sol,GPT-5.6 Sol,expected,4.285411518994141,-0.043964768461275304
+Luxembourg,openai,gpt56_sol,GPT-5.6 Sol,argmax,4.207380037690596,0.47068924489151237
+Malaysia,openai,gpt56_sol,GPT-5.6 Sol,expected,0.003810951730839174,-0.9880124833734459
+Malaysia,openai,gpt56_sol,GPT-5.6 Sol,argmax,-0.01418215975623982,-1.013111199922942
+Maldives,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.4744698723044398,-1.1112827228333377
+Maldives,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.4002751574176915,-1.2740263032253532
+Mali,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.9761109867133078,-0.7725466306666844
+Mali,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.8868308185383111,-0.8040090185726696
+Malta,openai,gpt56_sol,GPT-5.6 Sol,expected,1.4120544604140663,-1.4628491893250546
+Malta,openai,gpt56_sol,GPT-5.6 Sol,argmax,1.3657895305331835,-1.402130171903688
+Mexico,openai,gpt56_sol,GPT-5.6 Sol,expected,1.3884337614906759,-1.0852962924993172
+Mexico,openai,gpt56_sol,GPT-5.6 Sol,argmax,1.0685167822882236,-0.7411462548920912
+Moldova,openai,gpt56_sol,GPT-5.6 Sol,expected,0.9592807954006838,0.025508998351167995
+Moldova,openai,gpt56_sol,GPT-5.6 Sol,argmax,1.848145031813604,0.255173881474342
+Montenegro,openai,gpt56_sol,GPT-5.6 Sol,expected,2.056479826766482,-1.1065367467305456
+Montenegro,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.4799594862689127,-1.3254681147014524
+Morocco,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.3395833912587611,-0.9702647422250926
+Morocco,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.7276636820046352,-0.7930572961152073
+Myanmar,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.4371468367399696,1.6251897653708927
+Myanmar,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.7161878308031526,1.7824559757935987
+Netherlands,openai,gpt56_sol,GPT-5.6 Sol,expected,4.928023409962255,0.7343834994328429
+Netherlands,openai,gpt56_sol,GPT-5.6 Sol,argmax,4.572814872310416,0.7625141801171987
+New Zealand,openai,gpt56_sol,GPT-5.6 Sol,expected,4.4475560910590195,-0.014782262311513292
+New Zealand,openai,gpt56_sol,GPT-5.6 Sol,argmax,4.491894493294269,-0.31397039625617856
+Nigeria,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.714181437307455,-0.7997387136249846
+Nigeria,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.8868308185383111,-0.8040090185726696
+North Macedonia,openai,gpt56_sol,GPT-5.6 Sol,expected,1.9647950604398376,-0.9224900320860473
+North Macedonia,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.085558925864808,-0.7994072499841107
+Northern Cyprus,openai,gpt56_sol,GPT-5.6 Sol,expected,1.367256048558961,-0.9039180725968261
+Northern Cyprus,openai,gpt56_sol,GPT-5.6 Sol,argmax,1.684123803600535,-1.3802267269887636
+Norway,openai,gpt56_sol,GPT-5.6 Sol,expected,5.212361992240294,-0.16250524790806012
+Norway,openai,gpt56_sol,GPT-5.6 Sol,argmax,5.09672605842477,0.206173639513415
+Pakistan,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.6626978391556753,-0.8849228915732436
+Pakistan,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.8868308185383111,-0.8040090185726696
+Palestine,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.2217813385733627,1.2115789654315032
+Palestine,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.3532582840903138,1.4516979989048724
+Peru,openai,gpt56_sol,GPT-5.6 Sol,expected,0.24114792608827834,-1.250907945866303
+Peru,openai,gpt56_sol,GPT-5.6 Sol,argmax,-0.1418782825986492,-1.2193658102090195
+Philippines,openai,gpt56_sol,GPT-5.6 Sol,expected,-0.09032449970143053,-1.4142679968759941
+Philippines,openai,gpt56_sol,GPT-5.6 Sol,argmax,-0.4602125556660005,-1.241269255123944
+Poland,openai,gpt56_sol,GPT-5.6 Sol,expected,2.9679431053852503,0.59545975705509
+Poland,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.964970215839984,0.7403831413673615
+Portugal,openai,gpt56_sol,GPT-5.6 Sol,expected,3.166495318983444,0.2753579450530401
+Portugal,openai,gpt56_sol,GPT-5.6 Sol,argmax,3.213177959280966,0.2600477296411509
+Romania,openai,gpt56_sol,GPT-5.6 Sol,expected,2.408665498203252,-0.09896498043133463
+Romania,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.68857598812747,-0.042728928041997634
+Rwanda,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.765310527225652,-0.7914902418664829
+Rwanda,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.8868308185383111,-0.8040090185726696
+Serbia,openai,gpt56_sol,GPT-5.6 Sol,expected,2.4416511980469253,-0.3935902522218902
+Serbia,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.7294672206512627,-1.0219385260068128
+Singapore,openai,gpt56_sol,GPT-5.6 Sol,expected,2.2371697150898284,-0.10096717415990712
+Singapore,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.4865347826105246,-0.35737128453700495
+Slovenia,openai,gpt56_sol,GPT-5.6 Sol,expected,3.7553708323526855,1.136422633930456
+Slovenia,openai,gpt56_sol,GPT-5.6 Sol,argmax,3.4895721869934806,1.0431597990505102
+South Africa,openai,gpt56_sol,GPT-5.6 Sol,expected,1.6935600076414299,-0.8746506613336198
+South Africa,openai,gpt56_sol,GPT-5.6 Sol,argmax,1.4629173426923283,-1.2672071196094326
+South Korea,openai,gpt56_sol,GPT-5.6 Sol,expected,3.144158475064919,1.2892392994115947
+South Korea,openai,gpt56_sol,GPT-5.6 Sol,argmax,3.2092842239590067,1.794050296471418
+Spain,openai,gpt56_sol,GPT-5.6 Sol,expected,3.5815729573382034,1.1822027472792336
+Spain,openai,gpt56_sol,GPT-5.6 Sol,argmax,3.4895721869934806,1.0431597990505102
+Sweden,openai,gpt56_sol,GPT-5.6 Sol,expected,5.4569691809288186,0.7801110418298632
+Sweden,openai,gpt56_sol,GPT-5.6 Sol,argmax,5.5322874226709615,1.0002374313802362
+Switzerland,openai,gpt56_sol,GPT-5.6 Sol,expected,4.933608227496653,-0.05268937225583821
+Switzerland,openai,gpt56_sol,GPT-5.6 Sol,argmax,4.8157473103511546,0.09794693864739058
+Trinidad and Tobago,openai,gpt56_sol,GPT-5.6 Sol,expected,0.49182737516888636,-1.3169887148699084
+Trinidad and Tobago,openai,gpt56_sol,GPT-5.6 Sol,argmax,0.66708166002395,-1.3219657318967435
+Tunisia,openai,gpt56_sol,GPT-5.6 Sol,expected,-0.9387195466746657,-0.8303411208649453
+Tunisia,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.241108020884016,-1.263074580767891
+Turkey,openai,gpt56_sol,GPT-5.6 Sol,expected,1.000772342757912,-0.9895022914669981
+Turkey,openai,gpt56_sol,GPT-5.6 Sol,argmax,1.4719715942119205,-1.7700795716345032
+Ukraine,openai,gpt56_sol,GPT-5.6 Sol,expected,2.5433850154931723,1.1979554450571812
+Ukraine,openai,gpt56_sol,GPT-5.6 Sol,argmax,2.740943071852745,1.5535747459019926
+United Kingdom,openai,gpt56_sol,GPT-5.6 Sol,expected,4.134874974211886,1.4117509327285769
+United Kingdom,openai,gpt56_sol,GPT-5.6 Sol,argmax,3.855007021613301,1.3349847342761965
+United States,openai,gpt56_sol,GPT-5.6 Sol,expected,3.4703037921008706,-0.9070640173334472
+United States,openai,gpt56_sol,GPT-5.6 Sol,argmax,3.370605497944456,-0.8061187196586995
+Venezuela,openai,gpt56_sol,GPT-5.6 Sol,expected,0.7882107175972581,-0.01946000980815575
+Venezuela,openai,gpt56_sol,GPT-5.6 Sol,argmax,1.016772157579957,-0.6484668897488357
+Yemen,openai,gpt56_sol,GPT-5.6 Sol,expected,-2.3818012539356372,0.4585800561546627
+Yemen,openai,gpt56_sol,GPT-5.6 Sol,argmax,-2.184520199681977,0.3998300713345424
+Zambia,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.3547320253113897,-1.0315090401749374
+Zambia,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.8868308185383111,-0.8040090185726696
+Zimbabwe,openai,gpt56_sol,GPT-5.6 Sol,expected,-1.1102871421871496,-1.0680069982114795
+Zimbabwe,openai,gpt56_sol,GPT-5.6 Sol,argmax,-1.4002751574176915,-1.2740263032253532
+__DEFAULT__,openai,gpt56_sol,GPT-5.6 Sol,expected,4.130849689678382,0.4093407017008194
+__DEFAULT__,openai,gpt56_sol,GPT-5.6 Sol,argmax,4.182395546200245,0.8540157271660503

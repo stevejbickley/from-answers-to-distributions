@@ -1,76 +1,1132 @@
-# From answers to distributions: replication and extension package
+# Do AI probability distributions represent human population variation?
 
-This package reproduces the cultural-values survey design in the attached PNAS Nexus study and extends it to compare:
+**Replication and extension materials for:**  
+*Do AI probability distributions represent human population variation? Token uncertainty, decision uncertainty, and cross-cultural survey responses.*
 
-1. **Human population response distributions** from the Integrated Values Surveys (IVS; WVS + EVS),
-2. **OpenAI next-token probability distributions** reconstructed from `top_logprobs`, and
-3. **TypeSafe Jev direct decision probability distributions** returned by the System One API.
+This repository provides the complete reproducibility workflow for a cross-national comparison of **human population response distributions**, **OpenAI next-token probability distributions**, and **TypeSafe Jev decision probability distributions**.
 
-The core scientific question is not whether one newly released model is "better." It is whether three different statistical objects — population heterogeneity, lexical next-token uncertainty, and decision uncertainty — coincide closely enough that model probabilities can be interpreted as synthetic population distributions.
+The study builds on the cultural-values benchmark introduced in the 2024 *PNAS Nexus* study *Cultural bias and cultural alignment of large language models*, but changes the main unit of evaluation from a single generated answer to the **full probability distribution over permitted responses**.
 
-## Important status
+The primary design contains three model conditions:
 
-The package is complete and executable, but **no empirical model results are fabricated here**. To produce the numerical Results section, you must provide:
+1. **GPT-4o historical-generation anchor** — OpenAI next-token probability distributions from the earliest GPT-4o snapshot available to the researcher (`gpt-4o-2024-05-13` by default);
+2. **GPT-5.6 Sol** — the primary contemporary OpenAI condition (`gpt-5.6-sol`, reasoning effort `none`); and
+3. **TypeSafe Jev** — direct typed decision probability distributions from the System One API.
 
-- the IVS/WVS+EVS data used by the original study (the data are licensed/distributed by WVS/EVS and are not bundled here),
-- `OPENAI_API_KEY`, and
-- `TYPESAFE_API_KEY` / Jev early-access credentials.
+**GPT-5.6 Terra** is configured as an optional cost-balanced robustness condition and is not part of the primary design unless `--include-terra` is supplied.
 
-Once those are supplied, `python scripts/run_all.py ...` produces the processed human distributions, model probability records, all main/SI tables, figures, diagnostics, and a JSON dictionary that can auto-fill the manuscript result placeholders.
+The human benchmark is reconstructed from the **Integrated Values Surveys (IVS)** by harmonising the World Values Survey (WVS) and European Values Study (EVS), retaining the survey window and cultural-map variables used in the source study.
 
-## Quick start
+---
+
+## Scientific question
+
+The study distinguishes three probability objects that have the same mathematical form but different meanings:
+
+- **human population heterogeneity:** the survey-weighted fraction of people in a country/territory selecting each response;
+- **autoregressive token uncertainty:** the probability that an OpenAI model assigns to controlled response-label tokens; and
+- **decision-native uncertainty:** the probability that Jev assigns directly to declared response alternatives.
+
+For country/territory `c`, survey item `j`, and permitted response `k`, the principal estimands are:
+
+- `H[c,j,k]` — survey-weighted human response frequency;
+- `O4[c,j,k]` — GPT-4o next-token probability, renormalised over permitted labels;
+- `O56[c,j,k]` — GPT-5.6 Sol next-token probability, renormalised over permitted labels; and
+- `J[c,j,k]` — Jev direct decision probability.
+
+For every machine distribution, the pipeline also derives an **argmax one-hot representation from the same probability vector**. This makes the full-distribution versus point-response comparison deterministic and avoids making a second model call merely to recover the modal answer.
+
+The design separates three sources of change:
+
+- **representation change:** full probability distribution versus argmax within the same model;
+- **model-generation change:** GPT-4o versus GPT-5.6 Sol while holding the logprob extraction procedure approximately constant; and
+- **probability-interface/system change:** GPT-5.6 Sol next-token probabilities versus Jev decision probabilities.
+
+The GPT-5.6 Sol versus Jev comparison is an empirical comparison of complete model systems, **not** a causal estimate of the effect of a particular architecture or output head.
+
+---
+
+## Repository status
+
+No empirical model results are fabricated or hard-coded. Result fields in the manuscript are populated only after the licensed human survey data and authenticated API runs are available.
+
+The repository is designed so that:
+
+- WVS, EVS, and IVS respondent-level microdata remain outside the public repository;
+- API keys remain in a local `.env` file and are never committed;
+- raw provider-returned usage metadata are archived with model records;
+- all human aggregate distributions, PCA coordinates, model-comparison statistics, tables, and figures are generated by code;
+- model-collection files are append-only and resumable; and
+- provenance/checksum files allow an independent researcher to verify which external human-data releases were used without redistributing those releases.
+
+---
+
+## Repository structure
+
+```text
+.
+├── README.md
+├── CITATION.cff
+├── LICENSE
+├── CHANGELOG.md
+├── requirements.txt
+├── pytest.ini
+├── .env.example
+├── .gitignore
+│
+├── config/
+│   ├── analysis.yaml
+│   ├── models.yaml
+│   ├── pricing.yaml
+│   ├── prompt_variants.yaml
+│   └── questions.yaml
+│
+├── data/
+│   ├── README.md
+│   ├── raw/
+│   │   └── .gitkeep
+│   └── processed/
+│       └── .gitkeep
+│
+├── docs/
+│   ├── ANALYSIS_PLAN.md
+│   ├── API_NOTES.md
+│   ├── DATA_README.md
+│   ├── IVS_MERGER.md
+│   └── MODEL_CONDITIONS.md
+│
+├── scripts/
+│   ├── 00_build_ivs.py
+│   ├── 00_validate_environment.py
+│   ├── 01_prepare_human.py
+│   ├── 02_collect_openai.py
+│   ├── 03_collect_jev.py
+│   ├── 04_analyze.py
+│   ├── 05_make_outputs.py
+│   ├── 06_autofill_manuscript.py
+│   ├── 07_option_order_robustness.py
+│   ├── 08_jev_native_score.py
+│   ├── 09_analyze_robustness.py
+│   ├── 10_summarize_api_usage.py
+│   └── run_all.py
+│
+├── src/
+│   ├── analyze.py
+│   ├── collect_jev.py
+│   ├── collect_openai.py
+│   ├── config.py
+│   ├── cultural_map.py
+│   ├── figures.py
+│   ├── human.py
+│   ├── jev_client.py
+│   ├── manuscript_autofill.py
+│   ├── metrics.py
+│   ├── openai_logprobs.py
+│   ├── prompts.py
+│   ├── tables.py
+│   ├── usage_costs.py
+│   └── utils.py
+│
+├── results/
+│   └── .gitkeep
+│
+├── figures/
+│   ├── figure1_probability_semantics.png
+│   └── .gitkeep
+│
+├── manuscript/
+│   ├── Main_manuscript.md
+│   ├── Main_manuscript_RESULTS_PENDING.docx
+│   ├── Supplementary_Information.md
+│   └── Supplementary_Information.docx
+│
+└── tests/
+    ├── fixtures/
+    │   ├── create_synthetic_ivsd.py
+    │   └── synthetic_ivsd.csv
+    ├── test_configuration_safety.py
+    ├── test_human_y003.py
+    ├── test_metrics.py
+    ├── test_multimodel_analysis.py
+    ├── test_multimodel_configuration.py
+    ├── test_pipeline_smoke.py
+    ├── test_prompts.py
+    └── test_usage_costs.py
+```
+
+The repository itself should contain **code, configuration, documentation, prompts, generated aggregate outputs, and reproducibility metadata**. Licensed WVS/EVS/IVS respondent microdata should remain in a separate local or restricted-access folder.
+
+---
+
+# Reproducing the study
+
+## 1. Obtain the human survey data
+
+The public repository does **not** redistribute WVS or EVS microdata.
+
+For the closest replication of the source benchmark, obtain the following releases from their official repositories under the applicable terms:
+
+- **World Values Survey Trend File (1981–2022), version 3.0.0**  
+  Haerpfer et al. (2022), DOI: `10.14281/18241.23`.
+- **European Values Study Trend File 1981–2017, ZA7503, version 3.0.0**  
+  EVS (2022), DOI: `10.4232/1.14021`.
+
+The IVS construction also uses the official/common merge materials when available:
+
+- `EVS_WVS_Merge Syntax_stata.do`
+- `F00011424-Common_EVS_WVS_Dictionary_IVS.xlsx`
+- `F00011426-EVS_WVS_ParticipatingCountries_June2024.xlsx`
+
+A newer WVS Trend release can be used as a documented update/robustness dataset, but exact sample counts may differ from the published benchmark.
+
+### Recommended private-data layout
+
+A convenient arrangement is:
+
+```text
+/path/to/private/values-data/
+├── ZA7503_v3-0-0.dta
+├── Trends_VS_1981_2022_Stata_v3_0.dta        # preferred exact-replication release
+├── Trends_VS_1981_2022_Stata_v4_1.dta        # optional newer-release robustness
+├── EVS_WVS_Merge Syntax_stata.do
+├── F00011424-Common_EVS_WVS_Dictionary_IVS.xlsx
+├── F00011426-EVS_WVS_ParticipatingCountries_June2024.xlsx
+└── Integrated_values_surveys_1981-2022.csv.gz # created locally
+```
+
+This folder can be anywhere on the local machine and should **not** be committed to the public repository.
+
+The repository `.gitignore` excludes `.env` and common WVS/EVS/IVS raw and processed filenames, but the safest practice is still to keep the licensed data physically outside the repository.
+
+---
+
+## 2. Create the Python environment
+
+Python 3.10+ is recommended.
+
+### macOS / Linux
 
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env
-# edit .env with API keys; never commit it
-
-# Option A: already merged IVS trend file
-python scripts/run_all.py --ivs /path/to/IVS_trend_file.sav
-
-# Option B: separate harmonized WVS and EVS trend files
-python scripts/run_all.py --wvs /path/to/WVS_TimeSeries_3_0.sav --evs /path/to/EVS_Trend_3_0.sav
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
 
-For a dry run without paid API calls:
+### Windows — Command Prompt
+
+```bat
+py -m venv .venv
+.venv\Scripts\activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+### Windows — PowerShell
+
+```powershell
+py -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+---
+
+## 3. Build the merged EVS + WVS → IVS dataset
+
+If you already have the required harmonised IVS file, skip to **Step 4**.
+
+If starting from the separate EVS and WVS Trend files, run `scripts/00_build_ivs.py`.
+
+### Canonical full IVS build
+
+Example using an external private-data directory:
 
 ```bash
-python tests/fixtures/create_synthetic_ivsd.py
-python scripts/01_prepare_human.py --ivs tests/fixtures/synthetic_ivsd.csv --csv
-python -m pytest -q
+python scripts/00_build_ivs.py \
+  --evs "/path/to/private/values-data/ZA7503_v3-0-0.dta" \
+  --wvs "/path/to/private/values-data/Trends_VS_1981_2022_Stata_v3_0.dta" \
+  --merge-syntax "/path/to/private/values-data/EVS_WVS_Merge Syntax_stata.do" \
+  --dictionary "/path/to/private/values-data/F00011424-Common_EVS_WVS_Dictionary_IVS.xlsx" \
+  --countries "/path/to/private/values-data/F00011426-EVS_WVS_ParticipatingCountries_June2024.xlsx" \
+  --output "/path/to/private/values-data/Integrated_values_surveys_1981-2022.csv.gz"
 ```
 
-## Reproducibility target
+If the locally available WVS file is the newer v4.1 release, substitute its path and treat the resulting benchmark as a documented data-release update/robustness analysis:
 
-The source article reports using the three most recent survey waves (2005–2022), the ten IVS variables underlying the Inglehart–Welzel map, survey weight `S017`, PCA with pairwise deletion and varimax rotation, and the published rescaling equations. The Python implementation here mirrors those steps as closely as possible. Because the original analysis used software-specific factor scoring, the package also writes diagnostics and includes a reference SPSS syntax file. The paper's published rescaling constants are treated as authoritative for replication.
+```bash
+python scripts/00_build_ivs.py \
+  --evs "/path/to/private/values-data/ZA7503_v3-0-0.dta" \
+  --wvs "/path/to/private/values-data/Trends_VS_1981_2022_Stata_v4_1.dta" \
+  --merge-syntax "/path/to/private/values-data/EVS_WVS_Merge Syntax_stata.do" \
+  --dictionary "/path/to/private/values-data/F00011424-Common_EVS_WVS_Dictionary_IVS.xlsx" \
+  --countries "/path/to/private/values-data/F00011426-EVS_WVS_ParticipatingCountries_June2024.xlsx" \
+  --output "/path/to/private/values-data/Integrated_values_surveys_1981-2022_v4-1.csv.gz"
+```
 
-## Primary estimands
+The merger is intentionally **fail-loud**. It:
 
-For each country/territory `c`, item `j`, and permitted response `k`:
+1. classifies the EVS/WVS source files from their actual structure;
+2. parses the official Stata merge syntax;
+3. materialises the official 838-variable IVS schema;
+4. applies the structural missing-value rules from the supplied merge syntax;
+5. validates against the common EVS/WVS dictionary;
+6. checks participating-country information when supplied;
+7. preserves source missing-reason codes `-1` to `-5`;
+8. prevents accidental WVS7 duplication when a joint EVS/WVS file is supplied;
+9. supports memory-efficient `.csv.gz` output; and
+10. writes provenance and QC files alongside the merged dataset.
 
-- `H[c,j,k]`: survey-weighted human response probability,
-- `O[c,j,k]`: OpenAI probability reconstructed from next-token log probabilities and renormalized over allowed single-token labels,
-- `J[c,j,k]`: Jev direct choice probability.
+The following files are produced next to the IVS output:
 
-Primary distributional metrics are Jensen-Shannon divergence, total variation distance, normalized Wasserstein distance for ordered items, expected-score error, and entropy/effective-category error. The primary model contrast is paired at the country × item level with a crossed country/item bootstrap.
+```text
+Integrated_values_surveys_1981-2022.csv.gz
+Integrated_values_surveys_1981-2022.csv.gz.manifest.json
+Integrated_values_surveys_1981-2022.csv.gz.qc_wave_year_counts.csv
+Integrated_values_surveys_1981-2022.csv.gz.qc_core_missing.csv
+```
 
-## Y002 and Y003
+### Paper-core IVS only
 
-- **Y002** is elicited as one of the 12 possible ordered pairs of two distinct goals, then aggregated into the WVS materialist/mixed/post-materialist index distribution.
-- **Y003** cannot be represented exactly as a single small choice distribution because the original question allows up to five selections from 11 qualities (1,024 possible subsets including the empty set). It is therefore retained in the 10-item cultural-map replication using the four constituent marginals needed for its expected index, while the primary full-distribution benchmark is conducted on the other nine constructs. The SI reports the four Y003 constituent probabilities separately. No independence assumption is required for the expected Y003 index because expectation is linear.
+If a smaller file containing only the variables required for this paper is preferred, add:
 
-## Main directories
+```text
+--core-only
+```
 
-- `config/` — exact survey prompts, response coding, prompt variants, model/API settings
-- `src/` — reusable implementation
-- `scripts/` — numbered end-to-end pipeline
-- `tests/` — unit and smoke tests
-- `docs/` — analysis plan and data notes
-- `manuscript/` — manuscript/SI source text and result-token dictionary
-- `results/`, `figures/` — generated outputs
+The complete schema is preferable for a reusable IVS build; `--core-only` is sufficient for this study.
 
-## Ethics / interpretation
+### Important: use ZA7503, not ZA7505, for the full historical EVS component
 
-These are population-level benchmark comparisons. A lower distributional distance does not mean the model "is" a culture, nor does a model probability automatically estimate a human frequency. Country labels are coarse proxies for heterogeneous populations, and country prompting may reproduce stereotypes rather than within-country variation. The analysis is designed to measure those limitations rather than assume them away.
+`ZA7503_v3-0-0.dta` is the EVS Trend File covering the historical EVS waves required by the canonical merge.
+
+`ZA7505_v5-0-0.dta` is instead the Joint EVS/WVS 2017–2022 file and contains EVS5 plus WVS7. Appending the full ZA7505 file to the WVS Trend File would duplicate WVS7 while omitting EVS1–4.
+
+The merger therefore refuses to treat ZA7505 as a complete historical EVS source unless `--allow-partial-joint` is explicitly supplied. That mode is for diagnostics only and produces an explicitly partial WVS1–7 + EVS5 dataset.
+
+### Important: do not preprocess ZA7503 with the Stata missing-value `.do` file
+
+Use the original `ZA7503_v3-0-0.dta` file as input.
+
+The Python merger intentionally retains the source `-1` through `-5` missing-reason codes and applies the required structural `-3`/`-4` rules itself. The accompanying Stata missing-value conversion file is therefore not required for this workflow.
+
+---
+
+## 4. Configure API keys, model versions, and external data paths
+
+Copy the example environment file:
+
+```bash
+cp .env.example .env
+```
+
+On Windows, copy `.env.example` to `.env` manually or use:
+
+```bat
+copy .env.example .env
+```
+
+Populate `.env` with your own credentials and paths:
+
+```dotenv
+# Secrets
+OPENAI_API_KEY=...
+TYPESAFE_API_KEY=...
+# JEV_API_KEY=...   # accepted alias if preferred
+
+# Historical OpenAI anchor
+OPENAI_HISTORICAL_MODEL=gpt-4o-2024-05-13
+
+# Primary contemporary OpenAI model
+OPENAI_PRIMARY_MODEL=gpt-5.6-sol
+OPENAI_PRIMARY_REASONING_EFFORT=none
+
+# Optional robustness model
+OPENAI_TERRA_MODEL=gpt-5.6-terra
+OPENAI_TERRA_REASONING_EFFORT=none
+
+# TypeSafe / Jev
+TYPESAFE_BASE_URL=https://api.typesafe.ai
+TYPESAFE_MODEL=jev-1.13.0
+
+# External human-data paths
+IVS_DATA_PATH=/absolute/path/to/private/values-data/Integrated_values_surveys_1981-2022.csv.gz
+
+# Optional if working directly with separate files in another workflow
+WVS_DATA_PATH=/absolute/path/to/private/values-data/Trends_VS_1981_2022_Stata_v3_0.dta
+EVS_DATA_PATH=/absolute/path/to/private/values-data/ZA7503_v3-0-0.dta
+```
+
+`.env` is excluded from Git and must never be committed.
+
+Pinned model versions are preferable for the archived final run. If `gpt-4o-2024-05-13` is unavailable to the API account, set:
+
+```dotenv
+OPENAI_HISTORICAL_MODEL=gpt-4o
+```
+
+and report this explicitly as a **historical-generation anchor rather than an exact historical snapshot replication**.
+
+The package records both the requested and served model identifiers, so a model substitution cannot occur silently.
+
+---
+
+## 5. Validate the local configuration before making paid calls
+
+Run:
+
+```bash
+python scripts/00_validate_environment.py
+```
+
+This checks:
+
+- Python;
+- required configuration files;
+- whether API keys are present;
+- whether configured external-data paths exist;
+- selected OpenAI model conditions; and
+- the configured Jev model.
+
+This command makes **no paid API calls**.
+
+---
+
+## 6. Run the automated tests
+
+Before the empirical run:
+
+```bash
+pytest -q
+```
+
+The packaged test suite currently contains **24 automated tests** covering configuration safety, probability metrics, multi-model analysis/configuration, Y003 reconstruction, pipeline smoke tests, prompts, and API usage/cost accounting.
+
+---
+
+## 7. Run a minimal live API preflight
+
+Before committing to the full model collection:
+
+```bash
+python scripts/00_validate_environment.py --live
+```
+
+This makes only minimal live requests and verifies:
+
+- OpenAI authentication;
+- GPT-4o availability;
+- GPT-5.6 Sol availability;
+- output logprob availability;
+- permitted-label recovery;
+- Jev authentication;
+- Jev model discovery; and
+- a minimal System One choice request.
+
+To include the optional GPT-5.6 Terra condition in the preflight:
+
+```bash
+python scripts/00_validate_environment.py --live --include-terra
+```
+
+Run this immediately before the archived empirical collection so API/model availability is checked at the time of data generation.
+
+---
+
+# Full end-to-end run
+
+Once the IVS file exists and `.env` is configured, the principal study can be executed with:
+
+```bash
+python scripts/run_all.py --robustness --autofill
+```
+
+This performs, in order:
+
+1. human-data preparation;
+2. GPT-4o and GPT-5.6 Sol probability collection;
+3. Jev probability collection;
+4. primary statistical analysis;
+5. main and supplementary table/figure generation;
+6. option-order robustness analysis;
+7. Jev native-Score robustness analysis;
+8. robustness summarisation;
+9. API token/cost accounting; and
+10. manuscript numerical autofill.
+
+To include GPT-5.6 Terra as an additional supplementary robustness condition:
+
+```bash
+python scripts/run_all.py --include-terra --robustness --autofill
+```
+
+`run_all.py` **does not construct IVS from raw EVS/WVS files**. The EVS/WVS → IVS build is deliberately a separate preliminary step because the licensed source files are external to the repository.
+
+---
+
+# Running the workflow step by step
+
+The individual stages can also be run separately. This is useful for auditing, resuming API collection, or rerunning only analysis/output stages.
+
+## A. Prepare the human benchmark
+
+With `IVS_DATA_PATH` configured:
+
+```bash
+python scripts/01_prepare_human.py \
+  --ivs "/path/to/private/values-data/Integrated_values_surveys_1981-2022.csv.gz" \
+  --csv \
+  --outdir data/processed
+```
+
+This:
+
+- restricts observations to common waves 5–7 and calendar years 2005–2022;
+- applies substantive-value validity rules;
+- reconstructs Y003 where necessary from its constituent items;
+- computes survey-weighted country-year response distributions;
+- averages country-year distributions equally within country;
+- fits the human PCA/cultural-map model; and
+- writes a path-free provenance/checksum manifest.
+
+The required paper variables are:
+
+```text
+S001, S002VS, S003, S009, S017, S020,
+A008, A165, E018, E025, F063, F118, F120, G006,
+Y002, Y003, A029, A039, A040, A042
+```
+
+When necessary:
+
+```text
+Y003 = A029 + A039 - A040 - A042
+```
+
+The principal prepared outputs are:
+
+```text
+data/processed/human_country_year_distributions.csv
+data/processed/human_country_distributions.csv
+data/processed/human_y003_country_year_marginals.csv
+data/processed/human_y003_country_marginals.csv
+data/processed/pca_model.json
+data/processed/human_input_provenance.json
+```
+
+`human_input_provenance.json` records filenames, byte sizes, SHA-256 checksums, the analysis window, and prepared-record count, but deliberately omits local filesystem paths.
+
+---
+
+## B. Collect OpenAI probability distributions
+
+Run the two principal OpenAI conditions:
+
+```bash
+python scripts/02_collect_openai.py
+```
+
+Or run them separately:
+
+```bash
+python scripts/02_collect_openai.py --condition gpt4o_anchor
+python scripts/02_collect_openai.py --condition gpt56_sol
+```
+
+Optional Terra robustness:
+
+```bash
+python scripts/02_collect_openai.py --condition gpt56_terra
+```
+
+or:
+
+```bash
+python scripts/02_collect_openai.py --include-terra
+```
+
+Output:
+
+```text
+data/processed/openai_probabilities.jsonl
+```
+
+The collector is **append-only and resumable**. Stable record IDs include model condition, country/territory, prompt variant, item, and label replication, so an interrupted run can resume without intentionally duplicating completed cells.
+
+### Why OpenAI temperature is 1.0
+
+The original 2024 point-response study set temperature to zero so a single generated answer would be as deterministic as possible. This replication-extension has a different primary estimand: the **full next-token probability distribution**. The OpenAI probability calls therefore explicitly set **`temperature=1.0`** for GPT-4o, GPT-5.6 Sol, and optional GPT-5.6 Terra. This avoids deliberately sharpening the distribution being measured. GPT-5.6 uses `reasoning.effort=none`, which is also compatible with temperature and logprob extraction.
+
+The point-response comparison does not require a separate temperature-zero call: it is defined as the **argmax of the same temperature-1 probability vector**. For any positive temperature, temperature scaling preserves the ordering of logits, so this isolates the representation change (full distribution versus modal category) without introducing a second API draw. This should be described as continuity with, rather than byte-for-byte regeneration of, the original temperature-zero API run.
+
+### OpenAI logprob safeguards
+
+The OpenAI collector:
+
+- uses controlled response labels;
+- sets `max_output_tokens=16`, the current Responses API minimum; the prompt still requires a single response label, so this is a ceiling rather than an instruction to emit 16 tokens;
+- requests `top_logprobs=20`;
+- explicitly requests output-text logprob records;
+- stores the generated token;
+- stores every permitted label returned by the API;
+- records labels absent from the top-logprob set;
+- records pre-renormalisation probability mass assigned to permitted labels;
+- records the residual vocabulary mass, number of top-logprob alternatives returned, and Kth-token cutoff where available;
+- computes a conservative upper bound on total omitted permitted-label probability mass;
+- classifies each call as complete, negligible tail-censoring, non-negligible tail-censoring, or incomplete without a full top-K cutoff;
+- records requested and served model identifiers and explicit temperature; and
+- never silently interprets an unreturned permitted label as exact probability zero.
+
+Missing labels are treated as top-K censoring rather than automatic failures. The package conservatively upper-bounds their total omitted probability mass. The primary policy retains complete records plus records whose omitted permitted-label mass is bounded above by 0.001; a stricter 0.0001 policy and complete-only policy are generated as sensitivity analyses.
+
+---
+
+## C. Collect Jev probability distributions
+
+Run:
+
+```bash
+python scripts/03_collect_jev.py
+```
+
+Output:
+
+```text
+data/processed/jev_probabilities.jsonl
+```
+
+Jev returns probabilities directly over the declared response alternatives. Where multiple answers are returned from one API request, the common request identifier is retained so request-level usage and costs are not double-counted.
+
+The final archived empirical run should pin the exact Jev version in `.env` where possible.
+
+---
+
+## D. Run the primary analysis
+
+```bash
+python scripts/04_analyze.py
+```
+
+The analysis produces, among other files:
+
+```text
+results/model_mean_probabilities.csv
+results/model_y003_mean_marginals.csv
+results/country_item_metrics.csv
+results/prompt_sensitivity.csv
+results/openai_label_sensitivity.csv
+results/openai_logprob_diagnostics.csv
+results/openai_censoring_policy_counts.csv
+results/country_item_metrics_censoring_sensitivity.csv
+results/openai_censoring_sensitivity_summary.csv
+results/y003_marginal_metrics.csv
+results/cultural_map_coordinates.csv
+results/cultural_map_distances.csv
+```
+
+---
+
+## E. Generate tables and figures
+
+```bash
+python scripts/05_make_outputs.py
+```
+
+This regenerates the analysis-derived main and supplementary tables and figures from the saved empirical outputs.
+
+Examples include:
+
+```text
+results/tables/table2_primary_summary.csv
+results/tables/table3_cultural_map.csv
+results/tables/table_s3_openai_diagnostics.csv
+results/tables/table_s5_full_vs_argmax.csv
+results/tables/table_s6_item_summary.csv
+results/tables/table_s7_country_summary.csv
+results/tables/table_s9_y003.csv
+results/tables/paired_contrasts.json
+
+figures/figure1_probability_semantics.png
+figures/... empirical figures generated after collection/analysis
+```
+
+---
+
+## F. Run robustness analyses
+
+### Option-order robustness
+
+```bash
+python scripts/07_option_order_robustness.py
+```
+
+The default robustness design samples the configured number of countries and randomly permutes response alternatives across repeated runs for GPT-4o, GPT-5.6 Sol, and Jev.
+
+To add Terra:
+
+```bash
+python scripts/07_option_order_robustness.py --include-terra
+```
+
+Raw output:
+
+```text
+data/processed/option_order_robustness.jsonl
+```
+
+### Jev native-Score robustness
+
+```bash
+python scripts/08_jev_native_score.py
+```
+
+This evaluates the Jev ordered `Score` interface as a supplementary check where applicable.
+
+### Summarise robustness results
+
+```bash
+python scripts/09_analyze_robustness.py
+```
+
+---
+
+## G. Summarise API token usage and costs
+
+```bash
+python scripts/10_summarize_api_usage.py
+```
+
+The package retains the provider-returned `usage` payload on each empirical OpenAI and Jev record and also derives explicit fields for:
+
+- input tokens;
+- cached input tokens where returned;
+- cache-write input tokens where returned;
+- output tokens;
+- reasoning output tokens where returned;
+- total tokens;
+- request ID;
+- requested/served model;
+- provider-reported cost where available; and
+- a dated list-price cost estimate.
+
+The pricing snapshot is stored in:
+
+```text
+config/pricing.yaml
+```
+
+The generated summaries are:
+
+```text
+results/api_request_usage.csv
+results/api_usage_summary.csv
+results/api_usage_totals.json
+```
+
+These are reproducibility metadata rather than invoices. Provider prices, processing tiers, credits, regional uplifts, and account-specific arrangements can change. The raw usage payload is retained so costs can be recalculated later.
+
+---
+
+## H. Autofill the manuscript from empirical outputs
+
+After the analysis is complete:
+
+```bash
+python scripts/06_autofill_manuscript.py
+```
+
+or include `--autofill` in `run_all.py`.
+
+The manuscript template intentionally contains result placeholders before the empirical run. Autofill replaces only fields supported by the generated analysis outputs; the repository does not fabricate missing results.
+
+---
+
+# Human-data construction and version sensitivity
+
+## Analysis window
+
+The human-data preparation step enforces:
+
+- common IVS wave codes **5, 6, and 7**; and
+- calendar years **2005–2022**.
+
+The calendar-year restriction is applied in addition to common-wave codes because newer WVS Trend releases can include a small number of observations outside 2005–2022 within those wave classifications.
+
+## Survey weighting and aggregation
+
+Within each country-year and item, response proportions are estimated using survey weight:
+
+```text
+S017
+```
+
+Country-level response distributions are then produced by **equally averaging the available country-year distributions**, matching the intended longitudinal treatment of countries participating in more than one wave.
+
+## Cultural-map construction
+
+The ten cultural-map constructs are:
+
+```text
+A008  Feeling of Happiness
+A165  Trust on People
+E018  Respect for Authority
+E025  Petition Signing Experience
+F063  Importance of God
+F118  Justifiability of Homosexuality
+F120  Justifiability of Abortion
+G006  Pride of Nationality
+Y002  Post-Materialist Index
+Y003  Autonomy Index
+```
+
+The human PCA is fitted using the IVS benchmark and the paper's rescaling constants:
+
+```text
+PC1' = 1.81 × PC1 + 0.38
+PC2' = 1.61 × PC2 − 0.01
+```
+
+The five source-study exclusions are:
+
+```text
+Egypt
+Kuwait
+Qatar
+Tajikistan
+Uzbekistan
+```
+
+because at least one required cultural-map variable lacks valid observations.
+
+## WVS release sensitivity
+
+The closest replication target is the WVS Trend release reported by the source study.
+
+If a newer release is deliberately substituted, preserve that version in provenance and treat it as a documented update/robustness analysis rather than silently assuming numerical identity.
+
+For example, the locally tested combination of **EVS ZA7503 v3.0.0 + WVS Trend v4.1** yields a slightly different 2005–2022 sample from the original paper because the WVS release itself has changed. The merge code is designed to expose this difference in QC/provenance outputs rather than conceal it.
+
+---
+
+# Y002 and Y003 handling
+
+## Y002 — Post-Materialist Index
+
+Y002 asks for the first- and second-ranked choice among four goals. The model experiment therefore elicits the **12 possible ordered pairs**, then maps those pairs to the three IVS categories:
+
+- materialist;
+- mixed; and
+- post-materialist.
+
+This preserves the original index logic while permitting a full probability distribution over the valid ordered response space.
+
+## Y003 — Autonomy Index
+
+Y003 is a multi-select item whose complete response space is too large for the common one-of-\(K\) probability-vector design.
+
+The primary analysis therefore compares the four constituent marginals required by the index:
+
+- Independence (`A029`);
+- Determination/perseverance (`A039`);
+- Religious faith (`A040`); and
+- Obedience (`A042`).
+
+Expected Y003 is calculated by linearity of expectation:
+
+```text
+E[Y003] =
+P(Independence)
++ P(Determination)
+- P(Religious faith)
+- P(Obedience)
+```
+
+For EVS observations where merged Y003 is structurally unavailable, the human pipeline reconstructs it row-by-row when all four constituent items are valid.
+
+---
+
+# Primary analysis
+
+## Primary full-distribution items
+
+The primary common probability-distribution analysis includes:
+
+```text
+A008, A165, E018, E025, F063, F118, F120, G006, Y002
+```
+
+Y003 is analysed through its four constituent marginals as described above.
+
+## Primary metric
+
+The primary distributional metric is **Jensen–Shannon divergence**, base 2 and bounded between 0 and 1.
+
+Secondary metrics include:
+
+- total variation distance;
+- normalised 1-Wasserstein distance for ordered scales;
+- absolute expected-score error;
+- normalised entropy error; and
+- effective-number-of-categories error.
+
+Every applicable metric is calculated for:
+
+1. the full machine probability distribution; and
+2. the argmax one-hot distribution derived from exactly the same model probability vector.
+
+## Planned contrasts
+
+The principal comparisons are:
+
+- **GPT-5.6 Sol vs Jev** — contemporary probability-system/interface comparison;
+- **GPT-4o vs GPT-5.6 Sol** — model-generation/temporal comparison;
+- **GPT-4o vs Jev** — historical-generation versus decision-native comparison; and
+- **full distribution vs argmax within each model** — incremental fidelity from retaining uncertainty.
+
+Pairwise full-distribution contrasts use a crossed bootstrap that independently resamples countries and items with replacement. Paired Wilcoxon tests are reported as secondary robustness statistics.
+
+The default bootstrap configuration is stored in `config/analysis.yaml`.
+
+---
+
+# Prompt, label, and order robustness
+
+The source benchmark uses ten semantically similar respondent descriptors. These are preserved so probability estimates are not identified from one wording alone.
+
+For each model condition, the analysis assesses:
+
+- dispersion across respondent-descriptor variants;
+- OpenAI label-assignment sensitivity;
+- OpenAI permitted-label probability mass and completeness;
+- answer-option order sensitivity; and
+- Jev native ordered-Score behavior where applicable.
+
+The OpenAI label mapping is systematically rotated across prompt variants so response labels are not permanently tied to substantive answer categories.
+
+---
+
+# Model conditions
+
+| Condition | Interface | Role | Default |
+|---|---|---|---|
+| `gpt4o_anchor` | OpenAI next-token logprobs | Historical-generation anchor | `gpt-4o-2024-05-13` |
+| `gpt56_sol` | OpenAI next-token logprobs | Primary contemporary OpenAI model | `gpt-5.6-sol`, reasoning `none` |
+| `jev` | Jev typed decision probabilities | Decision-native comparison | exact version pinned via `TYPESAFE_MODEL` |
+| `gpt56_terra` | OpenAI next-token logprobs | Optional robustness | `gpt-5.6-terra`, reasoning `none` |
+
+The model and analysis configuration are stored in:
+
+```text
+config/models.yaml
+config/analysis.yaml
+```
+
+For the final archived empirical run, preserve:
+
+- collection date/time;
+- requested model;
+- served model;
+- model version where available;
+- prompt/configuration files;
+- API response IDs;
+- raw usage metadata; and
+- the repository commit/tag used for collection.
+
+---
+
+# Reproducing analyses without making new API calls
+
+Once the model response JSONL files have been archived, the statistical analysis can be rerun without new model calls.
+
+If the processed human benchmark and model response files already exist:
+
+```bash
+python scripts/04_analyze.py
+python scripts/05_make_outputs.py
+python scripts/09_analyze_robustness.py
+python scripts/10_summarize_api_usage.py
+python scripts/06_autofill_manuscript.py
+```
+
+Alternatively, `run_all.py` supports skipping provider collection:
+
+```bash
+python scripts/run_all.py \
+  --skip-openai \
+  --skip-jev \
+  --robustness \
+  --autofill
+```
+
+Use this only when the required archived OpenAI/Jev JSONL outputs are already present.
+
+---
+
+# Licensed data and repository policy
+
+The WVS, EVS, and constructed IVS respondent-level files are **not redistributed** in this repository.
+
+For public end-to-end replication, an independent researcher should:
+
+1. obtain the cited WVS and EVS releases from their official repositories;
+2. place them in a local/restricted directory;
+3. run `scripts/00_build_ivs.py`;
+4. verify the generated provenance/QC outputs;
+5. run the human-data preparation step; and
+6. continue through the API and analysis pipeline.
+
+The public repository can contain:
+
+- dataset citations and acquisition instructions;
+- release identifiers;
+- merge/harmonisation code;
+- checksums and provenance;
+- configuration files;
+- all prompts;
+- API collection code;
+- archived provider outputs where redistribution is permitted;
+- aggregate human benchmarks where permitted;
+- statistical-analysis code;
+- generated tables/figures; and
+- manuscript/SI source files.
+
+It should not contain the restricted raw survey microdata.
+
+---
+
+# Reproducibility and audit trail
+
+The package is designed to retain the information required to audit the complete workflow.
+
+## Human-data provenance
+
+`scripts/00_build_ivs.py` writes:
+
+- source-file classification;
+- source hashes;
+- merge/schema information;
+- warnings;
+- wave/year counts; and
+- missing-code diagnostics.
+
+`scripts/01_prepare_human.py` writes:
+
+```text
+data/processed/human_input_provenance.json
+```
+
+with source filename, byte size, SHA-256 checksum, analysis window, and prepared-record count, while intentionally excluding private local paths.
+
+## Model-call provenance
+
+Each empirical OpenAI/Jev record stores, where available:
+
+- stable study record ID;
+- unique provider/request ID;
+- provider;
+- study condition;
+- country/territory;
+- survey item;
+- prompt variant;
+- exact response mapping;
+- probabilities;
+- requested model;
+- served model;
+- provider usage metadata;
+- flattened token counts; and
+- cost metadata.
+
+## Configuration provenance
+
+The frozen study configuration is defined in:
+
+```text
+config/questions.yaml
+config/prompt_variants.yaml
+config/models.yaml
+config/analysis.yaml
+config/pricing.yaml
+```
+
+Archive these files with the final study release.
+
+---
+
+# Interpretation
+
+A lower divergence from human survey frequencies does **not** mean that a model “is” a culture or that its internal uncertainty is definitionally population heterogeneity.
+
+Country/territory labels are coarse descriptions of internally heterogeneous populations. Human survey frequencies describe variation between people; OpenAI logprobs describe conditional next-token probabilities; Jev probabilities describe probabilities over declared decision alternatives.
+
+The purpose of the study is to test whether these different probability objects align empirically — not to assume that they are equivalent.
+
+Similarly, differences between GPT-5.6 Sol and Jev should not be interpreted as identifying a single architectural mechanism, because the systems differ in many unobserved aspects of pretraining, post-training, capacity, and serving.
+
+---
+
+# Citation
+
+If you use this repository, its code, or its generated materials, please cite the associated study and the software archive.
+
+Machine-readable citation metadata are provided in:
+
+```text
+CITATION.cff
+```
+
+The associated manuscript is currently:
+
+> *Do AI probability distributions represent human population variation? Token uncertainty, decision uncertainty, and cross-cultural survey responses.*
+
+Before the final archival release, update `CITATION.cff` with the final author list, repository/archive DOI, journal citation, and article DOI where applicable.
+
+The WVS and EVS source datasets should also be cited separately using the citations required by their respective data providers.
+
+---
+
+# Licence
+
+Analysis and replication code are released under the licence specified in `LICENSE`.
+
+The repository licence does **not** override:
+
+- WVS or EVS data-access/licensing terms;
+- OpenAI, TypeSafe/Jev, or other provider terms;
+- publisher rights in manuscript versions; or
+- third-party rights in any external material.
+
+Licensed survey microdata remain governed by their original providers and are not redistributed here.
+
+---
+
+# Recommended archival checklist
+
+Before creating the final GitHub/Zenodo/OSF release:
+
+- [ ] confirm the final WVS and EVS release/version used;
+- [ ] archive `human_input_provenance.json`;
+- [ ] archive the IVS build manifest and QC outputs;
+- [ ] run `pytest -q`;
+- [ ] run the live API preflight;
+- [ ] pin and record model versions;
+- [ ] complete the primary and robustness API collections;
+- [ ] verify OpenAI permitted-label completeness diagnostics;
+- [ ] verify Jev response/model metadata;
+- [ ] generate `api_request_usage.csv`, `api_usage_summary.csv`, and `api_usage_totals.json`;
+- [ ] regenerate all tables and figures from the archived inputs;
+- [ ] run manuscript autofill and manually cross-check manuscript numbers;
+- [ ] ensure `.env` and licensed microdata are absent from Git history;
+- [ ] update `CITATION.cff` with the final author list and DOI(s);
+- [ ] tag the exact repository commit used for the submitted/final manuscript; and
+- [ ] archive the release in the selected long-term repository.
+
+For implementation details beyond this README, see:
+
+```text
+docs/ANALYSIS_PLAN.md
+docs/API_NOTES.md
+docs/DATA_README.md
+docs/IVS_MERGER.md
+docs/MODEL_CONDITIONS.md
+```
