@@ -3,12 +3,15 @@ from pathlib import Path
 import json
 from dotenv import load_dotenv
 from .config import analysis, questions
-from .prompts import descriptor, semantic_options, y002_pairs
+from .prompts import descriptor, semantic_options
 from .jev_client import JevClient
 from .utils import stable_id, jsonl_append, ensure_dir
+from .usage_costs import usage_and_cost
+
 
 def _stem(item):
     return questions()[item]['source_prompt'].split('You can only respond')[0].strip()
+
 
 def collect(countries, outfile='data/processed/jev_probabilities.jsonl', resume=True, include_default=True):
     load_dotenv(); cfg=analysis(); qs=questions(); out=Path(outfile); ensure_dir(out.parent); client=JevClient()
@@ -28,8 +31,10 @@ def collect(countries, outfile='data/processed/jev_probabilities.jsonl', resume=
                 if rid in done: continue
                 criteria={semantic:desc for semantic,desc in semantic_options(item)}
                 res=client.choice(state,item,_stem(item),criteria)
-                rec={'record_id':rid,'provider':'jev','country':ckey,'variant':variant,'label_rep':0,'item':item,
-                     'probabilities':res.probabilities,'model':res.model,'usage':res.usage,
+                usage_flat,cost=usage_and_cost('jev',res.model,res.usage,raw=res.raw)
+                reqid=(res.raw.get('id') if isinstance(res.raw,dict) else None) or rid
+                rec={'record_id':rid,'request_id':reqid,'provider':'jev','condition':'jev','condition_label':'Jev','condition_role':'decision_native','country':ckey,'variant':variant,'label_rep':0,'item':item,
+                     'probabilities':res.probabilities,'model':res.model,'usage':res.usage,'usage_flat':usage_flat,'cost':cost,
                      'question':{'state':state,'instructions':_stem(item),'criteria':criteria}}
                 jsonl_append(out,rec); done.add(rid)
             qmap={}
@@ -39,11 +44,14 @@ def collect(countries, outfile='data/processed/jev_probabilities.jsonl', resume=
             pending=[(qid,x) for qid,x in qmap.items() if stable_id('jev',ckey,variant,'Y003',x[0]) not in done]
             if pending:
                 raw=client.noul_batch(state,{qid:instr for qid,(quality,instr) in pending})
+                raw_usage=raw.get('usage') or {}; raw_model=raw.get('model')
+                usage_flat,cost=usage_and_cost('jev',raw_model,raw_usage,raw=raw)
+                batch_request_id=raw.get('id') or stable_id('jev',ckey,variant,'Y003','batch')
                 for qid,(quality,instr) in pending:
                     ans=raw['answers'][qid]; py=float(ans['noul']); py=min(1.0,max(0.0,py))
                     rid=stable_id('jev',ckey,variant,'Y003',quality)
-                    rec={'record_id':rid,'provider':'jev','country':ckey,'variant':variant,'label_rep':0,'item':'Y003','quality':quality,
-                         'probabilities':{'1':py,'0':1-py},'model':raw.get('model'),'usage':raw.get('usage') or {},
+                    rec={'record_id':rid,'request_id':batch_request_id,'provider':'jev','condition':'jev','condition_label':'Jev','condition_role':'decision_native','country':ckey,'variant':variant,'label_rep':0,'item':'Y003','quality':quality,
+                         'probabilities':{'1':py,'0':1-py},'model':raw_model,'usage':raw_usage,'usage_flat':usage_flat,'cost':cost,
                          'question':{'state':state,'instructions':instr,'type':'noul'}}
                     jsonl_append(out,rec); done.add(rid)
     return out

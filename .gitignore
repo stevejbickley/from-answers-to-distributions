@@ -216,3 +216,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Secrets / local environments
+.env
+.env.*
+!.env.example
+
+# Licensed / non-redistributable human survey data
+data/raw/**
+data/external/**
+data/processed/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Common WVS / EVS / IVS filenames if accidentally copied to repo root
+*WVS*.dta
+*WVS*.sav
+*EVS*.dta
+*EVS*.sav
+*IVS*.dta
+*IVS*.sav
+*IVS*.csv
+*IVS*.csv.gz
+ZA7503*.dta
+ZA7505*.dta
+Trends_VS_*.dta
+EOF

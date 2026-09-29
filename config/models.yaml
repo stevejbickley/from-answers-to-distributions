@@ -1,10 +1,29 @@
 openai:
-  model: "${OPENAI_MODEL:gpt-5.6-terra}"
-  reasoning_effort: "${OPENAI_REASONING_EFFORT:none}"
   top_logprobs: 20
-  max_output_tokens: 2
+  max_output_tokens: 16
+  # Primary probability extraction uses T=1.0 to preserve the unsharpened next-token distribution.
+  temperature: 1.0
   retries: 6
   timeout_seconds: 120
+  conditions:
+    gpt4o_anchor:
+      label: "GPT-4o historical-generation anchor"
+      model: "${OPENAI_HISTORICAL_MODEL:gpt-4o-2024-05-13}"
+      reasoning_effort: ""
+      role: historical_anchor
+      enabled: true
+    gpt56_sol:
+      label: "GPT-5.6 Sol"
+      model: "${OPENAI_PRIMARY_MODEL:gpt-5.6-sol}"
+      reasoning_effort: "${OPENAI_PRIMARY_REASONING_EFFORT:none}"
+      role: contemporary_primary
+      enabled: true
+    gpt56_terra:
+      label: "GPT-5.6 Terra"
+      model: "${OPENAI_TERRA_MODEL:gpt-5.6-terra}"
+      reasoning_effort: "${OPENAI_TERRA_REASONING_EFFORT:none}"
+      role: contemporary_robustness
+      enabled: false
 jev:
   base_url: "${TYPESAFE_BASE_URL:https://api.typesafe.ai}"
   model: "${TYPESAFE_MODEL:}"

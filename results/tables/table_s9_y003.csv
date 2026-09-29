@@ -1,0 +1,13 @@
+condition,condition_label,quality,mae,mse,n
+gpt4o_anchor,GPT-4o historical-generation anchor,"Determination, perseverance",0.6318544747641718,0.4120889872288514,107
+gpt4o_anchor,GPT-4o historical-generation anchor,Independence,0.5021038766149428,0.2769360028675311,107
+gpt4o_anchor,GPT-4o historical-generation anchor,Obedience,0.2856494118296545,0.10286630356924117,107
+gpt4o_anchor,GPT-4o historical-generation anchor,Religious faith,0.24422439487196707,0.0886432314839488,107
+gpt56_sol,GPT-5.6 Sol,"Determination, perseverance",0.6254810736111063,0.40361672237840845,107
+gpt56_sol,GPT-5.6 Sol,Independence,0.31725872173895,0.12969263557845484,107
+gpt56_sol,GPT-5.6 Sol,Obedience,0.3344639021120079,0.14523354786964157,107
+gpt56_sol,GPT-5.6 Sol,Religious faith,0.2596400237576347,0.09535124355633892,107
+jev,Jev,"Determination, perseverance",0.37872526054746536,0.15714309272781488,107
+jev,Jev,Independence,0.25348246223072,0.08275324932796906,107
+jev,Jev,Obedience,0.14258620891816862,0.03306303779957258,107
+jev,Jev,Religious faith,0.11858369704890566,0.025268490877754478,107

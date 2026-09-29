@@ -1,0 +1,7 @@
+condition,censoring_policy,records_total,records_included,records_excluded,included_percent
+gpt4o_anchor,primary,37800,37800,0,100.0
+gpt56_sol,primary,37800,24723,13077,65.4047619047619
+gpt4o_anchor,strict,37800,37797,3,99.9920634920635
+gpt56_sol,strict,37800,18474,19326,48.87301587301587
+gpt4o_anchor,complete_only,37800,35754,2046,94.58730158730158
+gpt56_sol,complete_only,37800,1922,35878,5.084656084656085

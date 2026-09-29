@@ -23,3 +23,5 @@ def questions(): return load_yaml('config/questions.yaml')['items']
 def variants(): return load_yaml('config/prompt_variants.yaml')['variants']
 def models(): return load_yaml('config/models.yaml')
 def analysis(): return load_yaml('config/analysis.yaml')
+
+def country_universe(): return load_yaml('config/countries.yaml')

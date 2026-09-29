@@ -150,7 +150,7 @@ Each substantive category is mapped to a short alphabetical label. The mapping r
 
 The user message ends with: “Return exactly ONE option label and nothing else. Do not explain your answer. Your response:”
 
-The request sets `top_logprobs = 20` and a minimal output-token budget. The analysis parser strips surrounding whitespace from returned alternative token strings before matching them to allowed labels. It stores both the generated token and all allowed alternatives found in `top_logprobs`.
+The request sets `temperature = 1.0`, `top_logprobs = 20`, and the minimum supported output-token budget of 16. GPT-5.6 conditions use reasoning effort `none`. Temperature 1 is intentional because the estimand is the unsharpened next-token probability vector; the source study used temperature 0 for a different estimand, a single near-deterministic response. The analysis parser strips surrounding whitespace from returned alternative token strings before matching them to allowed labels. It stores both the generated token and all allowed alternatives found in `top_logprobs`.
 
 ### S5.2 Conditionalization
 
@@ -162,7 +162,7 @@ This is explicitly a conditionalized token distribution. It is not described as 
 
 ### S5.3 Incomplete top-logprob support
 
-Because the API returns at most 20 alternatives, an allowed label could be absent. An absent label is not known to have exactly zero probability. The package therefore flags missing labels. The prespecified primary approach is complete-case analysis if any primary call is incomplete. Sensitivity analyses may use the 20th token’s probability as an upper-bound ingredient, but no single imputation is treated as ground truth.
+Because the API returns at most 20 alternatives, an allowed label can be absent even when it has nonzero probability. The package therefore treats this as top-K censoring. Let `M` be the observed total probability mass assigned to returned permitted labels. The total omitted permitted-label mass is at most `1-M`, which is the conservative bound used for inclusion. The Kth returned token probability is also stored as a diagnostic. We do not treat `m p_K` as a universal semantic-label bound because whitespace-normalized response labels can correspond to multiple raw token surface forms. The primary policy retains complete calls and censored calls whose omitted permitted-label mass upper bound is <= 0.001. The observed permitted-label vector is then renormalized conditional on its observed mass. Sensitivity analyses repeat the OpenAI metrics with an upper-bound threshold of 0.0001 and with complete-only records. No absent label is asserted to have exactly zero probability as an empirical fact.
 
 ### Table S3. OpenAI probability-recovery diagnostics
 
@@ -294,9 +294,9 @@ Collapse each model distribution to the highest-probability response and reprodu
 
 ## S11. Additional figures and tables
 
-**Figure S1. Study workflow.** Human survey microdata are transformed into country-level empirical response distributions. The same country/item prompts are sent to OpenAI and Jev through different probability interfaces. Semantic distributions are aligned and compared before expected scores are projected into the cultural map.
+**Figure S1. Study workflow.** Human survey microdata are transformed into country-level empirical response distributions. The same country/item prompts are sent to GPT-4o, GPT-5.6 Sol, and Jev through different probability interfaces. Semantic distributions are aligned and compared before expected scores are projected into the cultural map.
 
-**Figure S2. Prompt wording sensitivity.** Boxplots of JSD between each descriptor-specific probability vector and the provider’s ten-variant mean, separately for OpenAI and Jev.
+**Figure S2. Prompt wording sensitivity.** Boxplots of JSD between each descriptor-specific probability vector and the provider’s ten-variant mean, separately for GPT-4o, GPT-5.6 Sol, and Jev.
 
 **Figure S3. Human versus model entropy by item.** Faceted scatter plots with one panel per item and separate provider fits.
 
@@ -323,7 +323,8 @@ Collapse each model distribution to the highest-probability response and reprodu
 - [ ] OpenAI model identifier and collection dates recorded.
 - [ ] TypeSafe/Jev model identifier and release date recorded.
 - [ ] Exact prompts archived for every request.
-- [ ] Raw response IDs and usage metadata archived where permitted.
+- [ ] Raw response IDs and provider-returned usage metadata archived where permitted.
+- [ ] Input/output/cached/cache-write/reasoning token counts and dated list-price cost estimates regenerated with `scripts/10_summarize_api_usage.py`.
 - [ ] OpenAI missing-label and allowed-mass diagnostics reported.
 - [ ] Probability vectors verified to sum to one after declared normalization.
 - [ ] Human country-year weighted distributions verified to sum to one.

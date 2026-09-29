@@ -1,0 +1,44 @@
+snapshot_date: "2026-09-25"
+currency: "USD"
+processing_tier: "standard"
+notes:
+  - "Rates are list-price snapshots used to estimate research-run cost from provider-returned usage. They are not invoices."
+  - "Provider-reported usage objects are retained verbatim in every raw record; flattened counts and estimated costs are additional derived fields."
+  - "If provider billing, gateway markup, data-residency uplift, Batch/Flex/Fast processing, credits, or future price changes apply, account invoices remain authoritative."
+openai:
+  gpt-4o:
+    model_match_prefixes: ["gpt-4o"]
+    input_per_million: 2.50
+    cached_input_per_million: 1.25
+    cache_write_per_million: 2.50
+    output_per_million: 10.00
+    long_context_threshold_tokens: null
+    long_context_input_multiplier: 1.0
+    long_context_output_multiplier: 1.0
+    source_url: "https://developers.openai.com/api/docs/models/gpt-4o"
+  gpt-5.6-sol:
+    model_match_prefixes: ["gpt-5.6-sol", "gpt-5.6"]
+    input_per_million: 4.00
+    cached_input_per_million: 0.40
+    cache_write_per_million: 5.00
+    output_per_million: 20.00
+    long_context_threshold_tokens: 272000
+    long_context_input_multiplier: 2.0
+    long_context_output_multiplier: 1.5
+    source_url: "https://developers.openai.com/api/docs/models/gpt-5.6-sol"
+  gpt-5.6-terra:
+    model_match_prefixes: ["gpt-5.6-terra"]
+    input_per_million: 2.00
+    cached_input_per_million: 0.20
+    cache_write_per_million: 2.50
+    output_per_million: 12.00
+    long_context_threshold_tokens: 272000
+    long_context_input_multiplier: 2.0
+    long_context_output_multiplier: 1.5
+    source_url: "https://developers.openai.com/api/docs/models/gpt-5.6-terra"
+jev:
+  jev-1.13.0:
+    model_match_prefixes: ["jev-1.13.0", "jev-latest", "jev-preview"]
+    input_per_million: 0.042
+    output_per_million: 0.0
+    source_url: "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
