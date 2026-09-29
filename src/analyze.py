@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 import numpy as np
 import pandas as pd
-from scipy.stats import wilcoxon
+from scipy.stats import wilcoxon, pearsonr, spearmanr, norm
 from .config import analysis, questions
 from .prompts import y002_pairs
 from .metrics import js_divergence,total_variation,normalized_wasserstein,expected_value,entropy,effective_categories
@@ -126,6 +126,171 @@ def _metric_table(human, avg, cfg, qs):
     return pd.DataFrame(metric_rows)
 
 
+
+def _safe_corr(x, y, method='pearson'):
+    x=np.asarray(x,float); y=np.asarray(y,float)
+    m=np.isfinite(x)&np.isfinite(y)
+    x=x[m]; y=y[m]
+    if len(x)<3 or np.nanstd(x,ddof=1)==0 or np.nanstd(y,ddof=1)==0:
+        return np.nan
+    try:
+        if method=='spearman':
+            return float(spearmanr(x,y).statistic)
+        return float(pearsonr(x,y).statistic)
+    except Exception:
+        return np.nan
+
+
+def _fisher_mean(values):
+    x=np.asarray([v for v in values if np.isfinite(v)],float)
+    if len(x)==0: return np.nan
+    x=np.clip(x,-0.999999,0.999999)
+    return float(np.tanh(np.mean(np.arctanh(x))))
+
+
+def _clustered_entropy_regression(g, formula):
+    """OLS slope on human_entropy with two-way clustered covariance by country and item."""
+    try:
+        import statsmodels.formula.api as smf
+        from statsmodels.stats.sandwich_covariance import cov_cluster_2groups
+        fit=smf.ols(formula,data=g).fit()
+        if 'human_entropy' not in fit.model.exog_names:
+            return {'slope':np.nan,'se':np.nan,'ci_low':np.nan,'ci_high':np.nan,'p':np.nan,'r2':float(fit.rsquared)}
+        idx=fit.model.exog_names.index('human_entropy')
+        c1=pd.Categorical(g['country']).codes
+        c2=pd.Categorical(g['item']).codes
+        cov=cov_cluster_2groups(fit,c1,c2)[0]
+        # A negative clustered variance is undefined, not evidence of certainty.
+        variance=float(cov[idx,idx])
+        se=float(np.sqrt(variance)) if variance>=0 else np.nan
+        slope=float(fit.params['human_entropy'])
+        z=slope/se if se>0 else np.nan
+        p=float(2*norm.sf(abs(z))) if np.isfinite(z) else np.nan
+        return {'slope':slope,'se':se,'ci_low':slope-1.96*se if np.isfinite(se) else np.nan,
+                'ci_high':slope+1.96*se if np.isfinite(se) else np.nan,'p':p,'r2':float(fit.rsquared)}
+    except (ValueError, np.linalg.LinAlgError, ZeroDivisionError):
+        # Never substitute pooled OLS under a fixed-effect label.
+        return dict.fromkeys(['slope','se','ci_low','ci_high','p','r2'],np.nan)
+
+
+def _two_way_residuals(g, column):
+    import statsmodels.formula.api as smf
+    fit=smf.ols(f'{column} ~ C(country) + C(item)',data=g).fit()
+    return np.asarray(fit.resid,float)
+
+
+def entropy_structure_analysis(metrics, outdir='results'):
+    """Separate average entropy fidelity from the structure of entropy across countries/items."""
+    outdir=ensure_dir(outdir)
+    full=metrics[metrics.representation=='full'].copy() if 'representation' in metrics.columns else metrics.copy()
+    summaries=[]; item_rows=[]; country_rows=[]
+    for cond,g in full.groupby('condition'):
+        g=g.dropna(subset=['human_entropy','model_entropy']).copy()
+        if g.empty: continue
+        label=str(g['condition_label'].iloc[0]) if 'condition_label' in g else cond
+        overall_p=_safe_corr(g.human_entropy,g.model_entropy,'pearson')
+        overall_s=_safe_corr(g.human_entropy,g.model_entropy,'spearman')
+        reg0=_clustered_entropy_regression(g,'model_entropy ~ human_entropy')
+        regi=_clustered_entropy_regression(g,'model_entropy ~ human_entropy + C(item)')
+        regc=_clustered_entropy_regression(g,'model_entropy ~ human_entropy + C(country)')
+        reg2=_clustered_entropy_regression(g,'model_entropy ~ human_entropy + C(country) + C(item)')
+        rh=_two_way_residuals(g,'human_entropy'); rm=_two_way_residuals(g,'model_entropy')
+        resid_p=_safe_corr(rh,rm,'pearson'); resid_s=_safe_corr(rh,rm,'spearman')
+        hsd=float(np.nanstd(g.human_entropy,ddof=1)); msd=float(np.nanstd(g.model_entropy,ddof=1))
+        rhsd=float(np.nanstd(rh,ddof=1)); rmsd=float(np.nanstd(rm,ddof=1))
+        item_p=[]; item_s=[]; country_p=[]; country_s=[]
+        for item,ig in g.groupby('item'):
+            pr=_safe_corr(ig.human_entropy,ig.model_entropy,'pearson'); sr=_safe_corr(ig.human_entropy,ig.model_entropy,'spearman')
+            slope=float(np.polyfit(ig.human_entropy,ig.model_entropy,1)[0]) if len(ig)>=3 and np.nanstd(ig.human_entropy)>0 else np.nan
+            item_rows.append({'condition':cond,'condition_label':label,'item':item,'n':len(ig),'pearson':pr,'spearman':sr,'slope':slope,
+                              'human_entropy_mean':ig.human_entropy.mean(),'model_entropy_mean':ig.model_entropy.mean()})
+            if np.isfinite(pr): item_p.append(pr)
+            if np.isfinite(sr): item_s.append(sr)
+        for country,cg in g.groupby('country'):
+            pr=_safe_corr(cg.human_entropy,cg.model_entropy,'pearson'); sr=_safe_corr(cg.human_entropy,cg.model_entropy,'spearman')
+            slope=float(np.polyfit(cg.human_entropy,cg.model_entropy,1)[0]) if len(cg)>=3 and np.nanstd(cg.human_entropy)>0 else np.nan
+            country_rows.append({'condition':cond,'condition_label':label,'country':country,'n':len(cg),'pearson':pr,'spearman':sr,'slope':slope})
+            if np.isfinite(pr): country_p.append(pr)
+            if np.isfinite(sr): country_s.append(sr)
+        row={'condition':cond,'condition_label':label,'n':len(g),
+             'pearson_overall':overall_p,'spearman_overall':overall_s,
+             'human_entropy_sd':hsd,'model_entropy_sd':msd,'sd_ratio_model_to_human':msd/hsd if hsd>0 else np.nan,
+             'two_way_resid_pearson':resid_p,'two_way_resid_spearman':resid_s,
+             'two_way_resid_human_sd':rhsd,'two_way_resid_model_sd':rmsd,
+             'two_way_resid_sd_ratio':rmsd/rhsd if rhsd>0 else np.nan,
+             'within_item_pearson_fisher_mean':_fisher_mean(item_p),'within_item_spearman_fisher_mean':_fisher_mean(item_s),
+             'within_item_pearson_median':float(np.nanmedian(item_p)) if item_p else np.nan,
+             'within_item_spearman_median':float(np.nanmedian(item_s)) if item_s else np.nan,
+             'within_country_pearson_fisher_mean':_fisher_mean(country_p),'within_country_spearman_fisher_mean':_fisher_mean(country_s),
+             'within_country_pearson_median':float(np.nanmedian(country_p)) if country_p else np.nan,
+             'within_country_spearman_median':float(np.nanmedian(country_s)) if country_s else np.nan}
+        for prefix,res in [('ols',reg0),('item_fe',regi),('country_fe',regc),('two_way_fe',reg2)]:
+            for key,val in res.items(): row[f'{prefix}_{key}']=val
+        summaries.append(row)
+    summary=pd.DataFrame(summaries); items=pd.DataFrame(item_rows); countries=pd.DataFrame(country_rows)
+    summary.to_csv(Path(outdir)/'entropy_structure_summary.csv',index=False)
+    items.to_csv(Path(outdir)/'entropy_structure_by_item.csv',index=False)
+    countries.to_csv(Path(outdir)/'entropy_structure_by_country.csv',index=False)
+    return summary,items,countries
+
+
+def population_specificity_metrics(human, avg, cfg=None, qs=None):
+    """Compare country-conditioned distributions with two no-new-API baselines.
+
+    Baseline 1 is the same model condition under the unconditioned __DEFAULT__ prompt.
+    Baseline 2 is the leave-one-country-out, equal-country human distribution for the item.
+    Positive gain means the country-conditioned model is closer to that country's human distribution.
+    """
+    cfg=cfg or analysis(); qs=qs or questions(); rows=[]
+    countries=sorted(set(human.country)-{DEFAULT_KEY})
+    conditions=sorted(set(avg.condition))
+    for cond in conditions:
+        cg=avg[avg.condition==cond]
+        if cg.empty: continue
+        provider=str(cg.provider.iloc[0]); label=str(cg.condition_label.iloc[0])
+        for country in countries:
+            for item in cfg['primary_items']:
+                levels=[str(x) for x in qs[item]['human_codes']]
+                hg=human[(human.country==country)&(human.item==item)]
+                mg=cg[(cg.country==country)&(cg.item==item)]
+                if hg.empty or mg.empty: continue
+                hp=_vector(hg,levels); mp=_vector(mg,levels)
+                country_js=js_divergence(hp,mp)
+                # Same model with country information removed.
+                dg=cg[(cg.country==DEFAULT_KEY)&(cg.item==item)]
+                default_js=np.nan; shift=np.nan
+                if not dg.empty:
+                    dp=_vector(dg,levels); default_js=js_divergence(hp,dp); shift=js_divergence(mp,dp)
+                # Leave-one-country-out equal-country human baseline. This uses only
+                # other countries, so the target country's empirical distribution cannot leak into its baseline.
+                others=human[(human.country!=country)&(human.country!=DEFAULT_KEY)&(human.item==item)]
+                loco_js=np.nan
+                if not others.empty:
+                    by_country=(others.groupby(['country','response'],as_index=False)['p'].mean()
+                                .groupby('response',as_index=False)['p'].mean())
+                    lp=_vector(by_country,levels); loco_js=js_divergence(hp,lp)
+                rows.append({'provider':provider,'condition':cond,'condition_label':label,'country':country,'item':item,
+                             'country_model_js':country_js,'default_model_js':default_js,
+                             'gain_vs_default_js':default_js-country_js if np.isfinite(default_js) else np.nan,
+                             'model_shift_from_default_js':shift,
+                             'loco_human_js':loco_js,
+                             'gain_vs_loco_human_js':loco_js-country_js if np.isfinite(loco_js) else np.nan})
+    return pd.DataFrame(rows)
+
+
+def crossed_bootstrap_mean(frame, value_col, reps=5000, seed=20260923):
+    """Crossed country × item bootstrap for one mean quantity (e.g., a baseline gain)."""
+    x=frame[['country','item',value_col]].dropna().copy()
+    if x.empty: return None
+    mat=x.pivot_table(index='country',columns='item',values=value_col,aggfunc='mean').to_numpy(float)
+    point=float(x[value_col].mean()); rng=np.random.default_rng(seed); nc,ni=mat.shape; draws=np.empty(reps,float)
+    for b in range(reps):
+        rr=rng.integers(0,nc,nc); cc=rng.integers(0,ni,ni); draws[b]=np.nanmean(mat[np.ix_(rr,cc)])
+    good=draws[np.isfinite(draws)]
+    lo,hi=(np.quantile(good,[.025,.975]) if len(good) else (np.nan,np.nan))
+    return {'mean':point,'ci95_low':float(lo),'ci95_high':float(hi),'n_country_item':int(len(x)),
+            'n_countries':int(x.country.nunique()),'n_items':int(x.item.nunique())}
+
 def compare(human_csv, openai_jsonl, jev_jsonl, outdir='results', pca_json='data/processed/pca_model.json'):
     cfg=analysis(); qs=questions(); outdir=ensure_dir(outdir)
     human=pd.read_csv(human_csv); human['response']=human['response'].astype(str)
@@ -144,6 +309,14 @@ def compare(human_csv, openai_jsonl, jev_jsonl, outdir='results', pca_json='data
         y3avg.to_csv(outdir/'model_y003_mean_marginals.csv',index=False)
 
     metrics=_metric_table(human,avg,cfg,qs); metrics.to_csv(outdir/'country_item_metrics.csv',index=False)
+
+    # Additional analyses that use only already-collected model outputs.
+    # (1) Does country conditioning add population-specific distributional information?
+    specificity=population_specificity_metrics(human,avg,cfg,qs)
+    specificity.to_csv(outdir/'population_specificity_metrics.csv',index=False)
+    # (2) Does model uncertainty track where human disagreement occurs after separating
+    #     item- and country-level structure?
+    entropy_structure_analysis(metrics,outdir)
 
     # Prespecified censoring sensitivity: primary threshold, stricter 1e-4, complete-only.
     sens_metrics=[]; policy_counts=[]
@@ -173,18 +346,22 @@ def compare(human_csv, openai_jsonl, jev_jsonl, outdir='results', pca_json='data
     for (provider,cond,label,country,item),g in desc.groupby(['provider','condition','condition_label','country','item']):
         levels=[str(x) for x in qs[item]['human_codes']]
         target=_vector(avg[(avg.condition==cond)&(avg.country==country)&(avg.item==item)],levels)
+        n_variants=int(g.variant.nunique())
         for variant,vg in g.groupby('variant'):
             sens.append({'provider':provider,'condition':cond,'condition_label':label,'country':country,'item':item,'variant':variant,
-                         'js_to_condition_mean':js_divergence(_vector(vg,levels),target)})
+                         'n_variants_retained':n_variants,
+                         'js_to_condition_mean':js_divergence(_vector(vg,levels),target) if n_variants>=2 else np.nan})
     sensitivity=pd.DataFrame(sens); sensitivity.to_csv(outdir/'prompt_sensitivity.csv',index=False)
 
     # OpenAI label sensitivity separately by model condition.
     lab=[]; om=model[model.provider=='openai']
     for (cond,country,item,variant),g in om.groupby(['condition','country','item','variant']):
         levels=[str(x) for x in qs[item]['human_codes']]; target=_vector(g,levels)
+        n_labels=int(g.label_rep.nunique())
         for rep,rg in g.groupby('label_rep'):
             lab.append({'condition':cond,'country':country,'item':item,'variant':variant,'label_rep':rep,
-                        'js_to_label_mean':js_divergence(_vector(rg,levels),target)})
+                        'n_label_repetitions_retained':n_labels,
+                        'js_to_label_mean':js_divergence(_vector(rg,levels),target) if n_labels>=2 else np.nan})
     pd.DataFrame(lab).to_csv(outdir/'openai_label_sensitivity.csv',index=False)
 
     # Request-level OpenAI censoring/completeness diagnostics.
@@ -192,6 +369,7 @@ def compare(human_csv, openai_jsonl, jev_jsonl, outdir='results', pca_json='data
     for r in openai_records:
         bound=_missing_bound(r)
         diag.append({'condition':_condition(r),'condition_label':r.get('condition_label',_condition(r)),
+                     'quality':r.get('quality'), 'request_id':r.get('response_id') or r.get('request_id') or r.get('id'),
                      'requested_model':r.get('requested_model'),'served_model':r.get('model'),
                      'country':r['country'],'item':r['item'],'variant':r['variant'],'label_rep':r.get('label_rep',0),
                      'temperature':r.get('temperature'),
@@ -219,7 +397,7 @@ def compare(human_csv, openai_jsonl, jev_jsonl, outdir='results', pca_json='data
         ym['abs_error']=(ym.p_selected_model-ym.p_selected_human).abs(); ym['sq_error']=(ym.p_selected_model-ym.p_selected_human)**2
         ym.to_csv(outdir/'y003_marginal_metrics.csv',index=False)
     if Path(pca_json).exists() and y3human_path.exists():
-        make_cultural_map_outputs(human,avg,y3,Path(y3human_path),pca_json,outdir)
+        make_cultural_map_outputs(human,avg,model,y3,Path(y3human_path),pca_json,outdir)
     return metrics,sensitivity
 
 def _expected_from_dist(g, item):
@@ -230,12 +408,47 @@ def _argmax_from_dist(g,item):
     qs=questions(); levels=[str(x) for x in qs[item]['human_codes']]; p=_vector(g,levels); vals=np.asarray(qs[item]['response_values'],float)
     return float(vals[int(np.argmax(p))])
 
-def make_cultural_map_outputs(human,avg,y3,y3human_path,pca_json,outdir):
+def _y003_from_marginals(values, threshold=False):
+    """Construct expected or modal Y003 from its four required marginals."""
+    need=['Independence','Determination, perseverance','Religious faith','Obedience']
+    if not all(k in values for k in need):
+        return np.nan
+    if threshold:
+        v={k:(1.0 if float(values[k])>=0.5 else 0.0) for k in need}
+    else:
+        v={k:float(values[k]) for k in need}
+    return v['Independence']+v['Determination, perseverance']-v['Religious faith']-v['Obedience']
+
+
+def _map_distance(x1,y1,x2,y2):
+    return float(np.hypot(float(x1)-float(x2),float(y1)-float(y2)))
+
+
+def make_cultural_map_outputs(human,avg,model,y3,y3human_path,pca_json,outdir):
+    """Create cultural-map coordinates plus Tao-style prompting diagnostics.
+
+    Three machine representations are produced where the data permit:
+      * expected: expected item scores from the final averaged probability vector;
+      * argmax: argmax of that same final averaged probability vector;
+      * tao_modal: a close reconstruction of Tao et al.'s point-response logic.
+        For each prompt variant we first average OpenAI label rotations, collapse
+        each item to its modal substantive response, project that complete
+        ten-item point profile into the human PCA space, and then average the
+        resulting coordinates across prompt variants. Y003 is reconstructed
+        from the four collected marginals, so this is deliberately described as
+        Tao-style rather than an exact reproduction of Tao et al.'s direct Y003
+        joint-choice elicitation.
+
+    No additional provider calls are made: all outputs are reconstructed from
+    the already-collected probability records.
+    """
     cfg=analysis(); qs=questions(); outdir=Path(outdir)
     pca=json.loads(Path(pca_json).read_text())
     for k in ['R','eigenvalues','loadings','score_coef']:
         if k in pca: pca[k]=np.asarray(pca[k],float)
     yh=pd.read_csv(y3human_path)
+
+    # Human release-updated cultural-map coordinates.
     hrows=[]
     for country in sorted(human.country.unique()):
         exp={}; ok=True
@@ -245,11 +458,16 @@ def make_cultural_map_outputs(human,avg,y3,y3human_path,pca_json,outdir):
             exp[item]=_expected_from_dist(g,item)
         yg=yh[yh.country==country]
         if ok and not yg.empty:
-            mp={r.quality:float(r.p_selected) for r in yg.itertuples()}; need=list(qs['Y003']['constituents'])
-            if all(k in mp for k in need):
-                exp['Y003']=mp['Independence']+mp['Determination, perseverance']-mp['Religious faith']-mp['Obedience']
-                hrows.append({'country':country,'provider':'human','condition':'human','condition_label':'Human IVS','representation':'expected',**project_expected_scores(exp,pca)})
-    hcoord=pd.DataFrame(hrows); mrows=[]
+            mp={r.quality:float(r.p_selected) for r in yg.itertuples()}
+            exp['Y003']=_y003_from_marginals(mp,threshold=False)
+            if np.isfinite(exp['Y003']):
+                hrows.append({'country':country,'provider':'human','condition':'human',
+                              'condition_label':'Human IVS','representation':'expected',
+                              **project_expected_scores(exp,pca)})
+    hcoord=pd.DataFrame(hrows)
+
+    # Final averaged expected-score and argmax representations.
+    mrows=[]
     for (provider,cond,label,country),_ in avg.groupby(['provider','condition','condition_label','country']):
         exp={}; arg={}; ok=True
         for item in cfg['primary_items']:
@@ -258,19 +476,101 @@ def make_cultural_map_outputs(human,avg,y3,y3human_path,pca_json,outdir):
             exp[item]=_expected_from_dist(g,item); arg[item]=_argmax_from_dist(g,item)
         yg=y3[(y3.condition==cond)&(y3.country==country)]
         if ok and not yg.empty:
-            yy=yg.groupby('quality')['p_selected'].mean().to_dict(); need=list(qs['Y003']['constituents'])
-            if all(k in yy for k in need):
-                exp['Y003']=yy['Independence']+yy['Determination, perseverance']-yy['Religious faith']-yy['Obedience']
-                arg['Y003']=(1 if yy['Independence']>=.5 else 0)+(1 if yy['Determination, perseverance']>=.5 else 0)-(1 if yy['Religious faith']>=.5 else 0)-(1 if yy['Obedience']>=.5 else 0)
-                mrows.append({'country':country,'provider':provider,'condition':cond,'condition_label':label,'representation':'expected',**project_expected_scores(exp,pca)})
-                mrows.append({'country':country,'provider':provider,'condition':cond,'condition_label':label,'representation':'argmax',**project_expected_scores(arg,pca)})
-    coords=pd.concat([hcoord,pd.DataFrame(mrows)],ignore_index=True); coords.to_csv(outdir/'cultural_map_coordinates.csv',index=False)
-    humanxy=hcoord.set_index('country')[['survival_self_expression','traditional_secular']]; drows=[]
-    for r in pd.DataFrame(mrows).itertuples():
+            yy=yg.groupby('quality')['p_selected'].mean().to_dict()
+            exp['Y003']=_y003_from_marginals(yy,threshold=False)
+            arg['Y003']=_y003_from_marginals(yy,threshold=True)
+            if np.isfinite(exp['Y003']) and np.isfinite(arg['Y003']):
+                mrows.append({'country':country,'provider':provider,'condition':cond,
+                              'condition_label':label,'representation':'expected',
+                              **project_expected_scores(exp,pca)})
+                mrows.append({'country':country,'provider':provider,'condition':cond,
+                              'condition_label':label,'representation':'argmax',
+                              **project_expected_scores(arg,pca)})
+
+    # Close Tao-style point-response reconstruction from frozen probability records.
+    # Label rotations are averaged within prompt variant before the modal response
+    # is chosen so the arbitrary A/B/C/... mapping does not decide the result.
+    variant_rows=[]
+    if model is not None and not model.empty and y3 is not None and not y3.empty:
+        vm=(model.groupby(['provider','condition','condition_label','country','variant','item','response'],as_index=False)
+                  .agg(p=('p','mean')))
+        vy=(y3.groupby(['provider','condition','condition_label','country','variant','quality'],as_index=False)
+                .agg(p_selected=('p_selected','mean')))
+        keys=vm[['provider','condition','condition_label','country','variant']].drop_duplicates()
+        for rr in keys.itertuples(index=False):
+            provider,cond,label,country,variant=rr
+            point={}; ok=True
+            for item in cfg['primary_items']:
+                g=vm[(vm.condition==cond)&(vm.country==country)&(vm.variant==variant)&(vm.item==item)]
+                if g.empty: ok=False; break
+                point[item]=_argmax_from_dist(g,item)
+            yg=vy[(vy.condition==cond)&(vy.country==country)&(vy.variant==variant)]
+            if ok and not yg.empty:
+                yy=yg.set_index('quality').p_selected.to_dict()
+                point['Y003']=_y003_from_marginals(yy,threshold=True)
+                if np.isfinite(point['Y003']):
+                    xy=project_expected_scores(point,pca)
+                    variant_rows.append({'country':country,'provider':provider,'condition':cond,
+                                         'condition_label':label,'variant':int(variant),
+                                         'representation':'tao_modal_variant',**xy})
+    variant_df=pd.DataFrame(variant_rows)
+    if not variant_df.empty:
+        variant_df.to_csv(outdir/'cultural_map_tao_style_variant_coordinates.csv',index=False)
+        tao=(variant_df.groupby(['country','provider','condition','condition_label'],as_index=False)
+                    .agg(survival_self_expression=('survival_self_expression','mean'),
+                         traditional_secular=('traditional_secular','mean'),
+                         n_variants_used=('variant','nunique')))
+        tao['representation']='tao_modal'
+        mrows.extend(tao.to_dict('records'))
+
+    model_coords=pd.DataFrame(mrows)
+    coords=pd.concat([hcoord,model_coords],ignore_index=True,sort=False)
+    coords.to_csv(outdir/'cultural_map_coordinates.csv',index=False)
+
+    # Country-conditioned distances to the corresponding human country.
+    humanxy=hcoord.set_index('country')[['survival_self_expression','traditional_secular']]
+    drows=[]
+    for r in model_coords.itertuples():
         if r.country==DEFAULT_KEY or r.country not in humanxy.index: continue
-        hx,hy=humanxy.loc[r.country]; d=float(np.hypot(r.survival_self_expression-hx,r.traditional_secular-hy))
-        drows.append({'country':r.country,'provider':r.provider,'condition':r.condition,'condition_label':r.condition_label,'representation':r.representation,'distance':d})
-    pd.DataFrame(drows).to_csv(outdir/'cultural_map_distances.csv',index=False)
+        hx,hy=humanxy.loc[r.country]
+        drows.append({'country':r.country,'provider':r.provider,'condition':r.condition,
+                      'condition_label':r.condition_label,'representation':r.representation,
+                      'distance':_map_distance(r.survival_self_expression,r.traditional_secular,hx,hy)})
+    dist=pd.DataFrame(drows)
+    dist.to_csv(outdir/'cultural_map_distances.csv',index=False)
+
+    # Direct analogue of Tao et al.'s cultural-prompting comparison: for every
+    # target country, compare distance from the same model's unconditioned
+    # (__DEFAULT__) cultural position with distance from its country-conditioned
+    # position. This is the clean replication/extension output used by Fig. 1.
+    prows=[]
+    for (cond,rep),g in model_coords.groupby(['condition','representation']):
+        default=g[g.country==DEFAULT_KEY]
+        if default.empty: continue
+        d0=default.iloc[0]
+        for r in g[g.country!=DEFAULT_KEY].itertuples():
+            if r.country not in humanxy.index: continue
+            hx,hy=humanxy.loc[r.country]
+            uncond=_map_distance(d0.survival_self_expression,d0.traditional_secular,hx,hy)
+            prompted=_map_distance(r.survival_self_expression,r.traditional_secular,hx,hy)
+            prows.append({'country':r.country,'provider':r.provider,'condition':r.condition,
+                          'condition_label':r.condition_label,'representation':rep,
+                          'unconditioned_distance':uncond,'country_conditioned_distance':prompted,
+                          'distance_improvement':uncond-prompted,
+                          'improved':bool(prompted<uncond)})
+    prompting=pd.DataFrame(prows)
+    prompting.to_csv(outdir/'cultural_map_prompting_distances.csv',index=False)
+    if not prompting.empty:
+        summ=(prompting.groupby(['provider','condition','condition_label','representation'],as_index=False)
+              .agg(n_countries=('country','size'),
+                   unconditioned_distance_mean=('unconditioned_distance','mean'),
+                   unconditioned_distance_median=('unconditioned_distance','median'),
+                   country_conditioned_distance_mean=('country_conditioned_distance','mean'),
+                   country_conditioned_distance_median=('country_conditioned_distance','median'),
+                   mean_distance_improvement=('distance_improvement','mean'),
+                   median_distance_improvement=('distance_improvement','median'),
+                   pct_countries_improved=('improved',lambda x:100*float(pd.Series(x).astype(bool).mean()))))
+        summ.to_csv(outdir/'cultural_map_prompting_summary.csv',index=False)
 
 def crossed_bootstrap_contrast(metrics, condition_a, condition_b, metric='js', representation='full', reps=5000, seed=20260923):
     """Mean error(A)-error(B); positive means B has lower error."""

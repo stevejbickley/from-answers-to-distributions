@@ -22,35 +22,133 @@ def build_tokens(results='results'):
             for key,col in [('JS_MEAN','js_mean'),('TV_MEAN','tv_mean'),('WASS_MEAN','wasserstein_mean'),('EXPECTED_ERROR','expected_abs_error_mean'),('ENTROPY_ERROR','entropy_abs_error_mean')]: tokens[f'<<AUTO:{alias}_{key}>>']=_fmt(row[col])
     primary=contrasts.get('gpt56_sol_vs_jev',{}).get('js') or {}
     tokens['<<AUTO:JS_DIFF>>']=_fmt(primary.get('mean_error_a_minus_b')); tokens['<<AUTO:JS_CI_LOW>>']=_fmt(primary.get('ci95_low')); tokens['<<AUTO:JS_CI_HIGH>>']=_fmt(primary.get('ci95_high')); tokens['<<AUTO:JS_WILCOXON_P>>']=_fmt(primary.get('wilcoxon_p'),4)
-    tokens['<<AUTO:PRIMARY_DIRECTION>>']='lower for Jev' if (primary.get('mean_error_a_minus_b') or 0)>0 else 'lower for GPT-5.6 Sol'
+    diff=primary.get('mean_error_a_minus_b')
+    tokens['<<AUTO:PRIMARY_DIRECTION>>']=('unavailable' if diff is None or pd.isna(diff) else
+        'lower for Jev' if diff>0 else 'lower for GPT-5.6 Sol' if diff<0 else 'equal')
+
+    # Same-model value of retaining the probability distribution.
+    rep_path=r/'tables/table_s5_full_vs_argmax.csv'
+    if rep_path.exists():
+        rep=pd.read_csv(rep_path)
+        for cond,alias in aliases.items():
+            g=rep[rep.condition==cond]
+            if len(g):
+                row=g.iloc[0]
+                tokens[f'<<AUTO:{alias}_JSD_ARGMAX>>']=_fmt(row.get('mean_js_argmax'))
+                tokens[f'<<AUTO:{alias}_JSD_FULL>>']=_fmt(row.get('mean_js_full'))
+                tokens[f'<<AUTO:{alias}_ARGMAX_MINUS_FULL>>']=_fmt(row.get('mean_argmax_minus_full'))
+                if 'pct_full_better' in row.index:
+                    tokens[f'<<AUTO:{alias}_FULL_BETTER_PCT>>']=_fmt(row.get('pct_full_better'),1)
+
+    # Mean model entropy, separate from entropy-tracking slopes.
+    for cond,alias in aliases.items():
+        g=full[full.condition==cond]
+        if len(g): tokens[f'<<AUTO:{alias}_ENTROPY_MEAN>>']=_fmt(g.model_entropy.mean())
     # Backward-compatible aliases used by the earlier manuscript draft.
     for old,new in [('OPENAI_JS_MEAN','SOL_JS_MEAN'),('OPENAI_TV_MEAN','SOL_TV_MEAN'),('OPENAI_WASS_MEAN','SOL_WASS_MEAN'),('OPENAI_EXPECTED_ERROR','SOL_EXPECTED_ERROR'),('OPENAI_ENTROPY_ERROR','SOL_ENTROPY_ERROR'),('JEV_JS_MEAN','JEV_JS_MEAN'),('JEV_TV_MEAN','JEV_TV_MEAN'),('JEV_WASS_MEAN','JEV_WASS_MEAN'),('JEV_EXPECTED_ERROR','JEV_EXPECTED_ERROR'),('JEV_ENTROPY_ERROR','JEV_ENTROPY_ERROR')]:
         if f'<<AUTO:{new}>>' in tokens: tokens[f'<<AUTO:{old}>>']=tokens[f'<<AUTO:{new}>>']
     dpath=r/'openai_logprob_diagnostics.csv'
     if dpath.exists():
         d=pd.read_csv(dpath); tokens['<<AUTO:OPENAI_CALLS>>']=str(len(d)); tokens['<<AUTO:OPENAI_COMPLETE_CALLS>>']=str(int((d.missing_count==0).sum())); tokens['<<AUTO:OPENAI_MISSING_RATE>>']=_fmt(100*(d.missing_count>0).mean(),1); tokens['<<AUTO:OPENAI_ALLOWED_MASS>>']=_fmt(d.allowed_mass.mean()); tokens['<<AUTO:OPENAI_ALLOWED_MASS_MEDIAN>>']=_fmt(d.allowed_mass.median()); tokens['<<AUTO:OPENAI_INVALID_RATE>>']=_fmt(100*(~d.valid_generated.astype(bool)).mean(),1); retained=int(d.primary_included.astype(bool).sum()) if 'primary_included' in d else int((d.missing_count==0).sum()); tokens['<<AUTO:OPENAI_COMPLETENESS_ACTION>>']=f'retained {retained} of {len(d)} calls under the prespecified tail-mass upper-bound rule (complete calls plus negligible top-K censoring)'; tokens['<<AUTO:OPENAI_MAX_MISSING_MASS_UB>>']=_fmt(d.missing_allowed_mass_upper_bound.max(),6) if 'missing_allowed_mass_upper_bound' in d else 'NA'
-    # Condition-level entropy slopes and prompt sensitivity.
-    for cond,alias in aliases.items():
-        g=full[full.condition==cond].dropna(subset=['human_entropy','model_entropy'])
-        if len(g)>2: tokens[f'<<AUTO:{alias}_ENTROPY_SLOPE>>']=_fmt(np.polyfit(g.human_entropy,g.model_entropy,1)[0])
+    # Condition-level entropy structure. Prefer the dedicated diagnostics,
+    # including two-way country/item fixed effects, then fall back to the raw slope.
+    epath=r/'entropy_structure_summary.csv'
+    if epath.exists():
+        e=pd.read_csv(epath)
+        for cond,alias in aliases.items():
+            g=e[e.condition==cond]
+            if len(g):
+                row=g.iloc[0]
+                mapping={
+                    'ENTROPY_SLOPE':'ols_slope','ENTROPY_SLOPE_CI_LOW':'ols_ci_low','ENTROPY_SLOPE_CI_HIGH':'ols_ci_high',
+                    'ENTROPY_TWOWAY_FE_SLOPE':'two_way_fe_slope','ENTROPY_TWOWAY_FE_CI_LOW':'two_way_fe_ci_low','ENTROPY_TWOWAY_FE_CI_HIGH':'two_way_fe_ci_high',
+                    'ENTROPY_PEARSON':'pearson_overall','ENTROPY_SPEARMAN':'spearman_overall',
+                    'ENTROPY_WITHIN_ITEM_PEARSON':'within_item_pearson_fisher_mean',
+                    'ENTROPY_WITHIN_COUNTRY_PEARSON':'within_country_pearson_fisher_mean',
+                    'ENTROPY_SD_RATIO':'sd_ratio_model_to_human','ENTROPY_RESID_SD_RATIO':'two_way_resid_sd_ratio'}
+                for key,col in mapping.items():
+                    if col in row.index: tokens[f'<<AUTO:{alias}_{key}>>']=_fmt(row[col])
+    else:
+        for cond,alias in aliases.items():
+            g=full[full.condition==cond].dropna(subset=['human_entropy','model_entropy'])
+            if len(g)>2: tokens[f'<<AUTO:{alias}_ENTROPY_SLOPE>>']=_fmt(np.polyfit(g.human_entropy,g.model_entropy,1)[0])
+    # Population-specificity baselines (Main Table 3).
+    psp=r/'tables/table3_population_specificity.csv'
+    if psp.exists():
+        ps=pd.read_csv(psp)
+        for cond,alias in aliases.items():
+            g=ps[ps.condition==cond]
+            if len(g):
+                row=g.iloc[0]
+                mapping={
+                    'COUNTRY_GAIN_VS_DEFAULT':'gain_vs_default_mean',
+                    'COUNTRY_GAIN_VS_DEFAULT_CI_LOW':'gain_vs_default_ci95_low',
+                    'COUNTRY_GAIN_VS_DEFAULT_CI_HIGH':'gain_vs_default_ci95_high',
+                    'COUNTRY_IMPROVE_PCT':'pct_country_conditioning_improves',
+                    'COUNTRY_GAIN_VS_LOCO':'gain_vs_loco_human_mean',
+                    'COUNTRY_GAIN_VS_LOCO_CI_LOW':'gain_vs_loco_human_ci95_low',
+                    'COUNTRY_GAIN_VS_LOCO_CI_HIGH':'gain_vs_loco_human_ci95_high',
+                    'COUNTRY_BEATS_LOCO_PCT':'pct_model_beats_loco_human'}
+                for key,col in mapping.items():
+                    if col in row.index: tokens[f'<<AUTO:{alias}_{key}>>']=_fmt(row[col],1 if key.endswith('_PCT') else 3)
+
     sp=r/'prompt_sensitivity.csv'
     if sp.exists():
-        s=pd.read_csv(sp)
+        s=pd.read_csv(sp); s=s[s.country!='__DEFAULT__']
         for cond,alias in aliases.items(): tokens[f'<<AUTO:{alias}_PROMPT_JSD>>']=_fmt(s[s.condition==cond].js_to_condition_mean.mean())
     lp=r/'openai_label_sensitivity.csv'
-    if lp.exists(): tokens['<<AUTO:LABEL_EFFECT>>']=_fmt(pd.read_csv(lp).js_to_label_mean.mean())
+    if lp.exists():
+        lab=pd.read_csv(lp); lab=lab[lab.country!='__DEFAULT__']
+        tokens['<<AUTO:LABEL_EFFECT>>']=_fmt(lab.js_to_label_mean.mean())
+        for cond,alias in aliases.items(): tokens[f'<<AUTO:{alias}_LABEL_JSD>>']=_fmt(lab[lab.condition==cond].js_to_label_mean.mean())
     cp=r/'cultural_map_distances.csv'
     if cp.exists():
         c=pd.read_csv(cp)
         for cond,alias in aliases.items():
             e=c[(c.condition==cond)&(c.representation=='expected')].distance.mean(); a=c[(c.condition==cond)&(c.representation=='argmax')].distance.mean()
             tokens[f'<<AUTO:{alias}_MAP_DISTANCE>>']=_fmt(e); tokens[f'<<AUTO:{alias}_ARGMAX_MAP>>']=_fmt(a); tokens[f'<<AUTO:{alias}_MAP_CHANGE>>']=_fmt(e-a)
+    # Explicit Tao-style cultural-prompting replication/extension summary.
+    pm=r/'cultural_map_prompting_summary.csv'
+    if pm.exists():
+        pmap=pd.read_csv(pm); pmap=pmap[pmap.representation=='expected']
+        for cond,alias in aliases.items():
+            g=pmap[pmap.condition==cond]
+            if len(g):
+                row=g.iloc[0]
+                tokens[f'<<AUTO:{alias}_MAP_UNCONDITIONED>>']=_fmt(row.unconditioned_distance_mean)
+                tokens[f'<<AUTO:{alias}_MAP_CONDITIONED>>']=_fmt(row.country_conditioned_distance_mean)
+                tokens[f'<<AUTO:{alias}_MAP_COUNTRIES_IMPROVED_PCT>>']=_fmt(row.pct_countries_improved,1)
+    tokens['<<AUTO:TAO_GPT4O_MAP_UNCONDITIONED>>']='2.42'
+    tokens['<<AUTO:TAO_GPT4O_MAP_CONDITIONED>>']='1.57'
+    tokens['<<AUTO:TAO_GPT4O_MAP_COUNTRIES_IMPROVED_PCT>>']='71.0'
+
+    psm=r/'population_specificity_metrics.csv'
+    if psm.exists():
+        pdat=pd.read_csv(psm)
+        loco=(pdat[['country','item','loco_human_js']].drop_duplicates(['country','item']).loco_human_js.mean())
+        tokens['<<AUTO:LOCO_HUMAN_JSD_MEAN>>']=_fmt(loco)
     yp=r/'y003_marginal_metrics.csv'
     if yp.exists():
         y=pd.read_csv(yp)
         for cond,alias in aliases.items(): tokens[f'<<AUTO:{alias}_Y003_MAE>>']=_fmt(y[y.condition==cond].abs_error.mean())
     defaults={'<<AUTO:ORDER_EFFECT_OPENAI>>':'[run robustness script]','<<AUTO:ORDER_EFFECT_JEV>>':'[run robustness script]','<<AUTO:JEV_MODEL>>':'[recorded at collection]','<<AUTO:JEV_RELEASE_DATE>>':'[recorded from GET /v1/models]','<<AUTO:JEV_COLLECTION_DATES>>':'[recorded at collection]','<<AUTO:JEV_CHOICE_CALLS>>':'[generated at collection]','<<AUTO:JEV_NOUL_DECISIONS>>':'[generated at collection]','<<AUTO:JEV_SUM_FAILURES>>':'0 if validation passes','<<AUTO:PCA_CORR_PC1>>':'[validate against archived source]','<<AUTO:PCA_CORR_PC2>>':'[validate against archived source]','<<AUTO:PCA_MAE_PC1>>':'[validate]','<<AUTO:PCA_MAE_PC2>>':'[validate]','<<AUTO:PCA_MAX_PC1>>':'[validate]','<<AUTO:PCA_MAX_PC2>>':'[validate]','<<AUTO:DISCUSSION_PRIMARY>>':'the empirical comparison reported above; interpret it together with the historical-anchor, full-versus-argmax, heterogeneity, and robustness results'}
-    for k,v in defaults.items(): tokens.setdefault(k,v)
+    # Missing provenance and external replication checks are unavailable, not
+    # fabricated values or instructions masquerading as empirical results.
+    for k,v in defaults.items(): tokens.setdefault(k,'NA' if '[' in v or k=='<<AUTO:JEV_SUM_FAILURES>>' else v)
+    order_path=r/'option_order_metrics.csv'
+    if order_path.exists():
+        order=pd.read_csv(order_path)
+        for cond,alias in aliases.items():tokens[f'<<AUTO:{alias}_ORDER_JSD>>']=_fmt(order[order.condition==cond].js_from_first_order.mean())
+        tokens['<<AUTO:ORDER_EFFECT_OPENAI>>']=tokens['<<AUTO:SOL_ORDER_JSD>>']
+        tokens['<<AUTO:ORDER_EFFECT_JEV>>']=tokens['<<AUTO:JEV_ORDER_JSD>>']
+    usage_path=r/'api_request_usage.csv'
+    if usage_path.exists():
+        usage=pd.read_csv(usage_path)
+        j=usage[(usage.provider=='jev')&usage.source_file.str.endswith('jev_probabilities.jsonl')]
+        if len(j):
+            tokens['<<AUTO:JEV_MODEL>>']=', '.join(sorted(j.model.dropna().unique()))
+            tokens['<<AUTO:JEV_CHOICE_CALLS>>']=str(int((j.item!='Y003').sum()))
+            tokens['<<AUTO:JEV_NOUL_DECISIONS>>']=str(int((j.item=='Y003').sum())*4)
     return tokens
 
 def replace_docx(template, output, tokens):

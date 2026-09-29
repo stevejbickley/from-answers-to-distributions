@@ -242,3 +242,5 @@ ZA7503*.dta
 ZA7505*.dta
 Trends_VS_*.dta
 EOF
+# Local publication rendering and QA intermediates
+/tmp/

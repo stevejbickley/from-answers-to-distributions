@@ -1,0 +1,10 @@
+condition,condition_label,representation,mean_distance,median_distance,n
+gpt4o_anchor,GPT-4o historical-generation anchor,argmax,1.672193555061615,1.5703813380285352,91
+gpt4o_anchor,GPT-4o historical-generation anchor,expected,1.5451489271946495,1.519855778893744,91
+gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.5836581385815351,1.5668760194984763,91
+gpt56_sol,GPT-5.6 Sol,argmax,1.8838741877353047,2.0607111176604667,91
+gpt56_sol,GPT-5.6 Sol,expected,1.7861232474235809,1.8975556142642176,91
+gpt56_sol,GPT-5.6 Sol,tao_modal,1.68746925979307,1.3824927172349304,43
+jev,Jev,argmax,1.8801269001644512,1.9447698438412064,91
+jev,Jev,expected,1.6307464449620523,1.5511086493880486,91
+jev,Jev,tao_modal,1.7870229295232936,1.844191827793312,91

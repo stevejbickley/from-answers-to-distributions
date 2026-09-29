@@ -1,824 +1,806 @@
-provider,condition,condition_label,country,item,rep,js_from_first_order
-jev,jev,Jev,Argentina,A008,1,0.005025579913750881
-jev,jev,Jev,Argentina,A008,2,0.005025579913750881
-jev,jev,Jev,Argentina,A008,3,0.003052550488870092
-jev,jev,Jev,Argentina,A165,1,0.007044372055750545
-jev,jev,Jev,Argentina,A165,2,0.007044372055750545
-jev,jev,Jev,Argentina,A165,3,0.0003262914309655696
-jev,jev,Jev,Argentina,E018,1,0.007194400974176258
-jev,jev,Jev,Argentina,E018,2,0.004673010331197647
-jev,jev,Jev,Argentina,E018,3,0.004673010331197647
-jev,jev,Jev,Argentina,E025,1,0.0053144578166825305
-jev,jev,Jev,Argentina,E025,2,0.00478992453036195
-jev,jev,Jev,Argentina,E025,3,0.0023761227743488095
-jev,jev,Jev,Argentina,F063,1,0.023332679915780065
-jev,jev,Jev,Argentina,F063,2,0.03875488649458876
-jev,jev,Jev,Argentina,F063,3,0.020621506385845
-jev,jev,Jev,Argentina,F118,1,0.011413064495496592
-jev,jev,Jev,Argentina,F118,2,0.021781595078861172
-jev,jev,Jev,Argentina,F118,3,0.0065781820015857854
-jev,jev,Jev,Argentina,F120,1,0.012381168412558005
-jev,jev,Jev,Argentina,F120,2,0.005866075584911638
-jev,jev,Jev,Argentina,F120,3,0.013113901221394993
-jev,jev,Jev,Argentina,G006,1,0.004439538439296856
-jev,jev,Jev,Argentina,G006,2,0.0021643518762237473
-jev,jev,Jev,Argentina,G006,3,0.0005147379055892181
-jev,jev,Jev,Argentina,Y002,1,0.0018130233974438014
-jev,jev,Jev,Argentina,Y002,2,0.00116191021159689
-jev,jev,Jev,Argentina,Y002,3,0.0004928866407252513
-jev,jev,Jev,Armenia,A008,1,0.009878583062536916
-jev,jev,Jev,Armenia,A008,2,0.024944042793692577
-jev,jev,Jev,Armenia,A008,3,0.011853246507125912
-jev,jev,Jev,Armenia,A165,1,0.0
-jev,jev,Jev,Armenia,A165,2,8.67139867834225e-05
-jev,jev,Jev,Armenia,A165,3,0.0
-jev,jev,Jev,Armenia,E018,1,0.0009051572332307407
-jev,jev,Jev,Armenia,E018,2,0.02157756880155156
-jev,jev,Jev,Armenia,E018,3,0.014298336234679073
-jev,jev,Jev,Armenia,E025,1,0.005402234305214309
-jev,jev,Jev,Armenia,E025,2,0.005191035061135888
-jev,jev,Jev,Armenia,E025,3,0.00509749126559301
-jev,jev,Jev,Armenia,F063,1,0.020351717269066424
-jev,jev,Jev,Armenia,F063,2,0.017733289779496515
-jev,jev,Jev,Armenia,F063,3,0.01330881844032161
-jev,jev,Jev,Armenia,F118,1,0.011383235909830702
-jev,jev,Jev,Armenia,F118,2,0.006560501419038212
-jev,jev,Jev,Armenia,F118,3,0.01775535620349001
-jev,jev,Jev,Armenia,F120,1,0.00836884596182558
-jev,jev,Jev,Armenia,F120,2,0.01663697191761794
-jev,jev,Jev,Armenia,F120,3,0.008226751061254438
-jev,jev,Jev,Armenia,G006,1,0.0
-jev,jev,Jev,Armenia,G006,2,8.13665188561153e-05
-jev,jev,Jev,Armenia,G006,3,0.00075591210039596
-jev,jev,Jev,Armenia,Y002,1,0.005634052040126483
-jev,jev,Jev,Armenia,Y002,2,0.011010766278566432
-jev,jev,Jev,Armenia,Y002,3,0.00470042716122889
-jev,jev,Jev,Ethiopia,A008,1,0.004013257413076562
-jev,jev,Jev,Ethiopia,A008,2,0.006146358004907455
-jev,jev,Jev,Ethiopia,A008,3,0.005672690376133369
-jev,jev,Jev,Ethiopia,A165,1,0.0006546165859955164
-jev,jev,Jev,Ethiopia,A165,2,0.000289020834926982
-jev,jev,Jev,Ethiopia,A165,3,0.000289020834926982
-jev,jev,Jev,Ethiopia,E018,1,0.007871274659997516
-jev,jev,Jev,Ethiopia,E018,2,0.0002820852683368732
-jev,jev,Jev,Ethiopia,E018,3,0.0028568979543532325
-jev,jev,Jev,Ethiopia,E025,1,0.01700446394666253
-jev,jev,Jev,Ethiopia,E025,2,0.0004521364427484949
-jev,jev,Jev,Ethiopia,E025,3,0.00010715461720118148
-jev,jev,Jev,Ethiopia,F063,1,0.0057052111272933
-jev,jev,Jev,Ethiopia,F063,2,0.011015837197266492
-jev,jev,Jev,Ethiopia,F063,3,0.012006215216950335
-jev,jev,Jev,Ethiopia,F118,1,0.002923182358650701
-jev,jev,Jev,Ethiopia,F118,2,0.004085138933148975
-jev,jev,Jev,Ethiopia,F118,3,0.01705541629381884
-jev,jev,Jev,Ethiopia,F120,1,0.010768161968936044
-jev,jev,Jev,Ethiopia,F120,2,0.008737593017927711
-jev,jev,Jev,Ethiopia,F120,3,0.014473372948322549
-jev,jev,Jev,Ethiopia,G006,1,0.0013996789937740675
-jev,jev,Jev,Ethiopia,G006,2,0.0
-jev,jev,Jev,Ethiopia,G006,3,0.00029658926581727595
-jev,jev,Jev,Ethiopia,Y002,1,0.0
-jev,jev,Jev,Ethiopia,Y002,2,0.005022973006305309
-jev,jev,Jev,Ethiopia,Y002,3,0.006909992032625112
-jev,jev,Jev,Ghana,A008,1,0.0017344479355012154
-jev,jev,Jev,Ghana,A008,2,0.0031045216750204
-jev,jev,Jev,Ghana,A008,3,0.0029656421634064985
-jev,jev,Jev,Ghana,A165,1,0.0014649508089069371
-jev,jev,Jev,Ghana,A165,2,8.67139867834225e-05
-jev,jev,Jev,Ghana,A165,3,0.013366811916034577
-jev,jev,Jev,Ghana,E018,1,0.009523236362753075
-jev,jev,Jev,Ghana,E018,2,0.007430316241575191
-jev,jev,Jev,Ghana,E018,3,0.0012602818295059546
-jev,jev,Jev,Ghana,E025,1,0.006809010143752548
-jev,jev,Jev,Ghana,E025,2,0.008525283085927586
-jev,jev,Jev,Ghana,E025,3,0.0038035283013582014
-jev,jev,Jev,Ghana,F063,1,0.021285643540500082
-jev,jev,Jev,Ghana,F063,2,0.016615001825005443
-jev,jev,Jev,Ghana,F063,3,0.046651372665130406
-jev,jev,Jev,Ghana,F118,1,0.0061962341603492704
-jev,jev,Jev,Ghana,F118,2,0.03698876893866828
-jev,jev,Jev,Ghana,F118,3,0.01306013030644958
-jev,jev,Jev,Ghana,F120,1,0.033903554441385264
-jev,jev,Jev,Ghana,F120,2,0.011221574069236408
-jev,jev,Jev,Ghana,F120,3,0.007033257418506312
-jev,jev,Jev,Ghana,G006,1,0.0251566047926595
-jev,jev,Jev,Ghana,G006,2,0.0
-jev,jev,Jev,Ghana,G006,3,0.008171137743547186
-jev,jev,Jev,Ghana,Y002,1,0.0050554904598970754
-jev,jev,Jev,Ghana,Y002,2,0.0007524010390801388
-jev,jev,Jev,Ghana,Y002,3,0.019181561491555196
-jev,jev,Jev,Iceland,A008,1,0.0034806747207624385
-jev,jev,Jev,Iceland,A008,2,0.0015884055221998302
-jev,jev,Jev,Iceland,A008,3,0.001592460680761609
-jev,jev,Jev,Iceland,A165,1,0.0012438708805107455
-jev,jev,Jev,Iceland,A165,2,0.0
-jev,jev,Jev,Iceland,A165,3,0.0007447313099718091
-jev,jev,Jev,Iceland,E018,1,0.015463943938567124
-jev,jev,Jev,Iceland,E018,2,0.01124944104334696
-jev,jev,Jev,Iceland,E018,3,0.013274803441988049
-jev,jev,Jev,Iceland,E025,1,0.009083729261575302
-jev,jev,Jev,Iceland,E025,2,7.30195654368919e-05
-jev,jev,Jev,Iceland,E025,3,0.02358681684356191
-jev,jev,Jev,Iceland,F063,1,0.008737723289174009
-jev,jev,Jev,Iceland,F063,2,0.023090716412566895
-jev,jev,Jev,Iceland,F063,3,0.008767415289856166
-jev,jev,Jev,Iceland,F118,1,0.0030750261931154588
-jev,jev,Jev,Iceland,F118,2,0.002841581912572322
-jev,jev,Jev,Iceland,F118,3,0.006512025223476528
-jev,jev,Jev,Iceland,F120,1,0.005122525492214593
-jev,jev,Jev,Iceland,F120,2,0.013178064066389135
-jev,jev,Jev,Iceland,F120,3,0.019717572292836442
-jev,jev,Jev,Iceland,G006,1,0.016577091210839646
-jev,jev,Jev,Iceland,G006,2,0.01856279897001656
-jev,jev,Jev,Iceland,G006,3,0.005919821841451355
-jev,jev,Jev,Iceland,Y002,1,0.001447856849469859
-jev,jev,Jev,Iceland,Y002,2,0.011107931804369291
-jev,jev,Jev,Iceland,Y002,3,0.006810100231852445
-jev,jev,Jev,Japan,A008,1,0.005068055691162452
-jev,jev,Jev,Japan,A008,2,0.005976194827744927
-jev,jev,Jev,Japan,A008,3,0.009628691440596703
-jev,jev,Jev,Japan,A165,1,0.030781162697545564
-jev,jev,Jev,Japan,A165,2,0.026401919466549677
-jev,jev,Jev,Japan,A165,3,9.259151035232872e-05
-jev,jev,Jev,Japan,E018,1,0.0005086509682374206
-jev,jev,Jev,Japan,E018,2,0.007414897276156841
-jev,jev,Jev,Japan,E018,3,0.0006811839292528001
-jev,jev,Jev,Japan,E025,1,0.005787319066345031
-jev,jev,Jev,Japan,E025,2,0.024307686094861645
-jev,jev,Jev,Japan,E025,3,0.024307686094861645
-jev,jev,Jev,Japan,F063,1,0.011405178990496086
-jev,jev,Jev,Japan,F063,2,0.040607622728974946
-jev,jev,Jev,Japan,F063,3,0.02591058310253226
-jev,jev,Jev,Japan,F118,1,0.013005605611130703
-jev,jev,Jev,Japan,F118,2,0.020221374792424297
-jev,jev,Jev,Japan,F118,3,0.018199662250355863
-jev,jev,Jev,Japan,F120,1,0.013649651166300084
-jev,jev,Jev,Japan,F120,2,0.026656480283019944
-jev,jev,Jev,Japan,F120,3,0.018234369384735515
-jev,jev,Jev,Japan,G006,1,0.011706248926699315
-jev,jev,Jev,Japan,G006,2,0.006802441908519228
-jev,jev,Jev,Japan,G006,3,0.0021119219378510383
-jev,jev,Jev,Japan,Y002,1,0.0011794006424062282
-jev,jev,Jev,Japan,Y002,2,0.000537012910256115
-jev,jev,Jev,Japan,Y002,3,0.005889967595857833
-jev,jev,Jev,Kenya,A008,1,0.00013796392089264047
-jev,jev,Jev,Kenya,A008,2,0.018336692401459798
-jev,jev,Jev,Kenya,A008,3,0.004425304389602586
-jev,jev,Jev,Kenya,A165,1,0.007191203859099875
-jev,jev,Jev,Kenya,A165,2,0.0007184051616165236
-jev,jev,Jev,Kenya,A165,3,0.011001240423769173
-jev,jev,Jev,Kenya,E018,1,0.005111286657595378
-jev,jev,Jev,Kenya,E018,2,0.0003352727817927207
-jev,jev,Jev,Kenya,E018,3,0.014547421467974858
-jev,jev,Jev,Kenya,E025,1,0.009828311830470886
-jev,jev,Jev,Kenya,E025,2,0.009675479091162665
-jev,jev,Jev,Kenya,E025,3,0.02814975501251226
-jev,jev,Jev,Kenya,F063,1,0.01569645890139994
-jev,jev,Jev,Kenya,F063,2,0.015850083016481272
-jev,jev,Jev,Kenya,F063,3,0.03428057068897267
-jev,jev,Jev,Kenya,F118,1,0.0028994057127577086
-jev,jev,Jev,Kenya,F118,2,0.016412700085865282
-jev,jev,Jev,Kenya,F118,3,0.004827763380808212
-jev,jev,Jev,Kenya,F120,1,0.015616831938155041
-jev,jev,Jev,Kenya,F120,2,0.010274180322256367
-jev,jev,Jev,Kenya,F120,3,0.008881766805046825
-jev,jev,Jev,Kenya,G006,1,0.008698004363727963
-jev,jev,Jev,Kenya,G006,2,0.008698004363727963
-jev,jev,Jev,Kenya,G006,3,0.0013912433411323224
-jev,jev,Jev,Kenya,Y002,1,0.009828311830470886
-jev,jev,Jev,Kenya,Y002,2,0.0085079720140104
-jev,jev,Jev,Kenya,Y002,3,0.0055492754210907285
-jev,jev,Jev,Lithuania,A008,1,0.0015061708356243183
-jev,jev,Jev,Lithuania,A008,2,0.0068951862784356775
-jev,jev,Jev,Lithuania,A008,3,0.00040864512989579834
-jev,jev,Jev,Lithuania,A165,1,0.0019246780098851161
-jev,jev,Jev,Lithuania,A165,2,0.0059229890666297295
-jev,jev,Jev,Lithuania,A165,3,0.0059229890666297295
-jev,jev,Jev,Lithuania,E018,1,0.003768429575316449
-jev,jev,Jev,Lithuania,E018,2,0.009393059902542883
-jev,jev,Jev,Lithuania,E018,3,0.009335278000683803
-jev,jev,Jev,Lithuania,E025,1,0.017503509147387724
-jev,jev,Jev,Lithuania,E025,2,7.665015298886948e-05
-jev,jev,Jev,Lithuania,E025,3,0.0050456561256552734
-jev,jev,Jev,Lithuania,F063,1,0.017342349732873054
-jev,jev,Jev,Lithuania,F063,2,0.01917096740824873
-jev,jev,Jev,Lithuania,F063,3,0.01226733631489403
-jev,jev,Jev,Lithuania,F118,1,0.02544981437366964
-jev,jev,Jev,Lithuania,F118,2,0.012488153091882219
-jev,jev,Jev,Lithuania,F118,3,0.01911356478107047
-jev,jev,Jev,Lithuania,F120,1,0.013550132447487977
-jev,jev,Jev,Lithuania,F120,2,0.02715800161143688
-jev,jev,Jev,Lithuania,F120,3,0.01078643885384463
-jev,jev,Jev,Lithuania,G006,1,0.0053622259259082355
-jev,jev,Jev,Lithuania,G006,2,0.0024548627106604414
-jev,jev,Jev,Lithuania,G006,3,0.00033312561080797926
-jev,jev,Jev,Lithuania,Y002,1,0.0012167845755552851
-jev,jev,Jev,Lithuania,Y002,2,0.004907823585709694
-jev,jev,Jev,Lithuania,Y002,3,0.0005520326588590645
-jev,jev,Jev,Montenegro,A008,1,0.00010063074293368136
-jev,jev,Jev,Montenegro,A008,2,0.00040864512989579834
-jev,jev,Jev,Montenegro,A008,3,0.00793422099440294
-jev,jev,Jev,Montenegro,A165,1,0.00030324016460313774
-jev,jev,Jev,Montenegro,A165,2,7.694546828225533e-05
-jev,jev,Jev,Montenegro,A165,3,0.00030948694616990803
-jev,jev,Jev,Montenegro,E018,1,0.00012352045780444085
-jev,jev,Jev,Montenegro,E018,2,0.008705435926281204
-jev,jev,Jev,Montenegro,E018,3,0.006350608345962052
-jev,jev,Jev,Montenegro,E025,1,0.02160547057367927
-jev,jev,Jev,Montenegro,E025,2,0.04182902464267943
-jev,jev,Jev,Montenegro,E025,3,8.220727905533366e-05
-jev,jev,Jev,Montenegro,F063,1,0.01559137645896029
-jev,jev,Jev,Montenegro,F063,2,0.02170097221385446
-jev,jev,Jev,Montenegro,F063,3,0.024878757501340224
-jev,jev,Jev,Montenegro,F118,1,0.0277081973809405
-jev,jev,Jev,Montenegro,F118,2,0.009866968448652032
-jev,jev,Jev,Montenegro,F118,3,0.010534107179687075
-jev,jev,Jev,Montenegro,F120,1,0.03203974127930384
-jev,jev,Jev,Montenegro,F120,2,0.035314577512057896
-jev,jev,Jev,Montenegro,F120,3,0.022159848206053857
-jev,jev,Jev,Montenegro,G006,1,0.00042611312646988257
-jev,jev,Jev,Montenegro,G006,2,0.0019445389202144912
-jev,jev,Jev,Montenegro,G006,3,0.001007416140350058
-jev,jev,Jev,Montenegro,Y002,1,0.0036284025109996534
-jev,jev,Jev,Montenegro,Y002,2,0.00790977452193328
-jev,jev,Jev,Montenegro,Y002,3,0.001856664801984465
-jev,jev,Jev,Russia,A008,1,0.010075965201727613
-jev,jev,Jev,Russia,A008,2,0.0006686489926651807
-jev,jev,Jev,Russia,A008,3,0.005453427630813086
-jev,jev,Jev,Russia,A165,1,0.011677585036886616
-jev,jev,Jev,Russia,A165,2,0.00806692484318283
-jev,jev,Jev,Russia,A165,3,0.00017724127876929917
-jev,jev,Jev,Russia,E018,1,0.0024856441298027132
-jev,jev,Jev,Russia,E018,2,0.005261908379395651
-jev,jev,Jev,Russia,E018,3,0.002800552639928574
-jev,jev,Jev,Russia,E025,1,0.016979777463026403
-jev,jev,Jev,Russia,E025,2,0.0
-jev,jev,Jev,Russia,E025,3,0.00973269003020984
-jev,jev,Jev,Russia,F063,1,0.005291183361919419
-jev,jev,Jev,Russia,F063,2,0.014346679469505266
-jev,jev,Jev,Russia,F063,3,0.01713211482941568
-jev,jev,Jev,Russia,F118,1,0.02557261688429094
-jev,jev,Jev,Russia,F118,2,0.01715745088636719
-jev,jev,Jev,Russia,F118,3,0.026335453097617926
-jev,jev,Jev,Russia,F120,1,0.006401559730575265
-jev,jev,Jev,Russia,F120,2,0.011731058053003954
-jev,jev,Jev,Russia,F120,3,0.014095890299284625
-jev,jev,Jev,Russia,G006,1,0.022192752680745623
-jev,jev,Jev,Russia,G006,2,0.0018230681572745772
-jev,jev,Jev,Russia,G006,3,0.007270497286103647
-jev,jev,Jev,Russia,Y002,1,0.0002970030732637296
-jev,jev,Jev,Russia,Y002,2,0.0073146756251749965
-jev,jev,Jev,Russia,Y002,3,0.0009824562201097623
-jev,jev,Jev,United States,A008,1,0.000192191534654679
-jev,jev,Jev,United States,A008,2,0.000192191534654679
-jev,jev,Jev,United States,A008,3,0.0
-jev,jev,Jev,United States,A165,1,0.0063144864420341465
-jev,jev,Jev,United States,A165,2,0.00030058582321293155
-jev,jev,Jev,United States,A165,3,0.0
-jev,jev,Jev,United States,E018,1,0.00397394832485642
-jev,jev,Jev,United States,E018,2,0.00016785064244620668
-jev,jev,Jev,United States,E018,3,0.0055446800554720364
-jev,jev,Jev,United States,E025,1,0.02175391969957342
-jev,jev,Jev,United States,E025,2,0.001996410973446546
-jev,jev,Jev,United States,E025,3,0.0028563154000943256
-jev,jev,Jev,United States,F063,1,0.018391986369554573
-jev,jev,Jev,United States,F063,2,0.05157098081967331
-jev,jev,Jev,United States,F063,3,0.014966966899068138
-jev,jev,Jev,United States,F118,1,0.04906055569296264
-jev,jev,Jev,United States,F118,2,0.010466717584435861
-jev,jev,Jev,United States,F118,3,0.019790366602440067
-jev,jev,Jev,United States,F120,1,0.006935588527798967
-jev,jev,Jev,United States,F120,2,0.0050073831776005755
-jev,jev,Jev,United States,F120,3,0.016854353532571906
-jev,jev,Jev,United States,G006,1,0.0035739308655116167
-jev,jev,Jev,United States,G006,2,0.005149310433449846
-jev,jev,Jev,United States,G006,3,0.0007471999727393454
-jev,jev,Jev,United States,Y002,1,0.018326845966717884
-jev,jev,Jev,United States,Y002,2,0.014577568571650042
-jev,jev,Jev,United States,Y002,3,0.02884423157534559
-jev,jev,Jev,Venezuela,A008,1,0.00789128602403302
-jev,jev,Jev,Venezuela,A008,2,0.015966446281145963
-jev,jev,Jev,Venezuela,A008,3,0.002110476354657699
-jev,jev,Jev,Venezuela,A165,1,0.0011115962218487536
-jev,jev,Jev,Venezuela,A165,2,0.0003474217255435289
-jev,jev,Jev,Venezuela,A165,3,0.0015284029975106465
-jev,jev,Jev,Venezuela,E018,1,0.00033556722086848414
-jev,jev,Jev,Venezuela,E018,2,0.006833128158314732
-jev,jev,Jev,Venezuela,E018,3,0.007048695910571355
-jev,jev,Jev,Venezuela,E025,1,0.005668061934891867
-jev,jev,Jev,Venezuela,E025,2,0.0013134222581032253
-jev,jev,Jev,Venezuela,E025,3,0.0013134222581032253
-jev,jev,Jev,Venezuela,F063,1,0.03390166316475366
-jev,jev,Jev,Venezuela,F063,2,0.016269969000824627
-jev,jev,Jev,Venezuela,F063,3,0.01032352789447129
-jev,jev,Jev,Venezuela,F118,1,0.022161608712087777
-jev,jev,Jev,Venezuela,F118,2,0.012975428758478931
-jev,jev,Jev,Venezuela,F118,3,0.01493501748283328
-jev,jev,Jev,Venezuela,F120,1,0.008533261613330633
-jev,jev,Jev,Venezuela,F120,2,0.022507050828782342
-jev,jev,Jev,Venezuela,F120,3,0.026252318368630463
-jev,jev,Jev,Venezuela,G006,1,0.00243561948643927
-jev,jev,Jev,Venezuela,G006,2,0.004976351393661782
-jev,jev,Jev,Venezuela,G006,3,0.000753982540597598
-jev,jev,Jev,Venezuela,Y002,1,0.0028563154000944254
-jev,jev,Jev,Venezuela,Y002,2,0.00515224424453406
-jev,jev,Jev,Venezuela,Y002,3,0.014200963701573904
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A008,1,0.15574479568152624
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A008,2,0.0021376090627855805
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A008,3,0.00013122940563150282
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A165,1,0.0041540561630009675
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A165,2,1.241450864265499e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A165,3,0.0001427105142528298
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E018,1,0.008455610256132676
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E018,2,0.01684892702400934
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E018,3,0.041096940623918936
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E025,1,0.5204270135884551
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E025,2,0.5188209227102953
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E025,3,0.5246654030896074
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F063,1,0.4761958593757163
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F063,2,0.13422311272458287
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F063,3,0.23646279163365166
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F118,1,0.00029260801317425826
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F118,2,0.0010288968684596558
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F118,3,0.0555905687352152
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F120,1,0.47384537052353026
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F120,2,0.39388543598968245
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F120,3,0.1273902843009207
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,G006,1,0.00036487319346723343
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,G006,2,0.00010541132634065365
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,G006,3,0.50995799536798
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,Y002,1,0.8279749227540241
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,Y002,2,0.3101282591776104
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,Y002,3,0.458954760273988
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A008,1,0.011535614698585423
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A008,2,0.015485712488244062
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A008,3,0.0739293456027675
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A165,1,0.024028768980281875
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A165,2,0.0
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A165,3,0.008964074574460733
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E018,1,0.06430081801866161
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E018,2,0.06282345989481851
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E018,3,0.00099180818965334
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E025,1,0.07761496944907437
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E025,2,0.41782164324035787
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E025,3,0.0022880644470757183
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F063,1,0.0587458262089717
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F063,2,0.05748197328676774
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F063,3,0.04932884921401325
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F118,1,0.14380033223103977
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F118,2,0.24957716226758592
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F118,3,0.538604929804167
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F120,1,0.1959510944215596
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F120,2,0.29111026825455033
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F120,3,0.2552802330448752
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,G006,1,4.2437540120788295e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,G006,2,0.00020824182311561867
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,G006,3,0.0002647204678892743
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,Y002,1,0.1751735650644248
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,Y002,2,0.19794412557611757
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,Y002,3,0.4160196059376364
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A008,1,0.004668009094930067
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A008,2,0.023263890501938757
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A008,3,0.015070576608140714
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A165,1,4.712725562559812e-05
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A165,2,0.0
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A165,3,0.00010768327439615968
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E018,1,0.00024588329816001433
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E018,2,0.0002837913621379577
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E018,3,0.00014580351154796858
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E025,1,0.0008428868278437427
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E025,2,0.058425600054843
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E025,3,0.003359906251887663
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F063,1,7.037373289260314e-07
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F063,2,2.799995131994609e-07
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F063,3,6.016034898946526e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F118,1,0.09776175260209527
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F118,2,0.09781638769957124
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F118,3,0.0916319612690551
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F120,1,0.539104594719605
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F120,2,0.5476262383435252
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F120,3,0.5477393091632972
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,G006,1,5.073116723654757e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,G006,2,3.20525044158561e-05
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,G006,3,6.188022251892634e-07
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,Y002,1,0.01524641709203157
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,Y002,2,0.6541807598562481
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,Y002,3,0.5779488769614427
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A008,1,0.10241492673265526
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A008,2,0.015995556906247536
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A008,3,0.0006597884478120125
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A165,1,0.004855537245118332
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A165,2,8.729691759090638e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A165,3,0.0003909788460516358
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E018,1,0.0002903921500959502
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E018,2,7.594073368394125e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E018,3,1.1648362909453938e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E025,1,0.6206774667424809
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E025,2,0.19776915083084828
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E025,3,0.048710126907464776
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F063,1,3.0928595099329492e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F063,2,3.504274662799283e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F063,3,1.4421908625769718e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F118,1,0.0038431855128399552
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F118,2,0.009231412021514972
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F118,3,0.008940534367816493
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F120,1,0.27856989598626314
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F120,2,0.33273024429730413
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F120,3,0.09159777158254595
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,G006,1,1.585016290388151e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,G006,2,0.00024692364132802315
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,G006,3,0.00024284316739421483
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,Y002,1,0.03588424603137459
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,Y002,2,0.0013795713029349699
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,Y002,3,0.0012675993079091286
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A008,1,4.753521091906898e-05
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A008,2,0.0003226293486731168
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A008,3,0.015136285747525098
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A165,1,0.00044672510309667847
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A165,2,0.0001342562359658125
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A165,3,0.2126927646703681
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E018,1,0.23519256586830717
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E018,2,0.34480833233065394
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E018,3,0.07014916016923373
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E025,1,0.4146409741899221
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E025,2,5.638829109207076e-05
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E025,3,0.00010253992071656887
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F063,1,0.5536482549313783
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F063,2,0.5073121202413887
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F063,3,0.8263456016946193
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F118,1,2.624108214086125e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F118,2,2.7136354574311007e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F118,3,0.0070480174211444025
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F120,1,0.027226513713547867
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F120,2,0.7789374508502507
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F120,3,0.13104329192585806
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,G006,1,0.0008326274518176834
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,G006,2,6.830330945300324e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,G006,3,0.0015121894260411955
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,Y002,1,0.1326298823862413
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,Y002,2,0.3886621810675156
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,Y002,3,0.04603286228904198
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A008,1,0.0010960262606626594
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A008,2,0.0001169117082799259
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A008,3,0.0001363490172234309
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A165,1,0.0008923372691059324
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A165,2,8.758786587083178e-05
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A165,3,0.0022507153123141896
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E018,1,0.0008668391591541878
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E018,2,0.018180319834349652
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E018,3,0.0064272818624241885
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E025,1,0.002044965611407353
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E025,2,0.14422690480116612
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E025,3,0.02236103377849958
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F063,1,0.3967643160484599
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F063,2,0.00982278351862309
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F063,3,0.02016291919944749
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F118,1,0.01477405940463411
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F118,2,0.019310720836864345
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F118,3,0.3082982552996212
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F120,1,0.19585911288360208
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F120,2,0.7104861169472747
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F120,3,0.19673530363225214
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,G006,1,0.11484327360894389
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,G006,2,0.1933511454223936
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,G006,3,0.02391650421156434
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,Y002,1,0.0014791922322246486
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,Y002,2,0.0067722948514333655
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,Y002,3,0.12444181935278334
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A008,1,0.6973485096479937
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A008,2,0.26733031607224295
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A008,3,0.06047774846239498
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A165,1,0.0029412380862445203
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A165,2,4.020612449495749e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A165,3,0.0029412360240925937
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E018,1,0.0006448700733550105
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E018,2,9.110733732151146e-05
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E018,3,0.00010283148228171171
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E025,1,0.00031514177438617726
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E025,2,0.05582024389870792
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E025,3,0.19549959801135308
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F063,1,1.357338236207672e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F063,2,4.5785039729929055e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F063,3,2.735649426928599e-05
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F118,1,0.0035089715178064536
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F118,2,0.24161647301142453
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F118,3,0.05760104329644573
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F120,1,0.2190155810171579
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F120,2,0.11893503014165144
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F120,3,0.1448231579421796
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,G006,1,5.109545734522376e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,G006,2,2.4032114765054732e-05
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,G006,3,0.012738101566589565
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,Y002,1,0.4380798668298356
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,Y002,2,0.11924399778781657
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,Y002,3,0.21889241380266572
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A008,1,0.023566040779154012
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A008,2,0.009112119137096836
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A008,3,0.008355200777996653
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A165,1,0.009360148857757704
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A165,2,3.400940592819271e-05
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A165,3,0.00017744726054160756
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E018,1,0.013751108808279044
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E018,2,0.054097099517660126
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E018,3,0.02558815968885776
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E025,1,0.004915982586815833
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E025,2,0.0018199179977430036
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E025,3,0.010221468877287554
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F063,1,0.03666674645994137
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F063,2,0.25968215079937135
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F063,3,0.10175246737338492
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F118,1,0.8233897118854125
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F118,2,0.24612279235647713
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F118,3,0.02518184273258116
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F120,1,0.6360780893271825
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F120,2,0.08087332539817452
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F120,3,0.17792338278059572
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,G006,1,0.1879216835648638
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,G006,2,0.18652944197200144
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,G006,3,0.024595158951182968
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,Y002,1,0.01870614170367429
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,Y002,2,0.022168087323285207
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,Y002,3,0.0003622131912290158
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A008,1,0.02471668089472654
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A008,2,0.07503809196583933
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A008,3,0.008795715483703635
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A165,1,0.0009991417034446353
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A165,2,0.0
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A165,3,0.0009991417034446353
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E018,1,0.04050388556883072
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E018,2,0.5676676346835183
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E018,3,0.5327002950020767
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E025,1,0.20964503828750433
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E025,2,0.0296336429019345
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E025,3,3.118279563674317e-08
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F063,1,0.05596370560989848
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F063,2,0.15790200113995723
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F063,3,0.10281316279687355
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F118,1,0.09092422495715277
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F118,2,0.2228195155126826
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F118,3,0.07785395177375591
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F120,1,0.10806373507184192
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F120,2,0.2874294791806443
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F120,3,0.43377329911006113
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,G006,1,0.09038991910773779
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,G006,2,0.10460084871015232
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,G006,3,0.02186610078761042
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,Y002,1,0.24325739374099498
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,Y002,2,0.3319957859812961
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,Y002,3,0.3706203510393399
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A008,1,0.14560955641559664
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A008,2,0.1372145385355926
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A008,3,0.00544205313971512
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A165,1,0.002292563362134399
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A165,2,2.588526500949987e-07
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A165,3,0.00020419470134322654
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E018,1,0.023152686671095286
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E018,2,0.02567931716423607
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E018,3,0.003923835132753202
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E025,1,0.2963025963559415
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E025,2,0.19427083804162967
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E025,3,0.0003823925571859251
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F063,1,0.3233341515495641
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F063,2,0.6927654471149796
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F063,3,0.5209194348399998
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F118,1,0.22874044739918153
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F118,2,0.020050256346994186
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F118,3,0.17969057005647582
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F120,1,0.8067707514605428
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F120,2,0.20211414527347463
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F120,3,0.19521334246568509
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,G006,1,0.09876898381647095
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,G006,2,0.1487414419059684
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,G006,3,0.005735448039501736
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,Y002,1,0.09046874855875361
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,Y002,2,0.0034122456410441817
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,Y002,3,0.016123769900155013
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A008,1,0.3959130241412644
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A008,2,0.13848890609209139
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A008,3,0.07762888179287196
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A165,1,0.0005872019413432044
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A165,2,1.40673952635096e-06
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A165,3,0.0007709213186875313
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E018,1,0.0536529842159737
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E018,2,0.08911805532624285
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E018,3,0.10761195164432702
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E025,1,0.005055647096120759
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E025,2,0.7898161089653849
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E025,3,0.36645106772065716
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F063,1,0.21355199029629757
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F063,2,0.3812180219689817
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F063,3,0.1571756411698208
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F118,1,0.01482707443897462
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F118,2,0.010893059790135145
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F118,3,0.014608737523201062
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F120,1,0.4850640074869018
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F120,2,0.25744337159067066
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F120,3,0.4800944051110351
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,G006,1,0.5325058034054995
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,G006,2,0.03699970158169111
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,G006,3,0.0005231559689869099
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,Y002,1,0.7107122916162045
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,Y002,2,0.02372732191623121
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,Y002,3,0.16457096491986545
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A008,1,0.02010479180551305
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A008,2,0.07790965737342509
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A008,3,0.0870775449752649
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A165,1,0.00021411999402298163
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A165,2,2.2683166714192396e-07
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A165,3,0.0015866615716317344
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E018,1,0.10304057089756413
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E018,2,0.5734958864821267
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E018,3,0.5614516229200375
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E025,1,0.43019078650727455
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E025,2,0.3559660994055055
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E025,3,0.4316024767706462
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F063,1,0.00027411532935595864
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F063,2,3.807951709599262e-05
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F063,3,0.00023134779147922815
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F118,1,0.11248047393764346
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F118,2,0.12036466852616193
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F118,3,0.04814011929813915
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F120,1,0.2699497569232302
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F120,2,0.411869429780958
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F120,3,0.03884284575059368
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,G006,1,0.33296627688057306
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,G006,2,0.09917322894593997
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,G006,3,0.15846992312526612
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,Y002,1,0.08790600713872375
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,Y002,2,0.0937827511364467
-openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,Y002,3,0.04756773301179512
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,A008,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,A008,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,A008,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,A165,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,A165,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,A165,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,E018,3,0.06391393806502074
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,E025,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,E025,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,F118,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,F118,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,F118,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,G006,1,0.13377893013712375
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,G006,2,0.41644453073679233
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,G006,3,0.043713460619271075
-openai,gpt56_sol,GPT-5.6 Sol,Argentina,Y002,1,0.012705210579444024
-openai,gpt56_sol,GPT-5.6 Sol,Armenia,A008,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Armenia,A008,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Armenia,A008,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Armenia,A165,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Armenia,A165,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Armenia,A165,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Armenia,G006,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Armenia,Y002,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Armenia,Y002,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,A008,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,A165,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,A165,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,A165,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,E018,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,E018,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,E018,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,E025,2,0.5409165351321277
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,E025,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F063,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F063,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F063,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F118,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F118,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F118,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,G006,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,G006,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,G006,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,Y002,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,Y002,3,0.7261930467600928
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,A008,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,A008,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,A008,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,A165,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,A165,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,A165,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,E018,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,E018,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,E018,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,F063,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,F063,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,F063,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,F118,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,F118,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,G006,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,G006,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,G006,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,Y002,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Ghana,Y002,3,1.0
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,A165,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,A165,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,A165,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,E018,3,0.06540594418849278
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,E025,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,E025,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,E025,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,F063,2,0.16122360288480275
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,F118,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,F118,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,F118,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,G006,1,0.4029288101696793
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,G006,2,0.01335061276326438
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,G006,3,0.00360050380565007
-openai,gpt56_sol,GPT-5.6 Sol,Iceland,Y002,1,0.08632840854255472
-openai,gpt56_sol,GPT-5.6 Sol,Japan,A008,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Japan,A008,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Japan,A008,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Japan,A165,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Japan,E025,1,0.3625139308245914
-openai,gpt56_sol,GPT-5.6 Sol,Japan,E025,2,0.04537476418717229
-openai,gpt56_sol,GPT-5.6 Sol,Japan,E025,3,0.19660529301673596
-openai,gpt56_sol,GPT-5.6 Sol,Japan,G006,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Japan,G006,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Japan,G006,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Japan,Y002,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Japan,Y002,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,A008,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,A008,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,A008,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,A165,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,A165,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,A165,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,E018,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,E018,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,E018,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,E025,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,F063,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,F063,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,F063,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,F120,3,0.913260121182043
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,G006,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,G006,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,G006,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,Y002,1,0.1739208738465496
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,Y002,2,0.3910323549508641
-openai,gpt56_sol,GPT-5.6 Sol,Kenya,Y002,3,0.2093588726488414
-openai,gpt56_sol,GPT-5.6 Sol,Lithuania,A008,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Lithuania,A008,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Lithuania,A008,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Lithuania,A165,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Lithuania,A165,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Lithuania,E018,2,0.02156978123649418
-openai,gpt56_sol,GPT-5.6 Sol,Lithuania,E018,3,0.0015112855591739678
-openai,gpt56_sol,GPT-5.6 Sol,Lithuania,E025,1,0.44402281987859327
-openai,gpt56_sol,GPT-5.6 Sol,Lithuania,E025,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Lithuania,E025,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Lithuania,G006,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Lithuania,G006,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Lithuania,G006,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A008,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A008,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A008,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A165,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A165,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A165,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,E018,1,0.025664711478869673
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,E018,2,0.01205075506046564
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,E018,3,0.036014906058097935
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,E025,1,0.4506281870912469
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,E025,3,0.018037885528907026
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,G006,1,0.18976372186673235
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,G006,2,0.3302359697036066
-openai,gpt56_sol,GPT-5.6 Sol,Montenegro,Y002,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Russia,A008,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Russia,A008,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Russia,A008,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Russia,A165,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Russia,A165,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Russia,A165,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Russia,E018,1,0.7802969304152366
-openai,gpt56_sol,GPT-5.6 Sol,Russia,E018,2,0.26461777573515644
-openai,gpt56_sol,GPT-5.6 Sol,Russia,E018,3,0.002493670913908128
-openai,gpt56_sol,GPT-5.6 Sol,Russia,E025,1,0.004225125685043872
-openai,gpt56_sol,GPT-5.6 Sol,Russia,E025,3,0.0796921607480109
-openai,gpt56_sol,GPT-5.6 Sol,Russia,G006,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Russia,Y002,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,United States,A008,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,United States,A008,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,United States,A008,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,United States,A165,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,United States,A165,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,United States,A165,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,United States,E025,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,United States,E025,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,United States,E025,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,United States,F118,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,United States,F118,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,United States,F118,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,United States,G006,3,0.23105289585127547
-openai,gpt56_sol,GPT-5.6 Sol,Venezuela,A008,2,0.07829675280187498
-openai,gpt56_sol,GPT-5.6 Sol,Venezuela,A008,3,0.00370155974262902
-openai,gpt56_sol,GPT-5.6 Sol,Venezuela,A165,1,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Venezuela,A165,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Venezuela,A165,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Venezuela,E025,1,0.03442473577094192
-openai,gpt56_sol,GPT-5.6 Sol,Venezuela,F063,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Venezuela,F063,3,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Venezuela,G006,2,0.0609825717595487
-openai,gpt56_sol,GPT-5.6 Sol,Venezuela,Y002,2,0.0
-openai,gpt56_sol,GPT-5.6 Sol,Venezuela,Y002,3,0.0
+provider,condition,condition_label,country,item,reference_rep,rep,js_from_first_order
+jev,jev,Jev,Argentina,A008,0,1,0.005025579913750881
+jev,jev,Jev,Argentina,A008,0,2,0.005025579913750881
+jev,jev,Jev,Argentina,A008,0,3,0.003052550488870092
+jev,jev,Jev,Argentina,A165,0,1,0.007044372055750545
+jev,jev,Jev,Argentina,A165,0,2,0.007044372055750545
+jev,jev,Jev,Argentina,A165,0,3,0.0003262914309655696
+jev,jev,Jev,Argentina,E018,0,1,0.007194400974176258
+jev,jev,Jev,Argentina,E018,0,2,0.004673010331197647
+jev,jev,Jev,Argentina,E018,0,3,0.004673010331197647
+jev,jev,Jev,Argentina,E025,0,1,0.0053144578166825305
+jev,jev,Jev,Argentina,E025,0,2,0.00478992453036195
+jev,jev,Jev,Argentina,E025,0,3,0.0023761227743488095
+jev,jev,Jev,Argentina,F063,0,1,0.023332679915780065
+jev,jev,Jev,Argentina,F063,0,2,0.03875488649458876
+jev,jev,Jev,Argentina,F063,0,3,0.020621506385845
+jev,jev,Jev,Argentina,F118,0,1,0.011413064495496592
+jev,jev,Jev,Argentina,F118,0,2,0.021781595078861172
+jev,jev,Jev,Argentina,F118,0,3,0.0065781820015857854
+jev,jev,Jev,Argentina,F120,0,1,0.012381168412558005
+jev,jev,Jev,Argentina,F120,0,2,0.005866075584911638
+jev,jev,Jev,Argentina,F120,0,3,0.013113901221394993
+jev,jev,Jev,Argentina,G006,0,1,0.004439538439296856
+jev,jev,Jev,Argentina,G006,0,2,0.0021643518762237473
+jev,jev,Jev,Argentina,G006,0,3,0.0005147379055892181
+jev,jev,Jev,Argentina,Y002,0,1,0.0018130233974438014
+jev,jev,Jev,Argentina,Y002,0,2,0.00116191021159689
+jev,jev,Jev,Argentina,Y002,0,3,0.0004928866407252513
+jev,jev,Jev,Armenia,A008,0,1,0.009878583062536916
+jev,jev,Jev,Armenia,A008,0,2,0.024944042793692577
+jev,jev,Jev,Armenia,A008,0,3,0.011853246507125912
+jev,jev,Jev,Armenia,A165,0,1,0.0
+jev,jev,Jev,Armenia,A165,0,2,8.67139867834225e-05
+jev,jev,Jev,Armenia,A165,0,3,0.0
+jev,jev,Jev,Armenia,E018,0,1,0.0009051572332307407
+jev,jev,Jev,Armenia,E018,0,2,0.02157756880155156
+jev,jev,Jev,Armenia,E018,0,3,0.014298336234679073
+jev,jev,Jev,Armenia,E025,0,1,0.005402234305214309
+jev,jev,Jev,Armenia,E025,0,2,0.005191035061135888
+jev,jev,Jev,Armenia,E025,0,3,0.00509749126559301
+jev,jev,Jev,Armenia,F063,0,1,0.020351717269066424
+jev,jev,Jev,Armenia,F063,0,2,0.017733289779496515
+jev,jev,Jev,Armenia,F063,0,3,0.01330881844032161
+jev,jev,Jev,Armenia,F118,0,1,0.011383235909830702
+jev,jev,Jev,Armenia,F118,0,2,0.006560501419038212
+jev,jev,Jev,Armenia,F118,0,3,0.01775535620349001
+jev,jev,Jev,Armenia,F120,0,1,0.00836884596182558
+jev,jev,Jev,Armenia,F120,0,2,0.01663697191761794
+jev,jev,Jev,Armenia,F120,0,3,0.008226751061254438
+jev,jev,Jev,Armenia,G006,0,1,0.0
+jev,jev,Jev,Armenia,G006,0,2,8.13665188561153e-05
+jev,jev,Jev,Armenia,G006,0,3,0.00075591210039596
+jev,jev,Jev,Armenia,Y002,0,1,0.005634052040126483
+jev,jev,Jev,Armenia,Y002,0,2,0.011010766278566432
+jev,jev,Jev,Armenia,Y002,0,3,0.00470042716122889
+jev,jev,Jev,Ethiopia,A008,0,1,0.004013257413076562
+jev,jev,Jev,Ethiopia,A008,0,2,0.006146358004907455
+jev,jev,Jev,Ethiopia,A008,0,3,0.005672690376133369
+jev,jev,Jev,Ethiopia,A165,0,1,0.0006546165859955164
+jev,jev,Jev,Ethiopia,A165,0,2,0.000289020834926982
+jev,jev,Jev,Ethiopia,A165,0,3,0.000289020834926982
+jev,jev,Jev,Ethiopia,E018,0,1,0.007871274659997516
+jev,jev,Jev,Ethiopia,E018,0,2,0.0002820852683368732
+jev,jev,Jev,Ethiopia,E018,0,3,0.0028568979543532325
+jev,jev,Jev,Ethiopia,E025,0,1,0.01700446394666253
+jev,jev,Jev,Ethiopia,E025,0,2,0.0004521364427484949
+jev,jev,Jev,Ethiopia,E025,0,3,0.00010715461720118148
+jev,jev,Jev,Ethiopia,F063,0,1,0.0057052111272933
+jev,jev,Jev,Ethiopia,F063,0,2,0.011015837197266492
+jev,jev,Jev,Ethiopia,F063,0,3,0.012006215216950335
+jev,jev,Jev,Ethiopia,F118,0,1,0.002923182358650701
+jev,jev,Jev,Ethiopia,F118,0,2,0.004085138933148975
+jev,jev,Jev,Ethiopia,F118,0,3,0.01705541629381884
+jev,jev,Jev,Ethiopia,F120,0,1,0.010768161968936044
+jev,jev,Jev,Ethiopia,F120,0,2,0.008737593017927711
+jev,jev,Jev,Ethiopia,F120,0,3,0.014473372948322549
+jev,jev,Jev,Ethiopia,G006,0,1,0.0013996789937740675
+jev,jev,Jev,Ethiopia,G006,0,2,0.0
+jev,jev,Jev,Ethiopia,G006,0,3,0.00029658926581727595
+jev,jev,Jev,Ethiopia,Y002,0,1,0.0
+jev,jev,Jev,Ethiopia,Y002,0,2,0.005022973006305309
+jev,jev,Jev,Ethiopia,Y002,0,3,0.006909992032625112
+jev,jev,Jev,Ghana,A008,0,1,0.0017344479355012154
+jev,jev,Jev,Ghana,A008,0,2,0.0031045216750204
+jev,jev,Jev,Ghana,A008,0,3,0.0029656421634064985
+jev,jev,Jev,Ghana,A165,0,1,0.0014649508089069371
+jev,jev,Jev,Ghana,A165,0,2,8.67139867834225e-05
+jev,jev,Jev,Ghana,A165,0,3,0.013366811916034577
+jev,jev,Jev,Ghana,E018,0,1,0.009523236362753075
+jev,jev,Jev,Ghana,E018,0,2,0.007430316241575191
+jev,jev,Jev,Ghana,E018,0,3,0.0012602818295059546
+jev,jev,Jev,Ghana,E025,0,1,0.006809010143752548
+jev,jev,Jev,Ghana,E025,0,2,0.008525283085927586
+jev,jev,Jev,Ghana,E025,0,3,0.0038035283013582014
+jev,jev,Jev,Ghana,F063,0,1,0.021285643540500082
+jev,jev,Jev,Ghana,F063,0,2,0.016615001825005443
+jev,jev,Jev,Ghana,F063,0,3,0.046651372665130406
+jev,jev,Jev,Ghana,F118,0,1,0.0061962341603492704
+jev,jev,Jev,Ghana,F118,0,2,0.03698876893866828
+jev,jev,Jev,Ghana,F118,0,3,0.01306013030644958
+jev,jev,Jev,Ghana,F120,0,1,0.033903554441385264
+jev,jev,Jev,Ghana,F120,0,2,0.011221574069236408
+jev,jev,Jev,Ghana,F120,0,3,0.007033257418506312
+jev,jev,Jev,Ghana,G006,0,1,0.0251566047926595
+jev,jev,Jev,Ghana,G006,0,2,0.0
+jev,jev,Jev,Ghana,G006,0,3,0.008171137743547186
+jev,jev,Jev,Ghana,Y002,0,1,0.0050554904598970754
+jev,jev,Jev,Ghana,Y002,0,2,0.0007524010390801388
+jev,jev,Jev,Ghana,Y002,0,3,0.019181561491555196
+jev,jev,Jev,Iceland,A008,0,1,0.0034806747207624385
+jev,jev,Jev,Iceland,A008,0,2,0.0015884055221998302
+jev,jev,Jev,Iceland,A008,0,3,0.001592460680761609
+jev,jev,Jev,Iceland,A165,0,1,0.0012438708805107455
+jev,jev,Jev,Iceland,A165,0,2,0.0
+jev,jev,Jev,Iceland,A165,0,3,0.0007447313099718091
+jev,jev,Jev,Iceland,E018,0,1,0.015463943938567124
+jev,jev,Jev,Iceland,E018,0,2,0.01124944104334696
+jev,jev,Jev,Iceland,E018,0,3,0.013274803441988049
+jev,jev,Jev,Iceland,E025,0,1,0.009083729261575302
+jev,jev,Jev,Iceland,E025,0,2,7.30195654368919e-05
+jev,jev,Jev,Iceland,E025,0,3,0.02358681684356191
+jev,jev,Jev,Iceland,F063,0,1,0.008737723289174009
+jev,jev,Jev,Iceland,F063,0,2,0.023090716412566895
+jev,jev,Jev,Iceland,F063,0,3,0.008767415289856166
+jev,jev,Jev,Iceland,F118,0,1,0.0030750261931154588
+jev,jev,Jev,Iceland,F118,0,2,0.002841581912572322
+jev,jev,Jev,Iceland,F118,0,3,0.006512025223476528
+jev,jev,Jev,Iceland,F120,0,1,0.005122525492214593
+jev,jev,Jev,Iceland,F120,0,2,0.013178064066389135
+jev,jev,Jev,Iceland,F120,0,3,0.019717572292836442
+jev,jev,Jev,Iceland,G006,0,1,0.016577091210839646
+jev,jev,Jev,Iceland,G006,0,2,0.01856279897001656
+jev,jev,Jev,Iceland,G006,0,3,0.005919821841451355
+jev,jev,Jev,Iceland,Y002,0,1,0.001447856849469859
+jev,jev,Jev,Iceland,Y002,0,2,0.011107931804369291
+jev,jev,Jev,Iceland,Y002,0,3,0.006810100231852445
+jev,jev,Jev,Japan,A008,0,1,0.005068055691162452
+jev,jev,Jev,Japan,A008,0,2,0.005976194827744927
+jev,jev,Jev,Japan,A008,0,3,0.009628691440596703
+jev,jev,Jev,Japan,A165,0,1,0.030781162697545564
+jev,jev,Jev,Japan,A165,0,2,0.026401919466549677
+jev,jev,Jev,Japan,A165,0,3,9.259151035232872e-05
+jev,jev,Jev,Japan,E018,0,1,0.0005086509682374206
+jev,jev,Jev,Japan,E018,0,2,0.007414897276156841
+jev,jev,Jev,Japan,E018,0,3,0.0006811839292528001
+jev,jev,Jev,Japan,E025,0,1,0.005787319066345031
+jev,jev,Jev,Japan,E025,0,2,0.024307686094861645
+jev,jev,Jev,Japan,E025,0,3,0.024307686094861645
+jev,jev,Jev,Japan,F063,0,1,0.011405178990496086
+jev,jev,Jev,Japan,F063,0,2,0.040607622728974946
+jev,jev,Jev,Japan,F063,0,3,0.02591058310253226
+jev,jev,Jev,Japan,F118,0,1,0.013005605611130703
+jev,jev,Jev,Japan,F118,0,2,0.020221374792424297
+jev,jev,Jev,Japan,F118,0,3,0.018199662250355863
+jev,jev,Jev,Japan,F120,0,1,0.013649651166300084
+jev,jev,Jev,Japan,F120,0,2,0.026656480283019944
+jev,jev,Jev,Japan,F120,0,3,0.018234369384735515
+jev,jev,Jev,Japan,G006,0,1,0.011706248926699315
+jev,jev,Jev,Japan,G006,0,2,0.006802441908519228
+jev,jev,Jev,Japan,G006,0,3,0.0021119219378510383
+jev,jev,Jev,Japan,Y002,0,1,0.0011794006424062282
+jev,jev,Jev,Japan,Y002,0,2,0.000537012910256115
+jev,jev,Jev,Japan,Y002,0,3,0.005889967595857833
+jev,jev,Jev,Kenya,A008,0,1,0.00013796392089264047
+jev,jev,Jev,Kenya,A008,0,2,0.018336692401459798
+jev,jev,Jev,Kenya,A008,0,3,0.004425304389602586
+jev,jev,Jev,Kenya,A165,0,1,0.007191203859099875
+jev,jev,Jev,Kenya,A165,0,2,0.0007184051616165236
+jev,jev,Jev,Kenya,A165,0,3,0.011001240423769173
+jev,jev,Jev,Kenya,E018,0,1,0.005111286657595378
+jev,jev,Jev,Kenya,E018,0,2,0.0003352727817927207
+jev,jev,Jev,Kenya,E018,0,3,0.014547421467974858
+jev,jev,Jev,Kenya,E025,0,1,0.009828311830470886
+jev,jev,Jev,Kenya,E025,0,2,0.009675479091162665
+jev,jev,Jev,Kenya,E025,0,3,0.02814975501251226
+jev,jev,Jev,Kenya,F063,0,1,0.01569645890139994
+jev,jev,Jev,Kenya,F063,0,2,0.015850083016481272
+jev,jev,Jev,Kenya,F063,0,3,0.03428057068897267
+jev,jev,Jev,Kenya,F118,0,1,0.0028994057127577086
+jev,jev,Jev,Kenya,F118,0,2,0.016412700085865282
+jev,jev,Jev,Kenya,F118,0,3,0.004827763380808212
+jev,jev,Jev,Kenya,F120,0,1,0.015616831938155041
+jev,jev,Jev,Kenya,F120,0,2,0.010274180322256367
+jev,jev,Jev,Kenya,F120,0,3,0.008881766805046825
+jev,jev,Jev,Kenya,G006,0,1,0.008698004363727963
+jev,jev,Jev,Kenya,G006,0,2,0.008698004363727963
+jev,jev,Jev,Kenya,G006,0,3,0.0013912433411323224
+jev,jev,Jev,Kenya,Y002,0,1,0.009828311830470886
+jev,jev,Jev,Kenya,Y002,0,2,0.0085079720140104
+jev,jev,Jev,Kenya,Y002,0,3,0.0055492754210907285
+jev,jev,Jev,Lithuania,A008,0,1,0.0015061708356243183
+jev,jev,Jev,Lithuania,A008,0,2,0.0068951862784356775
+jev,jev,Jev,Lithuania,A008,0,3,0.00040864512989579834
+jev,jev,Jev,Lithuania,A165,0,1,0.0019246780098851161
+jev,jev,Jev,Lithuania,A165,0,2,0.0059229890666297295
+jev,jev,Jev,Lithuania,A165,0,3,0.0059229890666297295
+jev,jev,Jev,Lithuania,E018,0,1,0.003768429575316449
+jev,jev,Jev,Lithuania,E018,0,2,0.009393059902542883
+jev,jev,Jev,Lithuania,E018,0,3,0.009335278000683803
+jev,jev,Jev,Lithuania,E025,0,1,0.017503509147387724
+jev,jev,Jev,Lithuania,E025,0,2,7.665015298886948e-05
+jev,jev,Jev,Lithuania,E025,0,3,0.0050456561256552734
+jev,jev,Jev,Lithuania,F063,0,1,0.017342349732873054
+jev,jev,Jev,Lithuania,F063,0,2,0.01917096740824873
+jev,jev,Jev,Lithuania,F063,0,3,0.01226733631489403
+jev,jev,Jev,Lithuania,F118,0,1,0.02544981437366964
+jev,jev,Jev,Lithuania,F118,0,2,0.012488153091882219
+jev,jev,Jev,Lithuania,F118,0,3,0.01911356478107047
+jev,jev,Jev,Lithuania,F120,0,1,0.013550132447487977
+jev,jev,Jev,Lithuania,F120,0,2,0.02715800161143688
+jev,jev,Jev,Lithuania,F120,0,3,0.01078643885384463
+jev,jev,Jev,Lithuania,G006,0,1,0.0053622259259082355
+jev,jev,Jev,Lithuania,G006,0,2,0.0024548627106604414
+jev,jev,Jev,Lithuania,G006,0,3,0.00033312561080797926
+jev,jev,Jev,Lithuania,Y002,0,1,0.0012167845755552851
+jev,jev,Jev,Lithuania,Y002,0,2,0.004907823585709694
+jev,jev,Jev,Lithuania,Y002,0,3,0.0005520326588590645
+jev,jev,Jev,Montenegro,A008,0,1,0.00010063074293368136
+jev,jev,Jev,Montenegro,A008,0,2,0.00040864512989579834
+jev,jev,Jev,Montenegro,A008,0,3,0.00793422099440294
+jev,jev,Jev,Montenegro,A165,0,1,0.00030324016460313774
+jev,jev,Jev,Montenegro,A165,0,2,7.694546828225533e-05
+jev,jev,Jev,Montenegro,A165,0,3,0.00030948694616990803
+jev,jev,Jev,Montenegro,E018,0,1,0.00012352045780444085
+jev,jev,Jev,Montenegro,E018,0,2,0.008705435926281204
+jev,jev,Jev,Montenegro,E018,0,3,0.006350608345962052
+jev,jev,Jev,Montenegro,E025,0,1,0.02160547057367927
+jev,jev,Jev,Montenegro,E025,0,2,0.04182902464267943
+jev,jev,Jev,Montenegro,E025,0,3,8.220727905533366e-05
+jev,jev,Jev,Montenegro,F063,0,1,0.01559137645896029
+jev,jev,Jev,Montenegro,F063,0,2,0.02170097221385446
+jev,jev,Jev,Montenegro,F063,0,3,0.024878757501340224
+jev,jev,Jev,Montenegro,F118,0,1,0.0277081973809405
+jev,jev,Jev,Montenegro,F118,0,2,0.009866968448652032
+jev,jev,Jev,Montenegro,F118,0,3,0.010534107179687075
+jev,jev,Jev,Montenegro,F120,0,1,0.03203974127930384
+jev,jev,Jev,Montenegro,F120,0,2,0.035314577512057896
+jev,jev,Jev,Montenegro,F120,0,3,0.022159848206053857
+jev,jev,Jev,Montenegro,G006,0,1,0.00042611312646988257
+jev,jev,Jev,Montenegro,G006,0,2,0.0019445389202144912
+jev,jev,Jev,Montenegro,G006,0,3,0.001007416140350058
+jev,jev,Jev,Montenegro,Y002,0,1,0.0036284025109996534
+jev,jev,Jev,Montenegro,Y002,0,2,0.00790977452193328
+jev,jev,Jev,Montenegro,Y002,0,3,0.001856664801984465
+jev,jev,Jev,Russia,A008,0,1,0.010075965201727613
+jev,jev,Jev,Russia,A008,0,2,0.0006686489926651807
+jev,jev,Jev,Russia,A008,0,3,0.005453427630813086
+jev,jev,Jev,Russia,A165,0,1,0.011677585036886616
+jev,jev,Jev,Russia,A165,0,2,0.00806692484318283
+jev,jev,Jev,Russia,A165,0,3,0.00017724127876929917
+jev,jev,Jev,Russia,E018,0,1,0.0024856441298027132
+jev,jev,Jev,Russia,E018,0,2,0.005261908379395651
+jev,jev,Jev,Russia,E018,0,3,0.002800552639928574
+jev,jev,Jev,Russia,E025,0,1,0.016979777463026403
+jev,jev,Jev,Russia,E025,0,2,0.0
+jev,jev,Jev,Russia,E025,0,3,0.00973269003020984
+jev,jev,Jev,Russia,F063,0,1,0.005291183361919419
+jev,jev,Jev,Russia,F063,0,2,0.014346679469505266
+jev,jev,Jev,Russia,F063,0,3,0.01713211482941568
+jev,jev,Jev,Russia,F118,0,1,0.02557261688429094
+jev,jev,Jev,Russia,F118,0,2,0.01715745088636719
+jev,jev,Jev,Russia,F118,0,3,0.026335453097617926
+jev,jev,Jev,Russia,F120,0,1,0.006401559730575265
+jev,jev,Jev,Russia,F120,0,2,0.011731058053003954
+jev,jev,Jev,Russia,F120,0,3,0.014095890299284625
+jev,jev,Jev,Russia,G006,0,1,0.022192752680745623
+jev,jev,Jev,Russia,G006,0,2,0.0018230681572745772
+jev,jev,Jev,Russia,G006,0,3,0.007270497286103647
+jev,jev,Jev,Russia,Y002,0,1,0.0002970030732637296
+jev,jev,Jev,Russia,Y002,0,2,0.0073146756251749965
+jev,jev,Jev,Russia,Y002,0,3,0.0009824562201097623
+jev,jev,Jev,United States,A008,0,1,0.000192191534654679
+jev,jev,Jev,United States,A008,0,2,0.000192191534654679
+jev,jev,Jev,United States,A008,0,3,0.0
+jev,jev,Jev,United States,A165,0,1,0.0063144864420341465
+jev,jev,Jev,United States,A165,0,2,0.00030058582321293155
+jev,jev,Jev,United States,A165,0,3,0.0
+jev,jev,Jev,United States,E018,0,1,0.00397394832485642
+jev,jev,Jev,United States,E018,0,2,0.00016785064244620668
+jev,jev,Jev,United States,E018,0,3,0.0055446800554720364
+jev,jev,Jev,United States,E025,0,1,0.02175391969957342
+jev,jev,Jev,United States,E025,0,2,0.001996410973446546
+jev,jev,Jev,United States,E025,0,3,0.0028563154000943256
+jev,jev,Jev,United States,F063,0,1,0.018391986369554573
+jev,jev,Jev,United States,F063,0,2,0.05157098081967331
+jev,jev,Jev,United States,F063,0,3,0.014966966899068138
+jev,jev,Jev,United States,F118,0,1,0.04906055569296264
+jev,jev,Jev,United States,F118,0,2,0.010466717584435861
+jev,jev,Jev,United States,F118,0,3,0.019790366602440067
+jev,jev,Jev,United States,F120,0,1,0.006935588527798967
+jev,jev,Jev,United States,F120,0,2,0.0050073831776005755
+jev,jev,Jev,United States,F120,0,3,0.016854353532571906
+jev,jev,Jev,United States,G006,0,1,0.0035739308655116167
+jev,jev,Jev,United States,G006,0,2,0.005149310433449846
+jev,jev,Jev,United States,G006,0,3,0.0007471999727393454
+jev,jev,Jev,United States,Y002,0,1,0.018326845966717884
+jev,jev,Jev,United States,Y002,0,2,0.014577568571650042
+jev,jev,Jev,United States,Y002,0,3,0.02884423157534559
+jev,jev,Jev,Venezuela,A008,0,1,0.00789128602403302
+jev,jev,Jev,Venezuela,A008,0,2,0.015966446281145963
+jev,jev,Jev,Venezuela,A008,0,3,0.002110476354657699
+jev,jev,Jev,Venezuela,A165,0,1,0.0011115962218487536
+jev,jev,Jev,Venezuela,A165,0,2,0.0003474217255435289
+jev,jev,Jev,Venezuela,A165,0,3,0.0015284029975106465
+jev,jev,Jev,Venezuela,E018,0,1,0.00033556722086848414
+jev,jev,Jev,Venezuela,E018,0,2,0.006833128158314732
+jev,jev,Jev,Venezuela,E018,0,3,0.007048695910571355
+jev,jev,Jev,Venezuela,E025,0,1,0.005668061934891867
+jev,jev,Jev,Venezuela,E025,0,2,0.0013134222581032253
+jev,jev,Jev,Venezuela,E025,0,3,0.0013134222581032253
+jev,jev,Jev,Venezuela,F063,0,1,0.03390166316475366
+jev,jev,Jev,Venezuela,F063,0,2,0.016269969000824627
+jev,jev,Jev,Venezuela,F063,0,3,0.01032352789447129
+jev,jev,Jev,Venezuela,F118,0,1,0.022161608712087777
+jev,jev,Jev,Venezuela,F118,0,2,0.012975428758478931
+jev,jev,Jev,Venezuela,F118,0,3,0.01493501748283328
+jev,jev,Jev,Venezuela,F120,0,1,0.008533261613330633
+jev,jev,Jev,Venezuela,F120,0,2,0.022507050828782342
+jev,jev,Jev,Venezuela,F120,0,3,0.026252318368630463
+jev,jev,Jev,Venezuela,G006,0,1,0.00243561948643927
+jev,jev,Jev,Venezuela,G006,0,2,0.004976351393661782
+jev,jev,Jev,Venezuela,G006,0,3,0.000753982540597598
+jev,jev,Jev,Venezuela,Y002,0,1,0.0028563154000944254
+jev,jev,Jev,Venezuela,Y002,0,2,0.00515224424453406
+jev,jev,Jev,Venezuela,Y002,0,3,0.014200963701573904
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A008,0,1,0.15574479568152624
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A008,0,2,0.0021376090627855805
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A008,0,3,0.00013122940563150282
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A165,0,1,0.0041540561630009675
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A165,0,2,1.241450864265499e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A165,0,3,0.0001427105142528298
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E018,0,1,0.008455610256132676
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E018,0,2,0.01684892702400934
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E018,0,3,0.041096940623918936
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E025,0,1,0.5204270135884551
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E025,0,2,0.5188209227102953
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E025,0,3,0.5246654030896074
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F063,0,1,0.4761958593757163
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F063,0,2,0.13422311272458287
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F063,0,3,0.23646279163365166
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F118,0,1,0.00029260801317425826
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F118,0,2,0.0010288968684596558
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F118,0,3,0.0555905687352152
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F120,0,1,0.47384537052353026
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F120,0,2,0.39388543598968245
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F120,0,3,0.1273902843009207
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,G006,0,1,0.00036487319346723343
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,G006,0,2,0.00010541132634065365
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,G006,0,3,0.50995799536798
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,Y002,0,1,0.8279749227540241
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,Y002,0,2,0.3101282591776104
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,Y002,0,3,0.458954760273988
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A008,0,1,0.011535614698585423
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A008,0,2,0.015485712488244062
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A008,0,3,0.0739293456027675
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A165,0,1,0.024028768980281875
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A165,0,2,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A165,0,3,0.008964074574460733
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E018,0,1,0.06430081801866161
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E018,0,2,0.06282345989481851
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E018,0,3,0.00099180818965334
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E025,0,1,0.07761496944907437
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E025,0,2,0.41782164324035787
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E025,0,3,0.0022880644470757183
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F063,0,1,0.0587458262089717
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F063,0,2,0.05748197328676774
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F063,0,3,0.04932884921401325
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F118,0,1,0.14380033223103977
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F118,0,2,0.24957716226758592
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F118,0,3,0.538604929804167
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F120,0,1,0.1959510944215596
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F120,0,2,0.29111026825455033
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F120,0,3,0.2552802330448752
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,G006,0,1,4.2437540120788295e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,G006,0,2,0.00020824182311561867
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,G006,0,3,0.0002647204678892743
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,Y002,0,1,0.1751735650644248
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,Y002,0,2,0.19794412557611757
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,Y002,0,3,0.4160196059376364
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A008,0,1,0.004668009094930067
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A008,0,2,0.023263890501938757
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A008,0,3,0.015070576608140714
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A165,0,1,4.712725562559812e-05
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A165,0,2,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A165,0,3,0.00010768327439615968
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E018,0,1,0.00024588329816001433
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E018,0,2,0.0002837913621379577
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E018,0,3,0.00014580351154796858
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E025,0,1,0.0008428868278437427
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E025,0,2,0.058425600054843
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E025,0,3,0.003359906251887663
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F063,0,1,7.037373289260314e-07
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F063,0,2,2.799995131994609e-07
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F063,0,3,6.016034898946526e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F118,0,1,0.09776175260209527
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F118,0,2,0.09781638769957124
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F118,0,3,0.0916319612690551
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F120,0,1,0.539104594719605
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F120,0,2,0.5476262383435252
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F120,0,3,0.5477393091632972
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,G006,0,1,5.073116723654757e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,G006,0,2,3.20525044158561e-05
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,G006,0,3,6.188022251892634e-07
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,Y002,0,1,0.01524641709203157
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,Y002,0,2,0.6541807598562481
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,Y002,0,3,0.5779488769614427
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A008,0,1,0.10241492673265526
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A008,0,2,0.015995556906247536
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A008,0,3,0.0006597884478120125
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A165,0,1,0.004855537245118332
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A165,0,2,8.729691759090638e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A165,0,3,0.0003909788460516358
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E018,0,1,0.0002903921500959502
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E018,0,2,7.594073368394125e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E018,0,3,1.1648362909453938e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E025,0,1,0.6206774667424809
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E025,0,2,0.19776915083084828
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E025,0,3,0.048710126907464776
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F063,0,1,3.0928595099329492e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F063,0,2,3.504274662799283e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F063,0,3,1.4421908625769718e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F118,0,1,0.0038431855128399552
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F118,0,2,0.009231412021514972
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F118,0,3,0.008940534367816493
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F120,0,1,0.27856989598626314
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F120,0,2,0.33273024429730413
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F120,0,3,0.09159777158254595
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,G006,0,1,1.585016290388151e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,G006,0,2,0.00024692364132802315
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,G006,0,3,0.00024284316739421483
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,Y002,0,1,0.03588424603137459
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,Y002,0,2,0.0013795713029349699
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,Y002,0,3,0.0012675993079091286
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A008,0,1,4.753521091906898e-05
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A008,0,2,0.0003226293486731168
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A008,0,3,0.015136285747525098
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A165,0,1,0.00044672510309667847
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A165,0,2,0.0001342562359658125
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A165,0,3,0.2126927646703681
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E018,0,1,0.23519256586830717
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E018,0,2,0.34480833233065394
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E018,0,3,0.07014916016923373
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E025,0,1,0.4146409741899221
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E025,0,2,5.638829109207076e-05
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E025,0,3,0.00010253992071656887
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F063,0,1,0.5536482549313783
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F063,0,2,0.5073121202413887
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F063,0,3,0.8263456016946193
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F118,0,1,2.624108214086125e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F118,0,2,2.7136354574311007e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F118,0,3,0.0070480174211444025
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F120,0,1,0.027226513713547867
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F120,0,2,0.7789374508502507
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F120,0,3,0.13104329192585806
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,G006,0,1,0.0008326274518176834
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,G006,0,2,6.830330945300324e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,G006,0,3,0.0015121894260411955
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,Y002,0,1,0.1326298823862413
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,Y002,0,2,0.3886621810675156
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,Y002,0,3,0.04603286228904198
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A008,0,1,0.0010960262606626594
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A008,0,2,0.0001169117082799259
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A008,0,3,0.0001363490172234309
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A165,0,1,0.0008923372691059324
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A165,0,2,8.758786587083178e-05
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A165,0,3,0.0022507153123141896
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E018,0,1,0.0008668391591541878
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E018,0,2,0.018180319834349652
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E018,0,3,0.0064272818624241885
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E025,0,1,0.002044965611407353
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E025,0,2,0.14422690480116612
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E025,0,3,0.02236103377849958
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F063,0,1,0.3967643160484599
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F063,0,2,0.00982278351862309
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F063,0,3,0.02016291919944749
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F118,0,1,0.01477405940463411
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F118,0,2,0.019310720836864345
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F118,0,3,0.3082982552996212
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F120,0,1,0.19585911288360208
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F120,0,2,0.7104861169472747
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F120,0,3,0.19673530363225214
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,G006,0,1,0.11484327360894389
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,G006,0,2,0.1933511454223936
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,G006,0,3,0.02391650421156434
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,Y002,0,1,0.0014791922322246486
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,Y002,0,2,0.0067722948514333655
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,Y002,0,3,0.12444181935278334
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A008,0,1,0.6973485096479937
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A008,0,2,0.26733031607224295
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A008,0,3,0.06047774846239498
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A165,0,1,0.0029412380862445203
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A165,0,2,4.020612449495749e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A165,0,3,0.0029412360240925937
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E018,0,1,0.0006448700733550105
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E018,0,2,9.110733732151146e-05
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E018,0,3,0.00010283148228171171
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E025,0,1,0.00031514177438617726
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E025,0,2,0.05582024389870792
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E025,0,3,0.19549959801135308
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F063,0,1,1.357338236207672e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F063,0,2,4.5785039729929055e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F063,0,3,2.735649426928599e-05
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F118,0,1,0.0035089715178064536
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F118,0,2,0.24161647301142453
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F118,0,3,0.05760104329644573
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F120,0,1,0.2190155810171579
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F120,0,2,0.11893503014165144
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F120,0,3,0.1448231579421796
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,G006,0,1,5.109545734522376e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,G006,0,2,2.4032114765054732e-05
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,G006,0,3,0.012738101566589565
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,Y002,0,1,0.4380798668298356
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,Y002,0,2,0.11924399778781657
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,Y002,0,3,0.21889241380266572
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A008,0,1,0.023566040779154012
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A008,0,2,0.009112119137096836
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A008,0,3,0.008355200777996653
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A165,0,1,0.009360148857757704
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A165,0,2,3.400940592819271e-05
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A165,0,3,0.00017744726054160756
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E018,0,1,0.013751108808279044
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E018,0,2,0.054097099517660126
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E018,0,3,0.02558815968885776
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E025,0,1,0.004915982586815833
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E025,0,2,0.0018199179977430036
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E025,0,3,0.010221468877287554
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F063,0,1,0.03666674645994137
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F063,0,2,0.25968215079937135
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F063,0,3,0.10175246737338492
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F118,0,1,0.8233897118854125
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F118,0,2,0.24612279235647713
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F118,0,3,0.02518184273258116
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F120,0,1,0.6360780893271825
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F120,0,2,0.08087332539817452
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F120,0,3,0.17792338278059572
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,G006,0,1,0.1879216835648638
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,G006,0,2,0.18652944197200144
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,G006,0,3,0.024595158951182968
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,Y002,0,1,0.01870614170367429
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,Y002,0,2,0.022168087323285207
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,Y002,0,3,0.0003622131912290158
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A008,0,1,0.02471668089472654
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A008,0,2,0.07503809196583933
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A008,0,3,0.008795715483703635
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A165,0,1,0.0009991417034446353
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A165,0,2,0.0
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A165,0,3,0.0009991417034446353
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E018,0,1,0.04050388556883072
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E018,0,2,0.5676676346835183
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E018,0,3,0.5327002950020767
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E025,0,1,0.20964503828750433
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E025,0,2,0.0296336429019345
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E025,0,3,3.118279563674317e-08
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F063,0,1,0.05596370560989848
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F063,0,2,0.15790200113995723
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F063,0,3,0.10281316279687355
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F118,0,1,0.09092422495715277
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F118,0,2,0.2228195155126826
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F118,0,3,0.07785395177375591
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F120,0,1,0.10806373507184192
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F120,0,2,0.2874294791806443
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F120,0,3,0.43377329911006113
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,G006,0,1,0.09038991910773779
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,G006,0,2,0.10460084871015232
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,G006,0,3,0.02186610078761042
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,Y002,0,1,0.24325739374099498
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,Y002,0,2,0.3319957859812961
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,Y002,0,3,0.3706203510393399
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A008,0,1,0.14560955641559664
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A008,0,2,0.1372145385355926
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A008,0,3,0.00544205313971512
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A165,0,1,0.002292563362134399
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A165,0,2,2.588526500949987e-07
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A165,0,3,0.00020419470134322654
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E018,0,1,0.023152686671095286
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E018,0,2,0.02567931716423607
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E018,0,3,0.003923835132753202
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E025,0,1,0.2963025963559415
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E025,0,2,0.19427083804162967
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E025,0,3,0.0003823925571859251
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F063,0,1,0.3233341515495641
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F063,0,2,0.6927654471149796
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F063,0,3,0.5209194348399998
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F118,0,1,0.22874044739918153
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F118,0,2,0.020050256346994186
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F118,0,3,0.17969057005647582
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F120,0,1,0.8067707514605428
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F120,0,2,0.20211414527347463
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F120,0,3,0.19521334246568509
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,G006,0,1,0.09876898381647095
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,G006,0,2,0.1487414419059684
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,G006,0,3,0.005735448039501736
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,Y002,0,1,0.09046874855875361
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,Y002,0,2,0.0034122456410441817
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,Y002,0,3,0.016123769900155013
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A008,0,1,0.3959130241412644
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A008,0,2,0.13848890609209139
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A008,0,3,0.07762888179287196
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A165,0,1,0.0005872019413432044
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A165,0,2,1.40673952635096e-06
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A165,0,3,0.0007709213186875313
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E018,0,1,0.0536529842159737
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E018,0,2,0.08911805532624285
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E018,0,3,0.10761195164432702
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E025,0,1,0.005055647096120759
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E025,0,2,0.7898161089653849
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E025,0,3,0.36645106772065716
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F063,0,1,0.21355199029629757
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F063,0,2,0.3812180219689817
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F063,0,3,0.1571756411698208
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F118,0,1,0.01482707443897462
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F118,0,2,0.010893059790135145
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F118,0,3,0.014608737523201062
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F120,0,1,0.4850640074869018
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F120,0,2,0.25744337159067066
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F120,0,3,0.4800944051110351
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,G006,0,1,0.5325058034054995
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,G006,0,2,0.03699970158169111
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,G006,0,3,0.0005231559689869099
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,Y002,0,1,0.7107122916162045
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,Y002,0,2,0.02372732191623121
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,Y002,0,3,0.16457096491986545
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A008,0,1,0.02010479180551305
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A008,0,2,0.07790965737342509
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A008,0,3,0.0870775449752649
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A165,0,1,0.00021411999402298163
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A165,0,2,2.2683166714192396e-07
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A165,0,3,0.0015866615716317344
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E018,0,1,0.10304057089756413
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E018,0,2,0.5734958864821267
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E018,0,3,0.5614516229200375
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E025,0,1,0.43019078650727455
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E025,0,2,0.3559660994055055
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E025,0,3,0.4316024767706462
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F063,0,1,0.00027411532935595864
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F063,0,2,3.807951709599262e-05
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F063,0,3,0.00023134779147922815
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F118,0,1,0.11248047393764346
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F118,0,2,0.12036466852616193
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F118,0,3,0.04814011929813915
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F120,0,1,0.2699497569232302
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F120,0,2,0.411869429780958
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F120,0,3,0.03884284575059368
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,G006,0,1,0.33296627688057306
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,G006,0,2,0.09917322894593997
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,G006,0,3,0.15846992312526612
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,Y002,0,1,0.08790600713872375
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,Y002,0,2,0.0937827511364467
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,Y002,0,3,0.04756773301179512
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,A008,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,A008,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,A008,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,A165,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,A165,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,A165,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,E018,0,3,0.06391393806502074
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,F118,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,F118,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,F118,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,G006,0,1,0.13377893013712375
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,G006,0,2,0.41644453073679233
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,G006,0,3,0.043713460619271075
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,Y002,0,1,0.012705210579444024
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,A008,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,A008,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,A008,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,A165,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,A165,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,A165,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,G006,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,A008,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,A165,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,A165,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,A165,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,E018,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,E018,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,E018,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,E025,0,2,0.5409165351321277
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,E025,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F063,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F063,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F063,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F118,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F118,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F118,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,G006,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,G006,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,G006,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,A008,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,A008,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,A008,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,A165,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,A165,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,A165,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,E018,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,E018,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,E018,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,F063,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,F063,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,F063,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,F118,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,F118,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,G006,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,G006,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,G006,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,Y002,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,Y002,0,3,1.0
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,A165,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,A165,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,A165,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,E018,0,3,0.06540594418849278
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,E025,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,E025,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,E025,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,F118,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,F118,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,F118,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,G006,0,1,0.4029288101696793
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,G006,0,2,0.01335061276326438
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,G006,0,3,0.00360050380565007
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,Y002,0,1,0.08632840854255472
+openai,gpt56_sol,GPT-5.6 Sol,Japan,A008,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Japan,A008,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Japan,A008,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Japan,A165,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Japan,E025,0,1,0.3625139308245914
+openai,gpt56_sol,GPT-5.6 Sol,Japan,E025,0,2,0.04537476418717229
+openai,gpt56_sol,GPT-5.6 Sol,Japan,E025,0,3,0.19660529301673596
+openai,gpt56_sol,GPT-5.6 Sol,Japan,G006,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Japan,G006,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Japan,G006,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Japan,Y002,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Japan,Y002,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,A008,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,A008,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,A008,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,A165,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,A165,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,A165,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,E018,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,E018,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,E018,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,E025,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,F063,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,F063,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,F063,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,G006,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,G006,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,G006,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,Y002,0,1,0.1739208738465496
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,Y002,0,2,0.3910323549508641
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,Y002,0,3,0.2093588726488414
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,A008,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,A008,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,A008,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,A165,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,A165,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,E025,0,1,0.44402281987859327
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,E025,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,E025,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,G006,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,G006,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,G006,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A008,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A008,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A008,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A165,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A165,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A165,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,E018,0,1,0.025664711478869673
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,E018,0,2,0.01205075506046564
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,E018,0,3,0.036014906058097935
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,E025,0,1,0.4506281870912469
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,E025,0,3,0.018037885528907026
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,G006,0,1,0.18976372186673235
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,G006,0,2,0.3302359697036066
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,Y002,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Russia,A008,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Russia,A008,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Russia,A008,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Russia,A165,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Russia,A165,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Russia,A165,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Russia,E018,0,1,0.7802969304152366
+openai,gpt56_sol,GPT-5.6 Sol,Russia,E018,0,2,0.26461777573515644
+openai,gpt56_sol,GPT-5.6 Sol,Russia,E018,0,3,0.002493670913908128
+openai,gpt56_sol,GPT-5.6 Sol,Russia,E025,0,1,0.004225125685043872
+openai,gpt56_sol,GPT-5.6 Sol,Russia,E025,0,3,0.0796921607480109
+openai,gpt56_sol,GPT-5.6 Sol,Russia,Y002,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,United States,A008,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,United States,A008,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,United States,A008,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,United States,A165,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,United States,A165,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,United States,A165,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,United States,E025,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,United States,E025,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,United States,E025,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,United States,F118,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,United States,F118,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,United States,F118,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,United States,G006,0,3,0.23105289585127547
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,A165,0,1,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,A165,0,2,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,A165,0,3,0.0
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,E025,0,1,0.03442473577094192

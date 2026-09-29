@@ -609,3 +609,260 @@ Zambia,openai,gpt56_sol,GPT-5.6 Sol,expected,1.3746865246197437
 Zambia,openai,gpt56_sol,GPT-5.6 Sol,argmax,1.562824564094243
 Zimbabwe,openai,gpt56_sol,GPT-5.6 Sol,expected,1.0516570375782468
 Zimbabwe,openai,gpt56_sol,GPT-5.6 Sol,argmax,1.2464130997876932
+Albania,jev,jev,Jev,tao_modal,2.0398520452662616
+Albania,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.757747523971182
+Algeria,jev,jev,Jev,tao_modal,0.3246464549127235
+Algeria,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.8437587648633275
+Algeria,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.2547078825235396
+Andorra,jev,jev,Jev,tao_modal,0.723066841192331
+Andorra,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.9530127777348
+Andorra,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.1972118983894373
+Argentina,jev,jev,Jev,tao_modal,2.551612256978113
+Argentina,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.825937078849836
+Argentina,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.784195139843946
+Armenia,jev,jev,Jev,tao_modal,1.0063187099128874
+Armenia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.3147552606934954
+Armenia,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.210977033139626
+Australia,jev,jev,Jev,tao_modal,2.2231469558587005
+Australia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.8030026218658586
+Australia,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,3.419861531259312
+Austria,jev,jev,Jev,tao_modal,1.9948913399723827
+Austria,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.9481082025204693
+Azerbaijan,jev,jev,Jev,tao_modal,0.4474662416536468
+Azerbaijan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.9774568211852912
+Azerbaijan,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,0.6503307655971995
+Bangladesh,jev,jev,Jev,tao_modal,1.0498442779278323
+Bangladesh,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.2712073007200714
+Bangladesh,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,0.6277851049285433
+Belarus,jev,jev,Jev,tao_modal,1.4345832965771979
+Belarus,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.0562312233754447
+Belgium,jev,jev,Jev,tao_modal,3.0188603098782174
+Belgium,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.2256760157236797
+Bolivia,jev,jev,Jev,tao_modal,1.844191827793312
+Bolivia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.9808099195647901
+Bolivia,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.3710053960443658
+Bosnia Herzegovina,jev,jev,Jev,tao_modal,2.6113099655120733
+Bosnia Herzegovina,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.2032172924484228
+Brazil,jev,jev,Jev,tao_modal,1.987507599279951
+Brazil,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.8257787363530367
+Bulgaria,jev,jev,Jev,tao_modal,1.2561382705500133
+Bulgaria,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.7710077271085085
+Burkina Faso,jev,jev,Jev,tao_modal,1.482394195151607
+Burkina Faso,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.5735170203675539
+Burkina Faso,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,0.9999655333968079
+Canada,jev,jev,Jev,tao_modal,2.380534042004951
+Canada,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.007512680123299
+Chile,jev,jev,Jev,tao_modal,2.2730701667672184
+Chile,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.3387488733541177
+China,jev,jev,Jev,tao_modal,0.7073543917753412
+China,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.462188027688785
+Colombia,jev,jev,Jev,tao_modal,2.60647879744065
+Colombia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.02165352836153
+Croatia,jev,jev,Jev,tao_modal,1.842937463333766
+Croatia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.1193929976988657
+Cyprus,jev,jev,Jev,tao_modal,2.337038884329513
+Cyprus,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.4525462418661337
+Czechia,jev,jev,Jev,tao_modal,2.0212441830865386
+Czechia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.4198312028652196
+Denmark,jev,jev,Jev,tao_modal,2.3441642132794835
+Denmark,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.369039614530701
+Denmark,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.8176615262399505
+Ecuador,jev,jev,Jev,tao_modal,2.3221789592597553
+Ecuador,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.8944700140621447
+Estonia,jev,jev,Jev,tao_modal,2.919537099413355
+Estonia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,3.1092358746805147
+Ethiopia,jev,jev,Jev,tao_modal,0.19261019830396492
+Ethiopia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.4656643509081067
+Ethiopia,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.1429362235088127
+Finland,jev,jev,Jev,tao_modal,2.672716390387471
+Finland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,3.138038472449548
+France,jev,jev,Jev,tao_modal,2.9099956746076514
+France,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.9193592539675148
+France,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.551745802547667
+Georgia,jev,jev,Jev,tao_modal,0.9151751487242912
+Georgia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.25417846041991
+Germany,jev,jev,Jev,tao_modal,1.9804157150951223
+Germany,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.1889076251631
+Ghana,jev,jev,Jev,tao_modal,0.8467216000636913
+Ghana,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.672757050485865
+Greece,jev,jev,Jev,tao_modal,1.2763909109991751
+Greece,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.012606670832806
+Guatemala,jev,jev,Jev,tao_modal,0.8602793034285765
+Guatemala,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.3825034829614298
+Haiti,jev,jev,Jev,tao_modal,1.9827372795831233
+Haiti,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.750302737444334
+Haiti,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.397884524324609
+Hong Kong SAR,jev,jev,Jev,tao_modal,1.4454643442859845
+Hong Kong SAR,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.0332106057996935
+Hungary,jev,jev,Jev,tao_modal,1.3590852007407292
+Hungary,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.2807116963152438
+Hungary,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.231373094905751
+Iceland,jev,jev,Jev,tao_modal,1.750824179108087
+Iceland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.9901313146874964
+India,jev,jev,Jev,tao_modal,0.8212231432411925
+India,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.9885115262431623
+India,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.5167226714821676
+Indonesia,jev,jev,Jev,tao_modal,0.3500783104027381
+Indonesia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.3485527527738737
+Iran,jev,jev,Jev,tao_modal,2.568974808009658
+Iran,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.2154466399909947
+Iraq,jev,jev,Jev,tao_modal,1.9355741163781273
+Iraq,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.8163574539791935
+Iraq,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,0.9609362297202144
+Ireland,jev,jev,Jev,tao_modal,2.86139583761811
+Ireland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.8477067875055297
+Italy,jev,jev,Jev,tao_modal,1.7801918554086957
+Italy,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.361870079678763
+Italy,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.712284838104009
+Japan,jev,jev,Jev,tao_modal,0.4876752183592176
+Japan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.48427624608805275
+Japan,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.29458328243927
+Jordan,jev,jev,Jev,tao_modal,0.9419244658275228
+Jordan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.06095994393096389
+Jordan,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,0.35253262810119823
+Kazakhstan,jev,jev,Jev,tao_modal,1.3276231304782466
+Kazakhstan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.8309820456977058
+Kenya,jev,jev,Jev,tao_modal,0.5707300425056081
+Kenya,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.1253512388781743
+Kenya,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.4112673999111005
+Kosovo,jev,jev,Jev,tao_modal,2.5808212218266706
+Kosovo,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.192564160174834
+Kyrgyzstan,jev,jev,Jev,tao_modal,0.8671043306004671
+Kyrgyzstan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.04334884519913009
+Latvia,jev,jev,Jev,tao_modal,1.8796723028173397
+Latvia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.7719584264906563
+Lebanon,jev,jev,Jev,tao_modal,2.314990718923954
+Lebanon,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.5834051090388221
+Libya,jev,jev,Jev,tao_modal,2.9880415402331892
+Libya,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.22648630716361778
+Libya,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,0.7774822533381228
+Lithuania,jev,jev,Jev,tao_modal,1.5663518411194768
+Lithuania,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.2349530415578083
+Lithuania,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.3842566378995675
+Luxembourg,jev,jev,Jev,tao_modal,2.3436336477141904
+Luxembourg,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,3.0681954212192304
+Macau SAR,jev,jev,Jev,tao_modal,0.9136740761364841
+Macau SAR,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.5788800934862457
+Malaysia,jev,jev,Jev,tao_modal,1.80529228087944
+Malaysia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.2856144279500101
+Maldives,jev,jev,Jev,tao_modal,0.5558203183685769
+Maldives,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.20051181765068
+Maldives,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,0.6872144882756499
+Mali,jev,jev,Jev,tao_modal,1.4774632442001254
+Mali,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.0178260358905358
+Mali,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.3824927172349304
+Malta,jev,jev,Jev,tao_modal,1.976082734603515
+Malta,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.208065680366667
+Malta,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.6791256449623349
+Mexico,jev,jev,Jev,tao_modal,1.7479613271180108
+Mexico,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.9127317052593302
+Moldova,jev,jev,Jev,tao_modal,1.8018072238849305
+Moldova,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.5462615836011149
+Mongolia,jev,jev,Jev,tao_modal,0.8275116770421973
+Mongolia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.9271503969804334
+Montenegro,jev,jev,Jev,tao_modal,1.7459635508515976
+Montenegro,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.4003011995796029
+Morocco,jev,jev,Jev,tao_modal,0.29600710254444473
+Morocco,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.9635268297972757
+Morocco,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.5307933181733042
+Myanmar,jev,jev,Jev,tao_modal,2.9442266334660605
+Myanmar,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.1836172567595815
+Netherlands,jev,jev,Jev,tao_modal,2.673955991369215
+Netherlands,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.9163840022830327
+Netherlands,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.287305490499786
+New Zealand,jev,jev,Jev,tao_modal,1.8045936294086466
+New Zealand,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.06271600689583
+Nicaragua,jev,jev,Jev,tao_modal,2.2014678775916976
+Nicaragua,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.6091394580469187
+Nigeria,jev,jev,Jev,tao_modal,1.819453297513827
+Nigeria,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.49624480361951434
+Nigeria,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,0.7572239804643777
+North Macedonia,jev,jev,Jev,tao_modal,1.7475378969146695
+North Macedonia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.3799964481573226
+Northern Cyprus,jev,jev,Jev,tao_modal,1.437480456681542
+Northern Cyprus,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.7140447714556684
+Northern Ireland,jev,jev,Jev,tao_modal,2.2553075856511207
+Northern Ireland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.8834344313919473
+Norway,jev,jev,Jev,tao_modal,2.2280005337337507
+Norway,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.2208238555794977
+Norway,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.2546089209831743
+Pakistan,jev,jev,Jev,tao_modal,1.3411177554675016
+Pakistan,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.6833419502979753
+Pakistan,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,0.998616900219841
+Palestine,jev,jev,Jev,tao_modal,2.2311486896941277
+Palestine,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.5266175511477369
+Palestine,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,0.4038248679372299
+Peru,jev,jev,Jev,tao_modal,1.913557193215667
+Peru,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.071296697683651
+Philippines,jev,jev,Jev,tao_modal,0.7348166269715903
+Philippines,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.2380193684755536
+Philippines,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,0.5601801744500068
+Poland,jev,jev,Jev,tao_modal,2.436078726756145
+Poland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.302340979338403
+Portugal,jev,jev,Jev,tao_modal,2.7979018166723835
+Portugal,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.76967719038164
+Portugal,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.5056844023770357
+Puerto Rico,jev,jev,Jev,tao_modal,1.8038446376790396
+Puerto Rico,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.868322432782234
+Romania,jev,jev,Jev,tao_modal,2.516906276530808
+Romania,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.1633331087958125
+Romania,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,3.5842691450645243
+Russia,jev,jev,Jev,tao_modal,1.208781871968859
+Russia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.6714575641277069
+Rwanda,jev,jev,Jev,tao_modal,0.8231406980224385
+Rwanda,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.0192539690870313
+Rwanda,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,0.8919492945024148
+Serbia,jev,jev,Jev,tao_modal,1.6199318940887464
+Serbia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.0080603704199087
+Singapore,jev,jev,Jev,tao_modal,1.6862605270246704
+Singapore,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.2928210932253286
+Singapore,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.1940144140024316
+Slovakia,jev,jev,Jev,tao_modal,1.2971042228020349
+Slovakia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.2854919085251242
+Slovenia,jev,jev,Jev,tao_modal,2.0195535243364127
+Slovenia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.5668760194984765
+Slovenia,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.955979787821524
+South Africa,jev,jev,Jev,tao_modal,2.837569153243514
+South Africa,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.9059805789356579
+South Korea,jev,jev,Jev,tao_modal,1.6718578323669562
+South Korea,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.8791053514359486
+South Korea,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,3.2323529020157666
+Spain,jev,jev,Jev,tao_modal,2.789388920545157
+Spain,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.0622591964520045
+Spain,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.3811527288312972
+Sweden,jev,jev,Jev,tao_modal,2.002768009470496
+Sweden,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.406361064162234
+Sweden,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,2.342882725029952
+Switzerland,jev,jev,Jev,tao_modal,1.8351075404459158
+Switzerland,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,3.07278179039802
+Taiwan ROC,jev,jev,Jev,tao_modal,2.466009787258073
+Taiwan ROC,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,3.7174410623338385
+Thailand,jev,jev,Jev,tao_modal,0.6725781743947844
+Thailand,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.1030776189466938
+Trinidad and Tobago,jev,jev,Jev,tao_modal,2.1404541946434037
+Trinidad and Tobago,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.6064758476487673
+Tunisia,jev,jev,Jev,tao_modal,1.8748097901554328
+Tunisia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.5828211994333166
+Turkey,jev,jev,Jev,tao_modal,1.4542102925459903
+Turkey,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.326628613852587
+Ukraine,jev,jev,Jev,tao_modal,2.1979652289480454
+Ukraine,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.7975541404803108
+United Kingdom,jev,jev,Jev,tao_modal,2.2882544249040335
+United Kingdom,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.8787798181391533
+United States,jev,jev,Jev,tao_modal,2.4218757773509725
+United States,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.4287505422729345
+Uruguay,jev,jev,Jev,tao_modal,2.4047240688428126
+Uruguay,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.41767491783463
+Venezuela,jev,jev,Jev,tao_modal,4.215330726685138
+Venezuela,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,2.118100260095695
+Vietnam,jev,jev,Jev,tao_modal,1.1964255325384774
+Vietnam,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,0.978540464068846
+Yemen,jev,jev,Jev,tao_modal,2.7100246173607494
+Yemen,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.1228678766213342
+Yemen,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.2936095528368083
+Zambia,jev,jev,Jev,tao_modal,0.24120782797442003
+Zambia,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.2989612482319828
+Zambia,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.3237762179867087
+Zimbabwe,jev,jev,Jev,tao_modal,2.420664773946609
+Zimbabwe,openai,gpt4o_anchor,GPT-4o historical-generation anchor,tao_modal,1.0361974341921407
+Zimbabwe,openai,gpt56_sol,GPT-5.6 Sol,tao_modal,1.2464130997876932
