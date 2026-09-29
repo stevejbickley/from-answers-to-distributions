@@ -1,0 +1,447 @@
+{
+  "n_labels": 110,
+  "label_overlaps": 0,
+  "point_overlaps": 0,
+  "labels": [
+    {
+      "label": "GPT-5.6 Sol",
+      "displacement_points": 10.49
+    },
+    {
+      "label": "GPT-4o",
+      "displacement_points": 10.28
+    },
+    {
+      "label": "Jev",
+      "displacement_points": 10.28
+    },
+    {
+      "label": "Trinidad and Tobago",
+      "displacement_points": 31.52
+    },
+    {
+      "label": "Bosnia Herzegovina",
+      "displacement_points": 11.78
+    },
+    {
+      "label": "Northern Ireland",
+      "displacement_points": 14.44
+    },
+    {
+      "label": "North Macedonia",
+      "displacement_points": 35.94
+    },
+    {
+      "label": "Northern Cyprus",
+      "displacement_points": 50.18
+    },
+    {
+      "label": "United Kingdom",
+      "displacement_points": 10.51
+    },
+    {
+      "label": "Hong Kong SAR",
+      "displacement_points": 14.0
+    },
+    {
+      "label": "United States",
+      "displacement_points": 10.46
+    },
+    {
+      "label": "Burkina Faso",
+      "displacement_points": 32.38
+    },
+    {
+      "label": "South Africa",
+      "displacement_points": 20.66
+    },
+    {
+      "label": "Netherlands",
+      "displacement_points": 15.29
+    },
+    {
+      "label": "New Zealand",
+      "displacement_points": 10.46
+    },
+    {
+      "label": "Philippines",
+      "displacement_points": 11.05
+    },
+    {
+      "label": "Puerto Rico",
+      "displacement_points": 10.19
+    },
+    {
+      "label": "South Korea",
+      "displacement_points": 28.6
+    },
+    {
+      "label": "Switzerland",
+      "displacement_points": 31.46
+    },
+    {
+      "label": "Azerbaijan",
+      "displacement_points": 11.02
+    },
+    {
+      "label": "Bangladesh",
+      "displacement_points": 10.51
+    },
+    {
+      "label": "Kazakhstan",
+      "displacement_points": 14.02
+    },
+    {
+      "label": "Kyrgyzstan",
+      "displacement_points": 24.81
+    },
+    {
+      "label": "Luxembourg",
+      "displacement_points": 27.58
+    },
+    {
+      "label": "Montenegro",
+      "displacement_points": 22.78
+    },
+    {
+      "label": "Taiwan ROC",
+      "displacement_points": 10.19
+    },
+    {
+      "label": "Argentina",
+      "displacement_points": 10.24
+    },
+    {
+      "label": "Australia",
+      "displacement_points": 22.27
+    },
+    {
+      "label": "Guatemala",
+      "displacement_points": 12.51
+    },
+    {
+      "label": "Indonesia",
+      "displacement_points": 32.52
+    },
+    {
+      "label": "Lithuania",
+      "displacement_points": 13.7
+    },
+    {
+      "label": "Macau SAR",
+      "displacement_points": 10.19
+    },
+    {
+      "label": "Nicaragua",
+      "displacement_points": 10.24
+    },
+    {
+      "label": "Palestine",
+      "displacement_points": 23.36
+    },
+    {
+      "label": "Singapore",
+      "displacement_points": 14.0
+    },
+    {
+      "label": "Venezuela",
+      "displacement_points": 52.95
+    },
+    {
+      "label": "Bulgaria",
+      "displacement_points": 13.12
+    },
+    {
+      "label": "Colombia",
+      "displacement_points": 10.46
+    },
+    {
+      "label": "Ethiopia",
+      "displacement_points": 34.42
+    },
+    {
+      "label": "Malaysia",
+      "displacement_points": 19.17
+    },
+    {
+      "label": "Maldives",
+      "displacement_points": 22.99
+    },
+    {
+      "label": "Mongolia",
+      "displacement_points": 10.51
+    },
+    {
+      "label": "Pakistan",
+      "displacement_points": 59.13
+    },
+    {
+      "label": "Portugal",
+      "displacement_points": 10.51
+    },
+    {
+      "label": "Slovakia",
+      "displacement_points": 10.46
+    },
+    {
+      "label": "Slovenia",
+      "displacement_points": 10.46
+    },
+    {
+      "label": "Thailand",
+      "displacement_points": 41.55
+    },
+    {
+      "label": "Zimbabwe",
+      "displacement_points": 40.91
+    },
+    {
+      "label": "Albania",
+      "displacement_points": 37.19
+    },
+    {
+      "label": "Algeria",
+      "displacement_points": 51.58
+    },
+    {
+      "label": "Andorra",
+      "displacement_points": 19.2
+    },
+    {
+      "label": "Armenia",
+      "displacement_points": 64.91
+    },
+    {
+      "label": "Austria",
+      "displacement_points": 10.19
+    },
+    {
+      "label": "Belarus",
+      "displacement_points": 13.95
+    },
+    {
+      "label": "Belgium",
+      "displacement_points": 13.51
+    },
+    {
+      "label": "Bolivia",
+      "displacement_points": 16.73
+    },
+    {
+      "label": "Croatia",
+      "displacement_points": 25.27
+    },
+    {
+      "label": "Czechia",
+      "displacement_points": 10.46
+    },
+    {
+      "label": "Denmark",
+      "displacement_points": 10.46
+    },
+    {
+      "label": "Ecuador",
+      "displacement_points": 26.36
+    },
+    {
+      "label": "Estonia",
+      "displacement_points": 18.23
+    },
+    {
+      "label": "Finland",
+      "displacement_points": 22.46
+    },
+    {
+      "label": "Georgia",
+      "displacement_points": 62.59
+    },
+    {
+      "label": "Germany",
+      "displacement_points": 10.24
+    },
+    {
+      "label": "Hungary",
+      "displacement_points": 40.01
+    },
+    {
+      "label": "Iceland",
+      "displacement_points": 18.24
+    },
+    {
+      "label": "Ireland",
+      "displacement_points": 10.46
+    },
+    {
+      "label": "Lebanon",
+      "displacement_points": 40.46
+    },
+    {
+      "label": "Moldova",
+      "displacement_points": 10.46
+    },
+    {
+      "label": "Morocco",
+      "displacement_points": 62.2
+    },
+    {
+      "label": "Myanmar",
+      "displacement_points": 69.25
+    },
+    {
+      "label": "Nigeria",
+      "displacement_points": 42.72
+    },
+    {
+      "label": "Romania",
+      "displacement_points": 32.6
+    },
+    {
+      "label": "Tunisia",
+      "displacement_points": 38.2
+    },
+    {
+      "label": "Ukraine",
+      "displacement_points": 10.77
+    },
+    {
+      "label": "Uruguay",
+      "displacement_points": 23.23
+    },
+    {
+      "label": "Vietnam",
+      "displacement_points": 55.19
+    },
+    {
+      "label": "Brazil",
+      "displacement_points": 11.06
+    },
+    {
+      "label": "Canada",
+      "displacement_points": 28.76
+    },
+    {
+      "label": "Cyprus",
+      "displacement_points": 17.73
+    },
+    {
+      "label": "France",
+      "displacement_points": 38.21
+    },
+    {
+      "label": "Greece",
+      "displacement_points": 24.08
+    },
+    {
+      "label": "Jordan",
+      "displacement_points": 28.17
+    },
+    {
+      "label": "Kosovo",
+      "displacement_points": 23.07
+    },
+    {
+      "label": "Latvia",
+      "displacement_points": 19.9
+    },
+    {
+      "label": "Mexico",
+      "displacement_points": 12.22
+    },
+    {
+      "label": "Norway",
+      "displacement_points": 18.49
+    },
+    {
+      "label": "Poland",
+      "displacement_points": 47.52
+    },
+    {
+      "label": "Russia",
+      "displacement_points": 31.96
+    },
+    {
+      "label": "Rwanda",
+      "displacement_points": 60.4
+    },
+    {
+      "label": "Serbia",
+      "displacement_points": 65.92
+    },
+    {
+      "label": "Sweden",
+      "displacement_points": 10.46
+    },
+    {
+      "label": "Turkey",
+      "displacement_points": 88.09
+    },
+    {
+      "label": "Zambia",
+      "displacement_points": 69.34
+    },
+    {
+      "label": "Chile",
+      "displacement_points": 53.73
+    },
+    {
+      "label": "China",
+      "displacement_points": 51.05
+    },
+    {
+      "label": "Ghana",
+      "displacement_points": 10.46
+    },
+    {
+      "label": "Haiti",
+      "displacement_points": 10.19
+    },
+    {
+      "label": "India",
+      "displacement_points": 15.95
+    },
+    {
+      "label": "Italy",
+      "displacement_points": 13.37
+    },
+    {
+      "label": "Japan",
+      "displacement_points": 10.24
+    },
+    {
+      "label": "Kenya",
+      "displacement_points": 40.25
+    },
+    {
+      "label": "Libya",
+      "displacement_points": 22.65
+    },
+    {
+      "label": "Malta",
+      "displacement_points": 15.22
+    },
+    {
+      "label": "Spain",
+      "displacement_points": 15.71
+    },
+    {
+      "label": "Yemen",
+      "displacement_points": 56.04
+    },
+    {
+      "label": "Iran",
+      "displacement_points": 18.41
+    },
+    {
+      "label": "Iraq",
+      "displacement_points": 65.38
+    },
+    {
+      "label": "Mali",
+      "displacement_points": 12.69
+    },
+    {
+      "label": "Peru",
+      "displacement_points": 17.67
+    }
+  ]
+}

@@ -1,9 +1,11 @@
-# Do AI probability distributions represent human population variation?
+# Can AI uncertainty recover human population variation?
 
 **Replication and extension materials for:**  
-*Do AI probability distributions represent human population variation? Token uncertainty, decision uncertainty, and cross-cultural survey responses.*
+*Can AI uncertainty recover human population variation? Token uncertainty, decision uncertainty, and cross-cultural survey responses.*
 
 This repository provides the complete reproducibility workflow for a cross-national comparison of **human population response distributions**, **OpenAI next-token probability distributions**, and **TypeSafe Jev decision probability distributions**.
+
+The central question is whether **within-model uncertainty can recover between-person population heterogeneity**, and whether that correspondence is population-specific rather than merely generic uncertainty.
 
 The study builds on the cultural-values benchmark introduced in the 2024 *PNAS Nexus* study *Cultural bias and cultural alignment of large language models*, but changes the main unit of evaluation from a single generated answer to the **full probability distribution over permitted responses**.
 
@@ -21,6 +23,8 @@ The human benchmark is reconstructed from the **Integrated Values Surveys (IVS)*
 
 ## Scientific question
 
+The study asks whether **uncertainty within one artificial system can recover heterogeneity across many humans**. This is the study's **uncertainty-substitution hypothesis**: a model probability distribution may contain population-level signal, but its statistical meaning is not assumed to be the same as a survey frequency.
+
 The study distinguishes three probability objects that have the same mathematical form but different meanings:
 
 - **human population heterogeneity:** the survey-weighted fraction of people in a country/territory selecting each response;
@@ -34,7 +38,7 @@ For country/territory `c`, survey item `j`, and permitted response `k`, the prin
 - `O56[c,j,k]` — GPT-5.6 Sol next-token probability, renormalised over permitted labels; and
 - `J[c,j,k]` — Jev direct decision probability.
 
-For every machine distribution, the pipeline also derives an **argmax one-hot representation from the same probability vector**. This makes the full-distribution versus point-response comparison deterministic and avoids making a second model call merely to recover the modal answer.
+For every machine distribution, the pipeline also derives an **argmax one-hot representation from the same aggregated probability vector**. This makes the full-distribution versus point-response comparison deterministic and avoids making a second model call merely to recover the modal answer.
 
 The design separates three sources of change:
 
@@ -42,11 +46,20 @@ The design separates three sources of change:
 - **model-generation change:** GPT-4o versus GPT-5.6 Sol while holding the logprob extraction procedure approximately constant; and
 - **probability-interface/system change:** GPT-5.6 Sol next-token probabilities versus Jev decision probabilities.
 
+The empirical analysis is organised around four questions:
+
+1. **Distributional substitution:** how closely do machine probability distributions reproduce human response distributions?
+2. **Heterogeneity recovery:** do model probabilities reproduce both the average amount and the cross-population structure of human disagreement?
+3. **Population specificity:** does country conditioning improve fidelity relative to the same model's unconditioned distribution and a leave-one-country-out human baseline?
+4. **Measurement robustness:** how sensitive are inferred distributions to prompt wording, response-label identity, option order, and incomplete top-`K` support?
+
+The cultural-map projection is retained as a secondary replication/extension of the Tao et al. benchmark rather than as the sole or primary test of population fidelity.
+
 The GPT-5.6 Sol versus Jev comparison is an empirical comparison of complete model systems, **not** a causal estimate of the effect of a particular architecture or output head.
 
 ---
 
-## Repository status
+# Repository status
 
 No empirical model results are fabricated or hard-coded. Result fields in the manuscript are populated only after the licensed human survey data and authenticated API runs are available.
 
@@ -76,6 +89,7 @@ The repository is designed so that:
 │
 ├── config/
 │   ├── analysis.yaml
+│   ├── countries.yaml
 │   ├── models.yaml
 │   ├── pricing.yaml
 │   ├── prompt_variants.yaml
@@ -131,7 +145,6 @@ The repository is designed so that:
 │   └── .gitkeep
 │
 ├── figures/
-│   ├── figure1_probability_semantics.png
 │   └── .gitkeep
 │
 ├── manuscript/
@@ -142,19 +155,10 @@ The repository is designed so that:
 │
 └── tests/
     ├── fixtures/
-    │   ├── create_synthetic_ivsd.py
-    │   └── synthetic_ivsd.csv
-    ├── test_configuration_safety.py
-    ├── test_human_y003.py
-    ├── test_metrics.py
-    ├── test_multimodel_analysis.py
-    ├── test_multimodel_configuration.py
-    ├── test_pipeline_smoke.py
-    ├── test_prompts.py
-    └── test_usage_costs.py
+    └── test_*.py
 ```
 
-The repository itself should contain **code, configuration, documentation, prompts, generated aggregate outputs, and reproducibility metadata**. Licensed WVS/EVS/IVS respondent microdata should remain in a separate local or restricted-access folder.
+The repository itself should contain **code, configuration, documentation, prompts, generated aggregate outputs, and reproducibility metadata**. Licensed WVS/EVS/IVS respondent microdata should remain in a separate local or restricted-access folder. Main and supplementary figures are generated from empirical outputs; the earlier conceptual probability-semantics figure is no longer part of the final figure set.
 
 ---
 
@@ -164,20 +168,18 @@ The repository itself should contain **code, configuration, documentation, promp
 
 The public repository does **not** redistribute WVS or EVS microdata.
 
-For the closest replication of the source benchmark, obtain the following releases from their official repositories under the applicable terms:
+The **reported empirical analysis** uses:
 
-- **World Values Survey Trend File (1981–2022), version 3.0.0**  
-  Haerpfer et al. (2022), DOI: `10.14281/18241.23`.
-- **European Values Study Trend File 1981–2017, ZA7503, version 3.0.0**  
-  EVS (2022), DOI: `10.4232/1.14021`.
+- **World Values Survey Trend File (1981–2022), version 4.1.0** — the WVS release used for the final release-updated benchmark; and
+- **European Values Study Trend File 1981–2017, ZA7503, version 3.0.0** — DOI `10.4232/1.14021`.
+
+The source Tao et al. study used an earlier WVS Trend release. If an independent researcher has access to that source-study release, it can be run as an additional historical replication benchmark, but it should not silently replace the v4.1 dataset used for the reported results.
 
 The IVS construction also uses the official/common merge materials when available:
 
 - `EVS_WVS_Merge Syntax_stata.do`
 - `F00011424-Common_EVS_WVS_Dictionary_IVS.xlsx`
 - `F00011426-EVS_WVS_ParticipatingCountries_June2024.xlsx`
-
-A newer WVS Trend release can be used as a documented update/robustness dataset, but exact sample counts may differ from the published benchmark.
 
 ### Recommended private-data layout
 
@@ -186,8 +188,8 @@ A convenient arrangement is:
 ```text
 /path/to/private/values-data/
 ├── ZA7503_v3-0-0.dta
-├── Trends_VS_1981_2022_Stata_v3_0.dta        # preferred exact-replication release
-├── Trends_VS_1981_2022_Stata_v4_1.dta        # optional newer-release robustness
+├── Trends_VS_1981_2022_Stata_v4_1.dta        # reported-study WVS release
+├── Trends_VS_1981_2022_Stata_v3_0.dta        # optional earlier-release replication, if available
 ├── EVS_WVS_Merge Syntax_stata.do
 ├── F00011424-Common_EVS_WVS_Dictionary_IVS.xlsx
 ├── F00011426-EVS_WVS_ParticipatingCountries_June2024.xlsx
@@ -239,21 +241,9 @@ If you already have the required harmonised IVS file, skip to **Step 4**.
 
 If starting from the separate EVS and WVS Trend files, run `scripts/00_build_ivs.py`.
 
-### Canonical full IVS build
+### Reported-study IVS build
 
-Example using an external private-data directory:
-
-```bash
-python scripts/00_build_ivs.py \
-  --evs "/path/to/private/values-data/ZA7503_v3-0-0.dta" \
-  --wvs "/path/to/private/values-data/Trends_VS_1981_2022_Stata_v3_0.dta" \
-  --merge-syntax "/path/to/private/values-data/EVS_WVS_Merge Syntax_stata.do" \
-  --dictionary "/path/to/private/values-data/F00011424-Common_EVS_WVS_Dictionary_IVS.xlsx" \
-  --countries "/path/to/private/values-data/F00011426-EVS_WVS_ParticipatingCountries_June2024.xlsx" \
-  --output "/path/to/private/values-data/Integrated_values_surveys_1981-2022.csv.gz"
-```
-
-If the locally available WVS file is the newer v4.1 release, substitute its path and treat the resulting benchmark as a documented data-release update/robustness analysis:
+Example using the WVS v4.1 release used for the reported empirical analysis:
 
 ```bash
 python scripts/00_build_ivs.py \
@@ -262,8 +252,10 @@ python scripts/00_build_ivs.py \
   --merge-syntax "/path/to/private/values-data/EVS_WVS_Merge Syntax_stata.do" \
   --dictionary "/path/to/private/values-data/F00011424-Common_EVS_WVS_Dictionary_IVS.xlsx" \
   --countries "/path/to/private/values-data/F00011426-EVS_WVS_ParticipatingCountries_June2024.xlsx" \
-  --output "/path/to/private/values-data/Integrated_values_surveys_1981-2022_v4-1.csv.gz"
+  --output "/path/to/private/values-data/Integrated_values_surveys_1981-2022.csv.gz"
 ```
+
+If an earlier WVS Trend release matching the source study is available, substitute that file deliberately and write the result to a differently named output. Treat it as a historical replication benchmark rather than as the dataset underlying the reported results.
 
 The merger is intentionally **fail-loud**. It:
 
@@ -347,14 +339,14 @@ OPENAI_TERRA_MODEL=gpt-5.6-terra
 OPENAI_TERRA_REASONING_EFFORT=none
 
 # TypeSafe / Jev
-TYPESAFE_BASE_URL=https://api.typesafe.ai
+TYPESAFE_BASE_URL=https\://api.typesafe.ai
 TYPESAFE_MODEL=jev-1.13.0
 
 # External human-data paths
 IVS_DATA_PATH=/absolute/path/to/private/values-data/Integrated_values_surveys_1981-2022.csv.gz
 
 # Optional if working directly with separate files in another workflow
-WVS_DATA_PATH=/absolute/path/to/private/values-data/Trends_VS_1981_2022_Stata_v3_0.dta
+WVS_DATA_PATH=/absolute/path/to/private/values-data/Trends_VS_1981_2022_Stata_v4_1.dta
 EVS_DATA_PATH=/absolute/path/to/private/values-data/ZA7503_v3-0-0.dta
 ```
 
@@ -401,7 +393,7 @@ Before the empirical run:
 pytest -q
 ```
 
-The packaged test suite currently contains **24 automated tests** covering configuration safety, probability metrics, multi-model analysis/configuration, Y003 reconstruction, pipeline smoke tests, prompts, and API usage/cost accounting.
+The automated test suite covers configuration safety, country-universe integrity, probability metrics, OpenAI censoring, multi-model analysis/configuration, Y003 reconstruction, the additional population-specificity and entropy-structure analyses, pipeline smoke tests, prompts, and API usage/cost accounting. The exact test count may increase as the replication package evolves; `pytest -q` is the authoritative check.
 
 ---
 
@@ -447,11 +439,11 @@ This performs, in order:
 1. human-data preparation;
 2. GPT-4o and GPT-5.6 Sol probability collection;
 3. Jev probability collection;
-4. primary statistical analysis;
-5. main and supplementary table/figure generation;
-6. option-order robustness analysis;
-7. Jev native-Score robustness analysis;
-8. robustness summarisation;
+4. primary statistical analysis, including **population specificity** and **heterogeneity-structure** analyses;
+5. option-order robustness collection;
+6. Jev native-Score robustness collection;
+7. robustness summarisation;
+8. final main/SI table and figure generation **after all requested analyses are available**;
 9. API token/cost accounting; and
 10. manuscript numerical autofill.
 
@@ -460,6 +452,14 @@ To include GPT-5.6 Terra as an additional supplementary robustness condition:
 ```bash
 python scripts/run_all.py --include-terra --robustness --autofill
 ```
+
+If the human benchmark and all model-response files are already present, rerun the complete local analysis without any new OpenAI or Jev calls using:
+
+```bash
+python scripts/run_all.py --analysis-only --robustness --autofill
+```
+
+Omit `--autofill` if the manuscript is being updated manually.
 
 `run_all.py` **does not construct IVS from raw EVS/WVS files**. The EVS/WVS → IVS build is deliberately a separate preliminary step because the licensed source files are external to the repository.
 
@@ -474,9 +474,9 @@ The individual stages can also be run separately. This is useful for auditing, r
 With `IVS_DATA_PATH` configured:
 
 ```bash
-python scripts/01_prepare_human.py \
-  --ivs "/path/to/private/values-data/Integrated_values_surveys_1981-2022.csv.gz" \
-  --csv \
+python scripts/01_prepare_human.py \\
+  --ivs "/path/to/private/values-data/Integrated_values_surveys_1981-2022.csv.gz" \\
+  --csv \\
   --outdir data/processed
 ```
 
@@ -608,6 +608,11 @@ The final archived empirical run should pin the exact Jev version in `.env` wher
 python scripts/04_analyze.py
 ```
 
+The primary analysis now includes the original distributional comparisons plus two additional analyses that require **no additional API calls**:
+
+1. **Population specificity:** compares each country-conditioned model distribution with (a) the same model's unconditioned `__DEFAULT__` distribution and (b) an equal-country leave-one-country-out human baseline.
+2. **Heterogeneity structure:** tests whether model entropy tracks where human disagreement occurs using overall, within-item, within-country, fixed-effect/residualized, Pearson/Spearman, slope, and variance-ratio diagnostics.
+
 The analysis produces, among other files:
 
 ```text
@@ -621,9 +626,20 @@ results/openai_censoring_policy_counts.csv
 results/country_item_metrics_censoring_sensitivity.csv
 results/openai_censoring_sensitivity_summary.csv
 results/y003_marginal_metrics.csv
+results/population_specificity_metrics.csv
+results/entropy_structure_summary.csv
+results/entropy_structure_by_item.csv
+results/entropy_structure_by_country.csv
 results/cultural_map_coordinates.csv
 results/cultural_map_distances.csv
+results/cultural_map_prompting_distances.csv
+results/cultural_map_prompting_summary.csv
+results/cultural_map_tao_style_variant_coordinates.csv  # when reconstructable
 ```
+
+For population specificity, a positive gain means the country-conditioned model is closer to that country's human response distribution than the stated baseline.
+
+The cultural-map analysis now explicitly separates the **replication checkpoint** from the distributional extension. It compares each model's unconditioned/default cultural position with its country-conditioned positions, reproducing the logic of Tao et al.'s cultural-prompting analysis. The manuscript can therefore report whether the original mean-location result replicates before asking the harder question of whether the full national response distributions are recovered.
 
 ---
 
@@ -633,23 +649,63 @@ results/cultural_map_distances.csv
 python scripts/05_make_outputs.py
 ```
 
-This regenerates the analysis-derived main and supplementary tables and figures from the saved empirical outputs.
+This regenerates the final analysis-derived main and supplementary tables and figures from the saved empirical outputs. When `run_all.py --robustness` is used, this step runs **after** robustness analysis so option-order results can be incorporated into the final SI outputs.
 
-Examples include:
+### Main-text outputs
 
 ```text
 results/tables/table2_primary_summary.csv
-results/tables/table3_cultural_map.csv
+results/tables/table3_country_conditioning.csv
+results/tables/table3_population_specificity.csv  # retained for detailed/backward-compatible reporting
+
+figures/figure1_tao_replication.png
+figures/figure2_probability_value.png
+figures/figure3_population_specificity.png
+figures/figure4_heterogeneity_structure.png
+```
+
+The main figures now follow the paper's narrative rather than displaying raw point clouds:
+
+1. **Figure 1:** a direct replication/extension checkpoint against Tao et al. — the release-updated human cultural map with only unconditioned model positions, plus unconditioned-versus-country-conditioned cultural distance;
+2. **Figure 2:** a dumbbell comparison of each model's full probability distribution against the argmax/modal collapse, including the share of country-item cells improved;
+3. **Figure 3:** population specificity at the full-distribution level — gain from country conditioning and the leave-one-country-out human benchmark; and
+4. **Figure 4:** average human/model entropy versus the much harder question of whether model uncertainty tracks the structure of human disagreement.
+
+The analysis additionally reconstructs a **Tao-style modal cultural-map representation** from the frozen probability records. Within each prompt variant, arbitrary OpenAI label rotations are averaged, each survey item is collapsed to its modal substantive response, the resulting ten-construct profile is projected into the human cultural-map space, and coordinates are averaged across prompt variants. This requires **no new API calls**. Because the present Y003 design uses four collected marginals rather than Tao et al.'s original direct joint selection task, this output is described as *Tao-style* rather than an exact point-response reproduction.
+
+### Supplementary outputs
+
+```text
 results/tables/table_s3_openai_diagnostics.csv
+results/tables/table_s4_openai_censoring_sensitivity.csv
 results/tables/table_s5_full_vs_argmax.csv
 results/tables/table_s6_item_summary.csv
 results/tables/table_s7_country_summary.csv
+results/tables/table_s8_prompt_sensitivity.csv
 results/tables/table_s9_y003.csv
+results/tables/table_s10_entropy_structure.csv
+results/tables/table_s11_entropy_by_item.csv
+results/tables/table_s12_population_specificity_by_item.csv
+results/tables/table_s13_label_sensitivity.csv
+results/tables/table_s14_option_order_sensitivity.csv
+results/tables/table_s15_cultural_map.csv
+results/tables/table_s16_tao_replication.csv
 results/tables/paired_contrasts.json
 
-figures/figure1_probability_semantics.png
-figures/... empirical figures generated after collection/analysis
+figures/figure_s1_sol_vs_jev_fidelity.png
+figures/figure_s2_prompt_sensitivity.png
+figures/figure_s3_label_sensitivity_heatmap.png
+figures/figure_s4_option_order_heatmap.png
+figures/figure_s5_item_error_heatmap.png
+figures/figure_s6_topk_retention.png
+figures/figure_s7_y003_mae.png
+figures/figure_s8_cultural_map_representations.png
+figures/figure_s9_entropy_by_item_heatmap.png
+figures/figure_s10_population_specificity_by_item_heatmap.png
+figures/figure_s11_entropy_scatter_diagnostic.png
 ```
+
+Some SI figures/tables are generated only when their corresponding robustness/input file exists.
 
 ---
 
@@ -801,11 +857,11 @@ because at least one required cultural-map variable lacks valid observations.
 
 ## WVS release sensitivity
 
-The closest replication target is the WVS Trend release reported by the source study.
+The **reported analysis** uses **EVS ZA7503 v3.0.0 + WVS Trend v4.1**. This yields a slightly different 2005–2022 benchmark from the original Tao et al. paper because the WVS release itself has changed.
 
-If a newer release is deliberately substituted, preserve that version in provenance and treat it as a documented update/robustness analysis rather than silently assuming numerical identity.
+Accordingly, the paper describes the human benchmark as a **release-updated replication and extension**, not an exact numerical reproduction of the source-study dataset. If an earlier WVS release is additionally analysed, preserve its version in provenance and report it as a separate historical-replication sensitivity rather than mixing results across releases.
 
-For example, the locally tested combination of **EVS ZA7503 v3.0.0 + WVS Trend v4.1** yields a slightly different 2005–2022 sample from the original paper because the WVS release itself has changed. The merge code is designed to expose this difference in QC/provenance outputs rather than conceal it.
+The merge code exposes release differences in QC/provenance outputs rather than concealing them.
 
 ---
 
@@ -823,7 +879,7 @@ This preserves the original index logic while permitting a full probability dist
 
 ## Y003 — Autonomy Index
 
-Y003 is a multi-select item whose complete response space is too large for the common one-of-\(K\) probability-vector design.
+Y003 is a multi-select item whose complete response space is too large for the common one-of-\\(K\\) probability-vector design.
 
 The primary analysis therefore compares the four constituent marginals required by the index:
 
@@ -868,23 +924,59 @@ Secondary metrics include:
 - normalised 1-Wasserstein distance for ordered scales;
 - absolute expected-score error;
 - normalised entropy error; and
-- effective-number-of-categories error.
+- effective-number-of-categories diagnostics.
 
-Every applicable metric is calculated for:
+Every applicable distributional metric is calculated for:
 
 1. the full machine probability distribution; and
-2. the argmax one-hot distribution derived from exactly the same model probability vector.
+2. the argmax one-hot distribution derived from exactly the same **aggregated** model probability vector.
 
-## Planned contrasts
+This isolates the information lost by collapsing an already-estimated probability distribution to its modal response; it is not a comparison with a second stochastic API draw.
 
-The principal comparisons are:
+## Primary model contrasts
+
+The principal model comparisons are:
 
 - **GPT-5.6 Sol vs Jev** — contemporary probability-system/interface comparison;
 - **GPT-4o vs GPT-5.6 Sol** — model-generation/temporal comparison;
 - **GPT-4o vs Jev** — historical-generation versus decision-native comparison; and
-- **full distribution vs argmax within each model** — incremental fidelity from retaining uncertainty.
+- **full distribution vs argmax within each model** — incremental population-level information from retaining uncertainty.
 
 Pairwise full-distribution contrasts use a crossed bootstrap that independently resamples countries and items with replacement. Paired Wilcoxon tests are reported as secondary robustness statistics.
+
+## Population specificity
+
+For each country `c` and item `j`, the analysis asks whether country conditioning contributes information beyond two baselines.
+
+### Same-model unconditioned baseline
+
+```text
+country-conditioning gain
+= JSD(human[c,j], model[DEFAULT,j])
+- JSD(human[c,j], model[c,j])
+```
+
+A positive value means the country-conditioned distribution is closer to the corresponding human population than the same model's unconditioned distribution.
+
+### Leave-one-country-out human baseline
+
+For each target country, the pipeline also constructs an equal-country mean response distribution using all other countries for the same item. It then compares the model's country-specific JSD with this naive cross-national human benchmark.
+
+Outputs include mean and median gains, percentage of cells improved, crossed-bootstrap confidence intervals, and item-level summaries.
+
+## Heterogeneity structure
+
+Matching average entropy is distinguished from tracking **where disagreement occurs**. In addition to mean entropy error, the pipeline reports:
+
+- overall Pearson and Spearman human-model entropy association;
+- the original entropy-on-entropy OLS slope and clustered confidence interval;
+- item-fixed-effect, country-fixed-effect, and two-way-fixed-effect slopes;
+- within-item association across countries;
+- within-country association across items;
+- two-way-residualized Pearson and Spearman association; and
+- human/model entropy standard deviations and variance-compression ratios.
+
+These diagnostics distinguish a model that merely has the right average amount of uncertainty from one whose uncertainty changes across populations and questions in the same places as observed human heterogeneity.
 
 The default bootstrap configuration is stored in `config/analysis.yaml`.
 
@@ -937,29 +1029,38 @@ For the final archived empirical run, preserve:
 
 # Reproducing analyses without making new API calls
 
-Once the model response JSONL files have been archived, the statistical analysis can be rerun without new model calls.
+Once the processed human benchmark and model-response JSONL files have been archived, the preferred way to rerun the complete analysis is:
 
-If the processed human benchmark and model response files already exist:
+```bash
+python scripts/run_all.py --analysis-only --robustness --autofill
+```
+
+This makes **no OpenAI or Jev API calls**. It:
+
+1. reuses the existing `data/processed/` human/model outputs;
+2. reruns primary analysis, including population specificity and entropy structure;
+3. reanalyses existing robustness JSONL files when `--robustness` is supplied;
+4. regenerates the correctly numbered final tables and figures;
+5. rebuilds API usage/cost summaries; and
+6. optionally autofills the manuscript.
+
+If manuscript autofill is not required:
+
+```bash
+python scripts/run_all.py --analysis-only --robustness
+```
+
+The same stages can also be run manually:
 
 ```bash
 python scripts/04_analyze.py
+python scripts/09_analyze_robustness.py   # if robustness outputs exist
 python scripts/05_make_outputs.py
-python scripts/09_analyze_robustness.py
 python scripts/10_summarize_api_usage.py
-python scripts/06_autofill_manuscript.py
+python scripts/06_autofill_manuscript.py  # optional
 ```
 
-Alternatively, `run_all.py` supports skipping provider collection:
-
-```bash
-python scripts/run_all.py \
-  --skip-openai \
-  --skip-jev \
-  --robustness \
-  --autofill
-```
-
-Use this only when the required archived OpenAI/Jev JSONL outputs are already present.
+`--skip-openai` and `--skip-jev` remain useful for partial workflows, but `--analysis-only` is the clearest option when all provider collection has already been completed.
 
 ---
 
@@ -1057,11 +1158,13 @@ Archive these files with the final study release.
 
 A lower divergence from human survey frequencies does **not** mean that a model “is” a culture or that its internal uncertainty is definitionally population heterogeneity.
 
-Country/territory labels are coarse descriptions of internally heterogeneous populations. Human survey frequencies describe variation between people; OpenAI logprobs describe conditional next-token probabilities; Jev probabilities describe probabilities over declared decision alternatives.
+Country/territory labels are coarse descriptions of internally heterogeneous populations. Human survey frequencies describe variation **between people**; OpenAI logprobs describe conditional **next-token uncertainty within one model**; Jev probabilities describe **decision uncertainty over declared alternatives**.
 
-The purpose of the study is to test whether these different probability objects align empirically — not to assume that they are equivalent.
+The central empirical question is therefore whether uncertainty within one model can serve as a useful statistical proxy for variation across many people. The study tests that **uncertainty-substitution hypothesis** rather than assuming equivalence.
 
-Similarly, differences between GPT-5.6 Sol and Jev should not be interpreted as identifying a single architectural mechanism, because the systems differ in many unobserved aspects of pretraining, post-training, capacity, and serving.
+The additional population-specificity analysis asks whether a country-conditioned model contains information about that country's response distribution beyond an unconditioned model distribution and a naive leave-one-country-out human baseline. The heterogeneity-structure analysis separately asks whether model uncertainty changes across countries and questions in the same places that human disagreement changes.
+
+Similarly, differences between GPT-5.6 Sol and Jev should not be interpreted as identifying a single architectural mechanism, because the systems differ in many unobserved aspects of pretraining, post-training, capacity, objectives, and serving.
 
 ---
 
@@ -1077,7 +1180,7 @@ CITATION.cff
 
 The associated manuscript is currently:
 
-> *Do AI probability distributions represent human population variation? Token uncertainty, decision uncertainty, and cross-cultural survey responses.*
+\> *Can AI uncertainty recover human population variation? Token uncertainty, decision uncertainty, and cross-cultural survey responses.*
 
 Before the final archival release, update `CITATION.cff` with the final author list, repository/archive DOI, journal citation, and article DOI where applicable.
 
@@ -1114,6 +1217,7 @@ Before creating the final GitHub/Zenodo/OSF release:
 - [ ] verify OpenAI permitted-label completeness diagnostics;
 - [ ] verify Jev response/model metadata;
 - [ ] generate `api_request_usage.csv`, `api_usage_summary.csv`, and `api_usage_totals.json`;
+- [ ] rerun and verify the population-specificity and entropy-structure analyses;
 - [ ] regenerate all tables and figures from the archived inputs;
 - [ ] run manuscript autofill and manually cross-check manuscript numbers;
 - [ ] ensure `.env` and licensed microdata are absent from Git history;
@@ -1130,3 +1234,17 @@ docs/DATA_README.md
 docs/IVS_MERGER.md
 docs/MODEL_CONDITIONS.md
 ```
+## Publication revision of 29 September 2026
+
+The audited publication figures and revised Word documents are described in
+[the publication review](docs/PUBLICATION_REVIEW.md). The canonical set contains
+four main and eleven supplementary figures, with PNG, PDF and SVG exports.
+Superseded images are preserved in `figures/archive/`.
+
+The revised manuscript and complete supplementary information are generated by
+`scripts/12_build_publication_documents.py` in `manuscript/publication/` after
+analysis, robustness, figure/table generation, and `scripts/11_audit_publication.py`.
+This revision corrects sensitivity denominators and order-reference selection,
+adds complete formatted supplementary tables, and aligns the narrative with
+population-specificity and fixed-effect entropy results. The earlier placeholder
+`--autofill` workflow does not generate these revised documents.

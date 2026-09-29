@@ -1,0 +1,27 @@
+{
+  "main_figures": 4,
+  "supplementary_figures": 11,
+  "formats": [
+    "png",
+    "pdf",
+    "svg"
+  ],
+  "png_dpi": 600,
+  "figures": [
+    "figure1_tao_replication",
+    "figure2_probability_value",
+    "figure3_population_specificity",
+    "figure4_heterogeneity_structure",
+    "figure_s10_population_specificity_by_item_heatmap",
+    "figure_s11_entropy_scatter_diagnostic",
+    "figure_s1_sol_vs_jev_fidelity",
+    "figure_s2_prompt_sensitivity",
+    "figure_s3_label_sensitivity_heatmap",
+    "figure_s4_option_order_heatmap",
+    "figure_s5_item_error_heatmap",
+    "figure_s6_topk_retention",
+    "figure_s7_y003_mae",
+    "figure_s8_cultural_map_representations",
+    "figure_s9_entropy_by_item_heatmap"
+  ]
+}

@@ -1,24 +1,27 @@
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-import argparse,json,pandas as pd,numpy as np
-from src.config import questions
-from src.analyze import aggregate_y002, openai_record_included
-from src.metrics import js_divergence
+import argparse
+import json
+from src.robustness import option_order_metrics
 
-def vec(probs,item):
-    if item=='Y002': probs=aggregate_y002(probs)
-    levels=[str(x) for x in questions()[item]['human_codes']]
-    x=np.array([float(probs.get(k,0)) for k in levels]); return x/x.sum()
 
-p=argparse.ArgumentParser(); p.add_argument('--order',default='data/processed/option_order_robustness.jsonl'); p.add_argument('--out',default='results/option_order_metrics.csv'); a=p.parse_args()
-if Path(a.order).exists():
-    rows=[json.loads(x) for x in Path(a.order).read_text().splitlines() if x.strip()]
-    rows=[r for r in rows if r.get('provider')!='openai' or openai_record_included(r,'primary')]
-    frame=pd.DataFrame([{'provider':r['provider'],'condition':r.get('condition',r['provider']),'condition_label':r.get('condition_label',r.get('condition',r['provider'])),'country':r['country'],'item':r['item'],'rep':r['rep'],'raw':r} for r in rows])
-    out=[]
-    for (provider,condition,label,country,item),gdf in frame.groupby(['provider','condition','condition_label','country','item']):
-        gs=list(gdf.sort_values('rep').raw); ref=vec(gs[0]['probabilities'],item)
-        for r in gs[1:]: out.append({'provider':provider,'condition':condition,'condition_label':label,'country':country,'item':item,'rep':r['rep'],'js_from_first_order':js_divergence(ref,vec(r['probabilities'],item))})
-    pd.DataFrame(out).to_csv(a.out,index=False); print('Wrote',a.out)
-else: print('No order robustness file found; skipped')
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument('--order', default='data/processed/option_order_robustness.jsonl')
+    p.add_argument('--out', default='results/option_order_metrics.csv')
+    a = p.parse_args()
+    if not Path(a.order).exists():
+        print('No option-order records found; skipped')
+        return
+    records = [json.loads(x) for x in Path(a.order).read_text().splitlines() if x.strip()]
+    metrics, coverage = option_order_metrics(records)
+    out = Path(a.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    metrics.to_csv(out, index=False)
+    coverage.to_csv(out.with_name('option_order_coverage.csv'), index=False)
+    print('Wrote', out, 'and option-order coverage audit')
+
+
+if __name__ == '__main__':
+    main()

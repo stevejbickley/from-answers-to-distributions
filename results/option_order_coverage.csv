@@ -1,0 +1,325 @@
+provider,condition,condition_label,country,item,requests,retained_requests,reference_retained,valid_comparisons
+jev,jev,Jev,Argentina,A008,4,4,True,3
+jev,jev,Jev,Argentina,A165,4,4,True,3
+jev,jev,Jev,Argentina,E018,4,4,True,3
+jev,jev,Jev,Argentina,E025,4,4,True,3
+jev,jev,Jev,Argentina,F063,4,4,True,3
+jev,jev,Jev,Argentina,F118,4,4,True,3
+jev,jev,Jev,Argentina,F120,4,4,True,3
+jev,jev,Jev,Argentina,G006,4,4,True,3
+jev,jev,Jev,Argentina,Y002,4,4,True,3
+jev,jev,Jev,Armenia,A008,4,4,True,3
+jev,jev,Jev,Armenia,A165,4,4,True,3
+jev,jev,Jev,Armenia,E018,4,4,True,3
+jev,jev,Jev,Armenia,E025,4,4,True,3
+jev,jev,Jev,Armenia,F063,4,4,True,3
+jev,jev,Jev,Armenia,F118,4,4,True,3
+jev,jev,Jev,Armenia,F120,4,4,True,3
+jev,jev,Jev,Armenia,G006,4,4,True,3
+jev,jev,Jev,Armenia,Y002,4,4,True,3
+jev,jev,Jev,Ethiopia,A008,4,4,True,3
+jev,jev,Jev,Ethiopia,A165,4,4,True,3
+jev,jev,Jev,Ethiopia,E018,4,4,True,3
+jev,jev,Jev,Ethiopia,E025,4,4,True,3
+jev,jev,Jev,Ethiopia,F063,4,4,True,3
+jev,jev,Jev,Ethiopia,F118,4,4,True,3
+jev,jev,Jev,Ethiopia,F120,4,4,True,3
+jev,jev,Jev,Ethiopia,G006,4,4,True,3
+jev,jev,Jev,Ethiopia,Y002,4,4,True,3
+jev,jev,Jev,Ghana,A008,4,4,True,3
+jev,jev,Jev,Ghana,A165,4,4,True,3
+jev,jev,Jev,Ghana,E018,4,4,True,3
+jev,jev,Jev,Ghana,E025,4,4,True,3
+jev,jev,Jev,Ghana,F063,4,4,True,3
+jev,jev,Jev,Ghana,F118,4,4,True,3
+jev,jev,Jev,Ghana,F120,4,4,True,3
+jev,jev,Jev,Ghana,G006,4,4,True,3
+jev,jev,Jev,Ghana,Y002,4,4,True,3
+jev,jev,Jev,Iceland,A008,4,4,True,3
+jev,jev,Jev,Iceland,A165,4,4,True,3
+jev,jev,Jev,Iceland,E018,4,4,True,3
+jev,jev,Jev,Iceland,E025,4,4,True,3
+jev,jev,Jev,Iceland,F063,4,4,True,3
+jev,jev,Jev,Iceland,F118,4,4,True,3
+jev,jev,Jev,Iceland,F120,4,4,True,3
+jev,jev,Jev,Iceland,G006,4,4,True,3
+jev,jev,Jev,Iceland,Y002,4,4,True,3
+jev,jev,Jev,Japan,A008,4,4,True,3
+jev,jev,Jev,Japan,A165,4,4,True,3
+jev,jev,Jev,Japan,E018,4,4,True,3
+jev,jev,Jev,Japan,E025,4,4,True,3
+jev,jev,Jev,Japan,F063,4,4,True,3
+jev,jev,Jev,Japan,F118,4,4,True,3
+jev,jev,Jev,Japan,F120,4,4,True,3
+jev,jev,Jev,Japan,G006,4,4,True,3
+jev,jev,Jev,Japan,Y002,4,4,True,3
+jev,jev,Jev,Kenya,A008,4,4,True,3
+jev,jev,Jev,Kenya,A165,4,4,True,3
+jev,jev,Jev,Kenya,E018,4,4,True,3
+jev,jev,Jev,Kenya,E025,4,4,True,3
+jev,jev,Jev,Kenya,F063,4,4,True,3
+jev,jev,Jev,Kenya,F118,4,4,True,3
+jev,jev,Jev,Kenya,F120,4,4,True,3
+jev,jev,Jev,Kenya,G006,4,4,True,3
+jev,jev,Jev,Kenya,Y002,4,4,True,3
+jev,jev,Jev,Lithuania,A008,4,4,True,3
+jev,jev,Jev,Lithuania,A165,4,4,True,3
+jev,jev,Jev,Lithuania,E018,4,4,True,3
+jev,jev,Jev,Lithuania,E025,4,4,True,3
+jev,jev,Jev,Lithuania,F063,4,4,True,3
+jev,jev,Jev,Lithuania,F118,4,4,True,3
+jev,jev,Jev,Lithuania,F120,4,4,True,3
+jev,jev,Jev,Lithuania,G006,4,4,True,3
+jev,jev,Jev,Lithuania,Y002,4,4,True,3
+jev,jev,Jev,Montenegro,A008,4,4,True,3
+jev,jev,Jev,Montenegro,A165,4,4,True,3
+jev,jev,Jev,Montenegro,E018,4,4,True,3
+jev,jev,Jev,Montenegro,E025,4,4,True,3
+jev,jev,Jev,Montenegro,F063,4,4,True,3
+jev,jev,Jev,Montenegro,F118,4,4,True,3
+jev,jev,Jev,Montenegro,F120,4,4,True,3
+jev,jev,Jev,Montenegro,G006,4,4,True,3
+jev,jev,Jev,Montenegro,Y002,4,4,True,3
+jev,jev,Jev,Russia,A008,4,4,True,3
+jev,jev,Jev,Russia,A165,4,4,True,3
+jev,jev,Jev,Russia,E018,4,4,True,3
+jev,jev,Jev,Russia,E025,4,4,True,3
+jev,jev,Jev,Russia,F063,4,4,True,3
+jev,jev,Jev,Russia,F118,4,4,True,3
+jev,jev,Jev,Russia,F120,4,4,True,3
+jev,jev,Jev,Russia,G006,4,4,True,3
+jev,jev,Jev,Russia,Y002,4,4,True,3
+jev,jev,Jev,United States,A008,4,4,True,3
+jev,jev,Jev,United States,A165,4,4,True,3
+jev,jev,Jev,United States,E018,4,4,True,3
+jev,jev,Jev,United States,E025,4,4,True,3
+jev,jev,Jev,United States,F063,4,4,True,3
+jev,jev,Jev,United States,F118,4,4,True,3
+jev,jev,Jev,United States,F120,4,4,True,3
+jev,jev,Jev,United States,G006,4,4,True,3
+jev,jev,Jev,United States,Y002,4,4,True,3
+jev,jev,Jev,Venezuela,A008,4,4,True,3
+jev,jev,Jev,Venezuela,A165,4,4,True,3
+jev,jev,Jev,Venezuela,E018,4,4,True,3
+jev,jev,Jev,Venezuela,E025,4,4,True,3
+jev,jev,Jev,Venezuela,F063,4,4,True,3
+jev,jev,Jev,Venezuela,F118,4,4,True,3
+jev,jev,Jev,Venezuela,F120,4,4,True,3
+jev,jev,Jev,Venezuela,G006,4,4,True,3
+jev,jev,Jev,Venezuela,Y002,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A008,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,A165,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E018,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,E025,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F063,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F118,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,F120,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,G006,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Argentina,Y002,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A008,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,A165,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E018,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,E025,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F063,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F118,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,F120,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,G006,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Armenia,Y002,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A008,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,A165,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E018,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,E025,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F063,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F118,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,F120,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,G006,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ethiopia,Y002,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A008,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,A165,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E018,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,E025,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F063,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F118,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,F120,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,G006,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Ghana,Y002,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A008,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,A165,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E018,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,E025,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F063,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F118,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,F120,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,G006,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Iceland,Y002,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A008,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,A165,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E018,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,E025,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F063,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F118,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,F120,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,G006,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Japan,Y002,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A008,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,A165,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E018,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,E025,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F063,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F118,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,F120,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,G006,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Kenya,Y002,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A008,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,A165,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E018,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,E025,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F063,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F118,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,F120,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,G006,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Lithuania,Y002,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A008,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,A165,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E018,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,E025,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F063,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F118,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,F120,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,G006,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Montenegro,Y002,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A008,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,A165,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E018,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,E025,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F063,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F118,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,F120,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,G006,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Russia,Y002,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A008,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,A165,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E018,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,E025,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F063,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F118,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,F120,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,G006,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,United States,Y002,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A008,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,A165,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E018,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,E025,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F063,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F118,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,F120,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,G006,4,4,True,3
+openai,gpt4o_anchor,GPT-4o historical-generation anchor,Venezuela,Y002,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,A008,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,A165,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,E018,4,2,True,1
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,E025,4,3,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,F063,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,F118,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,F120,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,G006,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Argentina,Y002,4,2,True,1
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,A008,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,A165,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,E018,4,1,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,E025,4,1,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,F063,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,F118,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,F120,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,G006,4,2,True,1
+openai,gpt56_sol,GPT-5.6 Sol,Armenia,Y002,4,3,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,A008,4,2,True,1
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,A165,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,E018,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,E025,4,3,True,2
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F063,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F118,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,F120,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,G006,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Ethiopia,Y002,4,3,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,A008,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,A165,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,E018,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,E025,4,1,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,F063,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,F118,4,3,True,2
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,F120,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,G006,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Ghana,Y002,4,3,True,2
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,A008,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,A165,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,E018,4,2,True,1
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,E025,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,F063,4,2,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,F118,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,F120,4,1,True,0
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,G006,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Iceland,Y002,4,2,True,1
+openai,gpt56_sol,GPT-5.6 Sol,Japan,A008,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Japan,A165,4,2,True,1
+openai,gpt56_sol,GPT-5.6 Sol,Japan,E018,4,1,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Japan,E025,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Japan,F063,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Japan,F118,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Japan,F120,4,1,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Japan,G006,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Japan,Y002,4,3,True,2
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,A008,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,A165,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,E018,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,E025,4,2,True,1
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,F063,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,F118,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,F120,4,2,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,G006,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Kenya,Y002,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,A008,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,A165,4,3,True,2
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,E018,4,3,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,E025,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,F063,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,F118,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,F120,4,1,True,0
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,G006,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Lithuania,Y002,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A008,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,A165,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,E018,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,E025,4,3,True,2
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,F063,4,1,True,0
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,F118,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,F120,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,G006,4,3,True,2
+openai,gpt56_sol,GPT-5.6 Sol,Montenegro,Y002,4,2,True,1
+openai,gpt56_sol,GPT-5.6 Sol,Russia,A008,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Russia,A165,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Russia,E018,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Russia,E025,4,3,True,2
+openai,gpt56_sol,GPT-5.6 Sol,Russia,F063,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Russia,F118,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Russia,F120,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Russia,G006,4,2,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Russia,Y002,4,2,True,1
+openai,gpt56_sol,GPT-5.6 Sol,United States,A008,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,United States,A165,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,United States,E018,4,1,False,0
+openai,gpt56_sol,GPT-5.6 Sol,United States,E025,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,United States,F063,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,United States,F118,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,United States,F120,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,United States,G006,4,2,True,1
+openai,gpt56_sol,GPT-5.6 Sol,United States,Y002,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,A008,4,3,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,A165,4,4,True,3
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,E018,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,E025,4,2,True,1
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,F063,4,3,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,F118,4,0,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,F120,4,1,True,0
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,G006,4,2,False,0
+openai,gpt56_sol,GPT-5.6 Sol,Venezuela,Y002,4,3,False,0
