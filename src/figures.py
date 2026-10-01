@@ -131,7 +131,9 @@ def _map_figure(results, figdir, conds):
         ax.scatter(r.survival_self_expression,r.traditional_secular,s=46,marker=['s','D','^','P'][j%4],c='#C7272D',edgecolor='white',linewidth=.5,zorder=4)
         pts.append((r.survival_self_expression,r.traditional_secular)); labels.append(LABELS.get(c,c))
         colors.append('#BA1821'); sizes.append(7.3); weights.append('bold')
-    fig.legend(handles=handles,loc='upper center',bbox_to_anchor=(.54,.982),ncols=4,frameon=False,fontsize=7.1,columnspacing=1.25,handletextpad=.35)
+    ax.legend(handles=handles,loc='lower center',bbox_to_anchor=(.5,1),ncols=4,frameon=False,fontsize=7.1,columnspacing=1.25,handletextpad=.35)
+    # Reserve two legend rows beneath the title without moving the map axes.
+    ax.set_title(ax.get_title(loc='left'),loc='left',pad=44,fontweight='bold')
     audit=place_map_labels(ax,pts,labels,colors,font_sizes=sizes,weights=weights)
     (results/'figure1_label_audit.json').write_text(json.dumps(audit,indent=2))
     p=prompting[prompting.representation=='expected']; shown=[c for c in conds if c in set(p.condition)]
@@ -150,9 +152,10 @@ def _map_figure(results, figdir, conds):
                   [f'{LABELS.get(c,c)}\n(n={len(p[p.condition==c])})' for c in shown])
     axb.set_ylabel('Distance from target human country')
     panel(axb,'b','Effect of cultural prompting on expected-score positions')
-    fig.legend(handles=[Patch(facecolor=WITHOUT,edgecolor='#333333',label='Without cultural prompting'),
+    axb.legend(handles=[Patch(facecolor=WITHOUT,edgecolor='#333333',label='Without cultural prompting'),
                         Patch(facecolor=WITH,edgecolor='#333333',label='With cultural prompting')],
-               loc='center',bbox_to_anchor=(.54,.377),ncol=2,frameon=False,fontsize=7.8)
+               loc='lower center',bbox_to_anchor=(.5,1),ncol=2,frameon=False,fontsize=7.8)
+    axb.set_title(axb.get_title(loc='left'),loc='left',pad=34,fontweight='bold')
     clean(axb,'y')
     save_figure(fig,figdir,'figure1_tao_replication')
 
