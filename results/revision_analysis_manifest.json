@@ -1,0 +1,50 @@
+{
+  "configuration": {
+    "human_target": {
+      "primary": "pooled_equal_year",
+      "sensitivities": [
+        "latest_available",
+        "wave7"
+      ]
+    },
+    "human_sampling": {
+      "bootstrap_reps": 1000,
+      "seed": 20260930,
+      "effective_n_thresholds": [
+        200,
+        500,
+        1000
+      ],
+      "batch_size": 100,
+      "method": "uniform_respondent_resampling_with_fixed_S017_weights"
+    },
+    "cultural_direction": {
+      "min_human_shift_norm": 1e-08,
+      "min_model_shift_norm": 1e-12,
+      "bootstrap_reps": 5000,
+      "seed": 20260930
+    },
+    "entropy_robustness": {
+      "leave_one_item_out": true
+    }
+  },
+  "frozen_model_probabilities_sha256": "a5f27c6430a1b6a6148a11f17dbf40bc6a058b0e499d468fbd06f6e51c879306",
+  "human_primary_sha256": "e06b0b5418ca9a1c9c9a7ebe5a413f41127c7545f2ad6e37fcdb7e4a06627615",
+  "provider_calls": 0,
+  "completed": true,
+  "external_human_data_available": true,
+  "weight_handling": {
+    "missing_or_nonnumeric_imputed_to_one": 0,
+    "nonpositive_excluded": 296
+  },
+  "external_inputs": [
+    {
+      "filename": "Integrated_values_surveys_1981-2022.csv.gz",
+      "sha256": "22736e285580fc1fb059f6047e6699133494a1fe400ebf8b0326ea213fe1add7"
+    }
+  ],
+  "prepared_records": 392832,
+  "temporal_targets": "completed",
+  "sample_diagnostics": "completed",
+  "human_sampling": "completed"
+}

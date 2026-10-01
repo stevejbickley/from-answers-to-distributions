@@ -1,6 +1,7 @@
 """Reproducible publication figures from the archived analysis outputs.
 
-There are four main figures and eleven supplementary figures. Every canonical
+There are three main figures and sixteen supplementary figures when all
+licensed-human-data sensitivity analyses are available. Every canonical
 figure is exported as 600 dpi PNG, editable SVG, and font-embedded vector PDF.
 """
 from __future__ import annotations
@@ -22,6 +23,7 @@ TAO_GPT4O={'unconditioned':2.42,'conditioned':1.57,'pct_improved':71.0}
 
 # Superseded renderings are preserved outside the canonical publication set.
 LEGACY = [
+ 'figure2_probability_value','figure3_population_specificity','figure4_heterogeneity_structure',
  'figure1_probability_semantics','figure1_distributional_fidelity',
  'figure2_distributional_fidelity','figure2_entropy_recovery',
  'figure3_entropy_recovery','figure4_cultural_map','figure_s3_distribution_value_added',
@@ -70,7 +72,7 @@ def _heatmap(ax, frame, value, title, cbar_label, *, center_zero=False, limits=N
         vmin,vmax=limits or (0,max(float(np.nanmax(mat)),.001)); cmap=plt.get_cmap('viridis').copy()
     cmap.set_bad('#EDEDED')
     im=ax.imshow(np.ma.masked_invalid(mat),aspect='auto',cmap=cmap,vmin=vmin,vmax=vmax)
-    ax.set_xticks(range(len(cols)),[LABELS.get(c,c) for c in cols])
+    ax.set_xticks(range(len(cols)),[LABELS.get(c,c).replace('GPT-5.6 ','GPT-5.6\n') for c in cols])
     ax.set_yticks(range(len(rows)),[f'{i}  {ITEMS.get(i,i)}' for i in rows])
     ax.tick_params(length=0,pad=6)
     ax.set_title(title,loc='left',fontweight='bold',pad=14)
@@ -156,11 +158,25 @@ def _map_figure(results, figdir, conds):
 
 
 def empirical(results='results',figdir='figures'):
-    results=Path(results); figdir=ensure_dir(figdir); _archive_old(figdir)
+    results=Path(results); figdir=ensure_dir(figdir)
+    from .revision_outputs import completed_manifest
+    manifest=completed_manifest(results)
+    _archive_old(figdir)
+    # Preserve earlier sensitivity exports outside the canonical set when skipped.
+    from hashlib import sha256
+    for status,stem in [('temporal_targets','figure_s13_temporal_targets'),('human_sampling','figure_s16_human_sampling_sensitivity')]:
+        if manifest.get(status)!='completed':
+            for ext in ['png','pdf','svg']:
+                path=figdir/f'{stem}.{ext}'
+                if path.exists():
+                    dest=ensure_dir(figdir/'archive')/f'{stem}_{sha256(path.read_bytes()).hexdigest()[:10]}.{ext}'
+                    shutil.move(str(path),str(dest))
     with plt.rc_context(STYLE):
         _empirical(results,figdir)
+        from .revision_outputs import revision_figures
+        revision_figures(results,figdir,_heatmap)
     stems=sorted(p.stem for p in figdir.glob('*.png'))
-    (figdir/'manifest.json').write_text(json.dumps({'main_figures':4,'supplementary_figures':11,'formats':['png','pdf','svg'],'png_dpi':600,'figures':stems},indent=2))
+    (figdir/'manifest.json').write_text(json.dumps({'main_figures':3,'supplementary_figures':len([s for s in stems if s.startswith('figure_s')]),'formats':['png','pdf','svg'],'png_dpi':600,'figures':stems},indent=2))
 
 
 def _empirical(results,figdir):
@@ -183,34 +199,7 @@ def _empirical(results,figdir):
         note.text(0,-.7,'JSD reduction   Cells improved',fontsize=8.2,weight='bold')
         for i,r in rep.iterrows():
             note.text(0,i,f'{r.mean_argmax_minus_full:.3f}              {r.pct_full_better:.1f}%\n{int(r.n):,} paired cells',va='center',fontsize=8.5,linespacing=1.65)
-        save_figure(fig,figdir,'figure2_probability_value')
-
-    t=_read(results,'tables/table3_population_specificity.csv')
-    ps=_read(results,'population_specificity_metrics.csv')
-    if not t.empty:
-        t=t.set_index('condition').reindex(conds).dropna(subset=['gain_vs_default_mean']).reset_index()
-        fig,axs=plt.subplots(2,1,figsize=(7.5,5.75),layout='constrained')
-        a,b=axs; yy=np.arange(len(t))
-        low=min(t.gain_vs_default_ci95_low.min(),0)-.025
-        high=t.gain_vs_default_ci95_high.max()+.13
-        for i,r in t.iterrows():
-            a.errorbar(r.gain_vs_default_mean,i,xerr=[[r.gain_vs_default_mean-r.gain_vs_default_ci95_low],[r.gain_vs_default_ci95_high-r.gain_vs_default_mean]],fmt='o',color=COLORS[r.condition],capsize=3)
-            a.text(high-.005,i,f'{r.pct_country_conditioning_improves:.1f}% improve',ha='right',va='center',fontsize=8)
-        a.axvline(0,color='#666666',ls='--',lw=.8);a.set_xlim(low,high)
-        a.set_yticks(yy,[LABELS[c] for c in t.condition]);a.set_ylim(len(t)-.5,-.5)
-        a.set_xlabel('Mean JSD gain from country prompting (positive = improvement)')
-        panel(a,'a','Distributional gain relative to the same unconditioned model'); clean(a)
-        for i,r in t.iterrows():
-            b.plot([r.loco_human_js_mean,r.country_model_js_mean],[i,i],c='#BBBBBB',lw=1.5)
-            b.scatter(r.loco_human_js_mean,i,c='#555555',marker='s',s=35,zorder=3)
-            b.scatter(r.country_model_js_mean,i,c=COLORS[r.condition],s=40,zorder=3)
-            b.text(.435,i,f'{r.pct_model_beats_loco_human:.1f}% beat LOCO\n(n={int(r.n_country_item)})',ha='right',va='center',fontsize=8,linespacing=1.5)
-        b.set_yticks(yy,[LABELS[c] for c in t.condition]);b.set_ylim(len(t)-.5,-.5);b.set_xlim(0,.445)
-        b.set_xlabel('Mean Jensen–Shannon divergence (lower is better)');clean(b)
-        panel(b,'b','Comparison with a leave-one-country-out human baseline')
-        b.legend(handles=[Line2D([],[],color='#555555',marker='s',ls='',label='LOCO human'),Line2D([],[],color='#555555',marker='o',ls='',label='Country-conditioned model')],loc='lower center',bbox_to_anchor=(.5,1),ncol=2,frameon=False,fontsize=7.5)
-        b.set_title(b.get_title(loc='left'),loc='left',pad=34,fontweight='bold')
-        save_figure(fig,figdir,'figure3_population_specificity')
+        save_figure(fig,figdir,'figure_s15_probability_value')
 
     e=_read(results,'entropy_structure_summary.csv')
     if not e.empty:
@@ -238,7 +227,7 @@ def _empirical(results,figdir):
         panel(b,'b','Association with the pattern of human disagreement')
         b.legend(loc='lower center',bbox_to_anchor=(.5,1.01),ncol=len(e),frameon=False,fontsize=7.5)
         b.set_title(b.get_title(loc='left'),loc='left',pad=34,fontweight='bold')
-        save_figure(fig,figdir,'figure4_heterogeneity_structure')
+        save_figure(fig,figdir,'figure3_heterogeneity_structure')
 
     # S1: paired comparison, with equal scales and an explicit sample size.
     piv=full.pivot(index=['country','item'],columns='condition',values='js')

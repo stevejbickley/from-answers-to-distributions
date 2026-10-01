@@ -295,3 +295,109 @@ def save_processed(df, metas, outdir, universe=None):
     ycy.to_csv(outdir / 'human_y003_country_year_marginals.csv', index=False)
     yco.to_csv(outdir / 'human_y003_country_marginals.csv', index=False)
     return cy, country, ycy, yco
+
+
+def select_human_target(df, mode='pooled_equal_year', universe=None):
+    """Select a temporal target from already-cleaned, harmonised microdata.
+
+    Latest selects the latest observed calendar year for the country, not the
+    latest nonmissing year separately for each item. Wave 7 retains equal-year
+    aggregation within that wave. Neither changes the frozen model prompts.
+    """
+    cfg = analysis()
+    universe = build_country_universe(df) if universe is None else universe
+    work = _analysis_subset(df, universe)
+    if mode == 'latest_available':
+        latest = work.groupby('COUNTRY_ID')[cfg['year_variable']].transform('max')
+        work = work.loc[work[cfg['year_variable']].eq(latest)].copy()
+    elif mode == 'wave7':
+        work = work.loc[work[cfg['wave_variable']].eq(7)].copy()
+    elif mode != 'pooled_equal_year':
+        raise ValueError(f'Unknown human target: {mode}')
+    return work
+
+
+def human_target_diagnostics(df, mode='pooled_equal_year', universe=None):
+    """Return equal-year probabilities plus country-year/item sample diagnostics.
+
+    aggregate_n_eff = T^2 / sum_t(1 / kish_n_eff_t), for equal-year averaging.
+    This is a weight-dispersion diagnostic, not a complex-survey design effect.
+    """
+    cfg, qs = analysis(), questions()
+    work = select_human_target(df, mode, universe)
+    rows, probabilities = [], []
+    for (cid, country, year), g in work.groupby(['COUNTRY_ID', 'COUNTRY_NAME', cfg['year_variable']]):
+        for item in cfg['primary_items']:
+            valid = g[item].isin(qs[item]['human_codes']) & g[cfg['weight_variable']].gt(0)
+            x = g.loc[valid, item].to_numpy(float)
+            w = g.loc[valid, cfg['weight_variable']].to_numpy(float)
+            if not len(w):
+                continue
+            sw, sw2 = float(w.sum()), float(w @ w)
+            base = {'target':mode, 'country_id':int(cid), 'country':country, 'year':int(year), 'item':item}
+            rows.append({**base, 'raw_n':len(w), 'sum_weight':sw, 'sum_weight_sq':sw2,
+                         'kish_n_eff':sw * sw / sw2})
+            for level in qs[item]['human_codes']:
+                probabilities.append({**base, 'response':str(level), 'p':float(w[x == level].sum() / sw)})
+    if not rows:
+        raise ValueError(f'No usable observations for human target {mode}')
+    cy = pd.DataFrame(rows)
+    aggregate = []
+    for (cid, country, item), g in cy.groupby(['country_id', 'country', 'item']):
+        aggregate.append({'target':mode, 'country_id':cid, 'country':country, 'item':item,
+                          'raw_n':int(g.raw_n.sum()), 'sum_weight':g.sum_weight.sum(),
+                          'sum_weight_sq':g.sum_weight_sq.sum(), 'n_years':len(g),
+                          'year_min':int(g.year.min()), 'year_max':int(g.year.max()),
+                          'kish_n_eff_pooled_weights':g.sum_weight.sum() ** 2 / g.sum_weight_sq.sum(),
+                          'aggregate_n_eff':len(g) ** 2 / (1 / g.kish_n_eff).sum()})
+    probs = (pd.DataFrame(probabilities)
+             .groupby(['target', 'country_id', 'country', 'item', 'response'], as_index=False).p.mean())
+    return probs, cy, pd.DataFrame(aggregate)
+
+
+def bootstrap_human_probabilities(df, *, universe=None, reps=1000, seed=20260930,
+                                  batch_size=100, progress=None):
+    """Uniform respondent bootstrap within country-year, retaining survey weights.
+
+    A single respondent multiplicity applies jointly to every item, preserving
+    cross-item sampling dependence. No raw records are written. The returned
+    tensor contains aggregate probabilities only: replicate x country x item x
+    category, padded with zeros beyond each item's substantive support.
+    """
+    cfg, qs = analysis(), questions()
+    work = select_human_target(df, 'pooled_equal_year', universe)
+    countries = sorted(work.COUNTRY_NAME.unique())
+    items = list(cfg['primary_items'])
+    nc, ni, nk = len(countries), len(items), max(len(qs[j]['human_codes']) for j in items)
+    index = {c:i for i,c in enumerate(countries)}
+    result = np.zeros((reps, nc, ni, nk), dtype=float)
+    years = np.zeros((nc, ni), dtype=int)
+    rng = np.random.default_rng(seed)
+    groups = list(work.groupby(['COUNTRY_NAME', cfg['year_variable']], sort=True))
+    for gi, ((country, year), g) in enumerate(groups):
+        weights = g[cfg['weight_variable']].to_numpy(float)
+        weights = np.where(np.isfinite(weights) & (weights > 0), weights, 0.)
+        n = len(g)
+        # Indicator-weight matrix allows shared respondent draws across items.
+        design = np.zeros((n, ni * nk), dtype=float)
+        available = []
+        for j, item in enumerate(items):
+            vals = g[item].to_numpy(float)
+            for k, code in enumerate(qs[item]['human_codes']):
+                design[:, j * nk + k] = weights * (vals == code)
+            if design[:, j * nk:(j + 1) * nk].sum() > 0:
+                available.append(j)
+                years[index[country], j] += 1
+        for start in range(0, reps, batch_size):
+            stop = min(start + batch_size, reps)
+            multiplicities = rng.multinomial(n, np.full(n, 1 / n), size=stop - start)
+            counts = (multiplicities @ design).reshape(stop - start, ni, nk)
+            den = counts.sum(axis=-1, keepdims=True)
+            estimates = np.divide(counts, den, out=np.full_like(counts, np.nan), where=den > 0)
+            for j in available:
+                result[start:stop, index[country], j] += estimates[:, j]
+        if progress and ((gi + 1) % 25 == 0 or gi + 1 == len(groups)):
+            progress(f'Respondent bootstrap: {gi + 1}/{len(groups)} country-years')
+    result = np.divide(result, years[None, :, :, None], out=np.full_like(result, np.nan),
+                       where=years[None, :, :, None] > 0)
+    return result, countries, items

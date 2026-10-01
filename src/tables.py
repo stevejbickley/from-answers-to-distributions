@@ -212,4 +212,6 @@ def make_tables(results='results'):
                          'pct_countries_improved':r.pct_countries_improved})
         pd.DataFrame(rows).to_csv(out/'table_s16_tao_replication.csv',index=False)
 
+    from .revision_outputs import make_revision_tables
+    make_revision_tables(results)
     return summary,item,boot

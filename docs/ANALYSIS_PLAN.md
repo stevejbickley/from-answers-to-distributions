@@ -1,4 +1,4 @@
-# Preregistered analysis plan
+# Analysis plan and revision amendments
 
 ## Core design
 
@@ -18,7 +18,7 @@ Numerical similarity is empirical; semantic equivalence is not assumed.
 
 Use all countries/territories retained by the source cultural-map replication with valid human distributions. Primary full-distribution items are A008, A165, E018, E025, F063, F118, F120, G006, and Y002. Y003 is evaluated through the four constituent marginals needed for its expected autonomy index.
 
-Within each country-year and item, estimate survey-weighted response proportions using `S017`, then average country-year vectors equally within country. For each model condition, average the ten respondent-descriptor variants at the probability-vector level after label-rotation replications.
+Within each country-year and item, estimate survey-weighted response proportions using `S017`, then average country-year vectors equally within country. For each model condition, average retained request probability vectors after substantive remapping. Under selective censoring, this need not weight descriptors equally.
 
 ## Primary metrics
 
@@ -38,14 +38,14 @@ The principal full-distribution contrast is `error_GPT5.6Sol - error_Jev`; posit
 Additional planned contrasts:
 
 - `error_GPT4o - error_GPT5.6Sol` — temporal/model-generation change;
-- `error_GPT4o - error_Jev` — historical-generation versus decision-native comparison;
+- `error_GPT4o - error_Jev` — historical-generation versus declared-alternative interface comparison;
 - `error_argmax - error_full` within each condition — incremental fidelity from retaining uncertainty.
 
 Pairwise model contrasts use a crossed bootstrap that independently resamples countries and items with replacement. Paired Wilcoxon tests are secondary robustness statistics.
 
 ## Prompt, label, and order robustness
 
-For each country × item × model condition, compare each of the ten wording variants with that condition's across-variant mean distribution using JSD. OpenAI label assignments rotate systematically across variants. A supplementary option-order experiment randomly permutes alternatives for a stratified country subset and is run for GPT-4o, GPT-5.6 Sol, Jev, and optional Terra when requested.
+For each country × item × model condition, compare each of the ten wording variants with that condition's across-variant mean distribution using JSD. OpenAI label assignments rotate systematically across variants. A supplementary option-order experiment randomly permutes alternatives for a seeded random country subset and is run for GPT-4o, GPT-5.6 Sol, Jev, and optional Terra when requested.
 
 ## OpenAI completeness diagnostics
 
@@ -77,3 +77,8 @@ Project both expected-score and argmax representations into the human-fitted 10-
 ## Data governance
 
 WVS/EVS/IVS respondent microdata remain outside the public repository. The repository contains only acquisition/version instructions, code, prompts, aggregate/generated outputs permitted for sharing, and path-free provenance/checksums. Tables and figures are always regenerated from the analyst-supplied external human data.
+
+
+## October 2026 amendment
+
+The post-collection revision adds country-deviation direction/projection, latest-year and wave-7 targets, respondent resampling with fixed survey weights, effective-n diagnostics and thresholds, and leave-one-item-out entropy fits. Settings were fixed before inspecting the added outputs. This amendment is not a claim of external preregistration. See `docs/REVISION_20261001.md` for estimands, limitations, files and commands. Full-versus-argmax is a supplementary representation diagnostic; the substantive focus is cultural signal versus population fidelity.

@@ -149,6 +149,14 @@ def build_tokens(results='results'):
             tokens['<<AUTO:JEV_MODEL>>']=', '.join(sorted(j.model.dropna().unique()))
             tokens['<<AUTO:JEV_CHOICE_CALLS>>']=str(int((j.item!='Y003').sum()))
             tokens['<<AUTO:JEV_NOUL_DECISIONS>>']=str(int((j.item=='Y003').sum())*4)
+    revision=r/'revision_analysis_manifest.json'
+    if revision.exists() and json.loads(revision.read_text()).get('completed'):
+        direction=pd.read_csv(r/'cultural_deviation_summary.csv')
+        for row in direction.itertuples():
+            alias=aliases.get(row.condition,row.condition.upper())
+            tokens[f'<<AUTO:{alias}_DIRECTION_PERCENT>>']=_fmt(row.direction_correct_percent,1)
+            tokens[f'<<AUTO:{alias}_PROJECTION_POOLED>>']=_fmt(row.projection_pooled)
+            tokens[f'<<AUTO:{alias}_COSINE_MEAN>>']=_fmt(row.cosine_mean)
     return tokens
 
 def replace_docx(template, output, tokens):

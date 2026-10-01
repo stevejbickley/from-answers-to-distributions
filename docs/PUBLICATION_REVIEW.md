@@ -1,4 +1,9 @@
-# Publication review and reproduction
+# Publication review of 29 September 2026
+
+This is a historical record of the September revision. Output counts, document
+paths and validation totals below refer to that snapshot. See the repository
+README for the current reproduction workflow. Publication documents are now
+assembled and edited separately in Word from the audited tables and figures.
 
 The publication set consists of four main figures, eleven supplementary figures,
 three formatted main tables and Tables S1–S16 in the revised supplementary document.
@@ -87,23 +92,10 @@ MPLCONFIGDIR=tmp/mpl .venv/bin/python scripts/05_make_outputs.py
 MPLCONFIGDIR=tmp/mpl .venv/bin/python scripts/11_audit_publication.py
 ```
 
-Build the revised documents with the artifact Python runtime, which must provide
-`python-docx`, pandas, and Pillow:
-
-```sh
-python scripts/12_build_publication_documents.py
-```
-
-In Codex desktop, resolve the bundled runtime using `load_workspace_dependencies`.
-The Word builder reads the preserved supplied templates, current audited tables,
-and `src/publication_text.py`. The build manifest records input hashes and values.
-The narrative is a revision for the frozen empirical run; material changes in the
-underlying results require reviewing its interpretation and prose, not only
-replacing numeric fields. `scripts/06_autofill_manuscript.py` remains the legacy
-placeholder-based workflow and does not build these revised publication files.
-
-Render both revised Word files with the document skill's `render_docx.py` and inspect
-the resulting pages after any content or layout change. Render PDFs are QA files;
+The document-assembly step has been retired. Update the manuscript and
+supplementary information in Word from the audited tables and figures. Changes
+in the underlying results require reviewing the interpretation and prose as well
+as numerical values. Inspect the final document layout after content changes;
 submission figure masters are the standalone vector files in `figures/`.
 
 ## Before submission
