@@ -21,18 +21,6 @@ The human benchmark is reconstructed from the **Integrated Values Surveys (IVS)*
 
 ---
 
-## October 2026 revision
-
-All additions reuse the archived model outputs; no new API collection is required. The current publication set contains three main figures, three main tables, 24 supplementary tables and 16 supplementary figures. The manuscript and supplementary information are assembled and edited separately in Word, using the audited outputs from this repository.
-
-```bash
-python scripts/04_analyze.py --extensions-only  # new analyses against unchanged primary outputs
-python scripts/05_make_outputs.py
-python scripts/11_audit_publication.py
-```
-
-`python scripts/run_all.py --analysis-only --robustness` reruns all analysis stages, generates tables and figures, and audits the outputs. `--skip-human-sampling` explicitly skips the respondent bootstrap; missing external microdata explicitly skips all microdata-dependent sensitivities. Reproducing the full reported analysis requires those sensitivities to be completed.
-
 ## Scientific question
 
 The study asks whether **uncertainty within one artificial system can recover heterogeneity across many humans**. This is the study's **uncertainty-substitution hypothesis**: a model probability distribution may contain population-level signal, but its statistical meaning is not assumed to be the same as a survey frequency.
@@ -100,6 +88,9 @@ The repository is designed so that:
 ├── .gitignore
 │
 ├── config/
+│   ├── reference/
+│   │   ├── README.md
+│   │   └── tao_cultural_regions.csv
 │   ├── analysis.yaml
 │   ├── countries.yaml
 │   ├── models.yaml
@@ -119,7 +110,8 @@ The repository is designed so that:
 │   ├── API_NOTES.md
 │   ├── DATA_README.md
 │   ├── IVS_MERGER.md
-│   └── MODEL_CONDITIONS.md
+│   ├── MODEL_CONDITIONS.md
+│   └── PUBLICATION_REVIEW.md
 │
 ├── scripts/
 │   ├── 00_build_ivs.py
@@ -134,6 +126,7 @@ The repository is designed so that:
 │   ├── 08_jev_native_score.py
 │   ├── 09_analyze_robustness.py
 │   ├── 10_summarize_api_usage.py
+│   ├── 11_audit_publication.py
 │   └── run_all.py
 │
 ├── src/
@@ -142,6 +135,7 @@ The repository is designed so that:
 │   ├── collect_openai.py
 │   ├── config.py
 │   ├── cultural_map.py
+│   ├── cultural_revision.py
 │   ├── figures.py
 │   ├── human.py
 │   ├── jev_client.py
@@ -149,12 +143,19 @@ The repository is designed so that:
 │   ├── metrics.py
 │   ├── openai_logprobs.py
 │   ├── prompts.py
+│   ├── publication_style.py
+│   ├── publication_text.py
+│   ├── revision_outputs.py
+│   ├── revision_text.py
+│   ├── robustness.py
 │   ├── tables.py
 │   ├── usage_costs.py
 │   └── utils.py
 │
 ├── results/
-│   └── .gitkeep
+│   ├── .gitkeep
+│   └──  tables/
+│       └── .gitkeep
 │
 ├── figures/
 │   └── .gitkeep
@@ -167,6 +168,8 @@ The repository is designed so that:
 │
 └── tests/
     ├── fixtures/
+    │       │── create_synthetic_ivsd.py  
+    │       └── synthetic_ivsd.csv
     └── test_*.py
 ```
 
@@ -182,7 +185,7 @@ The public repository does **not** redistribute WVS or EVS microdata.
 
 The **reported empirical analysis** uses:
 
-- **World Values Survey Trend File (1981–2022), version 4.1.0** — the WVS release used for the final release-updated benchmark; and
+- **World Values Survey Trend File (1981–2022), version 4.1.0** — DOI `10.14281/18241.27`; and
 - **European Values Study Trend File 1981–2017, ZA7503, version 3.0.0** — DOI `10.4232/1.14021`.
 
 The source Tao et al. study used an earlier WVS Trend release. If an independent researcher has access to that source-study release, it can be run as an additional historical replication benchmark, but it should not silently replace the v4.1 dataset used for the reported results.
@@ -1152,78 +1155,6 @@ config/pricing.yaml
 
 Archive these files with the final study release.
 
----
-
-# Interpretation
-
-A lower divergence from human survey frequencies does **not** mean that a model “is” a culture or that its internal uncertainty is definitionally population heterogeneity.
-
-Country/territory labels are coarse descriptions of internally heterogeneous populations. Human survey frequencies describe variation **between people**; OpenAI logprobs describe conditional **next-token uncertainty within one model**; Jev probabilities describe **decision uncertainty over declared alternatives**.
-
-The central empirical question is therefore whether uncertainty within one model can serve as a useful statistical proxy for variation across many people. The study tests that **uncertainty-substitution hypothesis** rather than assuming equivalence.
-
-The additional population-specificity analysis asks whether a country-conditioned model contains information about that country's response distribution beyond an unconditioned model distribution and a naive leave-one-country-out human baseline. The heterogeneity-structure analysis separately asks whether model uncertainty changes across countries and questions in the same places that human disagreement changes.
-
-Similarly, differences between GPT-5.6 Sol and Jev should not be interpreted as identifying a single architectural mechanism, because the systems differ in many unobserved aspects of pretraining, post-training, capacity, objectives, and serving.
-
----
-
-# Citation
-
-If you use this repository, its code, or its generated materials, please cite the associated study and the software archive.
-
-Machine-readable citation metadata are provided in:
-
-```text
-CITATION.cff
-```
-
-The associated manuscript is currently:
-
-\> *Can AI uncertainty recover human population variation? Token uncertainty, decision uncertainty, and cross-cultural survey responses.*
-
-Before the final archival release, update `CITATION.cff` with the final author list, repository/archive DOI, journal citation, and article DOI where applicable.
-
-The WVS and EVS source datasets should also be cited separately using the citations required by their respective data providers.
-
----
-
-# Licence
-
-Analysis and replication code are released under the licence specified in `LICENSE`.
-
-The repository licence does **not** override:
-
-- WVS or EVS data-access/licensing terms;
-- OpenAI, TypeSafe/Jev, or other provider terms;
-- publisher rights in manuscript versions; or
-- third-party rights in any external material.
-
-Licensed survey microdata remain governed by their original providers and are not redistributed here.
-
----
-
-# Recommended archival checklist
-
-Before creating the final GitHub/Zenodo/OSF release:
-
-- [ ] confirm the final WVS and EVS release/version used;
-- [ ] archive `human_input_provenance.json`;
-- [ ] archive the IVS build manifest and QC outputs;
-- [ ] run `pytest -q`;
-- [ ] run the live API preflight;
-- [ ] pin and record model versions;
-- [ ] complete the primary and robustness API collections;
-- [ ] verify OpenAI permitted-label completeness diagnostics;
-- [ ] verify Jev response/model metadata;
-- [ ] generate `api_request_usage.csv`, `api_usage_summary.csv`, and `api_usage_totals.json`;
-- [ ] rerun and verify the population-specificity and entropy-structure analyses;
-- [ ] regenerate all tables and figures from the archived inputs;
-- [ ] update the manuscript and supplementary information in Word and cross-check all reported numbers against the audited outputs;
-- [ ] ensure `.env` and licensed microdata are absent from Git history;
-- [ ] update `CITATION.cff` with the final author list and DOI(s);
-- [ ] tag the exact repository commit used for the submitted/final manuscript; and
-- [ ] archive the release in the selected long-term repository.
 
 For implementation details beyond this README, see:
 
@@ -1234,14 +1165,30 @@ docs/DATA_README.md
 docs/IVS_MERGER.md
 docs/MODEL_CONDITIONS.md
 ```
-## Publication outputs
 
-The current canonical set contains three main and sixteen supplementary figures,
-with PNG, PDF and SVG exports listed in `figures/manifest.json`. Tables are saved
-in `results/tables/`, and `results/publication_audit.json` records numerical checks.
-The manuscript and supplementary information are assembled and edited separately
-in Word after the analysis outputs have been audited.
+---
 
-[The September publication review](docs/PUBLICATION_REVIEW.md) records an earlier
-revision, including corrections to sensitivity denominators and order-reference
-selection. Its historical output counts do not describe the current figure set.
+# Citation
+
+If you use this repository or its materials, please cite the associated study:
+
+> Bickley, S. J., Chan, H. F., Mashhady, A., Tran, S., & Torgler, B. (2026). *Cultural alignment in AI does not imply population fidelity.*
+
+Machine-readable metadata are provided in `CITATION.cff`. They should be updated with the final journal citation and DOI following publication.
+
+The WVS and EVS source datasets should also be cited separately using the citations required by their respective data providers.
+
+---
+
+# Licence
+
+Analysis code is released under the MIT License specified in `LICENSE`.
+
+The repository licence does **not** override:
+
+- WVS or EVS data-access/licensing terms;
+- OpenAI, TypeSafe/Jev, or other provider terms;
+- publisher rights in manuscript versions; or
+- third-party rights in any external material.
+
+Licensed survey microdata remain governed by their original providers and are not redistributed here.
