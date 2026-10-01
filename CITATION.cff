@@ -1,0 +1,50 @@
+cff-version: 1.0.0
+message: "If you use this repository, please cite the associated study."
+title: "Cultural alignment in AI does not imply population fidelity"
+type: software
+
+authors:
+  - family-names: "Bickley"
+    given-names: "Steve J."
+    email: "s.bickley@qut.edu.au"
+    affiliation: "Queensland University of Technology"
+  - family-names: "Chan"
+    given-names: "Ho Fai"
+    affiliation: "Queensland University of Technology"
+  - family-names: "Mashhady"
+    given-names: "Arian"
+    affiliation: "Queensland University of Technology"
+  - family-names: "Tran"
+    given-names: "Son"
+    affiliation: "Panalogy Lab Pty Ltd"
+  - family-names: "Torgler"
+    given-names: "Benno"
+    affiliation: "Queensland University of Technology"
+
+abstract: >-
+  Reproducibility materials for "Cultural alignment in AI does not imply population fidelity".
+
+keywords:
+  - "cultural alignment"
+  - "population heterogeneity"
+  - "artificial intelligence"
+  - "human values"
+  - "synthetic respondents"
+
+license: "MIT"
+
+preferred-citation:
+  type: unpublished
+  title: "Cultural alignment in AI does not imply population fidelity"
+  authors:
+    - family-names: "Bickley"
+      given-names: "Steve J."
+    - family-names: "Chan"
+      given-names: "Ho Fai"
+    - family-names: "Mashhady"
+      given-names: "Arian"
+    - family-names: "Tran"
+      given-names: "Son"
+    - family-names: "Torgler"
+      given-names: "Benno"
+  year: 2026
