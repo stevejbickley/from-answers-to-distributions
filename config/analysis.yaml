@@ -34,3 +34,21 @@ openai_censoring:
   primary_policy_name: tail_bound_0p001
   strict_policy_name: tail_bound_0p0001
   complete_only_policy_name: complete_only
+
+# Frozen before examining the October 2026 revision outputs.
+human_target:
+  primary: pooled_equal_year
+  sensitivities: [latest_available, wave7]
+human_sampling:
+  bootstrap_reps: 1000
+  seed: 20260930
+  effective_n_thresholds: [200, 500, 1000]
+  batch_size: 100
+  method: uniform_respondent_resampling_with_fixed_S017_weights
+cultural_direction:
+  min_human_shift_norm: 1.0e-8
+  min_model_shift_norm: 1.0e-12
+  bootstrap_reps: 5000
+  seed: 20260930
+entropy_robustness:
+  leave_one_item_out: true

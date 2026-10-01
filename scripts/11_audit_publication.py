@@ -77,7 +77,30 @@ def main():
     for col in ['input_tokens','output_tokens','total_tokens','estimated_total_cost_usd']:
         check(f'API {col} total agrees',np.isclose(usage[col],req[col].sum()))
     figs=json.loads(Path('figures/manifest.json').read_text())
-    check('Complete canonical 4 main and 11 supplementary figures',len(figs['figures'])==15)
+    revision=json.loads((results/'revision_analysis_manifest.json').read_text())
+    check('Revision analysis completed',revision['completed'])
+    expected_si=14+int(revision.get('temporal_targets')=='completed')+int(revision.get('human_sampling')=='completed')
+    check('Complete canonical three main figures',figs['main_figures']==3 and len([s for s in figs['figures'] if not s.startswith('figure_s')])==3)
+    check('All available supplementary figures exported',figs['supplementary_figures']==expected_si and len(figs['figures'])==3+expected_si)
+    direction=pd.read_csv(results/'cultural_deviation_alignment.csv')
+    summary=pd.read_csv(results/'cultural_deviation_summary.csv').set_index('condition')
+    check('Direction keys are unique',not direction.duplicated(['condition','country','item']).any())
+    check('Cosine values lie between -1 and 1',direction.cosine_similarity.dropna().between(-1,1).all())
+    for condition,g in direction.groupby('condition'):
+        g=g[g.direction_correct.notna()]
+        check(f'{condition}: direction fraction recomputed',np.isclose(summary.loc[condition,'direction_correct_percent'],100*g.direction_correct.mean()))
+        check(f'{condition}: pooled projection is ratio of sums',np.isclose(summary.loc[condition,'projection_pooled'],g.dot_product.sum()/g.human_shift_sq.sum()))
+    loio=pd.read_csv(results/'entropy_leave_one_item_out.csv')
+    for condition,g in loio.groupby('condition'):
+        check(f'{condition}: all nine leave-one-item-out fits',len(g)==10 and set(g[g.omitted_item.ne('none')].omitted_item)==set(questions())-{'Y003'})
+    if revision.get('sample_diagnostics')=='completed':
+        sample=pd.read_csv(results/'human_country_year_sample_sizes.csv')
+        check('Kish sample diagnostics recompute',np.allclose(sample.kish_n_eff,sample.sum_weight**2/sample.sum_weight_sq))
+        check('Kish effective n never exceeds raw n',sample.kish_n_eff.le(sample.raw_n+1e-7).all())
+    if revision.get('human_sampling')=='completed':
+        sampling=pd.read_csv(results/'human_sampling_sensitivity.csv')
+        check('Every human-sampling summary has 1000 valid replicates',sampling.valid_replicates.eq(revision['configuration']['human_sampling']['bootstrap_reps']).all())
+        check('Human sampling keeps observed-cell coverage fixed',sampling.min_cells.eq(sampling.max_cells).all())
     for stem in figs['figures']:
         for ext in figs['formats']:check(f'Export {stem}.{ext} exists',(Path('figures')/f'{stem}.{ext}').stat().st_size>100)
     label=json.loads((results/'figure1_label_audit.json').read_text())
@@ -94,7 +117,7 @@ def main():
               'Provider-reported dollar costs are unavailable; dated list-price estimates are separate.',
             ]}
     (results/'publication_audit.json').write_text(json.dumps(report,indent=2))
-    lines=['# Publication output inventory','',f'Validated {len(inventory)} CSV files and 15 canonical figures in three formats.','',
+    lines=['# Publication output inventory','',f"Validated {len(inventory)} CSV files and {len(figs['figures'])} canonical figures in three formats.",'',
            '| File | Rows | Columns | Missing entries |','|---|---:|---:|---:|']
     for r in inventory:lines.append(f"| `{r['file']}` | {r['rows']:,} | {len(r['columns'])} | {sum(r['missing_by_column'].values()):,} |")
     lines+=['','## Interpretation notes','']+[f'- {s}' for s in report['interpretation_notes']]
